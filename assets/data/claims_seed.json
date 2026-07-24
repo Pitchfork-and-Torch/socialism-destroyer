@@ -1,0 +1,1697 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-07-04",
+  "claims": [
+    {
+      "id": "wealth-inequality-broken",
+      "topicId": "wealth-inequality-mobility",
+      "title": "Wealth Inequality Proves Capitalism Is Broken",
+      "socialistClaim": "Rising wealth inequality proves capitalism is fundamentally broken and immoral.",
+      "executiveSummary": "Relative inequality metrics tell us nothing about absolute living standards without context. The U.S. bottom quintile real consumption has risen dramatically since 1960 while global extreme poverty collapsed under market integration. Inequality can rise while everyone gets richer.",
+      "evidenceBullets": [
+        "CBO: bottom quintile real consumption +60% (1960-2019)",
+        "World Bank: extreme poverty 36% to ~8.5% (1990-2022)",
+        "Chetty: ~7.5% of bottom-quintile children reach top quintile"
+      ],
+      "fallacies": [
+        "zero-sum thinking",
+        "confusing relative with absolute"
+      ],
+      "sources": [
+        {
+          "title": "CBO Income Distribution",
+          "url": "https://www.cbo.gov/topics/income-distribution",
+          "doi": null,
+          "type": "government"
+        },
+        {
+          "title": "World Bank Poverty",
+          "url": "https://www.worldbank.org/en/topic/poverty",
+          "doi": null,
+          "type": "government"
+        },
+        {
+          "title": "Chetty Mobility",
+          "url": "https://opportunityinsights.org/",
+          "doi": null,
+          "type": "academic"
+        }
+      ],
+      "whyItMatters": "America debates envy metrics instead of mobility and poverty reduction.",
+      "relatedClaimIds": [
+        "consumption-vs-income",
+        "billionaires-shouldnt-exist"
+      ],
+      "tags": [
+        "inequality",
+        "wealth",
+        "gini",
+        "mobility"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Wealth Inequality Proves Capitalism Is Broken Rising wealth inequality proves capitalism is fundamentally broken and immoral. Relative inequality metrics tell us nothing about absolute living standards without context. The U.S. bottom quintile real consumption has risen dramatically since 1960 while global extreme poverty collapsed under market integration. Inequality can rise while everyone gets richer. inequality wealth gini mobility"
+    },
+    {
+      "id": "consumption-vs-income",
+      "topicId": "wealth-inequality-mobility",
+      "title": "Income Inequality Equals Material Deprivation",
+      "socialistClaim": "The poor are getting poorer because the income gap is widening.",
+      "executiveSummary": "Income snapshots ignore taxes, transfers, household size, and lifecycle effects. Consumption inequality is far narrower than income inequality in the U.S.",
+      "evidenceBullets": [
+        "Meyer & Sullivan: consumption inequality narrower than income",
+        "BLS CEX: broad durable goods access at lower incomes",
+        "Transfers materially raise bottom-quintile resources"
+      ],
+      "fallacies": [
+        "static snapshot fallacy"
+      ],
+      "sources": [
+        {
+          "title": "BLS Consumer Expenditure Survey",
+          "url": "https://www.bls.gov/cex/",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "Political rhetoric uses pre-tax income to manufacture crises consumption data does not support.",
+      "relatedClaimIds": [
+        "wealth-inequality-broken"
+      ],
+      "tags": [
+        "consumption",
+        "income",
+        "poverty"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Income Inequality Equals Material Deprivation The poor are getting poorer because the income gap is widening. Income snapshots ignore taxes, transfers, household size, and lifecycle effects. Consumption inequality is far narrower than income inequality in the U.S. consumption income poverty"
+    },
+    {
+      "id": "gini-misused",
+      "topicId": "wealth-inequality-mobility",
+      "title": "The Gini Coefficient Proves Unfairness",
+      "socialistClaim": "America's Gini coefficient proves our system is unfair.",
+      "executiveSummary": "Gini measures dispersion, not injustice. Mixed economies with heavy transfers can share similar Ginis while differing in growth and mobility.",
+      "evidenceBullets": [
+        "Heritage: economic freedom correlates with prosperity",
+        "Gini ignores transfers and household composition"
+      ],
+      "fallacies": [
+        "metric fixation"
+      ],
+      "sources": [
+        {
+          "title": "Heritage Index of Economic Freedom",
+          "url": "https://www.heritage.org/index/",
+          "doi": null,
+          "type": "think_tank"
+        }
+      ],
+      "whyItMatters": "Policy-by-Gini replaces serious analysis of institutions and opportunity.",
+      "relatedClaimIds": [
+        "wealth-inequality-broken"
+      ],
+      "tags": [
+        "gini",
+        "inequality"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "The Gini Coefficient Proves Unfairness America's Gini coefficient proves our system is unfair. Gini measures dispersion, not injustice. Mixed economies with heavy transfers can share similar Ginis while differing in growth and mobility. gini inequality"
+    },
+    {
+      "id": "mobility-dead",
+      "topicId": "wealth-inequality-mobility",
+      "title": "The American Dream Is Dead",
+      "socialistClaim": "Poor Americans are stuck with no upward mobility.",
+      "executiveSummary": "Mobility varies by county and policy environment. Family structure, schools, and economic freedom predict outcomes more than slogans.",
+      "evidenceBullets": [
+        "Chetty: county-level mobility variation",
+        "Fraser: freer economies grow faster"
+      ],
+      "fallacies": [
+        "anecdotal generalization"
+      ],
+      "sources": [
+        {
+          "title": "Opportunity Insights",
+          "url": "https://opportunityinsights.org/",
+          "doi": null,
+          "type": "academic"
+        }
+      ],
+      "whyItMatters": "Declaring mobility dead discourages the institutional reforms that actually help.",
+      "relatedClaimIds": [
+        "wealth-inequality-broken"
+      ],
+      "tags": [
+        "mobility",
+        "american dream"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "The American Dream Is Dead Poor Americans are stuck with no upward mobility. Mobility varies by county and policy environment. Family structure, schools, and economic freedom predict outcomes more than slogans. mobility american dream"
+    },
+    {
+      "id": "billionaires-shouldnt-exist",
+      "topicId": "wealth-inequality-mobility",
+      "title": "Billionaires Shouldn't Exist",
+      "socialistClaim": "No one should have a billion dollars while others starve.",
+      "executiveSummary": "Wealth at scale often reflects value creation. Poverty is addressed by growth and institutions, not wealth caps that drive away capital.",
+      "evidenceBullets": [
+        "World Bank: global poverty fell during era of tech wealth creation",
+        "Tax Foundation: wealth tax revenue and capital flight risks"
+      ],
+      "fallacies": [
+        "appeal to envy",
+        "zero-sum thinking"
+      ],
+      "sources": [
+        {
+          "title": "World Bank",
+          "url": "https://www.worldbank.org/",
+          "doi": null,
+          "type": "government"
+        },
+        {
+          "title": "Tax Foundation",
+          "url": "https://taxfoundation.org/",
+          "doi": null,
+          "type": "think_tank"
+        }
+      ],
+      "whyItMatters": "Envy-driven policy risks the investment that creates jobs for ordinary Americans.",
+      "relatedClaimIds": [
+        "wealth-inequality-broken",
+        "profit-is-theft"
+      ],
+      "tags": [
+        "billionaires",
+        "wealth",
+        "tax"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Billionaires Shouldn't Exist No one should have a billion dollars while others starve. Wealth at scale often reflects value creation. Poverty is addressed by growth and institutions, not wealth caps that drive away capital. billionaires wealth tax"
+    },
+    {
+      "id": "poverty-racism-only",
+      "topicId": "wealth-inequality-mobility",
+      "title": "Poverty Is Only Structural Racism",
+      "socialistClaim": "Capitalism and racism are the same system causing poverty.",
+      "executiveSummary": "Racial gaps are real but respond to opportunity-expanding reforms and market participation, not collectivization.",
+      "evidenceBullets": [
+        "Census: ethnic income trend data",
+        "SBA: minority business growth statistics"
+      ],
+      "fallacies": [
+        "single-cause fallacy"
+      ],
+      "sources": [
+        {
+          "title": "U.S. Census Bureau",
+          "url": "https://www.census.gov/",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "Oversimplified narratives block bipartisan institutional fixes.",
+      "relatedClaimIds": [
+        "wealth-inequality-broken"
+      ],
+      "tags": [
+        "racism",
+        "poverty",
+        "inequality"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Poverty Is Only Structural Racism Capitalism and racism are the same system causing poverty. Racial gaps are real but respond to opportunity-expanding reforms and market participation, not collectivization. racism poverty inequality"
+    },
+    {
+      "id": "profit-is-theft",
+      "topicId": "profit-exploitation",
+      "title": "Profit Is Theft From Workers",
+      "socialistClaim": "Profit is surplus value stolen from workers.",
+      "executiveSummary": "Profit compensates uncertainty, coordination, and innovation. Competitive markets compress excess returns. Value is subjective, not embedded labor-hours.",
+      "evidenceBullets": [
+        "Mises: prices coordinate dispersed knowledge",
+        "Competitive entry compresses abnormal profits"
+      ],
+      "fallacies": [
+        "labor theory of value",
+        "zero-sum thinking"
+      ],
+      "sources": [
+        {
+          "title": "Mises Institute",
+          "url": "https://mises.org/",
+          "doi": null,
+          "type": "academic"
+        }
+      ],
+      "whyItMatters": "Anti-profit rhetoric undermines the incentive structure that raises wages via productivity.",
+      "relatedClaimIds": [
+        "exploitation-marx",
+        "worker-coops-superior"
+      ],
+      "tags": [
+        "profit",
+        "exploitation",
+        "marx"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Profit Is Theft From Workers Profit is surplus value stolen from workers. Profit compensates uncertainty, coordination, and innovation. Competitive markets compress excess returns. Value is subjective, not embedded labor-hours. profit exploitation marx"
+    },
+    {
+      "id": "exploitation-marx",
+      "topicId": "profit-exploitation",
+      "title": "Workers Are Exploited Under Capitalism",
+      "socialistClaim": "Capitalists exploit workers by paying less than value created.",
+      "executiveSummary": "Voluntary exchange, consumer surplus, and capital deepening raise marginal product. Real compensation tracks productivity where markets function.",
+      "evidenceBullets": [
+        "BEA: labor productivity data",
+        "BLS: compensation-productivity correlation"
+      ],
+      "fallacies": [
+        "labor theory of value"
+      ],
+      "sources": [
+        {
+          "title": "Bureau of Economic Analysis",
+          "url": "https://www.bea.gov/",
+          "doi": null,
+          "type": "government"
+        },
+        {
+          "title": "Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "Exploitation framing replaces negotiation, mobility, and entrepreneurship as paths upward.",
+      "relatedClaimIds": [
+        "profit-is-theft"
+      ],
+      "tags": [
+        "exploitation",
+        "workers",
+        "wages"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Workers Are Exploited Under Capitalism Capitalists exploit workers by paying less than value created. Voluntary exchange, consumer surplus, and capital deepening raise marginal product. Real compensation tracks productivity where markets function. exploitation workers wages"
+    },
+    {
+      "id": "rich-get-richer-poor-poorer",
+      "topicId": "profit-exploitation",
+      "title": "The Rich Get Richer, Poor Get Poorer",
+      "socialistClaim": "Under capitalism the rich always get richer while the poor get poorer.",
+      "executiveSummary": "Both groups can rise simultaneously. Census and World Bank data show rising real incomes at the bottom over decades.",
+      "evidenceBullets": [
+        "Census: real median household income records",
+        "World Bank: global poverty decline since 1990"
+      ],
+      "fallacies": [
+        "zero-sum thinking"
+      ],
+      "sources": [
+        {
+          "title": "U.S. Census Bureau",
+          "url": "https://www.census.gov/",
+          "doi": null,
+          "type": "government"
+        },
+        {
+          "title": "World Bank",
+          "url": "https://www.worldbank.org/",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "Zero-sum myths justify redistribution that can shrink the pie for everyone.",
+      "relatedClaimIds": [
+        "wealth-inequality-broken"
+      ],
+      "tags": [
+        "rich",
+        "poor",
+        "zero-sum"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "The Rich Get Richer, Poor Get Poorer Under capitalism the rich always get richer while the poor get poorer. Both groups can rise simultaneously. Census and World Bank data show rising real incomes at the bottom over decades. rich poor zero-sum"
+    },
+    {
+      "id": "worker-coops-superior",
+      "topicId": "profit-exploitation",
+      "title": "Worker Cooperatives Prove Socialism Works",
+      "socialistClaim": "Co-ops outperform capitalist firms and prove socialism.",
+      "executiveSummary": "Co-ops thrive in niches but face capital and scale constraints. Their existence proves market pluralism, not abolition of private ownership.",
+      "evidenceBullets": [
+        "Mondragon: successful but limited scale model",
+        "VC-backed firms drive large-scale innovation"
+      ],
+      "fallacies": [
+        "hasty generalization"
+      ],
+      "sources": [
+        {
+          "title": "Mondragon Corporation",
+          "url": "https://www.mondragon-corporation.com/",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "Co-ops are a voluntary form, not a mandate to abolish investor-owned firms.",
+      "relatedClaimIds": [
+        "profit-is-theft"
+      ],
+      "tags": [
+        "cooperatives",
+        "workers"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Worker Cooperatives Prove Socialism Works Co-ops outperform capitalist firms and prove socialism. Co-ops thrive in niches but face capital and scale constraints. Their existence proves market pluralism, not abolition of private ownership. cooperatives workers"
+    },
+    {
+      "id": "finance-parasitic",
+      "topicId": "profit-exploitation",
+      "title": "Finance Is Parasitic on the Real Economy",
+      "socialistClaim": "Banks add no value — pure extraction.",
+      "executiveSummary": "Financial intermediation allocates capital to productive uses. Shallow capital markets correlate with slower growth.",
+      "evidenceBullets": [
+        "King & Levine: finance-growth literature",
+        "Developing nations: shallow finance limits growth"
+      ],
+      "fallacies": [
+        "zero-sum thinking"
+      ],
+      "sources": [
+        {
+          "title": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "Demonizing finance invites policy that starves Main Street of credit.",
+      "relatedClaimIds": [
+        "profit-is-theft"
+      ],
+      "tags": [
+        "finance",
+        "banks"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Finance Is Parasitic on the Real Economy Banks add no value — pure extraction. Financial intermediation allocates capital to productive uses. Shallow capital markets correlate with slower growth. finance banks"
+    },
+    {
+      "id": "ussr-not-real-socialism",
+      "topicId": "historical-socialism",
+      "title": "USSR Wasn't Real Socialism",
+      "socialistClaim": "Every socialist failure was not real socialism.",
+      "executiveSummary": "The USSR implemented state ownership, central planning, and one-party control. Outcomes: famine, gulags, stagnation, collapse.",
+      "evidenceBullets": [
+        "Conquest: 20M+ deaths from famines/purges/Gulag",
+        "Soviet archival economic stagnation data"
+      ],
+      "fallacies": [
+        "no true Scotsman"
+      ],
+      "sources": [
+        {
+          "title": "Hoover Institution Archives",
+          "url": "https://www.hoover.org/",
+          "doi": null,
+          "type": "primary"
+        },
+        {
+          "title": "Robert Conquest scholarship",
+          "url": "https://www.hoover.org/research",
+          "doi": null,
+          "type": "academic"
+        }
+      ],
+      "whyItMatters": "No-true-Scotsman prevents learning from the largest socialist experiment in history.",
+      "relatedClaimIds": [
+        "china-famine",
+        "cambodia-ignored"
+      ],
+      "tags": [
+        "ussr",
+        "socialism",
+        "history"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "USSR Wasn't Real Socialism Every socialist failure was not real socialism. The USSR implemented state ownership, central planning, and one-party control. Outcomes: famine, gulags, stagnation, collapse. ussr socialism history"
+    },
+    {
+      "id": "china-famine",
+      "topicId": "historical-socialism",
+      "title": "Mao's China Was Misunderstood",
+      "socialistClaim": "Mao-era famine is Western propaganda.",
+      "executiveSummary": "Archival and demographic work documents catastrophic famine from collectivization (1958-1962). Dikötter estimates ~45 million deaths.",
+      "evidenceBullets": [
+        "Dikötter: Mao's Great Famine archival evidence",
+        "Demographic reconstruction studies"
+      ],
+      "fallacies": [
+        "historical revisionism"
+      ],
+      "sources": [
+        {
+          "title": "Frank Dikötter research",
+          "url": "https://www.hoover.org/",
+          "doi": null,
+          "type": "academic"
+        }
+      ],
+      "whyItMatters": "Denying Mao-era catastrophe blocks honest comparison of institutions.",
+      "relatedClaimIds": [
+        "ussr-not-real-socialism"
+      ],
+      "tags": [
+        "china",
+        "mao",
+        "famine"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Mao's China Was Misunderstood Mao-era famine is Western propaganda. Archival and demographic work documents catastrophic famine from collectivization (1958-1962). Dikötter estimates ~45 million deaths. china mao famine"
+    },
+    {
+      "id": "venezuela-sanctions",
+      "topicId": "historical-socialism",
+      "title": "Venezuela Failed Due to Sanctions",
+      "socialistClaim": "Venezuela collapsed because of U.S. sanctions, not socialism.",
+      "executiveSummary": "Economic free-fall followed expropriations, price controls, and money printing before major oil sanctions. Oil output collapsed under state management.",
+      "evidenceBullets": [
+        "World Bank: ~75% GDP/capita decline 2013-2020",
+        "IMF hyperinflation data"
+      ],
+      "fallacies": [
+        "post hoc",
+        "single-cause fallacy"
+      ],
+      "sources": [
+        {
+          "title": "World Bank Venezuela",
+          "url": "https://data.worldbank.org/country/venezuela",
+          "doi": null,
+          "type": "government"
+        },
+        {
+          "title": "IMF",
+          "url": "https://www.imf.org/",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "Sanctions-blame avoids lessons on property rights and monetary discipline.",
+      "relatedClaimIds": [
+        "cuba-poverty"
+      ],
+      "tags": [
+        "venezuela",
+        "sanctions",
+        "socialism"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Venezuela Failed Due to Sanctions Venezuela collapsed because of U.S. sanctions, not socialism. Economic free-fall followed expropriations, price controls, and money printing before major oil sanctions. Oil output collapsed under state management. venezuela sanctions socialism"
+    },
+    {
+      "id": "cuba-poverty",
+      "topicId": "historical-socialism",
+      "title": "Cuba Has Better Healthcare Than the U.S.",
+      "socialistClaim": "Cuba proves socialism delivers superior outcomes.",
+      "executiveSummary": "Official Cuban statistics lack independent audit. Mass emigration and dual-currency realities contradict paradise narratives.",
+      "evidenceBullets": [
+        "Migration as revealed preference",
+        "Heritage: Cuba economic freedom score"
+      ],
+      "fallacies": [
+        "cherry-picking"
+      ],
+      "sources": [
+        {
+          "title": "Heritage Index Cuba",
+          "url": "https://www.heritage.org/country/cuba",
+          "doi": null,
+          "type": "government"
+        },
+        {
+          "title": "Human Rights Watch Cuba",
+          "url": "https://www.hrw.org/",
+          "doi": null,
+          "type": "primary"
+        }
+      ],
+      "whyItMatters": "Romanticizing Cuba obscures lack of political and economic freedom.",
+      "relatedClaimIds": [
+        "venezuela-sanctions"
+      ],
+      "tags": [
+        "cuba",
+        "healthcare"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Cuba Has Better Healthcare Than the U.S. Cuba proves socialism delivers superior outcomes. Official Cuban statistics lack independent audit. Mass emigration and dual-currency realities contradict paradise narratives. cuba healthcare"
+    },
+    {
+      "id": "cambodia-ignored",
+      "topicId": "historical-socialism",
+      "title": "Khmer Rouge Was an Aberration",
+      "socialistClaim": "Pol Pot does not count as socialism.",
+      "executiveSummary": "Democratic Kampuchea abolished money and collectivized agriculture. Estimated 1.5-2 million deaths from execution, famine, and forced labor.",
+      "evidenceBullets": [
+        "Documentation Center of Cambodia estimates",
+        "UN tribunal records"
+      ],
+      "fallacies": [
+        "no true Scotsman"
+      ],
+      "sources": [
+        {
+          "title": "Documentation Center of Cambodia",
+          "url": "https://www.dccam.org/",
+          "doi": null,
+          "type": "primary"
+        }
+      ],
+      "whyItMatters": "Radical egalitarian projects can produce radical horror.",
+      "relatedClaimIds": [
+        "ussr-not-real-socialism"
+      ],
+      "tags": [
+        "cambodia",
+        "khmer rouge"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Khmer Rouge Was an Aberration Pol Pot does not count as socialism. Democratic Kampuchea abolished money and collectivized agriculture. Estimated 1.5-2 million deaths from execution, famine, and forced labor. cambodia khmer rouge"
+    },
+    {
+      "id": "nordic-socialist",
+      "topicId": "nordic-democratic-socialism",
+      "title": "Nordic Countries Are Socialist",
+      "socialistClaim": "We should be like Sweden — democratic socialism works.",
+      "executiveSummary": "Nordics are market economies with open trade and strong property rights. High taxes fund welfare, not collective ownership of production.",
+      "evidenceBullets": [
+        "Heritage: Denmark/Sweden ranked mostly free",
+        "Fraser: Nordic business freedom scores"
+      ],
+      "fallacies": [
+        "definitional sleight of hand"
+      ],
+      "sources": [
+        {
+          "title": "Heritage Index",
+          "url": "https://www.heritage.org/index/",
+          "doi": null,
+          "type": "government"
+        },
+        {
+          "title": "Fraser Institute",
+          "url": "https://www.fraserinstitute.org/",
+          "doi": null,
+          "type": "think_tank"
+        }
+      ],
+      "whyItMatters": "Mislabeling Nordics as socialist leads to wrong policy imports.",
+      "relatedClaimIds": [
+        "nordic-capitalist",
+        "democratic-socialism-definition"
+      ],
+      "tags": [
+        "nordic",
+        "sweden",
+        "democratic socialism"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Nordic Countries Are Socialist We should be like Sweden — democratic socialism works. Nordics are market economies with open trade and strong property rights. High taxes fund welfare, not collective ownership of production. nordic sweden democratic socialism"
+    },
+    {
+      "id": "nordic-capitalist",
+      "topicId": "nordic-democratic-socialism",
+      "title": "Nordics Succeeded Because of Socialism",
+      "socialistClaim": "Nordic prosperity proves socialism works.",
+      "executiveSummary": "Prosperity predates the modern welfare state. Post-1990 reforms liberalized markets after crisis.",
+      "evidenceBullets": [
+        "Historical GDP/capita before welfare expansion",
+        "1990s Swedish banking crisis reforms"
+      ],
+      "fallacies": [
+        "post hoc"
+      ],
+      "sources": [
+        {
+          "title": "World Bank historical data",
+          "url": "https://data.worldbank.org/",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "Credit belongs to institutions and trade, not redistribution alone.",
+      "relatedClaimIds": [
+        "nordic-socialist"
+      ],
+      "tags": [
+        "nordic",
+        "prosperity"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Nordics Succeeded Because of Socialism Nordic prosperity proves socialism works. Prosperity predates the modern welfare state. Post-1990 reforms liberalized markets after crisis. nordic prosperity"
+    },
+    {
+      "id": "democratic-socialism-definition",
+      "topicId": "nordic-democratic-socialism",
+      "title": "Democratic Socialism Is Just Welfare",
+      "socialistClaim": "Democratic socialism is just Scandinavian welfare.",
+      "executiveSummary": "Modern democratic socialists advocate worker ownership and nationalization beyond Nordic tax-and-transfer models.",
+      "evidenceBullets": [
+        "DSA platform: public ownership goals",
+        "Nordic PMs rejecting socialist label"
+      ],
+      "fallacies": [
+        "motte and bailey"
+      ],
+      "sources": [
+        {
+          "title": "DSA About",
+          "url": "https://www.dsausa.org/",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "Voters deserve clarity on what policies are actually proposed.",
+      "relatedClaimIds": [
+        "nordic-socialist",
+        "socialism-democratic-better"
+      ],
+      "tags": [
+        "democratic socialism",
+        "welfare"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Democratic Socialism Is Just Welfare Democratic socialism is just Scandinavian welfare. Modern democratic socialists advocate worker ownership and nationalization beyond Nordic tax-and-transfer models. democratic socialism welfare"
+    },
+    {
+      "id": "socialism-democratic-better",
+      "topicId": "nordic-democratic-socialism",
+      "title": "Democratic Socialism Avoids Authoritarianism",
+      "socialistClaim": "Democratic socialism cannot become authoritarian.",
+      "executiveSummary": "Elected mandates enabled Chavez authoritarianism and Weimar-era central planning politics. Democracy needs constitutional limits.",
+      "evidenceBullets": [
+        "Chavez electoral authoritarian trajectory",
+        "Hayek: democracy and unlimited majority"
+      ],
+      "fallacies": [
+        "definitional dodge"
+      ],
+      "sources": [
+        {
+          "title": "Freedom House Venezuela",
+          "url": "https://freedomhouse.org/",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "Unlimited majorities can extinguish the liberties socialism claims to expand.",
+      "relatedClaimIds": [
+        "ussr-not-real-socialism"
+      ],
+      "tags": [
+        "democracy",
+        "authoritarianism"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Democratic Socialism Avoids Authoritarianism Democratic socialism cannot become authoritarian. Elected mandates enabled Chavez authoritarianism and Weimar-era central planning politics. Democracy needs constitutional limits. democracy authoritarianism"
+    },
+    {
+      "id": "economic-democracy",
+      "topicId": "nordic-democratic-socialism",
+      "title": "Economic Democracy Replaces Exploitation",
+      "socialistClaim": "Workers voting on production ends exploitation.",
+      "executiveSummary": "Votes over capital allocation recreate calculation and knowledge problems. Political majorities can expropriate minorities.",
+      "evidenceBullets": [
+        "Mises: calculation problem for worker councils",
+        "Yugoslav self-management stagnation"
+      ],
+      "fallacies": [
+        "category error"
+      ],
+      "sources": [
+        {
+          "title": "Mises calculation problem",
+          "url": "https://mises.org/",
+          "doi": null,
+          "type": "academic"
+        }
+      ],
+      "whyItMatters": "Firm-level democracy without prices duplicates planning failures.",
+      "relatedClaimIds": [
+        "calculation-impossible"
+      ],
+      "tags": [
+        "economic democracy",
+        "cooperatives"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Economic Democracy Replaces Exploitation Workers voting on production ends exploitation. Votes over capital allocation recreate calculation and knowledge problems. Political majorities can expropriate minorities. economic democracy cooperatives"
+    },
+    {
+      "id": "calculation-impossible",
+      "topicId": "human-nature-incentives",
+      "title": "Central Planning Works With Modern AI",
+      "socialistClaim": "AI makes socialist planning feasible.",
+      "executiveSummary": "Hayek's knowledge problem is not computing speed — prices aggregate tacit local knowledge no dataset captures.",
+      "evidenceBullets": [
+        "Hayek: The Use of Knowledge in Society",
+        "Mises: Economic Calculation in the Socialist Commonwealth"
+      ],
+      "fallacies": [
+        "technocratic fallacy"
+      ],
+      "sources": [
+        {
+          "title": "Hayek",
+          "url": "https://www.econlib.org/library/Essays/hykKnw.html",
+          "doi": null,
+          "type": "academic"
+        }
+      ],
+      "whyItMatters": "Techno-utopian planning revives failed ideas with new buzzwords.",
+      "relatedClaimIds": [
+        "incentives-matter",
+        "market-failures-require-socialism"
+      ],
+      "tags": [
+        "calculation problem",
+        "hayek",
+        "planning"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Central Planning Works With Modern AI AI makes socialist planning feasible. Hayek's knowledge problem is not computing speed — prices aggregate tacit local knowledge no dataset captures. calculation problem hayek planning"
+    },
+    {
+      "id": "incentives-matter",
+      "topicId": "human-nature-incentives",
+      "title": "People Work Hard Without Profit",
+      "socialistClaim": "Humans will produce enthusiastically without material incentives.",
+      "executiveSummary": "USSR, Mao, and Venezuela show incentive erosion, shortages, and corruption when property rights weaken.",
+      "evidenceBullets": [
+        "Fraser: economic freedom and growth",
+        "Historical shortage economies"
+      ],
+      "fallacies": [
+        "wishful thinking"
+      ],
+      "sources": [
+        {
+          "title": "Fraser Institute",
+          "url": "https://www.fraserinstitute.org/",
+          "doi": null,
+          "type": "think_tank"
+        }
+      ],
+      "whyItMatters": "Ignoring incentives produces policy that sounds moral but harms the poor.",
+      "relatedClaimIds": [
+        "calculation-impossible"
+      ],
+      "tags": [
+        "incentives",
+        "human nature"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "People Work Hard Without Profit Humans will produce enthusiastically without material incentives. USSR, Mao, and Venezuela show incentive erosion, shortages, and corruption when property rights weaken. incentives human nature"
+    },
+    {
+      "id": "human-nature-altruism",
+      "topicId": "human-nature-incentives",
+      "title": "Humans Are Naturally Cooperative Not Competitive",
+      "socialistClaim": "Markets impose unnatural greed.",
+      "executiveSummary": "Markets channel self-interest through voluntary exchange. Cooperation requires institutions that align incentives.",
+      "evidenceBullets": [
+        "Smith: coordination via markets",
+        "Bastiat: legal plunder distinction"
+      ],
+      "fallacies": [
+        "false dichotomy"
+      ],
+      "sources": [
+        {
+          "title": "Adam Smith Institute",
+          "url": "https://www.adamsmith.org/",
+          "doi": null,
+          "type": "think_tank"
+        }
+      ],
+      "whyItMatters": "Markets are cooperation at scale, not greed unleashed.",
+      "relatedClaimIds": [
+        "incentives-matter"
+      ],
+      "tags": [
+        "human nature",
+        "cooperation"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Humans Are Naturally Cooperative Not Competitive Markets impose unnatural greed. Markets channel self-interest through voluntary exchange. Cooperation requires institutions that align incentives. human nature cooperation"
+    },
+    {
+      "id": "market-failures-require-socialism",
+      "topicId": "human-nature-incentives",
+      "title": "Market Failures Require Socialism",
+      "socialistClaim": "Externalities prove markets fail — only socialism fixes them.",
+      "executiveSummary": "Pigouvian taxes, Coasean property rights, and permit markets address externalities without abolishing ownership.",
+      "evidenceBullets": [
+        "Coase Theorem applications",
+        "Cap-and-trade programs"
+      ],
+      "fallacies": [
+        "false dichotomy"
+      ],
+      "sources": [
+        {
+          "title": "EPA Cap and Trade",
+          "url": "https://www.epa.gov/",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "Externalities justify correction, not collectivization.",
+      "relatedClaimIds": [
+        "green-new-deal-growth"
+      ],
+      "tags": [
+        "market failure",
+        "externalities"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Market Failures Require Socialism Externalities prove markets fail — only socialism fixes them. Pigouvian taxes, Coasean property rights, and permit markets address externalities without abolishing ownership. market failure externalities"
+    },
+    {
+      "id": "minimum-wage-no-harm",
+      "topicId": "government-intervention",
+      "title": "Minimum Wage Raises Don't Cost Jobs",
+      "socialistClaim": "Minimum wage increases help workers with no downside.",
+      "executiveSummary": "When wages exceed marginal product for some workers, hours and employment compress — especially for teens and low-skill entrants.",
+      "evidenceBullets": [
+        "Jardim et al. Seattle study",
+        "CBO federal $15 minimum wage analysis"
+      ],
+      "fallacies": [
+        "seen vs unseen"
+      ],
+      "sources": [
+        {
+          "title": "NBER Working Paper 25432",
+          "url": "https://www.nber.org/",
+          "doi": null,
+          "type": "academic"
+        },
+        {
+          "title": "CBO",
+          "url": "https://www.cbo.gov/",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "Well-intentioned wage floors can exclude the most vulnerable from first rungs.",
+      "relatedClaimIds": [
+        "minimum-wage-entry"
+      ],
+      "tags": [
+        "minimum wage",
+        "jobs"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Minimum Wage Raises Don't Cost Jobs Minimum wage increases help workers with no downside. When wages exceed marginal product for some workers, hours and employment compress — especially for teens and low-skill entrants. minimum wage jobs"
+    },
+    {
+      "id": "minimum-wage-entry",
+      "topicId": "government-intervention",
+      "title": "Minimum Wage Is Best Anti-Poverty Tool",
+      "socialistClaim": "Raising minimum wage is the best way to fight poverty.",
+      "executiveSummary": "Most minimum-wage earners are not household breadwinners in poverty. EITC targets poverty more precisely.",
+      "evidenceBullets": [
+        "BLS minimum wage earner demographics",
+        "CBO EITC comparison"
+      ],
+      "fallacies": [
+        "category error"
+      ],
+      "sources": [
+        {
+          "title": "BLS",
+          "url": "https://www.bls.gov/",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "Wrong tool wastes political capital that could fund EITC expansion.",
+      "relatedClaimIds": [
+        "minimum-wage-no-harm"
+      ],
+      "tags": [
+        "minimum wage",
+        "poverty",
+        "eitc"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Minimum Wage Is Best Anti-Poverty Tool Raising minimum wage is the best way to fight poverty. Most minimum-wage earners are not household breadwinners in poverty. EITC targets poverty more precisely. minimum wage poverty eitc"
+    },
+    {
+      "id": "healthcare-right",
+      "topicId": "government-intervention",
+      "title": "Healthcare Is a Right — Single Payer Now",
+      "socialistClaim": "Healthcare is a human right requiring single-payer.",
+      "executiveSummary": "Rights as claims on others' labor imply coercion. Single-payer systems face wait times and rationing.",
+      "evidenceBullets": [
+        "OECD wait time comparisons",
+        "Fraser health freedom indices"
+      ],
+      "fallacies": [
+        "rights inflation"
+      ],
+      "sources": [
+        {
+          "title": "OECD Health",
+          "url": "https://www.oecd.org/health/",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "Rights language obscures tradeoffs between access, quality, and fiscal sustainability.",
+      "relatedClaimIds": [
+        "healthcare-cost"
+      ],
+      "tags": [
+        "healthcare",
+        "single payer"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Healthcare Is a Right — Single Payer Now Healthcare is a human right requiring single-payer. Rights as claims on others' labor imply coercion. Single-payer systems face wait times and rationing. healthcare single payer"
+    },
+    {
+      "id": "healthcare-cost",
+      "topicId": "government-intervention",
+      "title": "Free Markets Can't Provide Healthcare",
+      "socialistClaim": "Only government can control healthcare costs.",
+      "executiveSummary": "Medical cost inflation accelerated after Medicare/Medicaid expansion — classic third-party payer problem.",
+      "evidenceBullets": [
+        "Medical CPI vs general CPI divergence",
+        "Third-party payment literature"
+      ],
+      "fallacies": [
+        "post hoc"
+      ],
+      "sources": [
+        {
+          "title": "BLS Medical CPI",
+          "url": "https://www.bls.gov/cpi/",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "More third-party payment may worsen the cost disease it claims to cure.",
+      "relatedClaimIds": [
+        "healthcare-right"
+      ],
+      "tags": [
+        "healthcare",
+        "costs"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Free Markets Can't Provide Healthcare Only government can control healthcare costs. Medical cost inflation accelerated after Medicare/Medicaid expansion — classic third-party payer problem. healthcare costs"
+    },
+    {
+      "id": "ubi-solves-all",
+      "topicId": "government-intervention",
+      "title": "UBI Will End Poverty",
+      "socialistClaim": "Universal Basic Income eliminates poverty and job fears.",
+      "executiveSummary": "UBI faces enormous fiscal cost and mixed labor supply evidence from pilots.",
+      "evidenceBullets": [
+        "CBO UBI cost estimates",
+        "Finland UBI trial labor results"
+      ],
+      "fallacies": [
+        "magic bullet thinking"
+      ],
+      "sources": [
+        {
+          "title": "CBO",
+          "url": "https://www.cbo.gov/",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "Fiscal reality limits UBI scale without damaging growth.",
+      "relatedClaimIds": [
+        "minimum-wage-no-harm"
+      ],
+      "tags": [
+        "ubi",
+        "poverty"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "UBI Will End Poverty Universal Basic Income eliminates poverty and job fears. UBI faces enormous fiscal cost and mixed labor supply evidence from pilots. ubi poverty"
+    },
+    {
+      "id": "rent-control-helps",
+      "topicId": "government-intervention",
+      "title": "Rent Control Protects the Poor",
+      "socialistClaim": "Rent control keeps housing affordable.",
+      "executiveSummary": "Rent control reduces supply and maintenance. Stanford found SF rent control raised citywide rents 5-10%.",
+      "evidenceBullets": [
+        "Diamond et al. Stanford SF study",
+        "Gyourko & Linneman research"
+      ],
+      "fallacies": [
+        "seen vs unseen"
+      ],
+      "sources": [
+        {
+          "title": "Stanford Economics",
+          "url": "https://www.stanford.edu/",
+          "doi": null,
+          "type": "academic"
+        }
+      ],
+      "whyItMatters": "Rent control helps incumbents at the expense of newcomers and builders.",
+      "relatedClaimIds": [
+        "housing-late-capitalism"
+      ],
+      "tags": [
+        "rent control",
+        "housing"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Rent Control Protects the Poor Rent control keeps housing affordable. Rent control reduces supply and maintenance. Stanford found SF rent control raised citywide rents 5-10%. rent control housing"
+    },
+    {
+      "id": "green-new-deal-growth",
+      "topicId": "government-intervention",
+      "title": "Green New Deal Creates Prosperity",
+      "socialistClaim": "Massive state green investment will grow the economy.",
+      "executiveSummary": "Central energy allocation risks malinvestment. Market carbon pricing plus innovation outperforms command-and-control.",
+      "evidenceBullets": [
+        "Spanish green jobs study",
+        "IEA innovation data"
+      ],
+      "fallacies": [
+        "broken window fallacy"
+      ],
+      "sources": [
+        {
+          "title": "IEA",
+          "url": "https://www.iea.org/",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "Climate policy should not repeat industrial planning failures.",
+      "relatedClaimIds": [
+        "climate-capitalism-failed"
+      ],
+      "tags": [
+        "green new deal",
+        "climate"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Green New Deal Creates Prosperity Massive state green investment will grow the economy. Central energy allocation risks malinvestment. Market carbon pricing plus innovation outperforms command-and-control. green new deal climate"
+    },
+    {
+      "id": "education-free",
+      "topicId": "government-intervention",
+      "title": "College Should Be Free",
+      "socialistClaim": "Student debt proves capitalism failed education.",
+      "executiveSummary": "Tuition subsidies inflate administrative bloat. Market alternatives address access without zero price signals.",
+      "evidenceBullets": [
+        "Federal aid correlation with tuition inflation",
+        "BLS college premium data"
+      ],
+      "fallacies": [
+        "price signal denial"
+      ],
+      "sources": [
+        {
+          "title": "Federal Reserve education finance",
+          "url": "https://www.federalreserve.gov/",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "Free tuition without reform subsidizes bureaucracy, not learning.",
+      "relatedClaimIds": [
+        "healthcare-right"
+      ],
+      "tags": [
+        "education",
+        "student debt"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "College Should Be Free Student debt proves capitalism failed education. Tuition subsidies inflate administrative bloat. Market alternatives address access without zero price signals. education student debt"
+    },
+    {
+      "id": "capitalism-poverty",
+      "topicId": "global-poverty-capitalism",
+      "title": "Capitalism Created Global Poverty",
+      "socialistClaim": "Colonialism and capitalism impoverished the Global South.",
+      "executiveSummary": "Extreme poverty fell fastest where countries integrated with global markets — China, India, Vietnam.",
+      "evidenceBullets": [
+        "World Bank 1990-2022 poverty decline",
+        "China post-1978 GDP/capita growth"
+      ],
+      "fallacies": [
+        "historical cherry-picking"
+      ],
+      "sources": [
+        {
+          "title": "World Bank",
+          "url": "https://www.worldbank.org/",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "Anti-market narratives ignore the greatest poverty reduction in history.",
+      "relatedClaimIds": [
+        "colonialism-blame",
+        "africa-exploited"
+      ],
+      "tags": [
+        "poverty",
+        "global south",
+        "capitalism"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Capitalism Created Global Poverty Colonialism and capitalism impoverished the Global South. Extreme poverty fell fastest where countries integrated with global markets — China, India, Vietnam. poverty global south capitalism"
+    },
+    {
+      "id": "colonialism-blame",
+      "topicId": "global-poverty-capitalism",
+      "title": "All Poverty Is Colonial Legacy",
+      "socialistClaim": "Modern poverty is purely colonial legacy.",
+      "executiveSummary": "Singapore, Botswana, and South Korea outperformed after institutional and market reforms.",
+      "evidenceBullets": [
+        "Acemoglu & Robinson institutions thesis",
+        "Heritage growth correlations"
+      ],
+      "fallacies": [
+        "single-cause fallacy"
+      ],
+      "sources": [
+        {
+          "title": "MIT Daron Acemoglu",
+          "url": "https://economics.mit.edu/",
+          "doi": null,
+          "type": "academic"
+        }
+      ],
+      "whyItMatters": "Institutions today matter more than history alone for policy.",
+      "relatedClaimIds": [
+        "capitalism-poverty"
+      ],
+      "tags": [
+        "colonialism",
+        "development"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "All Poverty Is Colonial Legacy Modern poverty is purely colonial legacy. Singapore, Botswana, and South Korea outperformed after institutional and market reforms. colonialism development"
+    },
+    {
+      "id": "africa-exploited",
+      "topicId": "global-poverty-capitalism",
+      "title": "Africa Is Poor Because of Western Exploitation",
+      "socialistClaim": "Africa remains poor because the West exploits it.",
+      "executiveSummary": "Internal institutions, conflict, and policy dominate. African nations improving economic freedom grow faster.",
+      "evidenceBullets": [
+        "Fraser Africa trends",
+        "World Bank governance indicators"
+      ],
+      "fallacies": [
+        "zero-sum thinking"
+      ],
+      "sources": [
+        {
+          "title": "World Bank Africa",
+          "url": "https://www.worldbank.org/en/region/afr",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "Victim narratives excuse corrupt governance that hurts Africans most.",
+      "relatedClaimIds": [
+        "capitalism-poverty"
+      ],
+      "tags": [
+        "africa",
+        "exploitation"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Africa Is Poor Because of Western Exploitation Africa remains poor because the West exploits it. Internal institutions, conflict, and policy dominate. African nations improving economic freedom grow faster. africa exploitation"
+    },
+    {
+      "id": "founding-collectivist",
+      "topicId": "founding-principles",
+      "title": "Founders Supported Collectivism",
+      "socialistClaim": "The Founders would support modern democratic socialism.",
+      "executiveSummary": "Madison and Jefferson warned against consolidated power and factional redistribution. Constitution protects property and liberty.",
+      "evidenceBullets": [
+        "Federalist 10 on factions",
+        "Locke on property rights"
+      ],
+      "fallacies": [
+        "historical revisionism"
+      ],
+      "sources": [
+        {
+          "title": "Founders Online",
+          "url": "https://founders.archives.gov/",
+          "doi": null,
+          "type": "primary"
+        }
+      ],
+      "whyItMatters": "Founding literacy is essential to constitutional debate.",
+      "relatedClaimIds": [
+        "constitution-limits",
+        "natural-rights"
+      ],
+      "tags": [
+        "founders",
+        "constitution"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Founders Supported Collectivism The Founders would support modern democratic socialism. Madison and Jefferson warned against consolidated power and factional redistribution. Constitution protects property and liberty. founders constitution"
+    },
+    {
+      "id": "constitution-limits",
+      "topicId": "founding-principles",
+      "title": "Constitution Mandates Welfare Expansion",
+      "socialistClaim": "The Constitution requires modern welfare programs.",
+      "executiveSummary": "Constitution enumerates limited powers. Redistribution is political choice, not constitutional mandate.",
+      "evidenceBullets": [
+        "Article I Section 8 enumeration",
+        "Federalist 45 limited federal role"
+      ],
+      "fallacies": [
+        "wishful interpretation"
+      ],
+      "sources": [
+        {
+          "title": "Constitution.gov",
+          "url": "https://constitution.congress.gov/",
+          "doi": null,
+          "type": "primary"
+        }
+      ],
+      "whyItMatters": "Conflating politics with constitutional duty erodes civic education.",
+      "relatedClaimIds": [
+        "founding-collectivist"
+      ],
+      "tags": [
+        "constitution",
+        "welfare"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Constitution Mandates Welfare Expansion The Constitution requires modern welfare programs. Constitution enumerates limited powers. Redistribution is political choice, not constitutional mandate. constitution welfare"
+    },
+    {
+      "id": "natural-rights",
+      "topicId": "founding-principles",
+      "title": "Rights Come From Government",
+      "socialistClaim": "Rights are whatever society democratically grants.",
+      "executiveSummary": "Founders held rights pre-exist government. Government exists to secure them.",
+      "evidenceBullets": [
+        "Declaration: unalienable rights",
+        "Locke Second Treatise"
+      ],
+      "fallacies": [
+        "positivist confusion"
+      ],
+      "sources": [
+        {
+          "title": "National Archives Declaration",
+          "url": "https://www.archives.gov/founding-docs/declaration",
+          "doi": null,
+          "type": "primary"
+        }
+      ],
+      "whyItMatters": "Contingent rights are rights no minority can trust.",
+      "relatedClaimIds": [
+        "constitution-limits"
+      ],
+      "tags": [
+        "rights",
+        "natural law"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Rights Come From Government Rights are whatever society democratically grants. Founders held rights pre-exist government. Government exists to secure them. rights natural law"
+    },
+    {
+      "id": "open-borders-socialist",
+      "topicId": "founding-principles",
+      "title": "Borders Are Capitalist Oppression",
+      "socialistClaim": "Open borders are required for justice.",
+      "executiveSummary": "Sovereignty enables rule of law and public goods. Unrestricted migration strains fiscal capacity — Bastiat seen/unseen applies.",
+      "evidenceBullets": [
+        "Fiscal impact migration studies",
+        "Bastiat unseen consequences"
+      ],
+      "fallacies": [
+        "internally inconsistent"
+      ],
+      "sources": [
+        {
+          "title": "Cato Institute immigration",
+          "url": "https://www.cato.org/",
+          "doi": null,
+          "type": "think_tank"
+        }
+      ],
+      "whyItMatters": "Open borders advocacy conflicts with large welfare states.",
+      "relatedClaimIds": [
+        "constitution-limits"
+      ],
+      "tags": [
+        "borders",
+        "immigration"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Borders Are Capitalist Oppression Open borders are required for justice. Sovereignty enables rule of law and public goods. Unrestricted migration strains fiscal capacity — Bastiat seen/unseen applies. borders immigration"
+    },
+    {
+      "id": "free-speech-fascism",
+      "topicId": "free-speech-socialist-regimes",
+      "title": "Socialist Regimes Support Free Speech",
+      "socialistClaim": "Real socialism empowers the people's voice.",
+      "executiveSummary": "USSR, China, Cuba, and Venezuela criminalized or crushed dissent systematically.",
+      "evidenceBullets": [
+        "HRW country reports",
+        "Soviet Criminal Code Article 58"
+      ],
+      "fallacies": [
+        "Orwellian reversal"
+      ],
+      "sources": [
+        {
+          "title": "Human Rights Watch",
+          "url": "https://www.hrw.org/",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "Free speech is the first casualty when state power owns the public square.",
+      "relatedClaimIds": [
+        "censorship-private",
+        "ussr-not-real-socialism"
+      ],
+      "tags": [
+        "free speech",
+        "censorship"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Socialist Regimes Support Free Speech Real socialism empowers the people's voice. USSR, China, Cuba, and Venezuela criminalized or crushed dissent systematically. free speech censorship"
+    },
+    {
+      "id": "censorship-private",
+      "topicId": "free-speech-socialist-regimes",
+      "title": "Private Censorship Is Worse Than State",
+      "socialistClaim": "Corporate moderation is fascism worse than socialist states.",
+      "executiveSummary": "State censorship uses force and imprisonment. Private moderation is contractual — different category.",
+      "evidenceBullets": [
+        "First Amendment state action doctrine",
+        "FIRE educational resources"
+      ],
+      "fallacies": [
+        "false equivalence"
+      ],
+      "sources": [
+        {
+          "title": "FIRE",
+          "url": "https://www.thefire.org/",
+          "doi": null,
+          "type": "think_tank"
+        }
+      ],
+      "whyItMatters": "Conflating categories obscures socialist regimes' dissent record.",
+      "relatedClaimIds": [
+        "free-speech-fascism"
+      ],
+      "tags": [
+        "censorship",
+        "free speech"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Private Censorship Is Worse Than State Corporate moderation is fascism worse than socialist states. State censorship uses force and imprisonment. Private moderation is contractual — different category. censorship free speech"
+    },
+    {
+      "id": "late-stage-capitalism",
+      "topicId": "late-stage-capitalism",
+      "title": "Late-Stage Capitalism Is Collapsing",
+      "socialistClaim": "We are in late-stage capitalism — collapse is imminent.",
+      "executiveSummary": "No terminal stage exists in market economies. GDP, life expectancy, and technology continue upward in market nations.",
+      "evidenceBullets": [
+        "BEA real GDP growth",
+        "Our World in Data life expectancy"
+      ],
+      "fallacies": [
+        "pseudo-Marxist teleology"
+      ],
+      "sources": [
+        {
+          "title": "BEA",
+          "url": "https://www.bea.gov/",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "Apocalyptic framing replaces measurable policy debate.",
+      "relatedClaimIds": [
+        "wealth-inequality-broken",
+        "monopoly-inevitable"
+      ],
+      "tags": [
+        "late stage capitalism",
+        "collapse"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Late-Stage Capitalism Is Collapsing We are in late-stage capitalism — collapse is imminent. No terminal stage exists in market economies. GDP, life expectancy, and technology continue upward in market nations. late stage capitalism collapse"
+    },
+    {
+      "id": "monopoly-inevitable",
+      "topicId": "late-stage-capitalism",
+      "title": "Capitalism Inevitably Creates Monopolies",
+      "socialistClaim": "Markets always monopolize without socialism.",
+      "executiveSummary": "Entry, disruption, and antitrust limit durable monopoly. State monopolies face no entry discipline.",
+      "evidenceBullets": [
+        "Fortune 500 turnover",
+        "DOJ antitrust enforcement"
+      ],
+      "fallacies": [
+        "static analysis"
+      ],
+      "sources": [
+        {
+          "title": "DOJ Antitrust Division",
+          "url": "https://www.justice.gov/atr",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "Competition policy beats nationalization for consumer welfare.",
+      "relatedClaimIds": [
+        "profit-is-theft"
+      ],
+      "tags": [
+        "monopoly",
+        "antitrust"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Capitalism Inevitably Creates Monopolies Markets always monopolize without socialism. Entry, disruption, and antitrust limit durable monopoly. State monopolies face no entry discipline. monopoly antitrust"
+    },
+    {
+      "id": "climate-capitalism-failed",
+      "topicId": "late-stage-capitalism",
+      "title": "Capitalism Destroyed the Climate",
+      "socialistClaim": "Only socialism can solve climate change.",
+      "executiveSummary": "Economic freedom correlates with environmental outcomes via innovation. USSR was a notorious polluter.",
+      "evidenceBullets": [
+        "Fraser environmental indices",
+        "Soviet environmental disaster record"
+      ],
+      "fallacies": [
+        "single-tool fallacy"
+      ],
+      "sources": [
+        {
+          "title": "Fraser Institute",
+          "url": "https://www.fraserinstitute.org/",
+          "doi": null,
+          "type": "think_tank"
+        }
+      ],
+      "whyItMatters": "Central planning is not inherently green — history shows the opposite.",
+      "relatedClaimIds": [
+        "green-new-deal-growth"
+      ],
+      "tags": [
+        "climate",
+        "environment"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Capitalism Destroyed the Climate Only socialism can solve climate change. Economic freedom correlates with environmental outcomes via innovation. USSR was a notorious polluter. climate environment"
+    },
+    {
+      "id": "housing-late-capitalism",
+      "topicId": "late-stage-capitalism",
+      "title": "Housing Crisis Proves Capitalism Failed",
+      "socialistClaim": "Housing unaffordability is late-stage capitalism.",
+      "executiveSummary": "Zoning and land-use regulation constrain supply. Government restrictions dominate coastal affordability crises.",
+      "evidenceBullets": [
+        "Glaeser zoning research",
+        "Freddie Mac supply deficit studies"
+      ],
+      "fallacies": [
+        "omitted variable"
+      ],
+      "sources": [
+        {
+          "title": "Freddie Mac",
+          "url": "https://www.freddiemac.com/",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "Deregulating supply beats price controls for housing affordability.",
+      "relatedClaimIds": [
+        "rent-control-helps"
+      ],
+      "tags": [
+        "housing",
+        "zoning"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Housing Crisis Proves Capitalism Failed Housing unaffordability is late-stage capitalism. Zoning and land-use regulation constrain supply. Government restrictions dominate coastal affordability crises. housing zoning"
+    },
+    {
+      "id": "automation-unemployment",
+      "topicId": "late-stage-capitalism",
+      "title": "Automation Causes Permanent Unemployment",
+      "socialistClaim": "Robots will leave everyone unemployed under capitalism.",
+      "executiveSummary": "Technology displaces tasks but raises productivity and creates new work. Lump of labor is a fallacy.",
+      "evidenceBullets": [
+        "BLS occupational growth categories",
+        "Historical automation employment transitions"
+      ],
+      "fallacies": [
+        "lump of labor fallacy"
+      ],
+      "sources": [
+        {
+          "title": "BLS Employment Projections",
+          "url": "https://www.bls.gov/emp/",
+          "doi": null,
+          "type": "government"
+        }
+      ],
+      "whyItMatters": "Automation panic justifies Luddite policy that slows progress.",
+      "relatedClaimIds": [
+        "minimum-wage-no-harm"
+      ],
+      "tags": [
+        "automation",
+        "jobs",
+        "ai"
+      ],
+      "claimQuote": null,
+      "chartData": null,
+      "updatedAt": "2026-07-04",
+      "searchText": "Automation Causes Permanent Unemployment Robots will leave everyone unemployed under capitalism. Technology displaces tasks but raises productivity and creates new work. Lump of labor is a fallacy. automation jobs ai"
+    }
+  ]
+}

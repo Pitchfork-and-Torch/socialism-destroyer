@@ -1,0 +1,1027 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-07-22T22:32:37Z",
+  "sources": {
+    "declaration-of-independence": {
+      "gutenberg": 1
+    },
+    "us-constitution": {
+      "gutenberg": 5
+    },
+    "common-sense": {
+      "gutenberg": 147
+    },
+    "federalist-10-51": {
+      "federalist": [
+        10,
+        51
+      ]
+    },
+    "federalist-1": {
+      "federalist": [
+        1
+      ]
+    },
+    "federalist-78": {
+      "federalist": [
+        78
+      ]
+    },
+    "federalist-84": {
+      "federalist": [
+        84
+      ]
+    },
+    "second-treatise": {
+      "url": "https://www.gutenberg.org/files/7370/7370-0.txt",
+      "extract": [
+        "SECOND TREATISE OF CIVIL GOVERNMENT",
+        null
+      ],
+      "out": "second-treatise.txt",
+      "minChars": 80000
+    },
+    "democracy-in-america": {
+      "gutenberg_multi": [
+        815,
+        816
+      ],
+      "out": "democracy-in-america.txt",
+      "minChars": 500000
+    },
+    "rights-of-man": {
+      "gutenberg": 3742,
+      "out": "rights-of-man.txt",
+      "minChars": 200000
+    },
+    "frederick-douglass": {
+      "gutenberg": 23,
+      "out": "frederick-douglass-narrative.txt",
+      "minChars": 100000
+    },
+    "franklin-autobiography": {
+      "gutenberg": 148,
+      "out": "franklin-autobiography.txt",
+      "minChars": 150000
+    },
+    "lincoln-essential": {
+      "url_multi": [
+        {
+          "url": "https://avalon.law.yale.edu/19th_century/gettyb.asp",
+          "extract": [
+            "Four score",
+            "©"
+          ]
+        },
+        {
+          "url": "https://avalon.law.yale.edu/19th_century/emancipa.asp",
+          "extract": [
+            "WHEREAS",
+            "©"
+          ]
+        },
+        {
+          "url": "https://avalon.law.yale.edu/19th_century/lincoln2.asp",
+          "extract": [
+            "Fellow-Countrymen",
+            "©"
+          ]
+        }
+      ],
+      "out": "lincoln-essential.txt",
+      "minChars": 3000,
+      "needles": [
+        "Four score",
+        "Emancipation",
+        "Fellow-Countrymen"
+      ],
+      "wrongContent": [
+        "Der Engländer",
+        "Jakob Michael Reinhold Lenz"
+      ]
+    },
+    "on-liberty": {
+      "gutenberg": 34901,
+      "out": "on-liberty.txt",
+      "minChars": 200000
+    },
+    "communist-manifesto": {
+      "gutenberg": 61,
+      "out": "communist-manifesto.txt",
+      "minChars": 20000
+    },
+    "economic-sophisms": {
+      "gutenberg": 44145,
+      "out": "economic-sophisms.txt",
+      "minChars": 200000,
+      "needles": [
+        "Economic Sophisms",
+        "Frédéric Bastiat",
+        "Frederic Bastiat"
+      ]
+    },
+    "seen-and-unseen": {
+      "gutenberg": 15962,
+      "extract": [
+        "In the department of economy",
+        "Government\n"
+      ],
+      "out": "seen-and-unseen.txt",
+      "minChars": 20000,
+      "needles": [
+        "broken window",
+        "department of economy"
+      ]
+    },
+    "wealth-of-nations": {
+      "gutenberg": 3300,
+      "out": "wealth-of-nations.txt",
+      "minChars": 1000000
+    },
+    "civil-disobedience": {
+      "gutenberg": 71,
+      "out": "civil-disobedience-thoreau.txt",
+      "minChars": 25000,
+      "needles": [
+        "heartily accept the motto",
+        "governs least"
+      ]
+    },
+    "self-reliance": {
+      "gutenberg": 16643,
+      "extract": [
+        "SELF-RELIANCE",
+        "FRIENDSHIP"
+      ],
+      "out": "self-reliance-emerson.txt",
+      "minChars": 8000,
+      "needles": [
+        "A foolish consistency is the hobgoblin",
+        "foolish consistency"
+      ]
+    },
+    "the-law": {
+      "gutenberg": 44800,
+      "out": "the-law-full.txt",
+      "minChars": 50000,
+      "needles": [
+        "legal plunder"
+      ]
+    },
+    "washington-farewell": {
+      "url": "https://avalon.law.yale.edu/18th_century/washing.asp",
+      "extract": [
+        "Friends and Citizens:",
+        "©"
+      ],
+      "out": "washington-farewell-address.txt",
+      "minChars": 15000
+    },
+    "letters-from-a-farmer": {
+      "gutenberg": 47111,
+      "out": "letters-from-a-farmer.txt",
+      "minChars": 30000,
+      "needles": [
+        "LETTER I",
+        "internal taxation"
+      ]
+    },
+    "virginia-declaration-rights": {
+      "url": "https://avalon.law.yale.edu/18th_century/virginia.asp",
+      "extract": [
+        "Virginia Declaration of Rights",
+        "©"
+      ],
+      "out": "virginia-declaration-rights.txt"
+    },
+    "articles-of-confederation": {
+      "url": "https://avalon.law.yale.edu/18th_century/artconf.asp",
+      "extract": [
+        "To all to whom these Presents shall come",
+        "©"
+      ],
+      "out": "articles-of-confederation.txt"
+    },
+    "age-of-reason": {
+      "gutenberg": 3743,
+      "minChars": 200000
+    },
+    "emerson-american-scholar": {
+      "gutenberg": 16643,
+      "extract": [
+        "Man Thinking",
+        "COMPENSATION"
+      ],
+      "out": "emerson-american-scholar.txt",
+      "minChars": 8000,
+      "needles": [
+        "man thinking",
+        "Man Thinking"
+      ]
+    },
+    "magna-carta": {
+      "url": "https://avalon.law.yale.edu/medieval/magframe.asp",
+      "extract": [
+        "Magna Carta 1215",
+        "©"
+      ],
+      "out": "magna-carta.txt"
+    },
+    "mayflower-compact": {
+      "inline": "mayflower",
+      "minChars": 500,
+      "needles": [
+        "IN THE NAME OF GOD, AMEN",
+        "civil Body Politick"
+      ],
+      "wrongContent": [
+        "William W. Brown",
+        "FUGITIVE SLAVE"
+      ]
+    },
+    "northwest-ordinance": {
+      "url": "https://avalon.law.yale.edu/18th_century/nworder.asp",
+      "extract": [
+        "An Ordinance for the government of the Territory",
+        "©"
+      ],
+      "out": "northwest-ordinance.txt"
+    },
+    "webster-hayne-debate": {
+      "url": "https://teachingamericanhistory.org/document/the-webster-hayne-debates/",
+      "extract": [
+        "Speech of Senator Robert Y. Hayne",
+        null
+      ],
+      "out": "webster-hayne-debate.txt",
+      "minChars": 45000,
+      "needles": [
+        "Hayne",
+        "Webster",
+        "nullification"
+      ],
+      "wrongContent": [
+        "Waterton",
+        "Wanderings in South America",
+        "Barlasch",
+        "Merriman"
+      ]
+    },
+    "patrick-henry-liberty": {
+      "url": "https://avalon.law.yale.edu/18th_century/patrick.asp",
+      "extract": [
+        "give me liberty",
+        "©"
+      ],
+      "out": "patrick-henry-liberty.txt",
+      "minChars": 2000,
+      "needles": [
+        "give me liberty",
+        "Patrick Henry"
+      ],
+      "wrongContent": [
+        "Barlasch",
+        "Merriman",
+        "Waterton",
+        "Wanderings in South America"
+      ]
+    },
+    "jefferson-first-inaugural": {
+      "url": "https://avalon.law.yale.edu/19th_century/jefinau1.asp",
+      "extract": [
+        "FRIENDS AND FELLOW-CITIZENS",
+        "©"
+      ],
+      "out": "jefferson-first-inaugural.txt"
+    },
+    "monroe-doctrine": {
+      "url": "https://avalon.law.yale.edu/19th_century/monroe.asp",
+      "extract": [
+        "Monroe Doctrine; December 2 1823",
+        "©"
+      ],
+      "out": "monroe-doctrine.txt",
+      "wrongContent": [
+        "Der Engländer",
+        "Jakob Michael Reinhold Lenz"
+      ]
+    },
+    "anti-federalist-brutus-1": {
+      "url": "https://teachingamericanhistory.org/document/brutus-i/",
+      "out": "anti-federalist-brutus-1.txt",
+      "minChars": 8000,
+      "needles": [
+        "To the Citizens of the State of New-York",
+        "Montesquieu"
+      ]
+    },
+    "sumner-social-classes": {
+      "gutenberg": 18603,
+      "out": "sumner-social-classes.txt",
+      "minChars": 50000,
+      "needles": [
+        "Forgotten Man",
+        "FORGOTTEN MAN"
+      ]
+    },
+    "spencer-right-to-ignore-state": {
+      "gutenberg": 7370,
+      "extract": [
+        "THE RIGHT TO IGNORE THE STATE",
+        "End of Project"
+      ],
+      "out": "spencer-right-to-ignore-state.txt"
+    },
+    "bakunin-god-and-the-state": {
+      "gutenberg": 36568,
+      "minChars": 50000
+    },
+    "engels-utopian-scientific": {
+      "gutenberg": 30107,
+      "out": "engels-utopian-scientific.txt",
+      "minChars": 50000
+    },
+    "fabian-essays-socialism": {
+      "gutenberg": 1718,
+      "minChars": 100000
+    },
+    "mill-representative-government": {
+      "gutenberg": 5669,
+      "out": "mill-representative-government.txt",
+      "minChars": 200000
+    },
+    "marx-18th-brumaire": {
+      "gutenberg": 1346,
+      "out": "marx-18th-brumaire.txt",
+      "minChars": 50000
+    },
+    "marx-wage-labour-capital": {
+      "mia": "/archive/marx/works/1847/wage-labour/",
+      "out": "marx-wage-labour-capital.txt",
+      "minChars": 50000,
+      "needles": [
+        "labour-power",
+        "wage-labour",
+        "Wage Labour"
+      ]
+    },
+    "burke-reflections": {
+      "gutenberg": 15679,
+      "out": "burke-reflections.txt",
+      "minChars": 200000
+    },
+    "acton-liberty": {
+      "gutenberg": 31278,
+      "out": "acton-liberty.txt",
+      "minChars": 100000,
+      "needles": [
+        "History of Freedom",
+        "HISTORY OF FREEDOM"
+      ]
+    },
+    "chesterton-whats-wrong": {
+      "gutenberg": 1717,
+      "out": "chesterton-whats-wrong.txt",
+      "minChars": 100000
+    },
+    "lenin-what-is-to-be-done": {
+      "out": "lenin-what-is-to-be-done.txt",
+      "minChars": 150000,
+      "needles": [
+        "Dogmatism",
+        "trade-union",
+        "revolutionaries"
+      ],
+      "mia_chapters": [
+        "/archive/lenin/works/1901/witbd/preface.htm",
+        "/archive/lenin/works/1901/witbd/i.htm",
+        "/archive/lenin/works/1901/witbd/ii.htm",
+        "/archive/lenin/works/1901/witbd/iii.htm",
+        "/archive/lenin/works/1901/witbd/iv.htm",
+        "/archive/lenin/works/1901/witbd/v.htm",
+        "/archive/lenin/works/1901/witbd/concl.htm"
+      ]
+    },
+    "lenin-state-and-revolution": {
+      "mia": "/archive/lenin/works/1917/staterev/",
+      "out": "lenin-state-and-revolution.txt",
+      "minChars": 50000
+    },
+    "marx-critique-gotha": {
+      "out": "marx-critique-gotha.txt",
+      "minChars": 8000,
+      "needles": [
+        "Gotha",
+        "bourgeois right"
+      ],
+      "mia_chapters": [
+        "/archive/marx/works/1875/gotha/ch01.htm",
+        "/archive/marx/works/1875/gotha/ch02.htm",
+        "/archive/marx/works/1875/gotha/ch03.htm",
+        "/archive/marx/works/1875/gotha/ch04.htm"
+      ]
+    },
+    "marx-german-ideology": {
+      "mia": "/archive/marx/works/1845/german-ideology/",
+      "out": "marx-german-ideology.txt",
+      "minChars": 50000
+    },
+    "trotsky-literature-revolution": {
+      "out": "trotsky-literature-revolution.txt",
+      "minChars": 50000,
+      "needles": [
+        "Literature and Revolution",
+        "proletarian",
+        "Trotsky"
+      ],
+      "wrongContent": [
+        "Shelley: An Essay",
+        "Matthew Arnold"
+      ],
+      "mia_chapters": [
+        "/archive/trotsky/1924/lit_revo/intro.htm",
+        "/archive/trotsky/1924/lit_revo/ch01.htm",
+        "/archive/trotsky/1924/lit_revo/ch02.htm",
+        "/archive/trotsky/1924/lit_revo/ch03.htm",
+        "/archive/trotsky/1924/lit_revo/ch04.htm",
+        "/archive/trotsky/1924/lit_revo/ch05.htm",
+        "/archive/trotsky/1924/lit_revo/ch06.htm",
+        "/archive/trotsky/1924/lit_revo/ch07.htm",
+        "/archive/trotsky/1924/lit_revo/ch08.htm"
+      ]
+    },
+    "proudhon-what-is-property": {
+      "gutenberg": 360,
+      "out": "proudhon-what-is-property.txt",
+      "minChars": 150000,
+      "needles": [
+        "Proudhon",
+        "What"
+      ]
+    },
+    "proudhon-economical-contradictions": {
+      "gutenberg": 444,
+      "out": "proudhon-economical-contradictions.txt",
+      "minChars": 200000,
+      "needles": [
+        "Proudhon",
+        "System"
+      ]
+    },
+    "engels-condition-working-class": {
+      "gutenberg": 17306,
+      "out": "engels-condition-working-class.txt",
+      "minChars": 200000,
+      "needles": [
+        "Engels",
+        "The"
+      ]
+    },
+    "engels-origin-family": {
+      "gutenberg": 33111,
+      "out": "engels-origin-family.txt",
+      "minChars": 100000,
+      "needles": [
+        "Engels",
+        "The"
+      ]
+    },
+    "marx-critique-political-economy": {
+      "gutenberg": 46423,
+      "out": "marx-critique-political-economy.txt",
+      "minChars": 80000,
+      "needles": [
+        "Marx",
+        "A"
+      ]
+    },
+    "bebel-woman-and-socialism": {
+      "gutenberg": 47244,
+      "out": "bebel-woman-and-socialism.txt",
+      "minChars": 200000,
+      "needles": [
+        "Bebel",
+        "Woman"
+      ]
+    },
+    "kropotkin-conquest-of-bread": {
+      "gutenberg": 23428,
+      "out": "kropotkin-conquest-of-bread.txt",
+      "minChars": 150000,
+      "needles": [
+        "Kropotkin",
+        "The"
+      ]
+    },
+    "kropotkin-mutual-aid": {
+      "gutenberg": 4341,
+      "out": "kropotkin-mutual-aid.txt",
+      "minChars": 150000,
+      "needles": [
+        "Kropotkin",
+        "Mutual"
+      ]
+    },
+    "luxemburg-accumulation-capital": {
+      "gutenberg": 41405,
+      "out": "luxemburg-accumulation-capital.txt",
+      "minChars": 200000,
+      "needles": [
+        "Luxemburg",
+        "The"
+      ]
+    },
+    "goldman-anarchism-essays": {
+      "gutenberg": 2162,
+      "out": "goldman-anarchism-essays.txt",
+      "minChars": 100000,
+      "needles": [
+        "Goldman",
+        "Anarchism"
+      ]
+    },
+    "wilde-soul-of-man-socialism": {
+      "gutenberg": 1017,
+      "out": "wilde-soul-of-man-socialism.txt",
+      "minChars": 20000,
+      "needles": [
+        "Wilde",
+        "The"
+      ]
+    },
+    "spargo-socialism-principles": {
+      "gutenberg": 22733,
+      "out": "spargo-socialism-principles.txt",
+      "minChars": 100000,
+      "needles": [
+        "Spargo",
+        "Socialism:"
+      ]
+    },
+    "la-monte-socialism-positive-negative": {
+      "gutenberg": 23574,
+      "out": "la-monte-socialism-positive-negative.txt",
+      "minChars": 40000,
+      "needles": [
+        "Monte",
+        "Socialism:"
+      ]
+    },
+    "mill-chapters-on-socialism": {
+      "gutenberg": 38138,
+      "out": "mill-chapters-on-socialism.txt",
+      "minChars": 30000,
+      "needles": [
+        "Mill",
+        "Socialism"
+      ]
+    },
+    "bellamy-looking-backward": {
+      "gutenberg": 624,
+      "out": "bellamy-looking-backward.txt",
+      "minChars": 150000,
+      "needles": [
+        "Bellamy",
+        "Looking"
+      ]
+    },
+    "morris-news-from-nowhere": {
+      "gutenberg": 3261,
+      "out": "morris-news-from-nowhere.txt",
+      "minChars": 100000,
+      "needles": [
+        "Morris",
+        "News"
+      ]
+    },
+    "more-utopia": {
+      "gutenberg": 2130,
+      "out": "more-utopia.txt",
+      "minChars": 50000,
+      "needles": [
+        "More",
+        "Utopia"
+      ]
+    },
+    "rousseau-social-contract": {
+      "gutenberg": 46333,
+      "out": "rousseau-social-contract.txt",
+      "minChars": 100000,
+      "needles": [
+        "Rousseau",
+        "The"
+      ]
+    },
+    "rousseau-origin-inequality": {
+      "gutenberg": 11136,
+      "out": "rousseau-origin-inequality.txt",
+      "minChars": 40000,
+      "needles": [
+        "Rousseau",
+        "Discourse"
+      ]
+    },
+    "plekhanov-anarchism-socialism": {
+      "gutenberg": 30506,
+      "out": "plekhanov-anarchism-socialism.txt",
+      "minChars": 40000,
+      "needles": [
+        "Plekhanov",
+        "Anarchism"
+      ]
+    },
+    "mallock-critical-examination-socialism": {
+      "gutenberg": 17416,
+      "out": "mallock-critical-examination-socialism.txt",
+      "minChars": 100000,
+      "needles": [
+        "Mallock",
+        "A"
+      ]
+    },
+    "barker-british-socialism": {
+      "gutenberg": 28361,
+      "out": "barker-british-socialism.txt",
+      "minChars": 200000,
+      "needles": [
+        "Barker",
+        "British"
+      ]
+    },
+    "belloc-servile-state": {
+      "gutenberg": 64882,
+      "out": "belloc-servile-state.txt",
+      "minChars": 80000,
+      "needles": [
+        "Belloc",
+        "The"
+      ]
+    },
+    "bastiat-harmonies": {
+      "gutenberg": 45002,
+      "out": "bastiat-harmonies.txt",
+      "minChars": 200000,
+      "needles": [
+        "Bastiat",
+        "Harmonies"
+      ]
+    },
+    "bastiat-free-trade": {
+      "gutenberg": 16106,
+      "out": "bastiat-free-trade.txt",
+      "minChars": 50000,
+      "needles": [
+        "Bastiat",
+        "What"
+      ]
+    },
+    "ricardo-principles": {
+      "gutenberg": 33310,
+      "out": "ricardo-principles.txt",
+      "minChars": 200000,
+      "needles": [
+        "Ricardo",
+        "On"
+      ]
+    },
+    "malthus-population": {
+      "gutenberg": 4239,
+      "out": "malthus-population.txt",
+      "minChars": 150000,
+      "needles": [
+        "Malthus",
+        "An"
+      ]
+    },
+    "mill-principles-political-economy": {
+      "gutenberg": 30107,
+      "out": "mill-principles-political-economy.txt",
+      "minChars": 200000,
+      "needles": [
+        "Mill",
+        "Principles"
+      ]
+    },
+    "ruskin-unto-this-last": {
+      "gutenberg": 36541,
+      "out": "ruskin-unto-this-last.txt",
+      "minChars": 80000,
+      "needles": [
+        "Ruskin",
+        "Unto"
+      ]
+    },
+    "sumner-forgotten-man": {
+      "gutenberg": 65693,
+      "out": "sumner-forgotten-man.txt",
+      "minChars": 100000,
+      "needles": [
+        "Sumner",
+        "The"
+      ]
+    },
+    "washington-up-from-slavery": {
+      "gutenberg": 2376,
+      "out": "washington-up-from-slavery.txt",
+      "minChars": 150000,
+      "needles": [
+        "Washington",
+        "Up"
+      ]
+    },
+    "milton-areopagitica": {
+      "gutenberg": 608,
+      "out": "milton-areopagitica.txt",
+      "minChars": 30000,
+      "needles": [
+        "Milton",
+        "Areopagitica"
+      ]
+    },
+    "plato-republic": {
+      "gutenberg": 1497,
+      "out": "plato-republic.txt",
+      "minChars": 300000,
+      "needles": [
+        "Plato",
+        "The"
+      ]
+    },
+    "chesterton-orthodoxy": {
+      "gutenberg": 16769,
+      "out": "chesterton-orthodoxy.txt",
+      "minChars": 80000,
+      "needles": [
+        "Chesterton",
+        "Orthodoxy"
+      ]
+    },
+    "chesterton-heretics": {
+      "gutenberg": 470,
+      "out": "chesterton-heretics.txt",
+      "minChars": 80000,
+      "needles": [
+        "Chesterton",
+        "Heretics"
+      ]
+    },
+    "nietzsche-beyond-good-and-evil": {
+      "gutenberg": 4363,
+      "out": "nietzsche-beyond-good-and-evil.txt",
+      "minChars": 100000,
+      "needles": [
+        "Nietzsche",
+        "Beyond"
+      ]
+    },
+    "dostoevsky-notes-from-underground": {
+      "gutenberg": 600,
+      "out": "dostoevsky-notes-from-underground.txt",
+      "minChars": 50000,
+      "needles": [
+        "Dostoevsky",
+        "Notes"
+      ]
+    },
+    "dostoevsky-crime-and-punishment": {
+      "gutenberg": 2554,
+      "out": "dostoevsky-crime-and-punishment.txt",
+      "minChars": 400000,
+      "needles": [
+        "Dostoevsky",
+        "Crime"
+      ]
+    },
+    "conrad-secret-agent": {
+      "gutenberg": 974,
+      "out": "conrad-secret-agent.txt",
+      "minChars": 150000,
+      "needles": [
+        "Conrad",
+        "The"
+      ]
+    },
+    "conrad-under-western-eyes": {
+      "gutenberg": 2480,
+      "out": "conrad-under-western-eyes.txt",
+      "minChars": 150000,
+      "needles": [
+        "Conrad",
+        "Under"
+      ]
+    },
+    "turgenev-fathers-and-sons": {
+      "gutenberg": 47935,
+      "out": "turgenev-fathers-and-sons.txt",
+      "minChars": 100000,
+      "needles": [
+        "Turgenev",
+        "Fathers"
+      ]
+    },
+    "hobbes-leviathan": {
+      "gutenberg": 3207,
+      "out": "hobbes-leviathan.txt",
+      "minChars": 300000,
+      "needles": [
+        "Hobbes",
+        "Leviathan"
+      ]
+    },
+    "machiavelli-the-prince": {
+      "gutenberg": 1232,
+      "out": "machiavelli-the-prince.txt",
+      "minChars": 50000,
+      "needles": [
+        "Machiavelli",
+        "The"
+      ]
+    },
+    "federalist-papers-complete": {
+      "gutenberg": 1404,
+      "out": "federalist-papers-complete.txt",
+      "minChars": 400000,
+      "needles": [
+        "Hamilton",
+        "The"
+      ]
+    },
+    "keynes-economic-consequences-peace": {
+      "gutenberg": 15776,
+      "out": "keynes-economic-consequences-peace.txt",
+      "minChars": 100000,
+      "needles": [
+        "Keynes",
+        "The"
+      ]
+    },
+    "mallock-aristocracy-evolution": {
+      "gutenberg": 58968,
+      "out": "mallock-aristocracy-evolution.txt",
+      "minChars": 150000,
+      "needles": [
+        "Mallock",
+        "Aristocracy"
+      ]
+    },
+    "bellamy-equality": {
+      "gutenberg": 7303,
+      "url": "https://www.gutenberg.org/ebooks/7303.txt.utf-8",
+      "out": "bellamy-equality.txt",
+      "minChars": 150000
+    },
+    "looking-further-forward": {
+      "gutenberg": 59330,
+      "url": "https://www.gutenberg.org/files/59330/59330-0.txt",
+      "out": "looking-further-forward.txt",
+      "minChars": 80000
+    },
+    "maine-ancient-law": {
+      "gutenberg": 22910,
+      "url": "https://www.gutenberg.org/ebooks/22910.txt.utf-8",
+      "out": "maine-ancient-law.txt",
+      "minChars": 150000
+    },
+    "lecky-map-of-life": {
+      "gutenberg": 26334,
+      "url": "https://www.gutenberg.org/ebooks/26334.txt.utf-8",
+      "out": "lecky-map-of-life.txt",
+      "minChars": 100000
+    },
+    "lenin-imperialism": {
+      "mia": true,
+      "out": "lenin-imperialism.txt",
+      "minChars": 80000
+    },
+    "marx-value-price-profit": {
+      "mia": true,
+      "out": "marx-value-price-profit.txt",
+      "minChars": 30000
+    },
+    "marx-poverty-of-philosophy": {
+      "mia": true,
+      "out": "marx-poverty-of-philosophy.txt",
+      "minChars": 34735
+    },
+    "engels-anti-duhring": {
+      "mia": true,
+      "out": "engels-anti-duhring.txt",
+      "minChars": 150000
+    },
+    "marx-capital-vol1": {
+      "mia": true,
+      "out": "marx-capital-vol1.txt",
+      "minChars": 500000
+    },
+    "spooner-no-treason": {
+      "gutenberg": 36145,
+      "out": "spooner-no-treason.txt",
+      "minChars": 20000
+    },
+    "spooner-trial-by-jury": {
+      "gutenberg": 1201,
+      "out": "spooner-trial-by-jury.txt",
+      "minChars": 100000
+    },
+    "spooner-letter-cleveland": {
+      "gutenberg": 35016,
+      "out": "spooner-letter-cleveland.txt",
+      "minChars": 80000
+    },
+    "spooner-unconstitutionality-slavery": {
+      "gutenberg": 31844,
+      "out": "spooner-unconstitutionality-slavery.txt",
+      "minChars": 80000
+    },
+    "spencer-man-versus-state": {
+      "archive": "manversusstateco00spen",
+      "url": "https://archive.org/details/manversusstateco00spen",
+      "note": "1884 essays; OCR cleaned; modern intros stripped",
+      "out": "spencer-man-versus-state.txt",
+      "minChars": 40000
+    },
+    "george-progress-and-poverty": {
+      "gutenberg": 55308,
+      "out": "george-progress-and-poverty.txt",
+      "minChars": 200000,
+      "needles": [
+        "George",
+        "Progress"
+      ]
+    },
+    "oppenheimer-the-state": {
+      "gutenberg": 51544,
+      "out": "oppenheimer-the-state.txt",
+      "minChars": 80000,
+      "needles": [
+        "Oppenheimer",
+        "The"
+      ]
+    },
+    "dewey-democracy-and-education": {
+      "gutenberg": 852,
+      "out": "dewey-democracy-and-education.txt",
+      "minChars": 200000,
+      "needles": [
+        "Dewey",
+        "Democracy"
+      ]
+    },
+    "russell-proposed-roads-to-freedom": {
+      "gutenberg": 690,
+      "out": "russell-proposed-roads-to-freedom.txt",
+      "minChars": 80000,
+      "needles": [
+        "Russell",
+        "Proposed"
+      ]
+    },
+    "walling-socialism-as-it-is": {
+      "gutenberg": 20816,
+      "out": "walling-socialism-as-it-is.txt",
+      "minChars": 150000,
+      "needles": [
+        "Walling",
+        "Socialism"
+      ]
+    },
+    "spargo-syndicalism-industrial-unionism": {
+      "gutenberg": 41068,
+      "out": "spargo-syndicalism-industrial-unionism.txt",
+      "minChars": 80000,
+      "needles": [
+        "Spargo",
+        "Syndicalism,"
+      ]
+    },
+    "bohm-bawerk-close-of-marx": {
+      "archive": "https://archive.org/stream/karlmarxandclos00macdgoog/karlmarxandclos00macdgoog_djvu.txt",
+      "out": "bohm-bawerk-close-of-marx.txt",
+      "minChars": 40000,
+      "needles": [
+        "Marx",
+        "value",
+        "surplus"
+      ]
+    },
+    "tocqueville-old-regime": {
+      "archive": "https://archive.org/stream/oldregimerevolut00tocq/oldregimerevolut00tocq_djvu.txt",
+      "out": "tocqueville-old-regime.txt",
+      "minChars": 80000,
+      "needles": [
+        "Tocqueville",
+        "Revolution",
+        "centralization"
+      ]
+    },
+    "hunter-violence-labor-movement": {
+      "gutenberg": 31108,
+      "out": "hunter-violence-labor-movement.txt",
+      "minChars": 100000,
+      "needles": [
+        "Hunter",
+        "Violence"
+      ]
+    }
+  }
+}

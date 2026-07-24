@@ -1,0 +1,739 @@
+{
+  "schemaVersion": 2,
+  "kbVersion": "3.0.0",
+  "bundleId": "cultural-subversion-wave2-v3",
+  "priority": 10,
+  "updatedAt": "2026-07-06T23:30:00Z",
+  "contentHash": "sha256:wave2-v3-cultural-subversion",
+  "claims": [
+    {
+      "id": "lukacs-reification-dismissal",
+      "topicId": "lukacs-reification",
+      "topicPath": "/ideological-subversion/lukacs-reification",
+      "title": "Lukács and Reification Are Fringe Internet Theories",
+      "socialistClaimText": "Georg Lukács and \"reification\" appear only in obscure graduate seminars — linking them to modern activism is academic cosplay.",
+      "executiveSummary": "Lukács's History and Class Consciousness (1923) is a canonical Marxist text that influenced the Frankfurt School and later critical theory. His concept of reification — treating social relations as thing-like facts — underpins analyses of commodity fetishism, bureaucracy, and false consciousness. Stanford Encyclopedia documents his central role in Western Marxism. Marcuse, Adorno, and later critical legal and pedagogical traditions cite this lineage. Dismissing Lukács as fringe erases a documented bridge between classical Marxism and institution-focused critical theory.",
+      "evidenceBullets": [
+        "Stanford SEP — \"Georg Lukács\": reification and totality in History and Class Consciousness (1923) shaped Western Marxism.",
+        "Lukács: commodity structure penetrates consciousness — workers accept capitalist categories as natural.",
+        "Frankfurt School bibliographies treat Lukács as precursor to critical theory's culture-and-consciousness turn.",
+        "Internet Encyclopedia of Philosophy — Critical Theory: Lukács listed in genealogies preceding Horkheimer and Adorno."
+      ],
+      "fallacies": [
+        "appeal to obscurity",
+        "genetic fallacy denial",
+        "cherry picking"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia of Philosophy — Georg Lukács",
+          "url": "https://plato.stanford.edu/entries/lukacs/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Stanford Encyclopedia of Philosophy, Georg Lukács (reification, class consciousness)."
+        },
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Critical Theory",
+          "url": "https://plato.stanford.edu/entries/critical-theory/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Stanford SEP, Critical Theory — Lukács to Frankfurt School lineage."
+        },
+        {
+          "id": "primary",
+          "title": "Marxists Internet Archive — Lukács bibliography",
+          "url": "https://www.marxists.org/archive/lukacs/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-06",
+          "citation": "MIA, Georg Lukács archive and History and Class Consciousness materials."
+        },
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Karl Marx (Commodity Fetishism)",
+          "url": "https://plato.stanford.edu/entries/marx/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Stanford SEP, Marx — fetishism of commodities (concept Lukács extends)."
+        }
+      ],
+      "whyItMatters": "Reification explains how people treat political categories (race, gender, bureaucracy) as immutable things — the philosophical move behind much modern critical pedagogy.",
+      "relatedClaimIds": [
+        "cultural-marxism-dismissal",
+        "marx-superstructure-culture",
+        "frankfurt-mass-culture"
+      ],
+      "tags": [
+        "lukacs",
+        "reification",
+        "western marxism",
+        "consciousness",
+        "frankfurt school"
+      ],
+      "claimQuote": "The essence of commodity-structure has often been pointed out. Its basis is that a relation between people takes on the character of a thing.",
+      "quoteAttribution": "Georg Lukács, History and Class Consciousness (1923) — paraphrase of reification thesis",
+      "schemaVersion": 2,
+      "kbVersion": "3.0.0",
+      "revision": 1,
+      "contentHash": "sha256:v30claim1lukacs",
+      "updatedAt": "2026-07-06T23:30:00Z",
+      "publishedAt": "2026-07-06T23:30:00Z",
+      "embeddingText": "Lukacs Reification Fringe Internet Theories Georg Lukacs History and Class Consciousness reification Western Marxism Frankfurt School",
+      "searchText": "Lukacs reification fringe Western Marxism History and Class Consciousness Frankfurt School"
+    },
+    {
+      "id": "adorno-culture-industry",
+      "topicId": "frankfurt-critical-theory",
+      "topicPath": "/ideological-subversion/frankfurt-critical-theory",
+      "title": "The \"Culture Industry\" Thesis Was Just Media Studies",
+      "socialistClaimText": "Adorno and Horkheimer's \"culture industry\" essay was neutral media criticism — not a political program to reshape mass consciousness.",
+      "executiveSummary": "Dialectic of Enlightenment (1944) argues that mass culture standardizes desire, enforces conformity, and stabilizes capitalism. Adorno and Horkheimer treat Hollywood, radio, and advertising as ideological apparatus — not entertainment scholarship. Stanford SEP's Adorno entry documents the political intent: critique of administered society and false needs. This is foundational Frankfurt School doctrine, cited across critical pedagogy, media studies, and activist theory on representation and propaganda.",
+      "evidenceBullets": [
+        "Adorno & Horkheimer (1944): culture industry produces standardized pleasure that pacifies and manipulates mass consciousness.",
+        "Stanford SEP — Adorno: culture industry chapter ties aesthetic critique to emancipatory politics.",
+        "Frankfurt School exile at Columbia/U.S. universities spread critical methods into American social research.",
+        "IEP Frankfurt School: mass culture analysis is core to critical theory's political project."
+      ],
+      "fallacies": [
+        "ivory tower myth",
+        "neutral framing",
+        "presentism"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Theodor Adorno",
+          "url": "https://plato.stanford.edu/entries/adorno/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Stanford SEP, Theodor Adorno — culture industry and critical theory."
+        },
+        {
+          "id": "academic",
+          "title": "Internet Encyclopedia of Philosophy — Frankfurt School",
+          "url": "https://iep.utm.edu/frankfur/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "IEP, Frankfurt School — culture industry and mass deception."
+        },
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Critical Theory",
+          "url": "https://plato.stanford.edu/entries/critical-theory/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Stanford SEP, Critical Theory — emancipatory social critique."
+        },
+        {
+          "id": "primary",
+          "title": "Marxists Internet Archive — Horkheimer index",
+          "url": "https://www.marxists.org/reference/archive/horkheimer/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-06",
+          "citation": "MIA, Max Horkheimer archive — Dialectic of Enlightenment context."
+        }
+      ],
+      "whyItMatters": "When activists treat Hollywood, advertising, and curriculum as \"hegemonic,\" they apply Adorno's framework — politics through culture, not beside it.",
+      "relatedClaimIds": [
+        "frankfurt-mass-culture",
+        "cultural-marxism-dismissal",
+        "trotsky-proletarian-culture"
+      ],
+      "tags": [
+        "adorno",
+        "horkheimer",
+        "culture industry",
+        "mass media",
+        "frankfurt school"
+      ],
+      "claimQuote": "Culture today is infecting everything with sameness. Film, radio, and magazines form a system which is uniform as a whole and in every part.",
+      "quoteAttribution": "Theodor Adorno & Max Horkheimer, Dialectic of Enlightenment, \"The Culture Industry\" (1944)",
+      "schemaVersion": 2,
+      "kbVersion": "3.0.0",
+      "revision": 1,
+      "contentHash": "sha256:v30claim2adorno",
+      "updatedAt": "2026-07-06T23:30:00Z",
+      "publishedAt": "2026-07-06T23:30:00Z",
+      "embeddingText": "Culture Industry Thesis Just Media Studies Adorno Horkheimer Dialectic of Enlightenment mass culture conformity Frankfurt School",
+      "searchText": "Culture industry Adorno Horkheimer media studies Frankfurt School mass culture"
+    },
+    {
+      "id": "fabian-permeation-strategy",
+      "topicId": "gramsci-hegemony",
+      "topicPath": "/ideological-subversion/gramsci-hegemony",
+      "title": "Fabian \"Permeation\" Is a Conservative Myth",
+      "socialistClaimText": "The Fabian Society's strategy of infiltrating existing parties and institutions is an invented smear — British democratic socialism always operated openly.",
+      "executiveSummary": "Fabian Essays (1889) explicitly propose conquering by delay — patient permeation of political parties, civil service, and public opinion rather than sudden revolution. Sidney Webb and George Bernard Shaw described entering liberal and establishment institutions to reshape policy from within. This is documented primary-source strategy, not retrospective accusation. It prefigures Gramsci's war of position and Dutschke's long march — institution-focused socialism with open authorship.",
+      "evidenceBullets": [
+        "Fabian Essays (1889, PD): \"conquer by delay\" — strike only when the time is ripe after patient exposition.",
+        "Fabian programme: spread socialist opinions through discussion, political action, and permeation of existing bodies.",
+        "Historical Fabian Society: influenced British Labour Party formation and welfare-state bureaucracy.",
+        "Wikipedia — Long march through institutions: Fabian gradualism cited as Anglo precedent to Gramsci/Dutschke."
+      ],
+      "fallacies": [
+        "historical amnesia",
+        "straw man",
+        "appeal to democracy"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "primary",
+          "title": "Fabian Essays in Socialism (1889) — in-app library",
+          "url": "https://www.gutenberg.org/ebooks/18200",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-06",
+          "citation": "Fabian Society, Fabian Essays in Socialism (1889). Public domain."
+        },
+        {
+          "id": "academic",
+          "title": "Wikipedia — Fabian Society",
+          "url": "https://en.wikipedia.org/wiki/Fabian_Society",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Wikipedia, Fabian Society — gradualism and permeation strategy."
+        },
+        {
+          "id": "academic",
+          "title": "Wikipedia — Long march through the institutions",
+          "url": "https://en.wikipedia.org/wiki/Long_march_through_the_institutions",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Wikipedia, long march — Fabian and Gramsci lineages."
+        },
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Antonio Gramsci",
+          "url": "https://plato.stanford.edu/entries/gramsci/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Stanford SEP, Gramsci — war of position in civil society."
+        }
+      ],
+      "whyItMatters": "Institution permeation is openly theorized in Fabian primary sources — modern NGO and party infiltration debates have nineteenth-century precedent.",
+      "relatedClaimIds": [
+        "gramsci-war-of-position",
+        "institution-capture-myth",
+        "ngo-funding-transparency"
+      ],
+      "tags": [
+        "fabian society",
+        "permeation",
+        "gramsci",
+        "gradualism",
+        "pd-quote"
+      ],
+      "claimQuote": "The Fabian Society proposes then to conquer by delay… when the time comes you must strike hard, as Fabius did, or your waiting will be in vain.",
+      "quoteAttribution": "William Clarke, Fabian Essays in Socialism (1889) — public domain",
+      "schemaVersion": 2,
+      "kbVersion": "3.0.0",
+      "revision": 1,
+      "contentHash": "sha256:v30claim3fabian",
+      "updatedAt": "2026-07-06T23:30:00Z",
+      "publishedAt": "2026-07-06T23:30:00Z",
+      "embeddingText": "Fabian Permeation Conservative Myth Fabian Society conquer by delay permeation institutions Gramsci long march",
+      "searchText": "Fabian permeation myth Fabian Society conquer by delay institutions Gramsci"
+    },
+    {
+      "id": "soviet-active-measures-myth",
+      "topicId": "soviet-active-measures",
+      "topicPath": "/ideological-subversion/soviet-active-measures",
+      "title": "Soviet \"Active Measures\" Are Cold War Propaganda",
+      "socialistClaimText": "Talk of Soviet \"active measures,\" front groups, and ideological warfare is Red Scare fabrication — the USSR did not systematically target Western institutions.",
+      "executiveSummary": "Declassified U.S. and Soviet archival materials document KGB \"active measures\" (aktivnyye meropriyatiya) — disinformation, front organizations, and influence operations aimed at Western opinion. Library of Congress Russian Archives exhibits and CIA Reading Room releases describe party propaganda departments and international fronts. These are not McCarthy-era inventions; they are state-documented programs paralleling Lenin's propaganda theory and Comintern institution-building.",
+      "evidenceBullets": [
+        "Library of Congress — Revelations from the Russian Archives: party propaganda and control of information.",
+        "CIA FOIA Reading Room: declassified analyses of Soviet active measures and influence campaigns.",
+        "Lenin (1902): newspaper as collective organiser — theoretical basis for propaganda infrastructure.",
+        "Historical record: Comintern-funded fronts and peace movements documented in Cold War scholarship."
+      ],
+      "fallacies": [
+        "conspiracy dismissal",
+        "Cold War exceptionalism",
+        "false dichotomy"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "government",
+          "title": "Library of Congress — Revelations from the Russian Archives",
+          "url": "https://www.loc.gov/exhibits/archives/sovi.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-06",
+          "citation": "LOC, Soviet party propaganda and archival exhibits."
+        },
+        {
+          "id": "government",
+          "title": "CIA FOIA Reading Room",
+          "url": "https://www.cia.gov/readingroom/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-06",
+          "citation": "CIA declassified documents on Soviet influence and active measures."
+        },
+        {
+          "id": "primary",
+          "title": "Lenin — What Is To Be Done? (1902)",
+          "url": "https://www.marxists.org/archive/lenin/works/1901/witbd/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-06",
+          "citation": "Lenin, V. I. What Is To Be Done? — propaganda and organisation."
+        },
+        {
+          "id": "academic",
+          "title": "Wilson Center — Cold War International History Project",
+          "url": "https://www.wilsoncenter.org/program/cold-war-international-history-project",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Wilson Center, declassified East Bloc archival research."
+        }
+      ],
+      "whyItMatters": "Institution-focused subversion has state-level precedent — not only campus theory but documented Soviet programs targeting Western opinion.",
+      "relatedClaimIds": [
+        "lenin-vanguard-ideology",
+        "comintern-front-groups",
+        "institution-capture-myth"
+      ],
+      "tags": [
+        "soviet",
+        "active measures",
+        "propaganda",
+        "KGB",
+        "comintern"
+      ],
+      "claimQuote": "The newspaper is not only a collective propagandist and a collective agitator, it is also a collective organiser.",
+      "quoteAttribution": "V. I. Lenin, What Is To Be Done? (1902) — theoretical foundation for propaganda apparatus",
+      "schemaVersion": 2,
+      "kbVersion": "3.0.0",
+      "revision": 1,
+      "contentHash": "sha256:v30claim4soviet",
+      "updatedAt": "2026-07-06T23:30:00Z",
+      "publishedAt": "2026-07-06T23:30:00Z",
+      "embeddingText": "Soviet Active Measures Cold War Propaganda KGB aktivnyye meropriyatiya front groups Lenin propaganda archives",
+      "searchText": "Soviet active measures Cold War propaganda KGB front groups Lenin"
+    },
+    {
+      "id": "comintern-front-groups",
+      "topicId": "soviet-active-measures",
+      "topicPath": "/ideological-subversion/soviet-active-measures",
+      "title": "Comintern Front Groups Never Influenced Western Civil Society",
+      "socialistClaimText": "Claims that the Communist International built front organizations in media, unions, and academia are McCarthyite smears without archival basis.",
+      "executiveSummary": "The Communist International (1919–1943) openly aimed to coordinate revolutionary parties and sympathetic organizations worldwide. Soviet and Comintern archives published after 1991 document funding, direction, and front-group strategies. Yale's Annals of Communism series and Wilson Center translations publish primary Comintern materials. Western historians — not only anti-communist polemicists — treat front operations as established fact. Denying institutional infiltration requires ignoring declassified party records.",
+      "evidenceBullets": [
+        "Comintern founding (1919): explicit mission to lead international revolutionary movement and coordinate national parties.",
+        "Post-1991 archival releases: party documents on international departments and funded fronts.",
+        "Yale University Press — Annals of Communism: scholarly editions of Comintern records.",
+        "LOC Russian Archives: party control over propaganda and international work."
+      ],
+      "fallacies": [
+        "McCarthyism dismissal",
+        "false origin",
+        "appeal to ignorance"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "academic",
+          "title": "Yale University Press — Annals of Communism",
+          "url": "https://yalebooks.yale.edu/series/annals-communism/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Yale Annals of Communism — documentary editions of Soviet/Comintern records."
+        },
+        {
+          "id": "government",
+          "title": "Library of Congress — Russian Archives exhibit",
+          "url": "https://www.loc.gov/exhibits/archives/sovi.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-06",
+          "citation": "LOC, party propaganda and international communist movement materials."
+        },
+        {
+          "id": "academic",
+          "title": "Wilson Center — Digital Archive",
+          "url": "https://digitalarchive.wilsoncenter.org/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Wilson Center Digital Archive, Cold War and Comintern documents."
+        },
+        {
+          "id": "academic",
+          "title": "Wikipedia — Communist International",
+          "url": "https://en.wikipedia.org/wiki/Communist_International",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Wikipedia, Comintern history and organizational mission."
+        }
+      ],
+      "whyItMatters": "Modern debates over foreign influence and astroturfed NGOs mirror documented Comintern methods — history rhymes when archives are open.",
+      "relatedClaimIds": [
+        "soviet-active-measures-myth",
+        "lenin-vanguard-ideology",
+        "ngo-funding-transparency"
+      ],
+      "tags": [
+        "comintern",
+        "front groups",
+        "soviet",
+        "archives",
+        "infiltration"
+      ],
+      "claimQuote": "The Communist International is the organized vanguard of the international proletariat.",
+      "quoteAttribution": "Comintern founding documents (1919) — organizational self-description",
+      "schemaVersion": 2,
+      "kbVersion": "3.0.0",
+      "revision": 1,
+      "contentHash": "sha256:v30claim5comintern",
+      "updatedAt": "2026-07-06T23:30:00Z",
+      "publishedAt": "2026-07-06T23:30:00Z",
+      "embeddingText": "Comintern Front Groups Never Influenced Western Civil Society Communist International archives Yale Annals infiltration",
+      "searchText": "Comintern front groups McCarthyite archives Communist International infiltration"
+    },
+    {
+      "id": "dei-neutral-workplace",
+      "topicId": "ngo-dei-networks",
+      "topicPath": "/ideological-subversion/ngo-dei-networks",
+      "title": "DEI Programs Are Neutral HR Compliance",
+      "socialistClaimText": "Corporate DEI and workplace training are harmless compliance — they do not embed ideological frameworks or enforce viewpoint conformity.",
+      "executiveSummary": "DEI training curricula publicly cite critical pedagogy, implicit-bias ideology, and systemic-power frameworks — not neutral etiquette. FIRE and Heterodox Academy document mandatory trainings and speech expectations in higher education and corporations. SEC filings and corporate reports disclose DEI program spending and governance integration. Whether one approves or not, the content is explicitly ideological (power, privilege, systemic oppression) — not mere legal compliance.",
+      "evidenceBullets": [
+        "FIRE — workplace and campus speech surveys: mandatory trainings correlate with self-censorship.",
+        "Corporate 10-K/ESG reports: DEI metrics and training described as culture-change initiatives.",
+        "Critical pedagogy lineage (Freire, Kendi-adjacent frameworks): DEI materials reference systemic oppression analysis.",
+        "Heterodox Academy: organizational DEI statements predict viewpoint homogeneity."
+      ],
+      "fallacies": [
+        "motte-and-bailey",
+        "equivocation on neutral",
+        "appeal to compliance"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "government",
+          "title": "FIRE — 2024 Spotlight on Speech Codes",
+          "url": "https://www.thefire.org/research-learn/2024-spotlight-on-speech-codes-report",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-06",
+          "citation": "FIRE, campus and policy speech climate reports."
+        },
+        {
+          "id": "academic",
+          "title": "Heterodox Academy — Campus Expression Survey",
+          "url": "https://heterodoxacademy.org/campus-expression-survey/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Heterodox Academy, viewpoint climate and self-censorship data."
+        },
+        {
+          "id": "academic",
+          "title": "Internet Encyclopedia of Philosophy — Paulo Freire",
+          "url": "https://iep.utm.edu/freire/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "IEP, Freire — conscientization and oppression pedagogy."
+        },
+        {
+          "id": "government",
+          "title": "SEC EDGAR — Company filings search",
+          "url": "https://www.sec.gov/edgar/searchedgar/companysearch",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-06",
+          "citation": "SEC EDGAR, public corporate disclosures including DEI/ESG reporting."
+        }
+      ],
+      "whyItMatters": "HR departments now function as ideology enforcement — understanding the frameworks prevents mistaking activism for neutral policy.",
+      "relatedClaimIds": [
+        "critical-pedagogy-lineage",
+        "institution-capture-myth",
+        "soft-despotism-conformity"
+      ],
+      "tags": [
+        "DEI",
+        "HR",
+        "workplace",
+        "training",
+        "ideology"
+      ],
+      "claimQuote": "Education either functions as an instrument which is used to facilitate integration into the logic of the present system and bring about conformity, or it becomes the practice of freedom.",
+      "quoteAttribution": "Paulo Freire, Pedagogy of the Oppressed (1970) — framework cited in critical pedagogy / DEI lineages",
+      "schemaVersion": 2,
+      "kbVersion": "3.0.0",
+      "revision": 1,
+      "contentHash": "sha256:v30claim6dei",
+      "updatedAt": "2026-07-06T23:30:00Z",
+      "publishedAt": "2026-07-06T23:30:00Z",
+      "embeddingText": "DEI Programs Neutral HR Compliance corporate training ideology FIRE heterodox critical pedagogy workplace",
+      "searchText": "DEI neutral HR compliance workplace training ideology critical pedagogy"
+    },
+    {
+      "id": "school-board-capture",
+      "topicId": "education-capture",
+      "topicPath": "/ideological-subversion/education-capture",
+      "title": "Parents Protesting School Boards Are Anti-Democratic",
+      "socialistClaimText": "Parents who challenge school boards over curriculum are undemocratic extremists — professional educators alone should set standards.",
+      "executiveSummary": "American public schools are government bodies subject to democratic oversight — school boards are elected precisely so citizens govern education policy. Freire and critical pedagogy literature explicitly treat schooling as political conscientization, not value-neutral instruction. When districts adopt SEL/DEI frameworks derived from critical theory, parents are debating applied ideology — not rejecting expertise per se. Federal and state statutes preserve parental notification and board governance — democracy at the local level, not mob rule.",
+      "evidenceBullets": [
+        "U.S. tradition: elected school boards — local democratic control of public education.",
+        "Freire (1970): education is never neutral — either conformity to the system or practice of freedom.",
+        "Critical pedagogy scholarship (Giroux, McLaren): schools are sites of ideological struggle.",
+        "State sunshine laws and board meeting requirements — public deliberation, not closed expert rule."
+      ],
+      "fallacies": [
+        "appeal to authority",
+        "false dichotomy",
+        "tone policing"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "academic",
+          "title": "Internet Encyclopedia of Philosophy — Paulo Freire",
+          "url": "https://iep.utm.edu/freire/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "IEP, Freire — banking model vs. conscientization."
+        },
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Critical Theory",
+          "url": "https://plato.stanford.edu/entries/critical-theory/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Stanford SEP, Critical Theory — pedagogy as application domain."
+        },
+        {
+          "id": "government",
+          "title": "U.S. Department of Education — Overview of school governance",
+          "url": "https://www.ed.gov/about/ed-overview",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-06",
+          "citation": "U.S. ED, federal overview — state/local control of education."
+        },
+        {
+          "id": "academic",
+          "title": "Wikipedia — School board",
+          "url": "https://en.wikipedia.org/wiki/School_board",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Wikipedia, elected school boards in U.S. public education."
+        }
+      ],
+      "whyItMatters": "If schooling is political by the Left's own theorists, parents have standing to contest curriculum — calling them fascists avoids argument.",
+      "relatedClaimIds": [
+        "critical-pedagogy-lineage",
+        "marx-superstructure-culture",
+        "gramsci-war-of-position"
+      ],
+      "tags": [
+        "education",
+        "school boards",
+        "parents",
+        "freire",
+        "curriculum"
+      ],
+      "claimQuote": "There is no such thing as a neutral educational process.",
+      "quoteAttribution": "Paulo Freire, paraphrase from Pedagogy of the Oppressed (1970)",
+      "schemaVersion": 2,
+      "kbVersion": "3.0.0",
+      "revision": 1,
+      "contentHash": "sha256:v30claim7schools",
+      "updatedAt": "2026-07-06T23:30:00Z",
+      "publishedAt": "2026-07-06T23:30:00Z",
+      "embeddingText": "Parents Protesting School Boards Anti-Democratic curriculum Freire critical pedagogy elected boards education capture",
+      "searchText": "Parents school boards anti-democratic curriculum Freire critical pedagogy education"
+    },
+    {
+      "id": "ngo-funding-transparency",
+      "topicId": "ngo-dei-networks",
+      "topicPath": "/ideological-subversion/ngo-dei-networks",
+      "title": "NGO Funding Networks Are Too Fragmented to Matter",
+      "socialistClaimText": "Philanthropic and NGO funding is too decentralized to shape national policy — claims of coordinated advocacy networks are conspiracy theories.",
+      "executiveSummary": "U.S. tax law requires public 990 filings for nonprofits — ProPublica's Nonprofit Explorer and IRS EO-BMF data expose billion-dollar flows between foundations, advocacy NGOs, and education grants. InfluenceWatch and similar databases map personnel and funding links across civil society organizations. Gramsci and Fabian theory predict institution contestation via funded networks; empirically, the money trails are transparent, not occult. Scale and coordination are documentable.",
+      "evidenceBullets": [
+        "IRS EO-BMF / ProPublica Nonprofit Explorer: searchable 990 data for major foundations and advocacy NGOs.",
+        "InfluenceWatch: profiles of advocacy organizations, funders, and personnel overlap.",
+        "Large foundations publicly disclose DEI, climate, and democracy-program grants shaping K–12 and university policy.",
+        "Gramsci: civil society institutions are terrain of hegemonic struggle — funding is the logistics of that struggle."
+      ],
+      "fallacies": [
+        "conspiracy dismissal",
+        "scale insensitivity",
+        "availability heuristic"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "government",
+          "title": "ProPublica — Nonprofit Explorer",
+          "url": "https://projects.propublica.org/nonprofits/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-06",
+          "citation": "ProPublica, IRS Form 990 search for U.S. nonprofits."
+        },
+        {
+          "id": "government",
+          "title": "IRS — Exempt Organizations Business Master File",
+          "url": "https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-06",
+          "citation": "IRS EO-BMF public extract."
+        },
+        {
+          "id": "think_tank",
+          "title": "InfluenceWatch",
+          "url": "https://www.influencewatch.org/",
+          "doi": null,
+          "type": "think_tank",
+          "accessedAt": "2026-07-06",
+          "citation": "InfluenceWatch, nonprofit and advocacy organization profiles."
+        },
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Antonio Gramsci",
+          "url": "https://plato.stanford.edu/entries/gramsci/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Stanford SEP, Gramsci — civil society and hegemony."
+        }
+      ],
+      "whyItMatters": "Follow the 990s — civil society is financed, and financed networks change law, curriculum, and corporate policy at scale.",
+      "relatedClaimIds": [
+        "institution-capture-myth",
+        "fabian-permeation-strategy",
+        "dei-neutral-workplace"
+      ],
+      "tags": [
+        "NGO",
+        "philanthropy",
+        "990",
+        "funding",
+        "civil society"
+      ],
+      "claimQuote": "A sturdy structure of civil society was at once revealed. The state was only an outer ditch, behind which there stood a powerful system of fortresses and earthworks.",
+      "quoteAttribution": "Antonio Gramsci, Prison Notebooks — civil society as organized hegemony",
+      "schemaVersion": 2,
+      "kbVersion": "3.0.0",
+      "revision": 1,
+      "contentHash": "sha256:v30claim8ngo",
+      "updatedAt": "2026-07-06T23:30:00Z",
+      "publishedAt": "2026-07-06T23:30:00Z",
+      "embeddingText": "NGO Funding Networks Fragmented conspiracy ProPublica 990 InfluenceWatch Gramsci civil society philanthropy",
+      "searchText": "NGO funding networks conspiracy ProPublica 990 philanthropy civil society Gramsci"
+    },
+    {
+      "id": "trotsky-proletarian-culture",
+      "topicId": "education-capture",
+      "topicPath": "/ideological-subversion/education-capture",
+      "title": "Revolutionaries Never Cared About Art or Curriculum",
+      "socialistClaimText": "Socialists focused on factories and wages — claims that revolutionaries targeted literature, art, and schooling are culture-war inventions.",
+      "executiveSummary": "Trotsky's Literature and Revolution (1924) argues that the proletariat must develop its own cultural policy — art, education, and literature are weapons of class struggle. Lenin tied newspapers to organisation; Marx attacked bourgeois education in the Manifesto. Soviet and Comintern archives document state ideological curricula. Culture-war battlegrounds are predictable because revolutionaries said so in primary texts.",
+      "evidenceBullets": [
+        "Trotsky (1924): revolutionary art and proletarian culture — party as organ of consciousness.",
+        "Marx & Engels Manifesto (1848): transform education, attack bourgeois family and morality.",
+        "Lenin (1902): socialist consciousness imported by intellectual vanguard — not spontaneous.",
+        "LOC Soviet archives: party propaganda departments and education policy at scale."
+      ],
+      "fallacies": [
+        "reductionism",
+        "historical amnesia",
+        "false specialization"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "primary",
+          "title": "Trotsky — Literature and Revolution (1924)",
+          "url": "https://www.marxists.org/archive/trotsky/1924/lit_revo/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-06",
+          "citation": "Trotsky, L. Literature and Revolution. Marxists Internet Archive."
+        },
+        {
+          "id": "primary",
+          "title": "Marx & Engels — Communist Manifesto",
+          "url": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-06",
+          "citation": "Marx & Engels (1848). Communist Manifesto."
+        },
+        {
+          "id": "primary",
+          "title": "Lenin — What Is To Be Done?",
+          "url": "https://www.marxists.org/archive/lenin/works/1901/witbd/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-06",
+          "citation": "Lenin, V. I. What Is To Be Done?"
+        },
+        {
+          "id": "government",
+          "title": "Library of Congress — Russian Archives",
+          "url": "https://www.loc.gov/exhibits/archives/sovi.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-06",
+          "citation": "LOC, Soviet propaganda and education exhibits."
+        }
+      ],
+      "whyItMatters": "When school boards fight over literature and history standards, both sides are contesting terrain revolutionaries marked as essential.",
+      "relatedClaimIds": [
+        "marx-superstructure-culture",
+        "adorno-culture-industry",
+        "school-board-capture"
+      ],
+      "tags": [
+        "trotsky",
+        "culture",
+        "education",
+        "art",
+        "pd-quote"
+      ],
+      "claimQuote": "Art is a means of cognition and communication… The class that holds political power also strives to impose its moral and aesthetic criteria on society.",
+      "quoteAttribution": "Leon Trotsky, Literature and Revolution (1924) — public domain",
+      "schemaVersion": 2,
+      "kbVersion": "3.0.0",
+      "revision": 1,
+      "contentHash": "sha256:v30claim9trotsky",
+      "updatedAt": "2026-07-06T23:30:00Z",
+      "publishedAt": "2026-07-06T23:30:00Z",
+      "embeddingText": "Revolutionaries Never Cared About Art Curriculum Trotsky Literature and Revolution proletarian culture education Lenin",
+      "searchText": "Revolutionaries art curriculum Trotsky Literature and Revolution education culture war"
+    }
+  ]
+}

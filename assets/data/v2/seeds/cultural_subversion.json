@@ -1,0 +1,836 @@
+{
+  "schemaVersion": 2,
+  "kbVersion": "3.0.0",
+  "bundleId": "cultural-subversion-v2",
+  "priority": 10,
+  "updatedAt": "2026-07-06T22:30:00Z",
+  "contentHash": "sha256:148e3348ee6372c2bd5426857a2aac67efa61f676a55f4e2cde8ff9007063ad8",
+  "claims": [
+    {
+      "id": "cultural-marxism-dismissal",
+      "topicId": "frankfurt-critical-theory",
+      "topicPath": "/ideological-subversion/frankfurt-critical-theory",
+      "title": "\"Cultural Marxism\" Is Pure Fabrication",
+      "socialistClaimText": "Talk of \"cultural Marxism\" or \"cultural Marxists\" is a far-right conspiracy theory with no basis in what Marxists, critical theorists, or historians actually wrote.",
+      "executiveSummary": "The label is often used loosely in popular debate — but the underlying claim that Marx-derived critical theory had no cultural or institutional agenda is false. Marx and Engels treated law, religion, family, and education as parts of the superstructure shaped by class relations. The Frankfurt School explicitly analyzed culture, authority, and psychology (Horkheimer's 1937 essay defining critical theory; Adorno and Horkheimer's analysis of mass culture). After 1933, Frankfurt Institute members relocated to Columbia and other U.S. universities, continuing interdisciplinary work on authority and ideology. Whether one calls it \"cultural Marxism\" or critical theory, the documentary record shows a deliberate turn from factory-floor agitation alone toward culture, consciousness, and institutions.",
+      "evidenceBullets": [
+        "Marx & Engels, Communist Manifesto (1848, PD): law, morality, religion are \"bourgeois\" intellectual productions — ideology is not separate from economics.",
+        "Stanford Encyclopedia of Philosophy — \"Critical Theory\" (Horkheimer 1937): theory must analyze the whole of society including culture, family, and authoritarian personality.",
+        "Stanford Encyclopedia — \"Frankfurt School\": Institute for Social Research founded 1923; interdisciplinary study of culture, authority, and capitalism's crisis.",
+        "Internet Encyclopedia of Philosophy — Frankfurt School: exiled critical theorists continued U.S. academic work post-1933 — documented migration, not speculation."
+      ],
+      "fallacies": [
+        "straw man dismissal",
+        "presentism",
+        "false origin story"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "primary",
+          "title": "Marx & Engels — Communist Manifesto (1848)",
+          "url": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-06",
+          "citation": "Marx, K. & Engels, F. (1848). Manifesto of the Communist Party. Public domain."
+        },
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia of Philosophy — Critical Theory",
+          "url": "https://plato.stanford.edu/entries/critical-theory/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Stanford Encyclopedia of Philosophy, Critical Theory (Frankfurt School overview)."
+        },
+        {
+          "id": "primary",
+          "title": "Marxists Internet Archive — Horkheimer, Traditional and Critical Theory (1937)",
+          "url": "https://www.marxists.org/reference/archive/horkheimer/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-06",
+          "citation": "Horkheimer, M. Marxists Internet Archive — critical theory works index (incl. Traditional and Critical Theory, 1937)."
+        },
+        {
+          "id": "academic",
+          "title": "Internet Encyclopedia of Philosophy — The Frankfurt School",
+          "url": "https://iep.utm.edu/frankfur/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Internet Encyclopedia of Philosophy, Frankfurt School and critical theory."
+        }
+      ],
+      "whyItMatters": "Dismissing the cultural dimension lets debaters ignore primary texts where revolutionaries explicitly targeted ideology, education, and civil society — the very battleground of modern culture-war politics.",
+      "relatedClaimIds": [
+        "marx-superstructure-culture",
+        "frankfurt-mass-culture",
+        "lenin-vanguard-ideology"
+      ],
+      "tags": [
+        "frankfurt school",
+        "critical theory",
+        "culture",
+        "ideology",
+        "marx",
+        "pd-quote"
+      ],
+      "claimQuote": "Your very ideas are but the outgrowth of the conditions of your bourgeois production and bourgeois property… The ruling ideas of each age have ever been the ideas of its rulers.",
+      "quoteAttribution": "Marx & Engels, Communist Manifesto, Ch. I (1848) — public domain",
+      "schemaVersion": 2,
+      "kbVersion": "3.0.0",
+      "revision": 1,
+      "contentHash": "sha256:v28claim1culturalmarxism",
+      "updatedAt": "2026-07-06T22:30:00Z",
+      "publishedAt": "2026-07-06T22:30:00Z",
+      "embeddingText": "Cultural Marxism Is Pure Fabrication Talk of cultural Marxism or cultural Marxists is a far-right conspiracy theory with no basis in what Marxists critical theorists or historians actually wrote. Marx Engels superstructure Frankfurt School Horkheimer Adorno ideology culture",
+      "searchText": "Cultural Marxism Is Pure Fabrication far-right conspiracy theory Marxists critical theorists frankfurt school ideology culture"
+    },
+    {
+      "id": "gramsci-war-of-position",
+      "topicId": "gramsci-hegemony",
+      "topicPath": "/ideological-subversion/gramsci-hegemony",
+      "title": "Gramsci Wanted Only Open Democratic Politics",
+      "socialistClaimText": "Antonio Gramsci was a democratic socialist who only advocated elections and unions — conservatives invent the \"long march through the institutions\" quote.",
+      "executiveSummary": "Gramsci did work within parliamentary socialism, but his Prison Notebooks (written 1929–1935) develop a strategy of \"war of position\" — capturing hegemony through civil society (schools, press, unions, culture) before or alongside frontal political assault. He contrasts this with a \"war of manoeuvre\" (insurrection). The phrase \"long march through the institutions\" is a later summary by student-movement figure Rudi Dutschke (1967), but it accurately paraphrases Gramsci's hegemony thesis: revolutionary outcomes require reshaping institutions that manufacture consent. Stanford Encyclopedia and Cambridge Gramsci scholarship document this civil-society strategy explicitly.",
+      "evidenceBullets": [
+        "Stanford Encyclopedia — \"Antonio Gramsci\": hegemony is moral/intellectual leadership through civil society institutions, not elections alone.",
+        "Prison Notebooks (English selections): \"war of position\" in advanced capitalist states requires prolonged struggle in cultural and institutional trenches.",
+        "Historical record: Dutschke (1967) coined \"long march through the institutions\" as a Gramsci-inspired student strategy — lineage is paraphrase, not forgery.",
+        "Gramsci: Catholic Church and schools cited as models of hegemonic institutions revolutionaries must contest."
+      ],
+      "fallacies": [
+        "quote-mining denial",
+        "cherry-picked moderation",
+        "straw man"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia of Philosophy — Antonio Gramsci",
+          "url": "https://plato.stanford.edu/entries/gramsci/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Stanford Encyclopedia of Philosophy, Antonio Gramsci (hegemony, civil society)."
+        },
+        {
+          "id": "primary",
+          "title": "Marxists Internet Archive — Gramsci, The Modern Prince (selections)",
+          "url": "https://www.marxists.org/archive/gramsci/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-06",
+          "citation": "Gramsci, A. Prison Notebooks / Modern Prince selections. MIA archive."
+        },
+        {
+          "id": "academic",
+          "title": "Wikipedia — Long march through the institutions",
+          "url": "https://en.wikipedia.org/wiki/Long_march_through_the_institutions",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Wikipedia, Long march through the institutions (Dutschke 1967, Gramsci lineage)."
+        },
+        {
+          "id": "academic",
+          "title": "Wikipedia — Antonio Gramsci",
+          "url": "https://en.wikipedia.org/wiki/Antonio_Gramsci",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Wikipedia, Antonio Gramsci — hegemony and civil society."
+        }
+      ],
+      "whyItMatters": "If hegemony is real, culture and institutions are battlefields — not distractions from \"real\" economics. Debates over schools, media, and NGOs are debates over who shapes consent.",
+      "relatedClaimIds": [
+        "institution-capture-myth",
+        "lenin-vanguard-ideology",
+        "cultural-marxism-dismissal"
+      ],
+      "tags": [
+        "gramsci",
+        "hegemony",
+        "war of position",
+        "civil society",
+        "institutions"
+      ],
+      "claimQuote": "In the East, the state was everything, civil society was primordial and gelatinous; in the West, there was a proper relation between state and civil society… when the state trembled, a sturdy structure of civil society was at once revealed.",
+      "quoteAttribution": "Antonio Gramsci, Prison Notebooks — Selections (English trans.)",
+      "schemaVersion": 2,
+      "kbVersion": "3.0.0",
+      "revision": 1,
+      "contentHash": "sha256:v28claim2gramsci",
+      "updatedAt": "2026-07-06T22:30:00Z",
+      "publishedAt": "2026-07-06T22:30:00Z",
+      "embeddingText": "Gramsci Wanted Only Open Democratic Politics Antonio Gramsci democratic socialist elections unions long march through institutions war of position hegemony civil society",
+      "searchText": "Gramsci Wanted Only Open Democratic Politics war of position hegemony long march institutions civil society"
+    },
+    {
+      "id": "frankfurt-mass-culture",
+      "topicId": "frankfurt-critical-theory",
+      "topicPath": "/ideological-subversion/frankfurt-critical-theory",
+      "title": "Frankfurt School Theorists Were Apolitical Academics",
+      "socialistClaimText": "Horkheimer, Adorno, Marcuse, and the Frankfurt School were obscure philosophers with no practical political program — linking them to modern activism is guilt by association.",
+      "executiveSummary": "Critical theorists explicitly sought to explain why workers did not revolt and how culture stabilizes capitalism. Horkheimer defined critical theory as emancipatory social science opposed to the status quo. Adorno and Horkheimer analyzed the \"culture industry\" as mass manipulation. Herbert Marcuse became a New Left icon — his 1965 essay \"Repressive Tolerance\" argued true tolerance requires suppressing regressive movements and withdrawing tolerance from the Right. Frankfurt theorists advised and influenced 1960s student movements. Their work is archived in academic histories as politically engaged, not sealed in ivory towers.",
+      "evidenceBullets": [
+        "Horkheimer (1937): critical theory's \"concern with the contemporary situation\" and human emancipation — not value-neutral scholarship.",
+        "Adorno & Horkheimer, Dialectic of Enlightenment (1944): culture industry standardizes desire and political passivity.",
+        "Marcuse (1965), \"Repressive Tolerance\": withdrawal of tolerance from right-wing movements is justified for liberation.",
+        "Stanford SEP: Marcuse's One-Dimensional Man (1964) shaped New Left critiques of consumer society and Vietnam-era protest."
+      ],
+      "fallacies": [
+        "ivory tower myth",
+        "non sequitur",
+        "selective historiography"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Herbert Marcuse",
+          "url": "https://plato.stanford.edu/entries/marcuse/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Stanford Encyclopedia of Philosophy, Herbert Marcuse."
+        },
+        {
+          "id": "primary",
+          "title": "Marcuse — Repressive Tolerance (1965)",
+          "url": "https://www.marcuse.org/herbert/pubs/60spubs/65repressivetolerance.htm",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-06",
+          "citation": "Marcuse, H. (1965). Repressive Tolerance. In A Critique of Pure Tolerance."
+        },
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Critical Theory (Horkheimer 1937 definition)",
+          "url": "https://plato.stanford.edu/entries/critical-theory/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Stanford Encyclopedia, Critical Theory — Horkheimer's program."
+        },
+        {
+          "id": "academic",
+          "title": "Internet Encyclopedia of Philosophy — Adorno",
+          "url": "https://iep.utm.edu/adorno/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "IEP, Theodor Adorno — culture industry and critical theory."
+        }
+      ],
+      "whyItMatters": "Modern campus speech doctrine, censorship coalitions, and \"tolerance\" double standards trace partly to Marcuse's explicit asymmetry — not random illiberalism.",
+      "relatedClaimIds": [
+        "marcuse-repressive-tolerance",
+        "cultural-marxism-dismissal",
+        "campus-speech-ideological"
+      ],
+      "tags": [
+        "frankfurt school",
+        "marcuse",
+        "adorno",
+        "horkheimer",
+        "culture industry",
+        "new left"
+      ],
+      "claimQuote": "Liberating tolerance, then, would mean intolerance against movements from the Right and toleration of movements from the Left.",
+      "quoteAttribution": "Herbert Marcuse, Repressive Tolerance (1965)",
+      "schemaVersion": 2,
+      "kbVersion": "3.0.0",
+      "revision": 1,
+      "contentHash": "sha256:v28claim3frankfurt",
+      "updatedAt": "2026-07-06T22:30:00Z",
+      "publishedAt": "2026-07-06T22:30:00Z",
+      "embeddingText": "Frankfurt School Theorists Were Apolitical Academics Horkheimer Adorno Marcuse culture industry repressive tolerance New Left critical theory",
+      "searchText": "Frankfurt School Apolitical Academics Marcuse repressive tolerance culture industry Horkheimer Adorno"
+    },
+    {
+      "id": "marcuse-repressive-tolerance",
+      "topicId": "repressive-tolerance",
+      "topicPath": "/ideological-subversion/repressive-tolerance",
+      "title": "Marcuse Did Not Argue for Asymmetric Tolerance",
+      "socialistClaimText": "Herbert Marcuse's \"Repressive Tolerance\" is misread — he defended classical free speech, not selective censorship of conservatives.",
+      "executiveSummary": "Marcuse's 1965 essay is explicit: under conditions of institutionalized oppression, \"pure tolerance\" entrenches injustice. He calls for \"liberating tolerance\" — intolerance toward regressive movements and withdrawal of tolerance from the Right, while extending it to the Left. He acknowledges this appears authoritarian but argues it is the only path to liberation. This is not a conservative caricature; it is the thesis of a widely assigned Frankfurt/New Left text hosted on the official Marcuse archive.",
+      "evidenceBullets": [
+        "Marcuse (1965): \"Liberating tolerance… intolerance against movements from the Right and toleration of movements from the Left.\"",
+        "Marcuse: majority rule can be repressive when media and education reproduce domination — justifying managed asymmetry.",
+        "Stanford SEP Marcuse entry documents his role shaping 1960s radical politics and critique of one-dimensional society.",
+        "FIRE and Heterodox Academy document contemporary campus double standards — empirical echo of asymmetry Marcuse theorized."
+      ],
+      "fallacies": [
+        "selective reading",
+        "motte-and-bailey",
+        "context stripping"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "primary",
+          "title": "Marcuse — Repressive Tolerance (full essay)",
+          "url": "https://www.marcuse.org/herbert/pubs/60spubs/65repressivetolerance.htm",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-06",
+          "citation": "Marcuse, H. (1965). Repressive Tolerance."
+        },
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Herbert Marcuse",
+          "url": "https://plato.stanford.edu/entries/marcuse/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Stanford Encyclopedia of Philosophy, Herbert Marcuse."
+        },
+        {
+          "id": "government",
+          "title": "FIRE — Campus Speech Codes and Disinvitation Database",
+          "url": "https://www.thefire.org/research-learn/campus-speech-database",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-06",
+          "citation": "Foundation for Individual Rights and Expression, speech code and disinvitation tracking."
+        },
+        {
+          "id": "academic",
+          "title": "Heterodox Academy — Campus Expression surveys",
+          "url": "https://heterodoxacademy.org/campus-expression-survey/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Heterodox Academy, Campus Expression Survey hub."
+        }
+      ],
+      "whyItMatters": "When activists say \"tolerance requires no-platforming,\" they are applying a mainstream Marxist-adjacent framework — not inventing it on Twitter.",
+      "relatedClaimIds": [
+        "frankfurt-mass-culture",
+        "campus-speech-ideological",
+        "soft-despotism-conformity"
+      ],
+      "tags": [
+        "marcuse",
+        "repressive tolerance",
+        "free speech",
+        "campus",
+        "censorship"
+      ],
+      "claimQuote": "Withdrawal of tolerance from regressive movements, and discriminatory tolerance in favor of progressive tendencies would be tantamount to the promotion of tyranny.",
+      "quoteAttribution": "Herbert Marcuse, Repressive Tolerance (1965) — author acknowledges the apparent paradox",
+      "schemaVersion": 2,
+      "kbVersion": "3.0.0",
+      "revision": 1,
+      "contentHash": "sha256:v28claim4marcuse",
+      "updatedAt": "2026-07-06T22:30:00Z",
+      "publishedAt": "2026-07-06T22:30:00Z",
+      "embeddingText": "Marcuse Did Not Argue for Asymmetric Tolerance Repressive Tolerance liberating tolerance intolerance Right Left campus speech FIRE",
+      "searchText": "Marcuse asymmetric tolerance repressive tolerance free speech campus censorship"
+    },
+    {
+      "id": "marx-superstructure-culture",
+      "topicId": "ideology-superstructure",
+      "topicPath": "/ideological-subversion/ideology-superstructure",
+      "title": "Marxism Only Concerns Economics and Factories",
+      "socialistClaimText": "Real Marxism is about workers owning the means of production — culture wars, gender, and education are unrelated distractions invented by critics.",
+      "executiveSummary": "Classical Marxism treats law, morality, religion, art, and education as superstructure — ideological forms that reproduce class relations. The Communist Manifesto attacks bourgeois family, education, and nationalism. Marx's Critique of the Gotha Program links moral and intellectual development to communist transition. Lenin insisted workers cannot develop socialist ideology spontaneously — intellectual vanguards and newspapers must shape consciousness. Economic reductionism is a debater's fiction; the canon repeatedly targets culture and institutions.",
+      "evidenceBullets": [
+        "Manifesto (1848): abolition of bourgeois family, transformation of education, critique of \"bourgeois\" law and morality.",
+        "Marx, Critique of the Gotha Program (1875): communist society must overcome antithesis of mental and physical labor.",
+        "Lenin, What Is To Be Done (1902): trade-union consciousness is insufficient; socialist ideology imported by revolutionary intellectuals.",
+        "Engels, Socialism Utopian and Scientific: consciousness and legal forms arise from material struggles but feedback into them."
+      ],
+      "fallacies": [
+        "reductionism",
+        "cherry picking",
+        "presentist framing"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "primary",
+          "title": "Marx — Critique of the Gotha Programme (1875)",
+          "url": "https://www.marxists.org/archive/marx/works/1875/gotha/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-06",
+          "citation": "Marx, K. (1875). Critique of the Gotha Programme. Public domain."
+        },
+        {
+          "id": "primary",
+          "title": "Lenin — What Is To Be Done? (1902)",
+          "url": "https://www.marxists.org/archive/lenin/works/1901/witbd/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-06",
+          "citation": "Lenin, V. I. (1902). What Is To Be Done? Public domain."
+        },
+        {
+          "id": "primary",
+          "title": "Marx & Engels — Communist Manifesto",
+          "url": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-06",
+          "citation": "Marx & Engels (1848). Communist Manifesto."
+        },
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Karl Marx (Base and Superstructure)",
+          "url": "https://plato.stanford.edu/entries/marx/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Stanford Encyclopedia of Philosophy, Karl Marx — economic structure and superstructure."
+        }
+      ],
+      "whyItMatters": "When activists demand curriculum, speech, and family policy changes, they are executing a Marxist theoretical mandate — not abandoning Marx for \"culture war.\"",
+      "relatedClaimIds": [
+        "lenin-vanguard-ideology",
+        "cultural-marxism-dismissal",
+        "critical-pedagogy-lineage"
+      ],
+      "tags": [
+        "marx",
+        "superstructure",
+        "ideology",
+        "lenin",
+        "education",
+        "pd-quote"
+      ],
+      "claimQuote": "There can be no talk of an independent ideology formulated by the working masses themselves… The only choice is — either bourgeois or socialist ideology.",
+      "quoteAttribution": "V. I. Lenin, What Is To Be Done?, Ch. II (1902) — public domain",
+      "schemaVersion": 2,
+      "kbVersion": "3.0.0",
+      "revision": 1,
+      "contentHash": "sha256:v28claim5marxsuper",
+      "updatedAt": "2026-07-06T22:30:00Z",
+      "publishedAt": "2026-07-06T22:30:00Z",
+      "embeddingText": "Marxism Only Concerns Economics and Factories superstructure ideology culture education Lenin vanguard Communist Manifesto",
+      "searchText": "Marxism only economics factories superstructure ideology culture education Lenin vanguard"
+    },
+    {
+      "id": "lenin-vanguard-ideology",
+      "topicId": "institution-capture",
+      "topicPath": "/ideological-subversion/institution-capture",
+      "title": "Revolutionaries Never Targeted Schools or Media",
+      "socialistClaimText": "Socialists historically focused on factories and wages — only modern conservatives imagine deliberate infiltration of education, journalism, or NGOs.",
+      "executiveSummary": "Lenin argued the working class develops only trade-union consciousness without a vanguard party importing socialist ideology. He assigned newspapers the role of \"collective organiser\" and professional revolutionaries the task of permeating all workers' organisations. Gramsci extended the logic to schools and civil society. Frankfurt theorists analyzed mass media as stabilizing capitalism. The historical record shows consistent emphasis on consciousness, propaganda, and institutions — not wage negotiations alone.",
+      "evidenceBullets": [
+        "Lenin (1902): socialist theory comes from intellectuals; spontaneity must be \"diverted\" to revolutionary Social Democracy.",
+        "Lenin: the party newspaper is scaffolding for organisation — propaganda, agitation, and coordination.",
+        "Gramsci: schools and church as hegemonic apparatus — revolutionaries must occupy analogous roles.",
+        "UNESCO / academic histories of socialist education policy in Eastern bloc document state ideological curricula at scale."
+      ],
+      "fallacies": [
+        "historical amnesia",
+        "false dichotomy",
+        "narrow definition of socialism"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "primary",
+          "title": "Lenin — What Is To Be Done? (1902)",
+          "url": "https://www.marxists.org/archive/lenin/works/1901/witbd/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-06",
+          "citation": "Lenin, V. I. (1902). What Is To Be Done?"
+        },
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Antonio Gramsci (civil society)",
+          "url": "https://plato.stanford.edu/entries/gramsci/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Stanford Encyclopedia, Gramsci on civil society and hegemony."
+        },
+        {
+          "id": "government",
+          "title": "Library of Congress — Revelations from the Russian Archives",
+          "url": "https://www.loc.gov/exhibits/archives/sovi.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-06",
+          "citation": "Library of Congress, Revelations from the Russian Archives — Soviet party propaganda and education."
+        },
+        {
+          "id": "primary",
+          "title": "Lenin — The State and Revolution (1917)",
+          "url": "https://www.marxists.org/archive/lenin/works/1917/staterev/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-06",
+          "citation": "Lenin, V. I. (1917). The State and Revolution. Marxists Internet Archive."
+        }
+      ],
+      "whyItMatters": "Institution-focused strategy is feature, not bug, of revolutionary socialism — understanding it explains why culture-war battlegrounds are predictable.",
+      "relatedClaimIds": [
+        "gramsci-war-of-position",
+        "marx-superstructure-culture",
+        "institution-capture-myth"
+      ],
+      "tags": [
+        "lenin",
+        "vanguard",
+        "propaganda",
+        "education",
+        "institutions",
+        "pd-quote"
+      ],
+      "claimQuote": "The newspaper is not only a collective propagandist and a collective agitator, it is also a collective organiser.",
+      "quoteAttribution": "V. I. Lenin, What Is To Be Done?, Ch. V (1902) — public domain",
+      "schemaVersion": 2,
+      "kbVersion": "3.0.0",
+      "revision": 1,
+      "contentHash": "sha256:v28claim6lenin",
+      "updatedAt": "2026-07-06T22:30:00Z",
+      "publishedAt": "2026-07-06T22:30:00Z",
+      "embeddingText": "Revolutionaries Never Targeted Schools or Media Lenin vanguard newspaper organiser Gramsci institutions propaganda education",
+      "searchText": "Revolutionaries never targeted schools media Lenin vanguard propaganda institutions education Gramsci"
+    },
+    {
+      "id": "institution-capture-myth",
+      "topicId": "institution-capture",
+      "topicPath": "/ideological-subversion/institution-capture",
+      "title": "Institution Capture Is Right-Wing Paranoia",
+      "socialistClaimText": "Claims that activists deliberately capture universities, HR departments, or media are unfounded conspiracy theories — institutions change only through democratic consensus.",
+      "executiveSummary": "Gramsci's hegemony theory and Lenin's organiser model predict institution-focused strategy. Empirically, U.S. faculty voter registration studies (Mitchell Langbert et al., 2018; subsequent replications) show extreme left skew in many social science and humanities departments. FIRE documents hundreds of speech codes restricting conservative expression. Corporate DEI and NGO funding flows are publicly disclosed in SEC filings and 990s. Whether one calls it \"capture\" or \"hegemonic contestation,\" the pattern matches theorized strategy: enter civil society, shape norms, restrict dissent.",
+      "evidenceBullets": [
+        "Langbert, Quain & Klein (2018), Econ Journal Watch: D=11.5:1 ratio among elite liberal arts faculty registrations.",
+        "FIRE Speech Code Database: majority of surveyed colleges maintain policies that restrict protected speech.",
+        "Gramsci/Lenin theoretical framework: civil society institutions are the terrain where consent is manufactured.",
+        "OpenSecrets / InfluenceWatch: documented funding networks for advocacy NGOs — transparent, not occult."
+      ],
+      "fallacies": [
+        "conspiracy dismissal",
+        "appeal to democracy",
+        "hasty generalization reversal"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "academic",
+          "title": "Langbert, Quain & Klein — Homogenous: Elite Liberal Arts Faculty (2018)",
+          "url": "https://homepages.se.edu/cvonbergen/files/2018/04/Homogenous_The-Political-Affiliations-of-Elite-Liberal-Arts-College-Faculty.pdf",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Langbert, M., Quain, A., & Klein, D. B. (2018). Homogenous: Political affiliations of elite liberal arts faculty."
+        },
+        {
+          "id": "academic",
+          "title": "Econ Journal Watch — Faculty Voter Registration in Five Departments (2016)",
+          "url": "https://econjwatch.org/articles/faculty-voter-registration-in-economics-history-journalism-communications-law-and-psychology",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Langbert, M., Quain, A., & Klein, D. B. (2016). Econ Journal Watch."
+        },
+        {
+          "id": "government",
+          "title": "FIRE — Spotlight on Speech Codes",
+          "url": "https://www.thefire.org/research-learn/campus-speech-database",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-06",
+          "citation": "FIRE, campus speech code database and annual surveys."
+        },
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Gramsci hegemony",
+          "url": "https://plato.stanford.edu/entries/gramsci/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Stanford Encyclopedia, Gramsci civil society theory."
+        },
+        {
+          "id": "government",
+          "title": "IRS — Tax-exempt organization search (990 disclosures)",
+          "url": "https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-06",
+          "citation": "IRS Exempt Organizations Business Master File Extract — public NGO financial disclosures."
+        }
+      ],
+      "whyItMatters": "Labeling observable institutional skew \"paranoia\" prevents debate on whether civil society still produces viewpoint diversity — a precondition of liberal republics.",
+      "relatedClaimIds": [
+        "gramsci-war-of-position",
+        "campus-speech-ideological",
+        "marcuse-repressive-tolerance"
+      ],
+      "tags": [
+        "institutions",
+        "universities",
+        "hegemony",
+        "faculty",
+        "DEI",
+        "capture"
+      ],
+      "claimQuote": "A sturdy structure of civil society was at once revealed. The state was only an outer ditch, behind which there stood a powerful system of fortresses and earthworks.",
+      "quoteAttribution": "Antonio Gramsci, Prison Notebooks — civil society as defensive hegemony",
+      "schemaVersion": 2,
+      "kbVersion": "3.0.0",
+      "revision": 1,
+      "contentHash": "sha256:v28claim7capture",
+      "updatedAt": "2026-07-06T22:30:00Z",
+      "publishedAt": "2026-07-06T22:30:00Z",
+      "embeddingText": "Institution Capture Is Right-Wing Paranoia Gramsci hegemony faculty voter registration FIRE speech codes NGOs civil society",
+      "searchText": "Institution capture paranoia universities faculty FIRE speech codes Gramsci hegemony NGOs"
+    },
+    {
+      "id": "soft-despotism-conformity",
+      "topicId": "soft-despotism-conformity",
+      "topicPath": "/ideological-subversion/soft-despotism-conformity",
+      "title": "Mass Conformity Poses No Threat to Liberty",
+      "socialistClaimText": "Social pressure for inclusive language and collective values is healthy community norms — warnings about \"soft totalitarianism\" are hysterical.",
+      "executiveSummary": "Tocqueville warned that democratic equality could produce a mild, enveloping despotism — citizens isolated in private pleasures, regulated by a schoolmaster state. Mill's On Liberty warned against social tyranny of prevailing opinion. Emerson's Self-Reliance defended intellectual independence against conformity. Modern evidence: Heterodox Academy surveys show self-censorship on campus; FIRE documents administrative punishment for dissent. Soft pressure plus institutional enforcement reproduces hegemony without gulags — exactly the trajectory classical liberals feared.",
+      "evidenceBullets": [
+        "Tocqueville, Democracy in America: \"soft despotism\" — power degrades men without torment, reduces nations to timid animals.",
+        "Mill, On Liberty: society itself can be tyrannical when custom silences minority views.",
+        "Heterodox Academy / FIRE: majority of students report self-censorship on controversial topics.",
+        "Marcuse + Gramsci framework: hegemony operates through consent and norm enforcement, not only state violence."
+      ],
+      "fallacies": [
+        "false dilemma",
+        "appeal to inclusivity",
+        "scale insensitivity"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "primary",
+          "title": "Tocqueville — Democracy in America (1840)",
+          "url": "https://oll.libertyfund.org/titles/274",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-06",
+          "citation": "de Tocqueville, A. (1840). Democracy in America, Vol. II. Liberty Fund OLL."
+        },
+        {
+          "id": "primary",
+          "title": "Mill — On Liberty (1859)",
+          "url": "https://oll.libertyfund.org/titles/99",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-06",
+          "citation": "Mill, J. S. (1859). On Liberty. Public domain."
+        },
+        {
+          "id": "academic",
+          "title": "Heterodox Academy — 2022 Campus Expression Survey Report",
+          "url": "https://heterodoxacademy.org/reports/2022-campus-expression-survey-report/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Heterodox Academy (2022). Campus Expression Survey Report."
+        },
+        {
+          "id": "government",
+          "title": "FIRE — Scholars Under Fire database",
+          "url": "https://www.thefire.org/research-learn/scholars-under-fire",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-06",
+          "citation": "FIRE, Scholars Under Fire — administrative sanctions for speech."
+        }
+      ],
+      "whyItMatters": "Liberty dies when dissent becomes socially impossible — even before law forbids it. The Founders and Tocqueville built for a culture of argument, not compulsory consensus.",
+      "relatedClaimIds": [
+        "marcuse-repressive-tolerance",
+        "campus-speech-ideological",
+        "natural-rights"
+      ],
+      "tags": [
+        "tocqueville",
+        "soft despotism",
+        "mill",
+        "conformity",
+        "self-censorship",
+        "pd-quote"
+      ],
+      "claimQuote": "It does not tyrannize, it hinders, compromises, enervates, extinguishes, dazes, and finally reduces each nation to being nothing more than a herd of timid and industrious animals of which the government is the shepherd.",
+      "quoteAttribution": "Alexis de Tocqueville, Democracy in America, Vol. II, Bk. IV, Ch. 6 (1840) — public domain",
+      "schemaVersion": 2,
+      "kbVersion": "3.0.0",
+      "revision": 1,
+      "contentHash": "sha256:v28claim8softdespotism",
+      "updatedAt": "2026-07-06T22:30:00Z",
+      "publishedAt": "2026-07-06T22:30:00Z",
+      "embeddingText": "Mass Conformity Poses No Threat to Liberty Tocqueville soft despotism Mill On Liberty self-censorship campus heterodox FIRE",
+      "searchText": "Mass conformity threat liberty Tocqueville soft despotism Mill self-censorship campus"
+    },
+    {
+      "id": "campus-speech-ideological",
+      "topicId": "repressive-tolerance",
+      "topicPath": "/ideological-subversion/repressive-tolerance",
+      "title": "Campus Speech Restrictions Are Neutral Safety Rules",
+      "socialistClaimText": "University speech codes and disinvitations protect vulnerable students — they are viewpoint-neutral safety policies, not ideological enforcement.",
+      "executiveSummary": "FIRE's speech code ratings and disinvitation database show policies disproportionately invoked against conservative, libertarian, and heterodox speakers. Heterodox Academy's longitudinal surveys document ideological homogeneity and student fear of disagreeing with professors. These patterns align with Marcuse's asymmetric tolerance and Gramsci's hegemonic contest — not neutral \"safety.\" Viewpoint-neutral harassment law already exists; supplemental speech codes add ideological administration.",
+      "evidenceBullets": [
+        "FIRE: hundreds of colleges maintain \"yellow\" or \"red light\" speech codes restricting protected expression.",
+        "FIRE Disinvitation Database: disinvitations cluster around conservative/controversial speakers, not random sampling.",
+        "Heterodox Academy (2020–2024 surveys): large majorities self-censor on politics, race, gender, religion in class.",
+        "Marcuse (1965) theoretical precedent for withholding tolerance from movements deemed regressive."
+      ],
+      "fallacies": [
+        "motte-and-bailey",
+        "equivocation on safety",
+        "availability heuristic"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "government",
+          "title": "FIRE — Speech Code of the Month / Database",
+          "url": "https://www.thefire.org/research-learn/campus-speech-database",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-06",
+          "citation": "FIRE, speech code database and ratings methodology."
+        },
+        {
+          "id": "government",
+          "title": "FIRE — Disinvitation Database",
+          "url": "https://www.thefire.org/research-learn/disinvitation-database",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-06",
+          "citation": "FIRE, campus speaker disinvitation tracking."
+        },
+        {
+          "id": "academic",
+          "title": "Heterodox Academy — Campus Expression Survey",
+          "url": "https://heterodoxacademy.org/reports/2022-campus-expression-survey-report/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Heterodox Academy, self-censorship and climate surveys."
+        },
+        {
+          "id": "primary",
+          "title": "Marcuse — Repressive Tolerance (1965)",
+          "url": "https://www.marcuse.org/herbert/pubs/60spubs/65repressivetolerance.htm",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-06",
+          "citation": "Marcuse, H. Repressive Tolerance."
+        }
+      ],
+      "whyItMatters": "Universities are civil society's idea factories. Ideological homogeneity plus enforced speech norms is hegemony in Gramsci's sense — with taxpayer and tuition subsidies.",
+      "relatedClaimIds": [
+        "marcuse-repressive-tolerance",
+        "institution-capture-myth",
+        "soft-despotism-conformity"
+      ],
+      "tags": [
+        "campus",
+        "free speech",
+        "FIRE",
+        "disinvitation",
+        "self-censorship"
+      ],
+      "claimQuote": "If all mankind minus one, were of one opinion, and only one person were of the contrary opinion, mankind would be no more justified in silencing that one person, than he, if he had the power, would be justified in silencing mankind.",
+      "quoteAttribution": "John Stuart Mill, On Liberty, Ch. II (1859) — public domain",
+      "schemaVersion": 2,
+      "kbVersion": "3.0.0",
+      "revision": 1,
+      "contentHash": "sha256:v28claim9campus",
+      "updatedAt": "2026-07-06T22:30:00Z",
+      "publishedAt": "2026-07-06T22:30:00Z",
+      "embeddingText": "Campus Speech Restrictions Are Neutral Safety Rules FIRE speech codes disinvitation heterodox self-censorship Marcuse",
+      "searchText": "Campus speech restrictions neutral safety FIRE disinvitation heterodox self-censorship"
+    },
+    {
+      "id": "critical-pedagogy-lineage",
+      "topicId": "ideology-superstructure",
+      "topicPath": "/ideological-subversion/ideology-superstructure",
+      "title": "Critical Pedagogy Has No Marxist Lineage",
+      "socialistClaimText": "Critical pedagogy, CRT-influenced curricula, and DEI training are home-grown American reforms with no connection to Marx, Gramsci, or critical theory.",
+      "executiveSummary": "Paulo Freire's Pedagogy of the Oppressed (1970) — assigned in U.S. education schools — frames schooling as political conscientization against oppression, citing Marx and revolutionary praxis. Critical pedagogy literature explicitly draws on Frankfurt critical theory and Gramscian hegemony (Giroux, McLaren, Apple). Critical Legal Studies and CRT scholars (Bell, Crenshaw, Delgado) self-describe as critical theory descendants in law schools. The genealogy is documented in academic bibliographies, not invented by critics.",
+      "evidenceBullets": [
+        "Freire (1970): \"banking model\" of education vs. dialogical praxis — explicit Marx-influenced liberation framework.",
+        "Stanford SEP — \"Critical Theory\": pedagogy and culture are standard application domains.",
+        "Legal scholarship: Bell, Critical Race Theory: The Key Writings — self-identified critical legal tradition.",
+        "Education policy syllabi (public university catalogs): Freire, Giroux standard in teacher preparation."
+      ],
+      "fallacies": [
+        "genetic fallacy denial",
+        "appeal to American origin",
+        "historical vacuum"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "academic",
+          "title": "Internet Encyclopedia of Philosophy — Paulo Freire",
+          "url": "https://iep.utm.edu/freire/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Internet Encyclopedia of Philosophy, Paulo Freire and critical pedagogy."
+        },
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Critical Theory",
+          "url": "https://plato.stanford.edu/entries/critical-theory/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Stanford Encyclopedia, Critical Theory applications."
+        },
+        {
+          "id": "academic",
+          "title": "UCLA School of Law — Critical Race Studies program",
+          "url": "https://law.ucla.edu/academics/centers/critical-race-studies",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "UCLA Law, Critical Race Studies — academic program documentation."
+        },
+        {
+          "id": "academic",
+          "title": "Wikipedia — Critical race theory",
+          "url": "https://en.wikipedia.org/wiki/Critical_race_theory",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-06",
+          "citation": "Wikipedia, critical race theory intellectual history and legal scholarship lineage."
+        }
+      ],
+      "whyItMatters": "Parents debating school boards are debating applied critical theory — knowing the lineage clarifies what is being adopted and why opponents frame it as ideological.",
+      "relatedClaimIds": [
+        "marx-superstructure-culture",
+        "institution-capture-myth",
+        "gramsci-war-of-position"
+      ],
+      "tags": [
+        "critical pedagogy",
+        "freire",
+        "CRT",
+        "education",
+        "DEI",
+        "hegemony"
+      ],
+      "claimQuote": "Education either functions as an instrument which is used to facilitate integration of the younger generation into the logic of the present system and bring about conformity, or it becomes the practice of freedom.",
+      "quoteAttribution": "Paulo Freire, Pedagogy of the Oppressed (1970)",
+      "schemaVersion": 2,
+      "kbVersion": "3.0.0",
+      "revision": 1,
+      "contentHash": "sha256:v28claim10pedagogy",
+      "updatedAt": "2026-07-06T22:30:00Z",
+      "publishedAt": "2026-07-06T22:30:00Z",
+      "embeddingText": "Critical Pedagogy Has No Marxist Lineage Freire Giroux CRT critical theory education DEI Gramsci schools",
+      "searchText": "Critical pedagogy Marxist lineage Freire CRT education DEI critical theory schools"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-07-04T23:00:00Z",
+  "sourceNote": "Curated from free public tools; inspired by @CoderDaMing's list — debate-relevant subset only.",
+  "categories": [
+    {
+      "id": "research",
+      "title": "Research & Papers",
+      "icon": "school",
+      "tools": [
+        {
+          "id": "semantic-scholar",
+          "name": "Semantic Scholar",
+          "description": "Free AI-powered academic search — papers, citations, and summaries.",
+          "url": "https://www.semanticscholar.org/",
+          "tweetRef": 37
+        },
+        {
+          "id": "google-scholar",
+          "name": "Google Scholar",
+          "description": "Search peer-reviewed articles, theses, and court opinions.",
+          "url": "https://scholar.google.com/"
+        },
+        {
+          "id": "ourworldindata",
+          "name": "Our World in Data",
+          "description": "Open charts on poverty, inequality, and economic history — cite in debates.",
+          "url": "https://ourworldindata.org/"
+        },
+        {
+          "id": "fred",
+          "name": "FRED (St. Louis Fed)",
+          "description": "Federal Reserve economic data — wages, inflation, GDP, employment.",
+          "url": "https://fred.stlouisfed.org/"
+        },
+        {
+          "id": "fraser-efw",
+          "name": "Fraser Economic Freedom of the World",
+          "description": "Cross-country economic freedom data used in Nordic and growth claims.",
+          "url": "https://www.fraserinstitute.org/economic-freedom"
+        },
+        {
+          "id": "heritage-ief",
+          "name": "Heritage Index of Economic Freedom",
+          "description": "Annual economic freedom rankings and component scores.",
+          "url": "https://www.heritage.org/index/"
+        },
+        {
+          "id": "world-bank-pip",
+          "name": "World Bank Poverty & Inequality Platform",
+          "description": "Official extreme poverty and inequality series for global living-standards claims.",
+          "url": "https://pip.worldbank.org/"
+        }
+      ]
+    },
+    {
+      "id": "books",
+      "title": "Free Books & Texts",
+      "icon": "menu_book",
+      "tools": [
+        {
+          "id": "gutenberg",
+          "name": "Project Gutenberg",
+          "description": "70,000+ free public-domain ebooks — classics beyond our bundled library.",
+          "url": "https://www.gutenberg.org/",
+          "tweetRef": 10
+        },
+        {
+          "id": "openlibrary",
+          "name": "Open Library",
+          "description": "Search millions of books — borrow or read public-domain scans.",
+          "url": "https://openlibrary.org/",
+          "tweetRef": 33
+        },
+        {
+          "id": "archive-texts",
+          "name": "Internet Archive Texts",
+          "description": "Millions of free digitized books and primary sources.",
+          "url": "https://archive.org/details/texts",
+          "tweetRef": 6
+        },
+        {
+          "id": "openstax",
+          "name": "OpenStax",
+          "description": "Free peer-reviewed college textbooks — economics, government, history.",
+          "url": "https://openstax.org/"
+        },
+        {
+          "id": "oll-liberty-fund",
+          "name": "Online Library of Liberty",
+          "description": "Scholarly public-domain editions — Tocqueville, Bastiat, Federalist, classical liberals.",
+          "url": "https://oll.libertyfund.org/"
+        },
+        {
+          "id": "marxists-archive",
+          "name": "Marxists Internet Archive",
+          "description": "Primary socialist texts for steelman reading — Marx, Engels, Lenin, and more.",
+          "url": "https://www.marxists.org/"
+        }
+      ]
+    },
+    {
+      "id": "verify",
+      "title": "Verify & Archive Sources",
+      "icon": "verified",
+      "tools": [
+        {
+          "id": "wayback",
+          "name": "Wayback Machine",
+          "description": "Access archived versions of any webpage — catch moved or deleted sources.",
+          "url": "https://web.archive.org/",
+          "tweetRef": 5
+        },
+        {
+          "id": "archive-save",
+          "name": "Save Page Now",
+          "description": "Permanently snapshot a URL before it disappears.",
+          "url": "https://web.archive.org/save/",
+          "tweetRef": 27
+        }
+      ]
+    },
+    {
+      "id": "learn",
+      "title": "Free Courses",
+      "icon": "cast_for_education",
+      "tools": [
+        {
+          "id": "mit-ocw",
+          "name": "MIT OpenCourseWare",
+          "description": "Top university lectures — economics, political science, history.",
+          "url": "https://ocw.mit.edu/",
+          "tweetRef": 12
+        },
+        {
+          "id": "mises-library",
+          "name": "Mises Institute Library",
+          "description": "Free economics and liberty texts online.",
+          "url": "https://mises.org/library"
+        }
+      ]
+    },
+    {
+      "id": "organize",
+      "title": "Study & Organize",
+      "icon": "draw",
+      "tools": [
+        {
+          "id": "excalidraw",
+          "name": "Excalidraw",
+          "description": "Infinite whiteboard — map argument structure and fallacies visually.",
+          "url": "https://excalidraw.com/",
+          "tweetRef": 44
+        },
+        {
+          "id": "zotero",
+          "name": "Zotero",
+          "description": "Free citation manager — save sources while researching claims.",
+          "url": "https://www.zotero.org/"
+        }
+      ]
+    }
+  ]
+}

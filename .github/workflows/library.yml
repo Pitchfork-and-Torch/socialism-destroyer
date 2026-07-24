@@ -1,0 +1,78 @@
+name: Library Pipeline
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/data/books/**'
+      - 'assets/data/v2/books.json'
+      - 'assets/data/v2/library_*.json'
+      - 'tools/library_pipeline.py'
+      - 'tools/fetch_full_library.py'
+      - 'tools/verify_full_texts.py'
+      - 'tools/library_registry.py'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'assets/data/books/**'
+      - 'assets/data/v2/books.json'
+      - 'assets/data/v2/library_*.json'
+      - 'tools/library_pipeline.py'
+      - 'tools/fetch_full_library.py'
+      - 'tools/verify_full_texts.py'
+      - 'tools/library_registry.py'
+  schedule:
+    # Weekly Sunday 09:00 UTC — verify, repair, snapshot offline cache
+    - cron: '0 9 * * 0'
+  workflow_dispatch:
+    inputs:
+      force_all:
+        description: 'Refresh every book even when already verified'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Verify bundled full texts
+        run: python tools/library_pipeline.py verify
+
+  heartbeat:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run library heartbeat
+        run: |
+          ARGS="heartbeat"
+          if [ "${{ github.event.inputs.force_all }}" = "true" ]; then
+            ARGS="heartbeat --force-all"
+          fi
+          python tools/library_pipeline.py $ARGS || true
+
+      - name: Commit cache snapshot if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/data/books/_source_cache assets/data/v2/library_run_state.json assets/data/v2/books.json assets/data/books/*.txt 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No library changes to commit."
+          else
+            git commit -m "chore(library): weekly heartbeat $(date -u +%Y-%m-%d)"
+            git push
+          fi

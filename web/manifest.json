@@ -1,0 +1,86 @@
+{
+  "id": "/",
+  "name": "Socialism Destroyer — Liberty Argument Engine",
+  "short_name": "Destroyer",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0A1628",
+  "theme_color": "#0A1628",
+  "description": "Free Liberty Argument Engine: steelman socialist claims, sourced rebuttals, Debate Simulator, 138 claims, 120 public-domain classics. KB 3.8.0. No account required.",
+  "orientation": "any",
+  "prefer_related_applications": false,
+  "lang": "en-US",
+  "dir": "ltr",
+  "categories": [
+    "education",
+    "books",
+    "news"
+  ],
+  "icons": [
+    {
+      "src": "icons/Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/Icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/Icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "twitter-card.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Socialism Destroyer — Liberty Argument Engine"
+    }
+  ],
+  "related_applications": [],
+  "shortcuts": [
+    {
+      "name": "Argument Crusher",
+      "short_name": "Crusher",
+      "description": "Paste a claim for a sourced rebuttal",
+      "url": "/crusher",
+      "icons": [{ "src": "icons/Icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Debate Simulator",
+      "short_name": "Debate",
+      "description": "Multi-turn spar and challenge practice",
+      "url": "/debate",
+      "icons": [{ "src": "icons/Icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Library",
+      "short_name": "Library",
+      "description": "Public-domain liberty and socialist primaries",
+      "url": "/library",
+      "icons": [{ "src": "icons/Icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Topics",
+      "short_name": "Topics",
+      "description": "Browse the claim tree",
+      "url": "/tree",
+      "icons": [{ "src": "icons/Icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

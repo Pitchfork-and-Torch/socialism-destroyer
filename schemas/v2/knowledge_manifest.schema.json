@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://socialism-destroyer.dev/schemas/v2/knowledge_manifest.schema.json",
+  "title": "KnowledgeManifest",
+  "type": "object",
+  "required": ["schemaVersion", "kbVersion", "updatedAt", "topicsAsset", "claimBundles"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "minimum": 2 },
+    "kbVersion": { "type": "string" },
+    "updatedAt": { "type": "string", "format": "date-time" },
+    "contentHash": { "type": "string" },
+    "topicsAsset": { "type": "string" },
+    "booksAsset": { "type": "string" },
+    "claimBundles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "asset"],
+        "properties": {
+          "id": { "type": "string" },
+          "asset": { "type": "string" },
+          "priority": { "type": "integer" }
+        }
+      }
+    }
+  }
+}

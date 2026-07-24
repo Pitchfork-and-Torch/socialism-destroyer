@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 2,
+  "kbVersion": "3.8.0",
+  "updatedAt": "2026-07-22T22:47:18Z",
+  "topicsAsset": "assets/data/v2/topics.json",
+  "booksAsset": "assets/data/v2/books.json",
+  "claimBundles": [
+    {
+      "id": "legacy-seed",
+      "asset": "assets/data/claims_seed.json",
+      "priority": 0
+    },
+    {
+      "id": "wealth-inequality-v2",
+      "asset": "assets/data/v2/seeds/wealth_inequality.json",
+      "priority": 10
+    },
+    {
+      "id": "historical-socialism-v2",
+      "asset": "assets/data/v2/seeds/historical_socialism.json",
+      "priority": 10
+    },
+    {
+      "id": "nordic-myth-v2",
+      "asset": "assets/data/v2/seeds/nordic_myth.json",
+      "priority": 10
+    },
+    {
+      "id": "profit-exploitation-v2",
+      "asset": "assets/data/v2/seeds/profit_exploitation.json",
+      "priority": 10
+    },
+    {
+      "id": "government-intervention-v2",
+      "asset": "assets/data/v2/seeds/government_intervention.json",
+      "priority": 10
+    },
+    {
+      "id": "human-nature-v2",
+      "asset": "assets/data/v2/seeds/human_nature.json",
+      "priority": 10
+    },
+    {
+      "id": "founding-principles-v2",
+      "asset": "assets/data/v2/seeds/founding_principles.json",
+      "priority": 10
+    },
+    {
+      "id": "cultural-subversion-v2",
+      "asset": "assets/data/v2/seeds/cultural_subversion.json",
+      "priority": 10
+    },
+    {
+      "id": "cultural-subversion-wave2-v3",
+      "asset": "assets/data/v2/seeds/cultural_subversion_wave2.json",
+      "priority": 10
+    },
+    {
+      "id": "cultural-subversion-wave3-v31",
+      "asset": "assets/data/v2/seeds/cultural_subversion_wave3.json",
+      "priority": 10
+    },
+    {
+      "id": "contemporary-arguments-v38",
+      "asset": "assets/data/v2/seeds/contemporary_arguments.json",
+      "priority": 10
+    }
+  ],
+  "contentHash": "sha256:ab387e75dadf0aaeb1ed8a3272472f2e749311d1f014f94948b9e58a3f763ac6"
+}

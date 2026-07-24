@@ -1,0 +1,1016 @@
+{
+  "schemaVersion": 2,
+  "kbVersion": "3.8.0",
+  "bundleId": "contemporary-arguments-v38",
+  "priority": 10,
+  "updatedAt": "2026-07-22T22:35:27Z",
+  "claims": [
+    {
+      "id": "greedflation-price-controls",
+      "topicId": "government-intervention",
+      "topicPath": "/government-intervention",
+      "title": "Inflation Is Just Corporate Greed",
+      "socialistClaimText": "Post-2021 inflation was pure 'greedflation' — corporations gouged consumers. Price controls and windfall taxes are the cure; markets cannot discipline monopoly power.",
+      "executiveSummary": "Broad inflation is a monetary and supply-shock phenomenon first. Corporate markups can rise in some sectors during shocks, but economy-wide CPI spikes track money growth, energy, and disrupted supply chains. Price controls create shortages and black markets; the 1970s U.S. experience and every socialist price-cap experiment show the same pattern.",
+      "evidenceBullets": [
+        "Fed / BLS CPI: U.S. inflation peaked near 9% YoY in mid-2022 after pandemic fiscal expansion, supply disruption, and energy shocks — not a sudden simultaneous moral failure by every firm.",
+        "CBO and academic work (e.g., Weber/Wasner vs. monetary analyses) debate markup contribution; even markup-friendly papers do not show permanent free lunch from economy-wide price caps.",
+        "Nixon-era wage/price controls (1971–1974): temporary suppression, then reacceleration and shortages — textbook seen/unseen failure.",
+        "Venezuela and Zimbabwe price controls: empty shelves, parallel markets, and currency collapse when printing + controls replace production incentives."
+      ],
+      "fallacies": [
+        "single-cause fallacy",
+        "seen vs unseen",
+        "motte and bailey"
+      ],
+      "sources": [
+        {
+          "id": "bls-cpi",
+          "title": "BLS — Consumer Price Index",
+          "url": "https://www.bls.gov/cpi/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-22",
+          "citation": "U.S. Bureau of Labor Statistics, Consumer Price Index series."
+        },
+        {
+          "id": "fed-fomc-inflation",
+          "title": "Federal Reserve — Monetary Policy Reports / FOMC statements on inflation",
+          "url": "https://www.federalreserve.gov/monetarypolicy.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-22",
+          "citation": "Board of Governors of the Federal Reserve System, Monetary Policy Report and FOMC materials."
+        },
+        {
+          "id": "cbo-inflation-outlook",
+          "title": "CBO — Budget and Economic Outlook (inflation chapters)",
+          "url": "https://www.cbo.gov/topics/economy",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-22",
+          "citation": "Congressional Budget Office economic outlook publications."
+        }
+      ],
+      "whyItMatters": "If Americans accept 'greed' as the whole story, they demand controls that destroy the price signals needed to restore supply — repeating the policy errors that made 1970s stagflation worse.",
+      "relatedClaimIds": [
+        "rent-control-helps",
+        "calculation-impossible",
+        "venezuela-sanctions"
+      ],
+      "tags": [
+        "inflation",
+        "greedflation",
+        "price-controls",
+        "monetary-policy",
+        "cpi"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-22T22:35:27Z",
+      "embeddingText": "greedflation inflation corporate gouging price controls CPI monetary expansion supply shock Nixon wage price controls Venezuela shortages",
+      "searchText": "Inflation Is Just Corporate Greed greedflation price controls windfall tax CPI",
+      "kbVersion": "3.8.0"
+    },
+    {
+      "id": "computers-solve-calculation",
+      "topicId": "calculation-problem",
+      "topicPath": "/human-nature-incentives/calculation-problem",
+      "title": "Supercomputers Solve the Calculation Problem",
+      "socialistClaimText": "Mises and Hayek are obsolete — modern computing, AI, and big data can allocate resources better than messy markets. Cybernetic socialism just needs enough sensors and algorithms.",
+      "executiveSummary": "The calculation problem is not primarily about arithmetic speed. It is about discovering prices that reflect scarce means, changing preferences, local knowledge, and entrepreneurial error-correction. Computers can optimize known objective functions; they cannot replace the discovery process of profit and loss without private ownership of capital goods generating meaningful prices.",
+      "evidenceBullets": [
+        "Mises (1920/1936 tradition) and Hayek (1945 'Use of Knowledge in Society'): the problem is generation and use of dispersed knowledge, not floating-point operations per second.",
+        "Soviet Gosplan used extensive mathematical planning and later computers — still produced chronic shortages, surplus junk, and misallocation of capital (see archival planning literature).",
+        "Lange-Lerner market socialism never solved capital-goods pricing under real political incentives; 'as if' markets require residual ownership and bankruptcy discipline.",
+        "Modern AI optimizers still need objective functions and feedback; without residual claimants, planners optimize political metrics (employment targets, prestige projects) over consumer value."
+      ],
+      "fallacies": [
+        "category error",
+        "technocratic hubris",
+        "equivocation on 'optimize'"
+      ],
+      "sources": [
+        {
+          "id": "hayek-knowledge-1945",
+          "title": "F. A. Hayek — The Use of Knowledge in Society (AER 1945)",
+          "url": "https://www.jstor.org/stable/1809376",
+          "doi": "10.2307/1809376",
+          "type": "academic",
+          "accessedAt": "2026-07-22",
+          "citation": "Hayek, F. A. (1945). The Use of Knowledge in Society. American Economic Review, 35(4), 519–530."
+        },
+        {
+          "id": "mises-socialism-calc",
+          "title": "Ludwig von Mises — Economic Calculation in the Socialist Commonwealth / Socialism",
+          "url": "https://mises.org/library/book/socialism-economic-and-sociological-analysis",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-22",
+          "citation": "Mises, L. von. Economic Calculation in the Socialist Commonwealth; Socialism: An Economic and Sociological Analysis."
+        },
+        {
+          "id": "hoover-soviet-planning",
+          "title": "Hoover Institution — Soviet Archives / planning records",
+          "url": "https://www.hoover.org/library-archives/collections/soviet",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-22",
+          "citation": "Hoover Institution Library & Archives, Soviet collections on planning and industry."
+        }
+      ],
+      "whyItMatters": "Tech-utopian socialism rebrands failed central planning as 'AI coordination' — Americans must see that ownership and prices, not FLOPS, are the missing inputs.",
+      "relatedClaimIds": [
+        "calculation-impossible",
+        "hayek-knowledge-society-full",
+        "gosplan-systemic-failure"
+      ],
+      "tags": [
+        "calculation-problem",
+        "ai",
+        "cybernetic-socialism",
+        "hayek",
+        "mises",
+        "gosplan"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-22T22:35:27Z",
+      "embeddingText": "supercomputers AI cybernetic socialism calculation problem Hayek knowledge Mises Gosplan Lange market socialism",
+      "searchText": "Supercomputers Solve the Calculation Problem AI planning cybernetic socialism",
+      "kbVersion": "3.8.0"
+    },
+    {
+      "id": "china-state-capitalism-works",
+      "topicId": "china-famine",
+      "topicPath": "/historical-socialism/china-famine",
+      "title": "China Proves Socialism Works Now",
+      "socialistClaimText": "China's rise shows socialism works — state direction, SOEs, and industrial policy outperform chaotic Western markets. The Great Leap failures are ancient history.",
+      "executiveSummary": "China's post-1978 growth explosion tracks marketization, private enterprise, FDI, and trade openness — not a return to Maoist allocation. State capitalism retains party control and large SOEs, but growth and poverty reduction accelerate where prices, property, and export competition operate. Authoritarian industrial policy also produces ghost cities, debt overhangs, and capital misallocation.",
+      "evidenceBullets": [
+        "World Bank: extreme poverty in China collapsed after market reforms and coastal opening — not during pure command-economy decades.",
+        "Private sector and township-village enterprises drove a large share of employment and export growth after Deng reforms; pure SOE planning eras did not.",
+        "IMF / national accounts: property-sector and LGFV debt, excess capacity in steel/solar, and ghost urbanization illustrate industrial-policy waste.",
+        "Political freedom remains suppressed — 'works' cannot mean GDP alone when labor camps, censorship, and zero-COVID lockdowns reveal institutional character."
+      ],
+      "fallacies": [
+        "post hoc ergo propter hoc",
+        "motte and bailey",
+        "selective time window"
+      ],
+      "sources": [
+        {
+          "id": "wb-china-poverty",
+          "title": "World Bank — Poverty and shared prosperity / China country data",
+          "url": "https://www.worldbank.org/en/country/china",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-22",
+          "citation": "World Bank Group, China poverty and development indicators."
+        },
+        {
+          "id": "imf-china-article-iv",
+          "title": "IMF — People's Republic of China Article IV consultations",
+          "url": "https://www.imf.org/en/Countries/CHN",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-22",
+          "citation": "International Monetary Fund, China Article IV staff reports."
+        },
+        {
+          "id": "nbs-china",
+          "title": "National Bureau of Statistics of China",
+          "url": "https://www.stats.gov.cn/english/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-22",
+          "citation": "NBS China statistical yearbooks and monthly indicators."
+        }
+      ],
+      "whyItMatters": "Confusing party-led marketization with 'socialism works' launders authoritarianism and ignores that the growth engine was the market half of the hybrid.",
+      "relatedClaimIds": [
+        "china-famine",
+        "ussr-not-real-socialism",
+        "nordic-socialist"
+      ],
+      "tags": [
+        "china",
+        "state-capitalism",
+        "industrial-policy",
+        "soe",
+        "market-reform"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-22T22:35:27Z",
+      "embeddingText": "China socialism works state capitalism industrial policy SOE Deng reform World Bank poverty ghost cities",
+      "searchText": "China Proves Socialism Works Now state capitalism industrial policy",
+      "kbVersion": "3.8.0"
+    },
+    {
+      "id": "wealth-tax-free-lunch",
+      "topicId": "wealth-distribution",
+      "topicPath": "/wealth-inequality-mobility/wealth-distribution",
+      "title": "Wealth Taxes Are a Free Lunch on Billionaires",
+      "socialistClaimText": "A small annual tax on billionaire wealth can fund everything popular without hurting the middle class. The rich just hide money; enforcement will fix it.",
+      "executiveSummary": "Wealth taxes hit illiquid assets, valuation disputes, capital flight, and reduced investment. European experiments (France, Sweden historically) yielded less revenue than hoped and were scaled back. Realization-based capital gains already tax gains; annual mark-to-market wealth taxes create cash-flow crises for founders and farms while sophisticated capital relocates.",
+      "evidenceBullets": [
+        "France's former ISF wealth tax: limited net revenue after avoidance, emigration of high-net-worth residents, and compliance costs — later reformed toward real-estate focus.",
+        "OECD wealth-tax reviews: few OECD countries retain broad net wealth taxes; administrative complexity and mobility of capital are recurrent findings.",
+        "Saez/Zucman proposals face valuation problems for private businesses; IRS and tax authorities already struggle with transfer pricing and pass-throughs.",
+        "CBO scoring of wealth-tax concepts shows large uncertainty; behavioral responses (location, legal form, underreporting) dominate headline arithmetic."
+      ],
+      "fallacies": [
+        "free lunch",
+        "fixed pie",
+        "underestimating behavioral response"
+      ],
+      "sources": [
+        {
+          "id": "oecd-wealth-tax",
+          "title": "OECD — The Role and Design of Net Wealth Taxes",
+          "url": "https://www.oecd.org/tax/tax-policy/the-role-and-design-of-net-wealth-taxes-in-the-oecd.htm",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-22",
+          "citation": "OECD (2018). The Role and Design of Net Wealth Taxes in the OECD."
+        },
+        {
+          "id": "cbo-tax-options",
+          "title": "CBO — Options for Reducing the Deficit / tax options",
+          "url": "https://www.cbo.gov/topics/taxes",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-22",
+          "citation": "Congressional Budget Office tax and deficit option volumes."
+        },
+        {
+          "id": "treasury-tax-expenditures",
+          "title": "U.S. Treasury — Tax Expenditures / capital taxation materials",
+          "url": "https://home.treasury.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-22",
+          "citation": "U.S. Department of the Treasury tax policy publications."
+        }
+      ],
+      "whyItMatters": "Selling wealth taxes as painless billionaire-only math ignores European evidence and the investment channel that funds wages and innovation.",
+      "relatedClaimIds": [
+        "billionaires-shouldnt-exist",
+        "piketty-r-g-debunked",
+        "fed-scf-wealth-share"
+      ],
+      "tags": [
+        "wealth-tax",
+        "taxation",
+        "capital-flight",
+        "oecd",
+        "inequality"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-22T22:35:27Z",
+      "embeddingText": "wealth tax billionaires free lunch France ISF OECD capital flight valuation private business",
+      "searchText": "Wealth Taxes Are a Free Lunch on Billionaires wealth tax OECD France",
+      "kbVersion": "3.8.0"
+    },
+    {
+      "id": "student-debt-cancel-justice",
+      "topicId": "government-intervention",
+      "topicPath": "/government-intervention",
+      "title": "Student Debt Cancellation Is Simple Justice",
+      "socialistClaimText": "Canceling federal student debt is progressive justice — banks and colleges already got paid; borrowers are victims of a predatory system. Cancellation costs almost nothing economically.",
+      "executiveSummary": "Federal student loans are taxpayer-backed. Cancellation transfers wealth from non-college and repaid borrowers to higher-education attendees who, on average, still have higher lifetime earnings. It does not reform tuition incentives; colleges capture aid. Targeted hardship relief differs from blanket cancellation sold as free.",
+      "evidenceBullets": [
+        "CBO / Education Department: outstanding federal student loan balances measured in the trillions — cancellation is fiscal, not free.",
+        "Brookings and other analyses: benefits of broad cancellation skew toward upper-middle-income households with graduate degrees.",
+        "College Board / NCES: tuition rose faster than inflation for decades as federal lending expanded — Bennett Hypothesis evidence of aid capture.",
+        "Labor economics consensus: college premium remains positive on average — framing all borrowers as permanent victims misstates returns."
+      ],
+      "fallacies": [
+        "free lunch",
+        "motte and bailey",
+        "hidden transfer"
+      ],
+      "sources": [
+        {
+          "id": "cbo-student-loans",
+          "title": "CBO — Student Loan Programs / federal credit",
+          "url": "https://www.cbo.gov/topics/education",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-22",
+          "citation": "Congressional Budget Office education and student loan analyses."
+        },
+        {
+          "id": "ed-fsa",
+          "title": "U.S. Department of Education — Federal Student Aid portfolio",
+          "url": "https://studentaid.gov/data-center",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-22",
+          "citation": "Federal Student Aid data center, loan portfolio statistics."
+        },
+        {
+          "id": "nces-tuition",
+          "title": "NCES — College costs and enrollment",
+          "url": "https://nces.ed.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-22",
+          "citation": "National Center for Education Statistics, Digest of Education Statistics."
+        }
+      ],
+      "whyItMatters": "Blanket cancellation is regressive fiscal policy sold as justice — and leaves the tuition-cost disease untouched.",
+      "relatedClaimIds": [
+        "education-free",
+        "occupational-licensing-barriers",
+        "public-choice-regulatory-capture"
+      ],
+      "tags": [
+        "student-debt",
+        "cancellation",
+        "higher-education",
+        "bennett-hypothesis",
+        "fiscal"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-22T22:35:27Z",
+      "embeddingText": "student debt cancellation justice federal loans CBO tuition Bennett Hypothesis progressive transfer",
+      "searchText": "Student Debt Cancellation Is Simple Justice student loans cancel college",
+      "kbVersion": "3.8.0"
+    },
+    {
+      "id": "georgism-is-socialism",
+      "topicId": "wealth-inequality-mobility",
+      "topicPath": "/wealth-inequality-mobility",
+      "title": "Land Value Tax Means Socialism",
+      "socialistClaimText": "Henry George's single tax proves markets cannot handle land — all land rent is theft and must be socialized. Georgism is the scientific path beyond capitalism.",
+      "executiveSummary": "Georgism is not full socialism of capital and labor — it is a land-rent fiscal idea. You can steelman land-value taxation as less distortionary than taxing wages, while rejecting the leap that all unimproved land value is collective property or that markets in housing and capital should be abolished. Progress and Poverty is a primary text for the steelman; Bastiat and property theory answer the overreach.",
+      "evidenceBullets": [
+        "Henry George, Progress and Poverty (PD): argues land monopoly causes poverty amid progress — the classic unearned increment claim.",
+        "Modern LVT proposals differ: some are municipal tax shifts (less distortionary), others smuggle full socialization of location value without compensating improvements.",
+        "Housing affordability crises are heavily supply-constrained (zoning, permitting) — land-value capture does not replace building more homes.",
+        "Abolishing private residual claims on location still requires allocation rules; pure rent socialization can become political allocation of sites."
+      ],
+      "fallacies": [
+        "slippery category (tax reform vs socialism)",
+        "single-cause fallacy",
+        "equivocation on 'unearned'"
+      ],
+      "sources": [
+        {
+          "id": "george-pp-pg",
+          "title": "Henry George — Progress and Poverty (Project Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/55308",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-22",
+          "citation": "George, H. (1879). Progress and Poverty. Project Gutenberg #55308."
+        },
+        {
+          "id": "lincoln-inst-lvt",
+          "title": "Lincoln Institute of Land Policy — land value taxation research",
+          "url": "https://www.lincolninst.edu/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-22",
+          "citation": "Lincoln Institute of Land Policy research on property and land-value taxation."
+        },
+        {
+          "id": "bastiat-law-property",
+          "title": "Frédéric Bastiat — The Law",
+          "url": "https://destroyer.jonbailey.xyz/library/read/the-law",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-22",
+          "citation": "Bastiat, F. The Law — legal plunder and property."
+        }
+      ],
+      "whyItMatters": "Conflating any land-tax reform with full socialism muddies debate; steeling George's argument then separating tax design from abolition of markets is the honest move.",
+      "relatedClaimIds": [
+        "profit-is-theft",
+        "zoning-housing-policy",
+        "housing-late-capitalism"
+      ],
+      "tags": [
+        "georgism",
+        "land-value-tax",
+        "henry-george",
+        "housing",
+        "property"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-22T22:35:27Z",
+      "embeddingText": "Georgism land value tax single tax Progress and Poverty Henry George socialism unearned increment zoning",
+      "searchText": "Land Value Tax Means Socialism Georgism Henry George single tax",
+      "kbVersion": "3.8.0"
+    },
+    {
+      "id": "degrowth-is-moral",
+      "topicId": "global-poverty-capitalism",
+      "topicPath": "/global-poverty-capitalism",
+      "title": "Degrowth Is the Moral Climate Solution",
+      "socialistClaimText": "Capitalist growth destroys the planet. Wealthy nations must degrow GDP deliberately; planned contraction is justice for the Global South and the climate.",
+      "executiveSummary": "Sustained growth in market economies has coincided with falling extreme poverty and, in many rich countries, declining pollution intensity per unit of output. Absolute degrowth as policy risks impoverishing the poor first. Climate goals need innovation, nuclear/clean energy, and property-rights-compatible carbon pricing — not romanticizing scarcity.",
+      "evidenceBullets": [
+        "World Bank extreme poverty ($2.15/day line): dramatic global decline since 1990 driven by growth in Asia and market integration — degrowth would reverse that trajectory.",
+        "Our World in Data / EPA trends: many air pollutants fall in high-income countries as GDP rises (Environmental Kuznets patterns for some pollutants).",
+        "IPCC mitigation pathways emphasize technology, efficiency, and energy transition — not mandatory permanent GDP decline as the primary instrument.",
+        "Historical planned scarcity (war communism, rationing regimes) shows political allocation of pain, not automatic equity."
+      ],
+      "fallacies": [
+        "false dichotomy (growth vs planet)",
+        "luxury belief",
+        "zero-sum ecology"
+      ],
+      "sources": [
+        {
+          "id": "wb-poverty-global",
+          "title": "World Bank — Poverty and Inequality Platform",
+          "url": "https://pip.worldbank.org/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-22",
+          "citation": "World Bank Poverty and Inequality Platform."
+        },
+        {
+          "id": "owid-emissions-intensity",
+          "title": "Our World in Data — CO2 and energy intensity series",
+          "url": "https://ourworldindata.org/co2-and-greenhouse-gas-emissions",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-22",
+          "citation": "Our World in Data, CO₂ and greenhouse gas emissions charts."
+        },
+        {
+          "id": "epa-air-trends",
+          "title": "EPA — Air Quality Trends",
+          "url": "https://www.epa.gov/air-trends",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-22",
+          "citation": "U.S. Environmental Protection Agency air trends reports."
+        }
+      ],
+      "whyItMatters": "Degrowth as moral branding asks the global poor to forgo the only proven path out of material misery — innovation under growth.",
+      "relatedClaimIds": [
+        "absolute-poverty-world-bank",
+        "climate-capitalism-failed",
+        "green-new-deal-growth"
+      ],
+      "tags": [
+        "degrowth",
+        "climate",
+        "poverty",
+        "growth",
+        "emissions"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-22T22:35:27Z",
+      "embeddingText": "degrowth climate capitalism GDP moral Global South World Bank poverty emissions intensity innovation",
+      "searchText": "Degrowth Is the Moral Climate Solution degrowth GDP climate justice",
+      "kbVersion": "3.8.0"
+    },
+    {
+      "id": "misinfo-ministry-needed",
+      "topicId": "free-speech-socialist-regimes",
+      "topicPath": "/free-speech-socialist-regimes",
+      "title": "Government Must Police Misinformation",
+      "socialistClaimText": "Democracy dies without a government or quasi-public ministry to police misinformation. Free speech absolutism is a right-wing tool; truth requires institutional gatekeepers.",
+      "executiveSummary": "State truth ministries have a perfect record of protecting power, not truth — from Soviet agitprop to wartime censorship excesses. Open societies correct error via rivalry of sources, defamation law, and counter-speech. Platform moderation is private association; government compulsion of speech suppression is the historical socialist pattern Marcuse's repressive tolerance theorizes.",
+      "evidenceBullets": [
+        "Socialist regimes (USSR Glavlit, PRC firewall, Cuba, Venezuela) fuse media control with party survival — 'misinformation' defined as dissent.",
+        "U.S. First Amendment jurisprudence: government viewpoint discrimination is the core danger; counterspeech is the default remedy.",
+        "COVID-era overconfidence: lab-leak and vaccine-side-effect discussions were often labeled misinformation then partially rehabilitated — institutional error is real.",
+        "Tocqueville/Mill tradition: soft social conformity plus state power produces worse errors than messy open debate."
+      ],
+      "fallacies": [
+        "appeal to authority",
+        "motte and bailey (private moderation vs state compulsion)",
+        "nirvana fallacy"
+      ],
+      "sources": [
+        {
+          "id": "first-amendment-scotus",
+          "title": "U.S. Constitution — First Amendment / SCOTUS free speech cases overview",
+          "url": "https://constitution.congress.gov/constitution/amendment-1/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-22",
+          "citation": "Constitution Annotated, First Amendment."
+        },
+        {
+          "id": "mill-on-liberty",
+          "title": "John Stuart Mill — On Liberty",
+          "url": "https://destroyer.jonbailey.xyz/library/read/on-liberty",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-22",
+          "citation": "Mill, J. S. On Liberty — liberty of thought and discussion."
+        },
+        {
+          "id": "rsf-press-freedom",
+          "title": "Reporters Without Borders — World Press Freedom Index",
+          "url": "https://rsf.org/en/index",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-22",
+          "citation": "RSF World Press Freedom Index (socialist/authoritarian scores)."
+        }
+      ],
+      "whyItMatters": "Once the state defines 'misinfo,' opposition becomes a safety issue — the oldest socialist speech playbook in modern branding.",
+      "relatedClaimIds": [
+        "marcuse-repressive-tolerance",
+        "campus-speech-ideological",
+        "censorship-private"
+      ],
+      "tags": [
+        "misinformation",
+        "censorship",
+        "free-speech",
+        "first-amendment",
+        "press-freedom"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-22T22:35:27Z",
+      "embeddingText": "misinformation ministry government police speech free speech First Amendment Mill Soviet censorship Marcuse",
+      "searchText": "Government Must Police Misinformation free speech ministry of truth",
+      "kbVersion": "3.8.0"
+    },
+    {
+      "id": "industrial-policy-picks-winners",
+      "topicId": "government-intervention",
+      "topicPath": "/government-intervention",
+      "title": "Industrial Policy Just Picks Winning National Champions",
+      "socialistClaimText": "Markets underinvest in strategic industries. Smart industrial policy — subsidies, national champions, green manufacturing mandates — beats free trade and delivers jobs.",
+      "executiveSummary": "Governments can fund basic research and infrastructure; they struggle to pick commercial winners under political incentives. Industrial policy often locks in incumbents, invites rent-seeking, and retaliates into trade wars. Evidence from Solyndra-style failures to excess capacity abroad shows concentrated losses and diffuse costs.",
+      "evidenceBullets": [
+        "Public choice: subsidies flow to organized interests with concentrated benefits; costs diffuse to taxpayers and consumers.",
+        "Historical U.S. examples: energy and manufacturing subsidies with high-profile bankruptcies after political allocation of capital.",
+        "Trade economics: comparative advantage and consumer gains from trade are robust; infant-industry protection rarely graduates.",
+        "China capacity gluts (steel, solar): state-directed investment creates global dumping pressure — not a free model to copy without political distortion."
+      ],
+      "fallacies": [
+        "nirvana fallacy",
+        "seen vs unseen",
+        "nationalist free lunch"
+      ],
+      "sources": [
+        {
+          "id": "cbo-industrial",
+          "title": "CBO — Federal investment, industrial, and energy subsidy analyses",
+          "url": "https://www.cbo.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-22",
+          "citation": "Congressional Budget Office reports on federal industrial and energy spending."
+        },
+        {
+          "id": "bea-trade",
+          "title": "BEA — International trade and GDP accounts",
+          "url": "https://www.bea.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-22",
+          "citation": "Bureau of Economic Analysis international accounts."
+        },
+        {
+          "id": "wto-trade",
+          "title": "WTO — World Trade Report / subsidy disciplines overview",
+          "url": "https://www.wto.org/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-22",
+          "citation": "World Trade Organization research and subsidy rules materials."
+        }
+      ],
+      "whyItMatters": "Industrial policy is often socialism-lite for favored firms — sold as strategy while taxpayers eat the losses.",
+      "relatedClaimIds": [
+        "public-choice-regulatory-capture",
+        "china-state-capitalism-works",
+        "green-new-deal-growth"
+      ],
+      "tags": [
+        "industrial-policy",
+        "subsidies",
+        "trade",
+        "public-choice",
+        "national-champions"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-22T22:35:27Z",
+      "embeddingText": "industrial policy national champions subsidies green manufacturing comparative advantage public choice Solyndra",
+      "searchText": "Industrial Policy Just Picks Winning National Champions subsidies trade",
+      "kbVersion": "3.8.0"
+    },
+    {
+      "id": "ai-makes-socialism-inevitable",
+      "topicId": "late-stage-capitalism",
+      "topicPath": "/late-stage-capitalism",
+      "title": "AI Makes Socialism Inevitable",
+      "socialistClaimText": "AI and automation will eliminate most jobs; only socialist ownership of algorithms and UBI funded by capital expropriation can prevent mass misery. Capitalism cannot adapt.",
+      "executiveSummary": "Automation historically destroys tasks and creates new ones; real wages and living standards rose with capital deepening. AI will disrupt occupations, but ownership of tools need not be socialized — labor markets, reskilling, and private residual claims on AI capital still coordinate better than planning bureaus. Expropriating AI capital recreates the calculation and incentive problems at higher stakes.",
+      "evidenceBullets": [
+        "BLS occupational employment: centuries of automation (agriculture → industry → services) without permanent mass unemployment as the equilibrium.",
+        "Acemoglu/Restrepo and related labor research: automation displaces tasks; new tasks and complementary jobs matter — policy should not assume zero new work.",
+        "Capital deepening raises labor productivity and real consumption (historical Maddison / BLS series).",
+        "Socialist ownership of compute and models concentrates political power over speech and production — dual risk of scarcity and censorship."
+      ],
+      "fallacies": [
+        "lump of labor",
+        "technological inevitability",
+        "false dichotomy"
+      ],
+      "sources": [
+        {
+          "id": "bls-employment",
+          "title": "BLS — Employment Projections / occupational data",
+          "url": "https://www.bls.gov/emp/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-22",
+          "citation": "U.S. Bureau of Labor Statistics Employment Projections."
+        },
+        {
+          "id": "bls-productivity",
+          "title": "BLS — Labor Productivity and Costs",
+          "url": "https://www.bls.gov/lpc/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-22",
+          "citation": "BLS Productivity and Costs program."
+        },
+        {
+          "id": "nber-automation",
+          "title": "NBER — automation and labor market working papers",
+          "url": "https://www.nber.org/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-22",
+          "citation": "National Bureau of Economic Research automation/labor series (e.g., Acemoglu & Restrepo)."
+        }
+      ],
+      "whyItMatters": "AI-panic socialism sells expropriation as destiny — Americans need the historical pattern: tools raise living standards when markets and property rights remain intact.",
+      "relatedClaimIds": [
+        "automation-unemployment",
+        "capital-deepening-raises-wages",
+        "ubi-solves-all"
+      ],
+      "tags": [
+        "ai",
+        "automation",
+        "ubi",
+        "lump-of-labor",
+        "late-stage-capitalism"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-22T22:35:27Z",
+      "embeddingText": "AI socialism inevitable automation jobs UBI expropriation lump of labor productivity BLS",
+      "searchText": "AI Makes Socialism Inevitable automation UBI algorithms ownership",
+      "kbVersion": "3.8.0"
+    },
+    {
+      "id": "oppenheimer-state-is-market",
+      "topicId": "founding-principles",
+      "topicPath": "/founding-principles",
+      "title": "The State Is Just Another Firm",
+      "socialistClaimText": "Government is simply a large cooperative firm that can run industries. Treating the state as uniquely dangerous is free-market ideology; public ownership is ownership by everyone.",
+      "executiveSummary": "Franz Oppenheimer's distinction between economic means (production and exchange) and political means (force) remains decisive. The state can tax and coerce without residual market discipline; 'ownership by everyone' is ownership by political majorities and bureaucracies. Public choice and socialist calculation theory explain why that structure underperforms competitive residual claimants.",
+      "evidenceBullets": [
+        "Oppenheimer, The State (PD): sociological history of political means versus economic means.",
+        "Mises/Hayek: without private capital markets, no rational pricing of capital goods under state ownership.",
+        "Public choice (Buchanan/Tullock tradition): bureaucrats and politicians maximize budgets and votes, not consumer surplus.",
+        "Historical SOE performance: soft budget constraints, bailouts, and politicized employment goals."
+      ],
+      "fallacies": [
+        "category error",
+        "anthropomorphism of 'the people'",
+        "nirvana fallacy"
+      ],
+      "sources": [
+        {
+          "id": "oppenheimer-pg",
+          "title": "Franz Oppenheimer — The State (Project Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/51544",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-22",
+          "citation": "Oppenheimer, F. The State. Project Gutenberg #51544."
+        },
+        {
+          "id": "buchanan-public-choice",
+          "title": "James Buchanan / public choice literature overview",
+          "url": "https://www.econlib.org/library/Enc/PublicChoice.html",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-22",
+          "citation": "Public choice theory — EconLib / Buchanan tradition."
+        },
+        {
+          "id": "mises-bureaucracy",
+          "title": "Ludwig von Mises — Bureaucracy / Socialism",
+          "url": "https://mises.org/library/book/bureaucracy",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-22",
+          "citation": "Mises, L. von. Bureaucracy; Socialism."
+        }
+      ],
+      "whyItMatters": "If citizens believe the state is just a big co-op, they will hand it industries without demanding the exit, prices, and bankruptcy that make firms accountable.",
+      "relatedClaimIds": [
+        "calculation-impossible",
+        "public-choice-regulatory-capture",
+        "bastiat-legal-plunder"
+      ],
+      "tags": [
+        "oppenheimer",
+        "state",
+        "public-choice",
+        "soe",
+        "political-means"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-22T22:35:27Z",
+      "embeddingText": "Oppenheimer The State political means economic means public choice SOE Mises bureaucracy ownership by everyone",
+      "searchText": "The State Is Just Another Firm Oppenheimer political means public ownership",
+      "kbVersion": "3.8.0"
+    },
+    {
+      "id": "bohm-bawerk-ltv-dead",
+      "topicId": "labor-theory",
+      "topicPath": "/profit-exploitation/labor-theory",
+      "title": "Labor Theory of Value Still Explains Prices",
+      "socialistClaimText": "Marx's labor theory of value still explains prices and exploitation; marginalist critiques are bourgeois ideology. Surplus value is scientific fact.",
+      "executiveSummary": "Böhm-Bawerk's Karl Marx and the Close of His System remains the classic demonstration that Marx's value theory fails the transformation into production prices and cannot handle capital, time preference, or heterogeneous labor without ad hoc patches. Subjective marginal utility and opportunity cost explain prices; voluntary exchange is not theft of surplus hours.",
+      "evidenceBullets": [
+        "Böhm-Bawerk (1896/1898 English): systematic critique of Marx's value and surplus-value system and the transformation problem.",
+        "Mainstream price theory (Jevons/Menger/Walras tradition): marginal utility and scarcity, not embodied labor averages, determine market prices.",
+        "Empirical counterexamples: rare art, land sites, and software have prices detached from labor hours; mud pies with huge labor have near-zero value.",
+        "Even many modern Marxists reformulate value as abstract social relation rather than predictive price theory — abandoning the original scientific claim."
+      ],
+      "fallacies": [
+        "special pleading",
+        "unfalsifiable reformulation",
+        "ad hominem (bourgeois ideology)"
+      ],
+      "sources": [
+        {
+          "id": "bohm-bawerk-close",
+          "title": "Eugen von Böhm-Bawerk — Karl Marx and the Close of His System",
+          "url": "https://mises.org/library/book/karl-marx-and-close-his-system",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-22",
+          "citation": "Böhm-Bawerk, E. von. Karl Marx and the Close of His System (1896/98)."
+        },
+        {
+          "id": "menger-principles",
+          "title": "Carl Menger — Principles of Economics (marginal utility)",
+          "url": "https://mises.org/library/book/principles-economics",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-22",
+          "citation": "Menger, C. Principles of Economics."
+        },
+        {
+          "id": "marx-capital-steelman",
+          "title": "Karl Marx — Capital Vol. I (steelman primary)",
+          "url": "https://destroyer.jonbailey.xyz/library/read/marx-capital-vol1",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-22",
+          "citation": "Marx, K. Capital, Volume I — value and surplus-value chapters."
+        }
+      ],
+      "whyItMatters": "If LTV stands, profit looks like theft; if it falls, the moral core of classical exploitation theory collapses and voluntary exchange regains legitimacy.",
+      "relatedClaimIds": [
+        "exploitation-marx",
+        "surplus-value-subjective-marginal",
+        "profit-is-theft"
+      ],
+      "tags": [
+        "labor-theory-of-value",
+        "bohm-bawerk",
+        "marx",
+        "marginalism",
+        "transformation-problem"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-22T22:35:27Z",
+      "embeddingText": "labor theory of value Böhm-Bawerk Marx Close of His System transformation problem marginal utility surplus value",
+      "searchText": "Labor Theory of Value Still Explains Prices Bohm-Bawerk Marx surplus value",
+      "kbVersion": "3.8.0"
+    },
+    {
+      "id": "soft-despotism-welfare-state",
+      "topicId": "soft-despotism-conformity",
+      "topicPath": "/ideological-subversion/soft-despotism-conformity",
+      "title": "The Welfare State Is Just Compassion",
+      "socialistClaimText": "Expanding administrative welfare is pure compassion. Warnings about soft despotism are right-wing scare stories; experts should manage more of life for equality.",
+      "executiveSummary": "Tocqueville warned that democratic peoples may trade independence for a schoolmaster state that cares for them in detail. Administrative expansion can be well-intended and still erode agency, civil society, and local responsibility. Compassion for genuine hardship is not identical to unlimited central management of outcomes.",
+      "evidenceBullets": [
+        "Tocqueville, Democracy in America and The Old Regime: administrative centralization and equality-seeking can prepare new forms of tutelage.",
+        "Mill, On Liberty: social tyranny can be as real as legal tyranny when conformity is enforced by institutions.",
+        "Program growth data (OMB historical tables / CBO): mandatory spending and transfer share of federal outlays rose for decades — political path dependence, not one-off charity.",
+        "Outcomes: poverty traps and dependency debates are empirical (labor supply responses, marriage penalties) — not pure malice vs purity morality plays."
+      ],
+      "fallacies": [
+        "false dichotomy (compassion vs liberty)",
+        "motive worship",
+        "nirvana fallacy"
+      ],
+      "sources": [
+        {
+          "id": "tocqueville-da",
+          "title": "Alexis de Tocqueville — Democracy in America",
+          "url": "https://destroyer.jonbailey.xyz/library/read/democracy-in-america",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-22",
+          "citation": "Tocqueville, A. de. Democracy in America — soft despotism passages."
+        },
+        {
+          "id": "tocqueville-old-regime-src",
+          "title": "Alexis de Tocqueville — The Old Regime and the Revolution",
+          "url": "https://oll.libertyfund.org/titles/tocqueville-the-old-regime-and-the-revolution-1856",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-22",
+          "citation": "Tocqueville, A. de. The Old Regime and the Revolution (1856)."
+        },
+        {
+          "id": "cbo-mandatory",
+          "title": "CBO — Budget and Economic Outlook (mandatory spending)",
+          "url": "https://www.cbo.gov/topics/budget",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-22",
+          "citation": "Congressional Budget Office budget outlooks, mandatory outlays."
+        }
+      ],
+      "whyItMatters": "If every expansion of administrative power is rebranded as compassion, Americans stop asking what independence and civil society are worth.",
+      "relatedClaimIds": [
+        "soft-despotism-conformity",
+        "ubi-solves-all",
+        "bastiat-legal-plunder"
+      ],
+      "tags": [
+        "soft-despotism",
+        "tocqueville",
+        "welfare-state",
+        "administrative-state",
+        "liberty"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-22T22:35:27Z",
+      "embeddingText": "welfare state soft despotism Tocqueville Old Regime administrative schoolmaster compassion Mill On Liberty",
+      "searchText": "The Welfare State Is Just Compassion soft despotism Tocqueville",
+      "kbVersion": "3.8.0"
+    },
+    {
+      "id": "rent-control-2020s-evidence",
+      "topicId": "ubi-rent-control",
+      "topicPath": "/government-intervention/ubi-rent-control",
+      "title": "2020s Rent Caps Finally Worked",
+      "socialistClaimText": "New rent control and rent stabilization waves (NYC expansions, California, Europe) prove economists were wrong — tenants win and supply is fine.",
+      "executiveSummary": "Contemporary evidence still finds rent control reduces rental supply, lowers maintenance, and misallocates units to long-tenure tenants. Stanford/Diamond et al. on San Francisco and related work remain central; new caps may help sitting tenants short-term while raising citywide rents and shrinking future construction.",
+      "evidenceBullets": [
+        "Diamond, McQuade, Qian (JPE): San Francisco rent control reduced rental supply as owners converted or sold, raising rents citywide.",
+        "Metcalf / housing research consensus: majority of economists oppose strict rent control as housing policy; supply and zoning dominate affordability.",
+        "European cases (e.g., Berlin rent freeze experience): legal/political reversals after supply and market dysfunction signals.",
+        "Bastiat seen/unseen: visible rent savings for covered tenants hide missing units and lower quality for the next generation of renters."
+      ],
+      "fallacies": [
+        "short-run bias",
+        "seen vs unseen",
+        "selection bias"
+      ],
+      "sources": [
+        {
+          "id": "diamond-sf-rent",
+          "title": "Diamond, McQuade, Qian — The Effects of Rent Control Expansion (JPE)",
+          "url": "https://www.journals.uchicago.edu/doi/10.1086/699808",
+          "doi": "10.1086/699808",
+          "type": "academic",
+          "accessedAt": "2026-07-22",
+          "citation": "Diamond, R., McQuade, T., & Qian, F. (2019). The Effects of Rent Control Expansion on Tenants, Landlords, and Inequality. Journal of Political Economy."
+        },
+        {
+          "id": "igm-rent-control",
+          "title": "IGM Chicago Booth — Expert panel on rent control",
+          "url": "https://www.igmchicago.org/surveys/rent-control/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-22",
+          "citation": "IGM Economic Experts Panel, rent control surveys."
+        },
+        {
+          "id": "census-housing",
+          "title": "U.S. Census Bureau — Housing data / vacancy",
+          "url": "https://www.census.gov/topics/housing.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-22",
+          "citation": "U.S. Census Bureau housing and vacancy statistics."
+        }
+      ],
+      "whyItMatters": "Recycling rent control as a 2020s innovation ignores the same incentive math that has failed for a century — only the branding is new.",
+      "relatedClaimIds": [
+        "rent-control-helps",
+        "zoning-housing-policy",
+        "housing-late-capitalism"
+      ],
+      "tags": [
+        "rent-control",
+        "housing",
+        "san-francisco",
+        "supply",
+        "zoning"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-22T22:35:27Z",
+      "embeddingText": "rent control 2020s San Francisco Diamond McQuade Berlin freeze housing supply economists IGM",
+      "searchText": "2020s Rent Caps Finally Worked rent control stabilization housing",
+      "kbVersion": "3.8.0"
+    },
+    {
+      "id": "russell-syndicalism-steelman",
+      "topicId": "historical-socialism",
+      "topicPath": "/historical-socialism",
+      "title": "Syndicalism Avoids Soviet Failures",
+      "socialistClaimText": "Worker syndicates and industrial unionism would avoid Soviet bureaucracy. Russell and syndicalists showed a freer socialism is possible without markets or Bolshevik states.",
+      "executiveSummary": "Syndicalism still must allocate scarce capital across industries without market prices or accept informal markets. Historical syndicalist and council experiments either collapsed into party control, produced local monopoly power of unions over outsiders, or relied on residual market trade. Russell's Proposed Roads to Freedom is a sympathetic steelman — not a proof that calculation and incentives disappear.",
+      "evidenceBullets": [
+        "Bertrand Russell, Proposed Roads to Freedom (PD): maps socialism, anarchism, syndicalism with clear-eyed tradeoffs.",
+        "Spanish Civil War collectivizations and other experiments: partial local coordination, conflict over surplus, and wartime distortions — not scalable peaceful calculation.",
+        "Union monopoly can exclude non-members; 'workers' is not a homogeneous planner with shared preferences.",
+        "Without capital markets, syndicates face the same investment-signal problem Mises identified for state ownership."
+      ],
+      "fallacies": [
+        "no true Scotsman",
+        "utopian schematic",
+        "underestimating coordination"
+      ],
+      "sources": [
+        {
+          "id": "russell-roads-pg",
+          "title": "Bertrand Russell — Proposed Roads to Freedom (Project Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/690",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-22",
+          "citation": "Russell, B. (1918). Proposed Roads to Freedom. Project Gutenberg #690."
+        },
+        {
+          "id": "hunter-violence",
+          "title": "Robert Hunter — Violence and the Labor Movement",
+          "url": "https://www.gutenberg.org/ebooks/31108",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-22",
+          "citation": "Hunter, R. Violence and the Labor Movement. Project Gutenberg #31108."
+        },
+        {
+          "id": "mises-calc-again",
+          "title": "Mises — Economic calculation under socialism",
+          "url": "https://mises.org/library/book/socialism-economic-and-sociological-analysis",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-22",
+          "citation": "Mises, L. von. Socialism — calculation chapters."
+        }
+      ],
+      "whyItMatters": "Syndicalism is often the escape hatch when state socialism fails historically — steelman it, then apply the same price and incentive tests.",
+      "relatedClaimIds": [
+        "ussr-not-real-socialism",
+        "worker-coops-superior",
+        "calculation-impossible"
+      ],
+      "tags": [
+        "syndicalism",
+        "russell",
+        "industrial-unionism",
+        "councils",
+        "calculation"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-22T22:35:27Z",
+      "embeddingText": "syndicalism Russell Proposed Roads to Freedom industrial unionism councils Soviet bureaucracy calculation",
+      "searchText": "Syndicalism Avoids Soviet Failures Russell worker councils industrial unionism",
+      "kbVersion": "3.8.0"
+    }
+  ],
+  "contentHash": "sha256:5b98f537435b4a0f0db5433545f1cf90bcbc0bb0ffb0acc3b90399bef0bd29c5"
+}

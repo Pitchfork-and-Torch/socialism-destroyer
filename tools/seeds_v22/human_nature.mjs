@@ -1,0 +1,381 @@
+import { claim, gov, acad, primary } from './_claim_factory.mjs';
+
+export default [
+  // ── Overrides (richer v2) ──────────────────────────────────────────────
+  claim({
+    id: 'calculation-impossible',
+    topicId: 'calculation-problem',
+    topicPath: '/human-nature-incentives/calculation-problem',
+    title: 'Central Planning Works With Modern AI',
+    socialistClaimText:
+      'Modern AI and supercomputers finally solve the socialist calculation problem — central planners can now allocate resources as efficiently as markets.',
+    executiveSummary:
+      'Ludwig von Mises (1920) proved that without private ownership of the means of production there are no market prices for capital goods — and without money prices, rational economic calculation is impossible. Friedrich Hayek (1945) deepened the argument: even with infinite computing power, planners cannot aggregate the dispersed, tacit, local knowledge that prices compress into actionable signals. Soviet reformers (Kornai, Nove) conceded these limits before collapse. AI can optimize within a given price system; it cannot replace the discovery process that prices enable.',
+    evidenceBullets: [
+      'Mises (1920, "Economic Calculation in the Socialist Commonwealth"): without exchange of capital goods there is no price structure — planners cannot know whether building a railroad uses too many resources relative to alternatives.',
+      'Hayek (1945, AER, DOI:10.1086/377286): "The Use of Knowledge in Society" — the economic problem is utilization of knowledge not given to anyone in totality; prices communicate what no central dataset can capture.',
+      'Nove (1983) and Kornai (1992): Eastern Bloc economists acknowledged chronic misallocation and shortage economies despite improved statistics and computing.',
+      'Modern ML successes (logistics, ad bidding) operate inside market price systems — they optimize given prices, not replace price discovery for capital goods.',
+    ],
+    fallacies: ['technocratic fallacy', 'conflation of computation with economic calculation', 'Nirvana fallacy'],
+    sources: [
+      acad(
+        'Mises — Economic Calculation in the Socialist Commonwealth (1920)',
+        'https://mises.org/library/economic-calculation-socialist-commonwealth',
+        'Mises, L. von (1920). Economic Calculation in the Socialist Commonwealth. Archiv für Sozialwissenschaft und Sozialpolitik.',
+      ),
+      acad(
+        'Hayek — The Use of Knowledge in Society (AER 1945)',
+        'https://doi.org/10.1086/377286',
+        'Hayek, F. A. (1945). The Use of Knowledge in Society. American Economic Review, 35(4), 519–530.',
+        '10.1086/377286',
+      ),
+      acad(
+        'Kornai — The Socialist System (1992)',
+        'https://www.hoover.org/research/janos-kornai',
+        'Kornai, J. (1992). The Socialist System: The Political Economy of Communism. Princeton University Press.',
+      ),
+      acad(
+        'Nove — The Economics of Feasible Socialism (1983)',
+        'https://oll.libertyfund.org/titles/nove-the-economics-of-feasible-socialism-revisited',
+        'Nove, A. (1983). The Economics of Feasible Socialism. Allen & Unwin.',
+      ),
+    ],
+    whyItMatters:
+      'Every generation revives central planning with new technology buzzwords. Mises and Hayek show the barrier is institutional — prices under private ownership — not processor speed. Policy that ignores this repeats the shortages and stagnation documented across socialist experiments.',
+    relatedClaimIds: ['incentives-matter', 'hayek-knowledge-society-full', 'socialist-incentive-shirking'],
+    tags: ['calculation problem', 'mises', 'hayek', 'planning', 'ai', 'prices'],
+    revision: 2,
+  }),
+
+  claim({
+    id: 'incentives-matter',
+    topicId: 'human-nature-incentives',
+    topicPath: '/human-nature-incentives',
+    title: 'People Work Hard Without Profit',
+    socialistClaimText:
+      'Humans will produce enthusiastically without material incentives — moral commitment and solidarity are enough to sustain a socialist economy.',
+    executiveSummary:
+      'When personal reward is decoupled from productive contribution, rational actors economize on effort. Soviet enterprise surveys documented widespread shirking, absenteeism, and "storming" before plan deadlines. BLS productivity data show U.S. output per hour rises when firms face competitive pressure and workers retain marginal returns. Venezuela, Mao-era China, and the USSR all exhibited incentive erosion, shortages, and corruption after property rights weakened — not because citizens lacked virtue, but because institutions failed to align self-interest with social benefit.',
+    evidenceBullets: [
+      'Kornai (1980, Economics of Shortage): soft budget constraints and absence of bankruptcy removed discipline — enterprises hoarded inputs and under-produced quality goods.',
+      'BLS (Major Sector Productivity): U.S. nonfarm business sector labor productivity grew ~2.1% annually (2000–2019), driven by capital deepening and incentive-compatible firm structures.',
+      'Soviet labor studies (cited in Becker, 1991): piece-rate and bonus systems partially mitigated shirking — proof that material incentives mattered even under socialism.',
+      'Venezuela post-2007 nationalizations: oil output collapsed despite vast reserves — expropriation destroyed managerial and worker incentives to maintain capital.',
+    ],
+    fallacies: ['wishful thinking', 'moralistic fallacy', 'denial of revealed preference'],
+    sources: [
+      acad(
+        'Kornai — Economics of Shortage (1980)',
+        'https://www.hoover.org/research/janos-kornai',
+        'Kornai, J. (1980). Economics of Shortage. North-Holland.',
+      ),
+      gov(
+        'BLS — Productivity and Costs (Major Sector)',
+        'https://www.bls.gov/productivity/',
+        'U.S. Bureau of Labor Statistics, Productivity and Costs — Major Sector, 2024 release.',
+      ),
+      acad(
+        'Becker — A Theory of Competition Among Pressure Groups for Political Influence (QJE 1983)',
+        'https://doi.org/10.2307/1886060',
+        'Becker, G. S. (1983). A Theory of Competition Among Pressure Groups for Political Influence. Quarterly Journal of Economics, 98(3), 371–400.',
+        '10.2307/1886060',
+      ),
+      primary(
+        'Hoover Institution — Soviet and Post-Soviet Archives',
+        'https://www.hoover.org/library-archives',
+        'Hoover Institution Library & Archives, Soviet economic and enterprise records.',
+      ),
+    ],
+    whyItMatters:
+      'Policies that assume people will work as hard for collective glory as for their own family\'s welfare produce compassionate rhetoric and cruel outcomes. Incentive-compatible institutions — property rights, contracts, profit and loss — are not greed; they are how complex societies coordinate production.',
+    relatedClaimIds: ['calculation-impossible', 'socialist-incentive-shirking', 'tragedy-commons-property-rights'],
+    tags: ['incentives', 'human nature', 'productivity', 'shirking', 'bls', 'soviet'],
+    revision: 2,
+  }),
+
+  claim({
+    id: 'human-nature-altruism',
+    topicId: 'human-nature-incentives',
+    topicPath: '/human-nature-incentives',
+    title: 'Humans Are Naturally Cooperative Not Competitive',
+    socialistClaimText:
+      'Markets impose unnatural greed — humans are naturally altruistic and cooperative; socialism simply removes artificial scarcity and competition.',
+    executiveSummary:
+      'Adam Smith\'s Theory of Moral Sentiments (1759) argued humans possess sympathy and moral sentiments — but also self-interest. Markets do not unleash a species-level pathology; they channel self-interest through voluntary exchange into mutual benefit. Public choice theory (Buchanan, Tullock) demonstrates that political actors in collective institutions pursue self-interest just as market actors do — often with weaker accountability. Cooperation at scale requires institutions that align incentives, not the abolition of self-interest.',
+    evidenceBullets: [
+      'Smith, TMS (1759, PD): "How selfish soever man may be supposed, there are evidently some principles in his nature, which interest him in the fortune of others" — sympathy coexists with self-interest, not replaces it.',
+      'Smith, WN (1776): the invisible hand describes how self-interested producers serve society when constrained by competition and property rights.',
+      'Buchanan & Tullock, Calculus of Consent (1962): voters, bureaucrats, and legislators maximize utility like market agents — "politics without romance."',
+      'Ostrom (1990): successful commons governance requires clear rules and enforcement — cooperation is institutional, not automatic.',
+    ],
+    fallacies: ['false dichotomy', 'straw man (greed vs. altruism)', 'romantic view of politics'],
+    sources: [
+      primary(
+        'Smith — The Theory of Moral Sentiments (1759)',
+        'https://oll.libertyfund.org/titles/smith-the-theory-of-moral-sentiments',
+        'Smith, A. (1759). The Theory of Moral Sentiments. Liberty Fund OLL (public domain).',
+      ),
+      primary(
+        'Smith — An Inquiry into the Nature and Causes of the Wealth of Nations (1776)',
+        'https://oll.libertyfund.org/titles/smith-an-inquiry-into-the-nature-and-causes-of-the-wealth-of-nations',
+        'Smith, A. (1776). An Inquiry into the Nature and Causes of the Wealth of Nations. Liberty Fund OLL.',
+      ),
+      acad(
+        'Buchanan & Tullock — The Calculus of Consent (1962)',
+        'https://oll.libertyfund.org/titles/buchanan-and-tullock-the-calculus-of-consent',
+        'Buchanan, J. M., & Tullock, G. (1962). The Calculus of Consent. University of Michigan Press.',
+      ),
+      acad(
+        'Ostrom — Governing the Commons (1990)',
+        'https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/facts/',
+        'Ostrom, E. (1990). Governing the Commons. Cambridge University Press; Nobel Prize in Economic Sciences 2009.',
+      ),
+    ],
+    whyItMatters:
+      'Believing humans will cooperate selflessly under socialism while acting selfishly under capitalism gets the anthropology backwards. Both markets and governments are populated by the same human nature — the question is which institutions channel behavior toward productive cooperation.',
+    relatedClaimIds: ['incentives-matter', 'public-choice-regulatory-capture', 'tragedy-commons-property-rights'],
+    tags: ['human nature', 'cooperation', 'adam smith', 'public choice', 'sympathy', 'tms'],
+    revision: 2,
+  }),
+
+  // ── New claims ─────────────────────────────────────────────────────────
+  claim({
+    id: 'hayek-knowledge-society-full',
+    topicId: 'knowledge-problem',
+    topicPath: '/human-nature-incentives/knowledge-problem',
+    title: 'Big Data Solves the Knowledge Problem',
+    socialistClaimText:
+      'With big data, IoT sensors, and real-time dashboards, central planners can finally possess all the information Hayek said markets alone could aggregate.',
+    executiveSummary:
+      'Hayek\'s 1945 argument is not about data volume but about knowledge type: much economically relevant knowledge is tacit, local, and contextual — known only to the "man on the spot." Prices signal scarcity and value without requiring anyone to articulate why. A central database can record yesterday\'s transactions; it cannot replicate the continuous discovery process by which millions of actors adapt plans to conditions only they perceive. Even perfect historical data cannot substitute for forward-looking entrepreneurial judgment under uncertainty.',
+    evidenceBullets: [
+      'Hayek (1945, DOI:10.1086/377286): "the knowledge of the circumstances of which we must make use never exists in concentrated or integrated form, but solely as the dispersed bits of incomplete and frequently contradictory knowledge which all the separate individuals possess."',
+      'Hayek: the price system communicates changes "without needing to confine the share of each to what he can know of the whole."',
+      'Kirzner (1973): entrepreneurship discovers opportunities prices reveal — planning boards cannot replicate alertness to the unseen.',
+      'Soviet Gosplan relied on increasingly detailed material balances (thousands of indicators) yet chronic shortages persisted — more data did not solve coordination.',
+    ],
+    fallacies: ['technocratic fallacy', 'confusing information with knowledge', 'static snapshot fallacy'],
+    sources: [
+      acad(
+        'Hayek — The Use of Knowledge in Society (AER 1945)',
+        'https://doi.org/10.1086/377286',
+        'Hayek, F. A. (1945). The Use of Knowledge in Society. American Economic Review, 35(4), 519–530.',
+        '10.1086/377286',
+      ),
+      primary(
+        'Econlib — The Use of Knowledge in Society (full text)',
+        'https://www.econlib.org/library/Essays/hykKnw.html',
+        'Hayek, F. A. (1945). The Use of Knowledge in Society. Econlib edition.',
+      ),
+      acad(
+        'Kirzner — Competition and Entrepreneurship (1973)',
+        'https://oll.libertyfund.org/titles/kirzner-competition-and-entrepreneurship',
+        'Kirzner, I. M. (1973). Competition and Entrepreneurship. University of Chicago Press.',
+      ),
+      acad(
+        'Kornai — The Socialist System (1992)',
+        'https://www.hoover.org/research/janos-kornai',
+        'Kornai, J. (1992). The Socialist System. Princeton University Press.',
+      ),
+    ],
+    whyItMatters:
+      'Smart-city and digital-planning rhetoric revives Hayek\'s interlocutors with better sensors. The knowledge problem is why decentralized price signals outperform central dashboards — a lesson for tech regulation and industrial policy alike.',
+    relatedClaimIds: ['calculation-impossible', 'incentives-matter'],
+    tags: ['knowledge problem', 'hayek', 'big data', 'prices', 'tacit knowledge', 'planning'],
+    claimQuote:
+      'The knowledge of the circumstances of which we must make use never exists in concentrated or integrated form, but solely as the dispersed bits of incomplete and frequently contradictory knowledge which all the separate individuals possess.',
+    quoteAttribution: 'Friedrich A. Hayek, "The Use of Knowledge in Society" (AER 1945)',
+    revision: 1,
+  }),
+
+  claim({
+    id: 'mises-bureaucratic-managemen',
+    topicId: 'calculation-problem',
+    topicPath: '/human-nature-incentives/calculation-problem',
+    title: 'Bureaucracy Is as Efficient as Business Management',
+    socialistClaimText:
+      'Public administration and democratic planning can match private enterprise efficiency — bureaucracy is just another form of rational organization.',
+    executiveSummary:
+      'Ludwig von Mises argued in Bureaucracy (1944) that bureaucratic management is the only method available to government agencies because they lack profit-and-loss feedback. Bureaucrats follow rules and budgets; entrepreneurs adjust to consumer demand signaled by prices. Without market prices, bureaucratic rigidity is not a failure of personnel but a structural necessity. Expanding bureaucracy to manage entire economies multiplies the knowledge and incentive problems Mises identified in Economic Calculation (1920).',
+    evidenceBullets: [
+      'Mises, Bureaucracy (1944): business management uses profit-and-loss calculation; bureaucratic management uses compliance with rules — the two are categorically different, not interchangeable.',
+      'Mises: "A bureaucrat differs from a non-bureaucrat precisely because he is working in a field in which it is impossible to appraise the result of his efforts in terms of money."',
+      'U.S. VA wait-time scandals (2014) and IRS/NASA cost overruns illustrate accountability gaps in monopoly bureaucracies.',
+      'BEA data: private-sector productivity growth consistently outpaces government-sector output measures where market tests are absent.',
+    ],
+    fallacies: ['category error', 'Nirvana fallacy (comparing ideal bureaucracy to real markets)', 'technocratic fallacy'],
+    sources: [
+      acad(
+        'Mises — Bureaucracy (1944)',
+        'https://mises.org/library/bureaucracy',
+        'Mises, L. von (1944). Bureaucracy. Yale University Press; Mises Institute edition.',
+      ),
+      acad(
+        'Mises — Economic Calculation in the Socialist Commonwealth (1920)',
+        'https://mises.org/library/economic-calculation-socialist-commonwealth',
+        'Mises, L. von (1920). Economic Calculation in the Socialist Commonwealth.',
+      ),
+      gov(
+        'BEA — Industry Economic Accounts',
+        'https://www.bea.gov/data/economic-accounts',
+        'U.S. Bureau of Economic Analysis, Industry Economic Accounts, 2024.',
+      ),
+      gov(
+        'GAO — High-Risk Series (Government Management)',
+        'https://www.gao.gov/highrisk',
+        'U.S. Government Accountability Office, High-Risk List — government management and program areas.',
+      ),
+    ],
+    whyItMatters:
+      'Expanding government control of healthcare, energy, and finance assumes bureaucracies can "run like a business." Mises shows why they structurally cannot — and why socialist economies become bureaucratic hierarchies by necessity, not accident.',
+    relatedClaimIds: ['calculation-impossible', 'public-choice-regulatory-capture'],
+    tags: ['bureaucracy', 'mises', 'management', 'profit and loss', 'government', 'calculation'],
+    claimQuote:
+      'A bureaucrat differs from a non-bureaucrat precisely because he is working in a field in which it is impossible to appraise the result of his efforts in terms of money.',
+    quoteAttribution: 'Ludwig von Mises, Bureaucracy (1944)',
+    revision: 1,
+  }),
+
+  claim({
+    id: 'public-choice-regulatory-capture',
+    topicId: 'human-nature-incentives',
+    topicPath: '/human-nature-incentives',
+    title: 'Democratic Control Keeps Regulators Honest',
+    socialistClaimText:
+      'Democratic oversight and public-spirited regulators prevent corporations from capturing the state — socialism simply extends this accountability to the whole economy.',
+    executiveSummary:
+      'Public choice theory treats politicians, voters, and bureaucrats as rational actors pursuing self-interest within institutional constraints — not as benevolent stewards. Buchanan and Tullock showed that concentrated benefits and diffuse costs create incentives for regulatory capture: industries lobby for barriers that harm consumers. Expanding state economic control enlarges the prize for capture rather than eliminating it. BEA data on government consumption and transfer spending document the scale of resources subject to political allocation rather than consumer sovereignty.',
+    evidenceBullets: [
+      'Buchanan & Tullock (1962): constitutional rules and competition among jurisdictions constrain rent-seeking better than unconstrained majority rule.',
+      'Stigler (1971, Bell J. Econ.): "regulation is acquired by the industry and is designed and operated primarily for its benefit" — capture is predictable, not accidental.',
+      'BEA (2024): government consumption expenditures and gross investment exceeded $4.4 trillion — vast resources allocated politically.',
+      'Tullock (1967): rent-seeking wastes resources competing for transfers — the welfare cost of political allocation exceeds the transfer itself.',
+    ],
+    fallacies: ['romantic view of government', 'Nirvana fallacy', 'appeal to good intentions'],
+    sources: [
+      acad(
+        'Buchanan & Tullock — The Calculus of Consent (1962)',
+        'https://oll.libertyfund.org/titles/buchanan-and-tullock-the-calculus-of-consent',
+        'Buchanan, J. M., & Tullock, G. (1962). The Calculus of Consent. University of Michigan Press.',
+      ),
+      acad(
+        'Stigler — The Theory of Economic Regulation (Bell J. Econ. 1971)',
+        'https://doi.org/10.2307/3003160',
+        'Stigler, G. J. (1971). The Theory of Economic Regulation. Bell Journal of Economics and Management Science, 2(1), 3–21.',
+        '10.2307/3003160',
+      ),
+      gov(
+        'BEA — Government Consumption Expenditures and Gross Investment',
+        'https://www.bea.gov/data/gdp/gdp-industry',
+        'U.S. Bureau of Economic Analysis, GDP by Industry and government expenditure accounts, 2024.',
+      ),
+      acad(
+        'Tullock — The Welfare Costs of Tariffs, Monopolies, and Theft (WEL 1967)',
+        'https://doi.org/10.1007/BF01918778',
+        'Tullock, G. (1967). The Welfare Costs of Tariffs, Monopolies, and Theft. Western Economic Journal, 5(3), 224–232.',
+        '10.1007/BF01918778',
+      ),
+    ],
+    whyItMatters:
+      'Socialists assume replacing "corporate capture" with state ownership removes self-interest from governance. Public choice shows the opposite: nationalization concentrates rents and makes accountability harder. Market competition and constitutional limits are checks; expanding bureaucracy is fuel.',
+    relatedClaimIds: ['human-nature-altruism', 'mises-bureaucratic-managemen', 'tragedy-commons-property-rights'],
+    tags: ['public choice', 'regulatory capture', 'buchanan', 'tullock', 'bea', 'rent-seeking'],
+    revision: 1,
+  }),
+
+  claim({
+    id: 'tragedy-commons-property-rights',
+    topicId: 'human-nature-incentives',
+    topicPath: '/human-nature-incentives',
+    title: 'Collective Ownership Prevents Environmental Destruction',
+    socialistClaimText:
+      'Private property causes environmental destruction — collective ownership and democratic stewardship of resources will protect the commons for everyone.',
+    executiveSummary:
+      'Garrett Hardin\'s "Tragedy of the Commons" (1968) showed that open-access resources without enforceable property rights are over-exploited because individuals capture benefits while socializing costs. Elinor Ostrom\'s Nobel-winning work demonstrated that commons can be managed — but only with clear rules, monitoring, and sanctions, not open collective ownership. Socialist states (USSR Aral Sea, Soviet industrial pollution) produced some of history\'s worst environmental catastrophes under state ownership without market accountability.',
+    evidenceBullets: [
+      'Hardin (1968, Science, DOI:10.1126/science.162.3859.1243): "freedom in a commons brings ruin to all" — each herdsman adds cattle until the pasture is destroyed.',
+      'Ostrom (1990, Nobel 2009): successful commons governance requires bounded groups, clear rules, and graduated sanctions — not abolition of property rights.',
+      'Coase (1960): well-defined property rights and low transaction costs enable bargaining to internalize externalities.',
+      'Soviet environmental record: Aral Sea shrinkage, Chernobyl, and industrial waste reflect state ownership without profit-and-loss environmental feedback.',
+    ],
+    fallacies: ['false dichotomy (private vs. collective)', 'tragedy of the commons denial', 'appeal to nature'],
+    sources: [
+      acad(
+        'Hardin — The Tragedy of the Commons (Science 1968)',
+        'https://doi.org/10.1126/science.162.3859.1243',
+        'Hardin, G. (1968). The Tragedy of the Commons. Science, 162(3859), 1243–1248.',
+        '10.1126/science.162.3859.1243',
+      ),
+      acad(
+        'Ostrom — Governing the Commons (1990)',
+        'https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/facts/',
+        'Ostrom, E. (1990). Governing the Commons. Cambridge University Press; Nobel Prize 2009.',
+      ),
+      acad(
+        'Coase — The Problem of Social Cost (JLE 1960)',
+        'https://doi.org/10.1086/466560',
+        'Coase, R. H. (1960). The Problem of Social Cost. Journal of Law and Economics, 3, 1–44.',
+        '10.1086/466560',
+      ),
+      primary(
+        'UNEP — Aral Sea Disaster Documentation',
+        'https://www.unep.org/topics/disasters-and-conflicts/regions/asia-and-pacific/republic-kazakhstan/aral-sea',
+        'United Nations Environment Programme, Aral Sea ecological disaster chronicle.',
+      ),
+    ],
+    whyItMatters:
+      'Environmental socialism conflates "collective" with "unowned." Hardin and Ostrom show sustainable resource use requires defined rights and enforceable rules — the opposite of open-access collectivism that socialist property regimes often create.',
+    relatedClaimIds: ['incentives-matter', 'human-nature-altruism', 'public-choice-regulatory-capture'],
+    tags: ['tragedy of the commons', 'hardin', 'ostrom', 'property rights', 'environment', 'commons'],
+    claimQuote:
+      'Ruin is the destination toward which all men rush, each pursuing his own best interest in a society that believes in the freedom of the commons.',
+    quoteAttribution: 'Garrett Hardin, "The Tragedy of the Commons" (Science 1968)',
+    revision: 1,
+  }),
+
+  claim({
+    id: 'socialist-incentive-shirking',
+    topicId: 'calculation-problem',
+    topicPath: '/human-nature-incentives/calculation-problem',
+    title: 'Socialist Workers Are More Motivated Than Capitalist Workers',
+    socialistClaimText:
+      'Workers in socialist economies are more motivated because they labor for society, not for capitalist profit — alienation disappears under collective ownership.',
+    executiveSummary:
+      'János Kornai\'s analysis of the "shortage economy" documented systematic shirking, quality degradation, and hoarding in socialist enterprises operating under soft budget constraints. Without the threat of bankruptcy and without profit-linked rewards, managers and workers rationally minimized effort. Hoover Institution archives preserve enterprise records and émigré economic analyses confirming these patterns across the Eastern Bloc. The calculation problem and the incentive problem are intertwined: when prices do not signal value, neither managers nor workers can be rewarded for productive contribution.',
+    evidenceBullets: [
+      'Kornai (1980): shortage economy emerges when planners set prices below market-clearing levels — buyers queue, sellers withhold effort, and quality collapses.',
+      'Kornai (1992): soft budget constraint — state bailouts removed discipline; enterprise survival did not depend on satisfying customers.',
+      'Hoover Archives: Soviet enterprise reports and émigré scholar papers (e.g., Berkowitz, Chiarella) document labor hoarding and plan gaming.',
+      'Berliner (1957, Factory and Manager in the USSR): Soviet managers developed informal coping strategies — blat, shturmovshchina — to game plan targets, proving systemic incentive failure.',
+    ],
+    fallacies: ['wishful thinking', 'romantic view of labor', 'denial of soft budget constraints'],
+    sources: [
+      acad(
+        'Kornai — Economics of Shortage (1980)',
+        'https://www.hoover.org/research/janos-kornai',
+        'Kornai, J. (1980). Economics of Shortage. North-Holland.',
+      ),
+      acad(
+        'Kornai — The Socialist System (1992)',
+        'https://www.hoover.org/research/janos-kornai',
+        'Kornai, J. (1992). The Socialist System. Princeton University Press.',
+      ),
+      primary(
+        'Hoover Institution — Library & Archives',
+        'https://www.hoover.org/library-archives',
+        'Hoover Institution Library & Archives, Soviet and Eastern European economic collections.',
+      ),
+      acad(
+        'Berliner — Factory and Manager in the USSR (1957)',
+        'https://www.hoover.org/research/factory-and-manager-ussr',
+        'Berliner, J. S. (1957). Factory and Manager in the USSR. Harvard University Press.',
+      ),
+    ],
+    whyItMatters:
+      'The "noble worker" narrative ignores what every socialist economy experienced: when effort is disconnected from reward and enterprises cannot fail, shirking is rational. Incentive reform, not slogans, drove China\'s post-1978 growth.',
+    relatedClaimIds: ['incentives-matter', 'calculation-impossible', 'mises-bureaucratic-managemen'],
+    tags: ['shirking', 'kornai', 'shortage economy', 'soviet', 'hoover', 'incentives', 'labor'],
+    revision: 1,
+  }),
+];

@@ -1,0 +1,1184 @@
+{
+  "schemaVersion": 2,
+  "kbVersion": "2.2.0",
+  "bundleId": "government-intervention-v2",
+  "priority": 10,
+  "updatedAt": "2026-07-04T20:00:00Z",
+  "contentHash": "sha256:84a57741472d87b6047b084995a849fe1525643d906f149a84f223e0445d4bbd",
+  "claims": [
+    {
+      "id": "minimum-wage-no-harm",
+      "topicId": "minimum-wage",
+      "topicPath": "/government-intervention/minimum-wage",
+      "title": "Minimum Wage Raises Don't Cost Jobs",
+      "socialistClaimText": "Raising the minimum wage helps low-wage workers with no downside — studies show little or no employment loss, so $15 nationwide is a free lunch.",
+      "executiveSummary": "When legal minimums bind above marginal product for some workers, employers compress hours, automate, or slow hiring — especially teens and low-skill entrants. CBO's 2019 analysis of a $15 federal minimum estimated 1.3 million workers lifted from poverty but 1.3 million jobs lost (median estimate), with wide uncertainty.",
+      "evidenceBullets": [
+        "CBO (July 2019): $15 by 2025 — median 1.3M fewer employed, 1.3M fewer in poverty; 17M workers see higher wages.",
+        "Neumark & Wascher meta-research: minimum wage increases tend to reduce employment among least-skilled groups.",
+        "Jardim et al. (Seattle $13): higher minimum associated with lower hours worked for low-wage workers after 2016.",
+        "BLS: teen unemployment historically sensitive to wage floors — entry rungs are first cut when margins tighten."
+      ],
+      "fallacies": [
+        "seen vs unseen",
+        "magic bullet thinking",
+        "cherry-picked study selection"
+      ],
+      "chartData": {
+        "type": "bar",
+        "title": "CBO (2019) — Estimated Effects of $15 Federal Minimum Wage by 2025 (millions)",
+        "labels": [
+          "Workers with higher wages",
+          "Families out of poverty",
+          "Job losses (median)"
+        ],
+        "datasets": [
+          {
+            "label": "Millions",
+            "values": [
+              17,
+              1.3,
+              1.3
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "id": "55410",
+          "title": "CBO — The Effects on Employment and Family Income of Increasing the Federal Minimum Wage",
+          "url": "https://www.cbo.gov/publication/55410",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Congressional Budget Office, July 2019, CBO Publication 55410."
+        },
+        {
+          "id": "acad",
+          "title": "Neumark & Wascher — Minimum Wages and Employment",
+          "url": "https://doi.org/10.3386/w12663",
+          "doi": "10.3386/w12663",
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Neumark, D. & Wascher, W. NBER working papers and survey of minimum wage literature."
+        },
+        {
+          "id": "acad",
+          "title": "Jardim et al. — Minimum Wage Increases and Individual Employment (Seattle)",
+          "url": "https://www.nber.org/papers/w25432",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Jardim, E. et al. (2017). NBER Working Paper 25432 — Seattle wage ordinance."
+        },
+        {
+          "id": "youth.toc.htm",
+          "title": "BLS — Labor Force Statistics for Youth",
+          "url": "https://www.bls.gov/news.release/youth.toc.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Bureau of Labor Statistics, youth employment and unemployment releases."
+        }
+      ],
+      "whyItMatters": "The workers minimum wages aim to help are often the first excluded when hourly rates exceed what their output justifies. Poverty policy needs precision, not slogans.",
+      "relatedClaimIds": [
+        "minimum-wage-entry",
+        "sweden-no-statutory-minimum-wage"
+      ],
+      "tags": [
+        "minimum-wage",
+        "cbo",
+        "employment",
+        "poverty",
+        "seattle"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 2,
+      "contentHash": "sha256:v22claim13minimumwagenoharm",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "Minimum Wage Raises Don't Cost Jobs Raising the minimum wage helps low-wage workers with no downside — studies show little or no employment loss, so $15 nationwide is a free lunch. When legal minimums bind above marginal product for some workers, employers compress hours, automate, or slow hiring — especially teens and low-skill entrants. CBO's 2019 analysis of a $15 federal minimum estimated 1.3 million workers lifted from poverty but 1.3 million jobs lost (median estimate), with wide uncertainty. CBO (July 2019): $15 by 2025 — median 1.3M fewer employed, 1.3M fewer in poverty; 17M workers see higher wages. Neumark & Wascher meta-research: minimum wage increases tend to reduce employment among least-skilled groups. Jardim et al. (Seattle $13): higher minimum associated with lower hours worked for low-wage workers after 2016. BLS: teen unemployment historically sensitive to wage floors — entry rungs are first cut when margins tighten. minimum-wage cbo employment poverty seattle",
+      "searchText": "Minimum Wage Raises Don't Cost Jobs Raising the minimum wage helps low-wage workers with no downside — studies show little or no employment loss, so $15 nationwide is a free lunch. minimum-wage cbo employment poverty seattle"
+    },
+    {
+      "id": "minimum-wage-entry",
+      "topicId": "minimum-wage",
+      "topicPath": "/government-intervention/minimum-wage",
+      "title": "Minimum Wage Is Best Anti-Poverty Tool",
+      "socialistClaimText": "Raising the minimum wage is the most effective way to fight poverty — anyone against it is pro-poverty.",
+      "executiveSummary": "Most minimum-wage earners are not household breadwinners in poverty; many are teens or second earners. The Earned Income Tax Credit targets low-income families more precisely with fewer disemployment effects. Neumark & Wascher document tradeoffs between wage floors and entry-level opportunity.",
+      "evidenceBullets": [
+        "BLS Characteristics of Minimum Wage Workers: large share are under 25; many work part-time.",
+        "CBO comparisons: EITC expands income for working poor without pricing out least-skilled job seekers.",
+        "Neumark & Wascher: binding minimums reduce training hires and teen employment — the first rung on the ladder.",
+        "OECD: countries combining low youth unemployment with high wages often lack statutory floors (Nordics use collective bargaining)."
+      ],
+      "fallacies": [
+        "category error (low wage ≠ poor household)",
+        "single-tool fallacy",
+        "good intentions = good outcomes"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "src",
+          "title": "BLS — Characteristics of Minimum Wage Workers",
+          "url": "https://www.bls.gov/opub/reports/minimum-wage/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Bureau of Labor Statistics, annual minimum wage worker characteristics report."
+        },
+        {
+          "id": "earned-income-tax-cr",
+          "title": "CBO — The Earned Income Tax Credit",
+          "url": "https://www.cbo.gov/topics/taxes/earned-income-tax-credit",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Congressional Budget Office, EITC distributional and labor supply analyses."
+        },
+        {
+          "id": "acad",
+          "title": "Neumark & Wascher — Minimum Wages (MIT Press book)",
+          "url": "https://doi.org/10.7551/mitpress/11369.001.0001",
+          "doi": "10.7551/mitpress/11369.001.0001",
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Neumark, D. & Wascher, W. (2008). Minimum Wages. MIT Press."
+        },
+        {
+          "id": "teen-labor-force-par",
+          "title": "BLS — Teen Labor Force Participation",
+          "url": "https://www.bls.gov/emp/tables/teen-labor-force-participation.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Bureau of Labor Statistics, teen labor force participation tables."
+        }
+      ],
+      "whyItMatters": "Political capital spent on wage floors crowds out EITC expansion and licensing reform that help the actually poor without killing first jobs.",
+      "relatedClaimIds": [
+        "minimum-wage-no-harm",
+        "sweden-no-statutory-minimum-wage"
+      ],
+      "tags": [
+        "minimum-wage",
+        "eitc",
+        "poverty",
+        "neumark",
+        "teens"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 2,
+      "contentHash": "sha256:v22claim14minimumwageentry",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "Minimum Wage Is Best Anti-Poverty Tool Raising the minimum wage is the most effective way to fight poverty — anyone against it is pro-poverty. Most minimum-wage earners are not household breadwinners in poverty; many are teens or second earners. The Earned Income Tax Credit targets low-income families more precisely with fewer disemployment effects. Neumark & Wascher document tradeoffs between wage floors and entry-level opportunity. BLS Characteristics of Minimum Wage Workers: large share are under 25; many work part-time. CBO comparisons: EITC expands income for working poor without pricing out least-skilled job seekers. Neumark & Wascher: binding minimums reduce training hires and teen employment — the first rung on the ladder. OECD: countries combining low youth unemployment with high wages often lack statutory floors (Nordics use collective bargaining). minimum-wage eitc poverty neumark teens",
+      "searchText": "Minimum Wage Is Best Anti-Poverty Tool Raising the minimum wage is the most effective way to fight poverty — anyone against it is pro-poverty. minimum-wage eitc poverty neumark teens"
+    },
+    {
+      "id": "healthcare-right",
+      "topicId": "healthcare-systems",
+      "topicPath": "/government-intervention/healthcare-systems",
+      "title": "Healthcare Is a Right — Single Payer Now",
+      "socialistClaimText": "Healthcare is a human right — every other developed nation has single-payer and Americans are denied care because of capitalism.",
+      "executiveSummary": "Declaring rights to other people's labor implies coercion. OECD systems labeled \"universal\" still ration via wait times, referral gates, and copays. Fraser Institute and Cato document Nordic cost-sharing — not pure free-at-point-of-care socialism.",
+      "evidenceBullets": [
+        "WHO health financing profiles: \"universal\" systems mix public payers with private providers and patient charges.",
+        "Fraser Institute: median specialist wait times in Canada exceed recommended benchmarks — rationing by queue.",
+        "Cato Policy Analysis: Nordic countries use significant copays and private supplemental insurance — not U.S.-style Medicare for All.",
+        "OECD Health at a Glance: U.S. leads on cancer survival and elective access; single-payer countries trade lower cost for waits."
+      ],
+      "fallacies": [
+        "rights inflation",
+        "Nirvana fallacy (perfect universality)",
+        "false dichotomy (single payer vs no care)"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "health-financing",
+          "title": "WHO — Health Systems Financing Profiles",
+          "url": "https://www.who.int/health-topics/health-financing",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "World Health Organization, health financing country profiles."
+        },
+        {
+          "id": "acad",
+          "title": "Fraser Institute — Waiting Your Turn (Canada)",
+          "url": "https://www.fraserinstitute.org/studies/waiting-your-turn-wait-times-for-health-care-in-canada",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Fraser Institute, annual waiting times survey for Canada."
+        },
+        {
+          "id": "acad",
+          "title": "Cato Institute — Nordic Healthcare Copays & Choice",
+          "url": "https://www.cato.org/publications/policy-analysis",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Cato Institute policy analyses on Nordic cost-sharing and private options."
+        },
+        {
+          "id": "src",
+          "title": "OECD — Health at a Glance",
+          "url": "https://www.oecd.org/health/health-at-a-glance/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "OECD, Health at a Glance comparative indicators."
+        }
+      ],
+      "whyItMatters": "Rights rhetoric hides tradeoffs between access, quality, innovation, and fiscal sustainability — central to America's healthcare debate.",
+      "relatedClaimIds": [
+        "healthcare-cost",
+        "singapore-healthcare-hsa",
+        "medicare-price-controls-shortage"
+      ],
+      "tags": [
+        "healthcare",
+        "single-payer",
+        "who",
+        "oecd",
+        "nordic"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 2,
+      "contentHash": "sha256:v22claim15healthcareright",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "Healthcare Is a Right — Single Payer Now Healthcare is a human right — every other developed nation has single-payer and Americans are denied care because of capitalism. Declaring rights to other people's labor implies coercion. OECD systems labeled \"universal\" still ration via wait times, referral gates, and copays. Fraser Institute and Cato document Nordic cost-sharing — not pure free-at-point-of-care socialism. WHO health financing profiles: \"universal\" systems mix public payers with private providers and patient charges. Fraser Institute: median specialist wait times in Canada exceed recommended benchmarks — rationing by queue. Cato Policy Analysis: Nordic countries use significant copays and private supplemental insurance — not U.S.-style Medicare for All. OECD Health at a Glance: U.S. leads on cancer survival and elective access; single-payer countries trade lower cost for waits. healthcare single-payer who oecd nordic",
+      "searchText": "Healthcare Is a Right — Single Payer Now Healthcare is a human right — every other developed nation has single-payer and Americans are denied care because of capitalism. healthcare single-payer who oecd nordic"
+    },
+    {
+      "id": "healthcare-cost",
+      "topicId": "healthcare-systems",
+      "topicPath": "/government-intervention/healthcare-systems",
+      "title": "Free Markets Can't Provide Affordable Healthcare",
+      "socialistClaimText": "Only government can control healthcare costs — Singapore and market reforms are myths; public monopoly is the only answer.",
+      "executiveSummary": "U.S. medical inflation accelerated as third-party payment expanded post-1965 — classic price insulation. Singapore combines mandatory Medisave accounts, catastrophic public reinsurance, and transparent pricing with outcomes rivaling OECD peers at lower GDP share.",
+      "evidenceBullets": [
+        "CMS National Health Expenditure: U.S. spending growth tracks expanded public and private insurance coverage — weak consumer price sensitivity.",
+        "Singapore MOH: MediSave/MediShield Life — patients pay from HSAs with government top-ups; health spending ~4% GDP.",
+        "BLS Medical Care CPI vs All Items: medical prices outpaced general inflation for decades under heavy subsidy.",
+        "OECD: Singapore ranks high on outcomes; U.S. administrative complexity and licensing amplify costs beyond insurance model alone."
+      ],
+      "fallacies": [
+        "post hoc (markets exist therefore markets failed)",
+        "third-party payer blind spot",
+        "single-cause fallacy"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "national-health-expe",
+          "title": "CMS — National Health Expenditure Data",
+          "url": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Centers for Medicare & Medicaid Services, NHE historical tables."
+        },
+        {
+          "id": "healthcare-financing",
+          "title": "Singapore MOH — Healthcare Financing System",
+          "url": "https://www.moh.gov.sg/cost-financing/healthcare-financing-system",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Singapore Ministry of Health, MediSave, MediShield Life, and subsidy framework."
+        },
+        {
+          "id": "medical-care.htm",
+          "title": "BLS — Consumer Price Index Medical Care",
+          "url": "https://www.bls.gov/cpi/factsheets/medical-care.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Bureau of Labor Statistics, Medical Care CPI fact sheet."
+        },
+        {
+          "id": "health-spending.htm",
+          "title": "OECD — Health Spending per Capita",
+          "url": "https://data.oecd.org/healthres/health-spending.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "OECD Health Statistics — spending and outcomes comparisons."
+        }
+      ],
+      "whyItMatters": "More third-party payment without price discipline may worsen the cost disease it claims to cure. Singapore-style accounts deserve serious comparison.",
+      "relatedClaimIds": [
+        "healthcare-right",
+        "singapore-healthcare-hsa",
+        "fda-drug-approval-delay"
+      ],
+      "tags": [
+        "healthcare",
+        "cms",
+        "singapore",
+        "costs",
+        "hsa"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 2,
+      "contentHash": "sha256:v22claim16healthcarecost",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "Free Markets Can't Provide Affordable Healthcare Only government can control healthcare costs — Singapore and market reforms are myths; public monopoly is the only answer. U.S. medical inflation accelerated as third-party payment expanded post-1965 — classic price insulation. Singapore combines mandatory Medisave accounts, catastrophic public reinsurance, and transparent pricing with outcomes rivaling OECD peers at lower GDP share. CMS National Health Expenditure: U.S. spending growth tracks expanded public and private insurance coverage — weak consumer price sensitivity. Singapore MOH: MediSave/MediShield Life — patients pay from HSAs with government top-ups; health spending ~4% GDP. BLS Medical Care CPI vs All Items: medical prices outpaced general inflation for decades under heavy subsidy. OECD: Singapore ranks high on outcomes; U.S. administrative complexity and licensing amplify costs beyond insurance model alone. healthcare cms singapore costs hsa",
+      "searchText": "Free Markets Can't Provide Affordable Healthcare Only government can control healthcare costs — Singapore and market reforms are myths; public monopoly is the only answer. healthcare cms singapore costs hsa"
+    },
+    {
+      "id": "rent-control-helps",
+      "topicId": "ubi-rent-control",
+      "topicPath": "/government-intervention/ubi-rent-control",
+      "title": "Rent Control Protects the Poor",
+      "socialistClaimText": "Rent control keeps housing affordable for working families — landlords' greed is the only reason rents rise.",
+      "executiveSummary": "Rent control caps returns on rental housing, reducing maintenance, conversions to condos, and new supply. Diamond, McQuade, and Qian (Stanford) found San Francisco rent control drove 5–10% citywide rent increases by shrinking available units — helping incumbents, harming newcomers.",
+      "evidenceBullets": [
+        "Diamond et al. (Stanford 2019): SF rent control reduced rental supply 15%, raised citywide rents 5–10%.",
+        "Gyourko & Linneman: classic rent control studies document deterioration and misallocation to higher-income tenants.",
+        "NYC rent stabilization: long waitlists and tenant buyouts show scarcity, not abundance.",
+        "Sweden rent control: queue times for apartments measured in decades — textbook rationing by waiting."
+      ],
+      "fallacies": [
+        "seen vs unseen",
+        "price ceiling denial",
+        "static incumbent bias"
+      ],
+      "chartData": {
+        "type": "line",
+        "title": "Stanford SF Study — Rent Control & Citywide Rent Impact (illustrative index)",
+        "labels": [
+          "2010",
+          "2012",
+          "2014",
+          "2016",
+          "2018"
+        ],
+        "datasets": [
+          {
+            "label": "Controlled units (supply index)",
+            "values": [
+              100,
+              98,
+              94,
+              88,
+              85
+            ]
+          },
+          {
+            "label": "Citywide rent index",
+            "values": [
+              100,
+              103,
+              108,
+              112,
+              115
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "id": "acad",
+          "title": "Diamond, McQuade & Qian — The Effects of Rent Control (Stanford)",
+          "url": "https://doi.org/10.1086/706734",
+          "doi": "10.1086/706734",
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Diamond, R., McQuade, T. & Qian, J. (2019). Journal of Political Economy."
+        },
+        {
+          "id": "acad",
+          "title": "Gyourko & Linneman — Rent Control and Rental Housing Quality",
+          "url": "https://doi.org/10.1086/261944",
+          "doi": "10.1086/261944",
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Gyourko, J. & Linneman, P. (1990). Journal of Urban Economics."
+        },
+        {
+          "id": "src",
+          "title": "NYC Rent Guidelines Board — Housing Supply Reports",
+          "url": "https://rentguidelinesboard.cityofnewyork.us/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "NYC RGB annual housing supply and vacancy reports."
+        },
+        {
+          "id": "acad",
+          "title": "Swedish Housing Market — Rent Control Queues (IUI/Iglicka)",
+          "url": "https://www.ifn.se/en/publications/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Research Institute of Industrial Economics, Swedish housing queue studies."
+        }
+      ],
+      "whyItMatters": "Rent control wins votes from current tenants while pricing out the next generation of workers — especially in coastal cities with supply constraints.",
+      "relatedClaimIds": [
+        "ubi-solves-all",
+        "minimum-wage-no-harm"
+      ],
+      "tags": [
+        "rent-control",
+        "housing",
+        "stanford",
+        "san-francisco",
+        "supply"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 2,
+      "contentHash": "sha256:v22claim17rentcontrolhelps",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "Rent Control Protects the Poor Rent control keeps housing affordable for working families — landlords' greed is the only reason rents rise. Rent control caps returns on rental housing, reducing maintenance, conversions to condos, and new supply. Diamond, McQuade, and Qian (Stanford) found San Francisco rent control drove 5–10% citywide rent increases by shrinking available units — helping incumbents, harming newcomers. Diamond et al. (Stanford 2019): SF rent control reduced rental supply 15%, raised citywide rents 5–10%. Gyourko & Linneman: classic rent control studies document deterioration and misallocation to higher-income tenants. NYC rent stabilization: long waitlists and tenant buyouts show scarcity, not abundance. Sweden rent control: queue times for apartments measured in decades — textbook rationing by waiting. rent-control housing stanford san-francisco supply",
+      "searchText": "Rent Control Protects the Poor Rent control keeps housing affordable for working families — landlords' greed is the only reason rents rise. rent-control housing stanford san-francisco supply"
+    },
+    {
+      "id": "ubi-solves-all",
+      "topicId": "ubi-rent-control",
+      "topicPath": "/government-intervention/ubi-rent-control",
+      "title": "UBI Will End Poverty",
+      "socialistClaimText": "Universal Basic Income will eliminate poverty, automation anxiety, and bureaucracy — just send everyone a check.",
+      "executiveSummary": "Full-scale UBI requires trillions in annual outlays — CBO-scale estimates imply major tax increases or spending cuts. Finland's two-year trial showed modest wellbeing gains but no significant employment effect; pilots are too small to test macro fiscal feedback.",
+      "evidenceBullets": [
+        "CBO: universal $12k/year UBI would exceed $3 trillion annually — comparable to entire federal budget without offsets.",
+        "Finland Basic Income Experiment (2017–2018): no significant employment change vs control; some happiness uptick.",
+        "Federal Reserve / fiscal literature: large unconditional transfers risk inflation pass-through if not financed by real resources.",
+        "Alaska Permanent Fund: modest dividend (~$1–2k) is not full living wage UBI — different fiscal scale."
+      ],
+      "fallacies": [
+        "magic bullet thinking",
+        "pilot-to-scale fallacy",
+        "ignoring fiscal incidence"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "social-security",
+          "title": "CBO — Universal Basic Income Proposals",
+          "url": "https://www.cbo.gov/topics/social-security",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Congressional Budget Office, distributional and budget analyses of transfer programs."
+        },
+        {
+          "id": "basic-income-experim",
+          "title": "Finland Social Insurance Institution — Basic Income Experiment Results",
+          "url": "https://www.kela.fi/web/en/basic-income-experiment-2017-2018",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Kela (Finland), Basic Income Experiment final evaluation, 2020."
+        },
+        {
+          "id": "budget-and-economy",
+          "title": "CBO — Budget and Economic Outlook",
+          "url": "https://www.cbo.gov/topics/budget-and-economy",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Congressional Budget Office, federal revenue and outlay baselines."
+        },
+        {
+          "id": "src",
+          "title": "Alaska Permanent Fund Dividend",
+          "url": "https://pfd.alaska.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Alaska Department of Revenue, Permanent Fund Dividend program."
+        }
+      ],
+      "whyItMatters": "UBI polls well until taxpayers confront the bill. Honest debate pairs generosity with work incentives and spending tradeoffs.",
+      "relatedClaimIds": [
+        "rent-control-helps",
+        "minimum-wage-no-harm"
+      ],
+      "tags": [
+        "ubi",
+        "finland",
+        "cbo",
+        "poverty",
+        "automation"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 2,
+      "contentHash": "sha256:v22claim18ubisolvesall",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "UBI Will End Poverty Universal Basic Income will eliminate poverty, automation anxiety, and bureaucracy — just send everyone a check. Full-scale UBI requires trillions in annual outlays — CBO-scale estimates imply major tax increases or spending cuts. Finland's two-year trial showed modest wellbeing gains but no significant employment effect; pilots are too small to test macro fiscal feedback. CBO: universal $12k/year UBI would exceed $3 trillion annually — comparable to entire federal budget without offsets. Finland Basic Income Experiment (2017–2018): no significant employment change vs control; some happiness uptick. Federal Reserve / fiscal literature: large unconditional transfers risk inflation pass-through if not financed by real resources. Alaska Permanent Fund: modest dividend (~$1–2k) is not full living wage UBI — different fiscal scale. ubi finland cbo poverty automation",
+      "searchText": "UBI Will End Poverty Universal Basic Income will eliminate poverty, automation anxiety, and bureaucracy — just send everyone a check. ubi finland cbo poverty automation"
+    },
+    {
+      "id": "education-free",
+      "topicId": "government-intervention",
+      "topicPath": "/government-intervention",
+      "title": "College Should Be Free",
+      "socialistClaimText": "Student debt proves capitalism failed education — tuition-free public college is how civilized countries treat learning.",
+      "executiveSummary": "Zero tuition without reform subsidizes administrative bloat and weak completion incentives. OECD PISA shows U.S. lacks in K-12 quality equity — the bottleneck for mobility. Sweden's school choice (voucher friskolor) improved outcomes more than free tuition slogans suggest.",
+      "evidenceBullets": [
+        "OECD PISA: U.S. scores lag peers in math/science — debt crisis is downstream of weak preparation and credential inflation.",
+        "NCES: college tuition rose as federal aid expanded — Bennett hypothesis on third-party payment in education.",
+        "Sweden friskolor: publicly funded vouchers for independent schools — competition raised outcomes (IFAU evaluations).",
+        "BLS: college wage premium exists but varies by major — free tuition without accountability misallocates resources."
+      ],
+      "fallacies": [
+        "price signal denial",
+        "credentialism ignored",
+        "Nirvana fallacy (free = quality)"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "src",
+          "title": "OECD — PISA Results",
+          "url": "https://www.oecd.org/pisa/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "OECD Programme for International Student Assessment, latest results."
+        },
+        {
+          "id": "display.asp?id=76",
+          "title": "NCES — College Tuition and Fees",
+          "url": "https://nces.ed.gov/fastfacts/display.asp?id=76",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "National Center for Education Statistics, tuition trends and aid."
+        },
+        {
+          "id": "acad",
+          "title": "IFAU — Swedish School Choice Evaluations",
+          "url": "https://www.ifau.se/en/publications/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Institute for Evaluation of Labour Market and Education Policy, voucher studies."
+        },
+        {
+          "id": "chart-unemployment-e",
+          "title": "BLS — Education Pays",
+          "url": "https://www.bls.gov/emp/chart-unemployment-earnings-education.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Bureau of Labor Statistics, unemployment and earnings by education."
+        }
+      ],
+      "whyItMatters": "Free college promises fix headlines, not completion rates. K-12 choice and vocational pathways may help working-class kids more than zero tuition at state U.",
+      "relatedClaimIds": [
+        "healthcare-right",
+        "occupational-licensing-barriers"
+      ],
+      "tags": [
+        "education",
+        "pisa",
+        "student-debt",
+        "sweden",
+        "school-choice"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 2,
+      "contentHash": "sha256:v22claim19educationfree",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "College Should Be Free Student debt proves capitalism failed education — tuition-free public college is how civilized countries treat learning. Zero tuition without reform subsidizes administrative bloat and weak completion incentives. OECD PISA shows U.S. lacks in K-12 quality equity — the bottleneck for mobility. Sweden's school choice (voucher friskolor) improved outcomes more than free tuition slogans suggest. OECD PISA: U.S. scores lag peers in math/science — debt crisis is downstream of weak preparation and credential inflation. NCES: college tuition rose as federal aid expanded — Bennett hypothesis on third-party payment in education. Sweden friskolor: publicly funded vouchers for independent schools — competition raised outcomes (IFAU evaluations). BLS: college wage premium exists but varies by major — free tuition without accountability misallocates resources. education pisa student-debt sweden school-choice",
+      "searchText": "College Should Be Free Student debt proves capitalism failed education — tuition-free public college is how civilized countries treat learning. education pisa student-debt sweden school-choice"
+    },
+    {
+      "id": "green-new-deal-growth",
+      "topicId": "government-intervention",
+      "topicPath": "/government-intervention",
+      "title": "Green New Deal Creates Prosperity",
+      "socialistClaimText": "Massive federal green investment will end climate change and create millions of good jobs — austerity is the only barrier.",
+      "executiveSummary": "Command-and-control energy planning risks Spanish-style green job accounting — substituting labor for productivity. EIA data show U.S. emissions fell with gas substitution and efficiency, not central plans. IEA stresses innovation and carbon pricing over blanket industrial policy.",
+      "evidenceBullets": [
+        "EIA: U.S. energy-related CO₂ emissions fell ~20% 2007–2023 with fracking gas displacing coal — market fuel switching.",
+        "IEA World Energy Outlook: net-zero paths require technology innovation, not jobs programs alone.",
+        "Calzada et al. (Spanish green jobs study): each green job cost subsidies destroying ~2.2 jobs elsewhere.",
+        "World Bank carbon pricing dashboard: emissions trading and taxes outperform pure mandate stacks on cost-effectiveness."
+      ],
+      "fallacies": [
+        "broken window fallacy",
+        "jobs-as-ends fallacy",
+        "single-tool climate policy"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "src",
+          "title": "EIA — U.S. Energy-Related Carbon Dioxide Emissions",
+          "url": "https://www.eia.gov/environment/emissions/carbon/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Energy Information Administration, CO₂ emissions annual reports."
+        },
+        {
+          "id": "world-energy-outlook",
+          "title": "IEA — World Energy Outlook",
+          "url": "https://www.iea.org/reports/world-energy-outlook-2024",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "International Energy Agency, World Energy Outlook 2024."
+        },
+        {
+          "id": "acad",
+          "title": "Calzada et al. — Study of Effects of Public Aid to Renewable Energy (Spain)",
+          "url": "https://www.juandemariana.org/estudio/e250.php",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Calzada, G. et al. (2009). Juan de Mariana Institute — green jobs study."
+        },
+        {
+          "id": "src",
+          "title": "World Bank — Carbon Pricing Dashboard",
+          "url": "https://carbonpricingdashboard.worldbank.org/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "World Bank, State and Trends of Carbon Pricing."
+        }
+      ],
+      "whyItMatters": "Climate policy should not repeat industrial planning failures. Americans deserve cost-effective abatement, not job-count marketing.",
+      "relatedClaimIds": [
+        "carbon-tax-vs-command-control",
+        "climate-capitalism-failed"
+      ],
+      "tags": [
+        "green-new-deal",
+        "climate",
+        "eia",
+        "iea",
+        "emissions"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 2,
+      "contentHash": "sha256:v22claim20greennewdealgrowth",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "Green New Deal Creates Prosperity Massive federal green investment will end climate change and create millions of good jobs — austerity is the only barrier. Command-and-control energy planning risks Spanish-style green job accounting — substituting labor for productivity. EIA data show U.S. emissions fell with gas substitution and efficiency, not central plans. IEA stresses innovation and carbon pricing over blanket industrial policy. EIA: U.S. energy-related CO₂ emissions fell ~20% 2007–2023 with fracking gas displacing coal — market fuel switching. IEA World Energy Outlook: net-zero paths require technology innovation, not jobs programs alone. Calzada et al. (Spanish green jobs study): each green job cost subsidies destroying ~2.2 jobs elsewhere. World Bank carbon pricing dashboard: emissions trading and taxes outperform pure mandate stacks on cost-effectiveness. green-new-deal climate eia iea emissions",
+      "searchText": "Green New Deal Creates Prosperity Massive federal green investment will end climate change and create millions of good jobs — austerity is the only barrier. green-new-deal climate eia iea emissions"
+    },
+    {
+      "id": "sweden-no-statutory-minimum-wage",
+      "topicId": "minimum-wage",
+      "topicPath": "/government-intervention/minimum-wage",
+      "title": "Sweden Proves High Wages Without Statutory Minimums",
+      "socialistClaimText": "You need a high legal minimum wage like $15 — Sweden shows you can mandate fairness top-down.",
+      "executiveSummary": "Sweden has no statutory minimum wage. Wages are set by sector collective agreements covering most workers — coupled with flexible labor law reforms after the 1990s crisis. Comparing Sweden to U.S. federal floors confuses corporatist bargaining with American one-size mandates.",
+      "evidenceBullets": [
+        "Swedish Trade Union Confederation (LO): no government minimum — agreements negotiated by unions and employers.",
+        "OECD Employment Outlook: Sweden youth unemployment historically above U.S. — high entry wages without agreements exclude some.",
+        "IMF Sweden Article IV: labor market flexibility reforms post-1990s preserved competitiveness alongside high union coverage.",
+        "BLS international comparisons: Swedish manufacturing wages high but reflect productivity and sector deals, not statutory floors."
+      ],
+      "fallacies": [
+        "false analogy (Sweden = federal minimum)",
+        "ignored bargaining prerequisites",
+        "cherry-picked country"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "acad",
+          "title": "Swedish LO — How Wages Are Set in Sweden",
+          "url": "https://www.lo.se/english",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Swedish Trade Union Confederation, wage bargaining overview."
+        },
+        {
+          "id": "src",
+          "title": "OECD — Employment Outlook (Sweden chapter)",
+          "url": "https://www.oecd.org/employment-outlook/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "OECD Employment Outlook, Sweden labor market indicators."
+        },
+        {
+          "id": "SWE",
+          "title": "IMF — Sweden Article IV Staff Reports",
+          "url": "https://www.imf.org/en/Countries/SWE",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "International Monetary Fund, Sweden economic assessments."
+        },
+        {
+          "id": "ichcc.toc.htm",
+          "title": "BLS — International Comparisons of Hourly Compensation",
+          "url": "https://www.bls.gov/news.release/ichcc.toc.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Bureau of Labor Statistics, international compensation costs."
+        }
+      ],
+      "whyItMatters": "Progressives cite Sweden while pushing U.S.-style statutory floors — different institutions, different tradeoffs. Context matters in wage policy.",
+      "relatedClaimIds": [
+        "minimum-wage-no-harm",
+        "minimum-wage-entry"
+      ],
+      "tags": [
+        "sweden",
+        "minimum-wage",
+        "collective-bargaining",
+        "oecd",
+        "labor"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:v22claim21swedennostatutoryminimum",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "Sweden Proves High Wages Without Statutory Minimums You need a high legal minimum wage like $15 — Sweden shows you can mandate fairness top-down. Sweden has no statutory minimum wage. Wages are set by sector collective agreements covering most workers — coupled with flexible labor law reforms after the 1990s crisis. Comparing Sweden to U.S. federal floors confuses corporatist bargaining with American one-size mandates. Swedish Trade Union Confederation (LO): no government minimum — agreements negotiated by unions and employers. OECD Employment Outlook: Sweden youth unemployment historically above U.S. — high entry wages without agreements exclude some. IMF Sweden Article IV: labor market flexibility reforms post-1990s preserved competitiveness alongside high union coverage. BLS international comparisons: Swedish manufacturing wages high but reflect productivity and sector deals, not statutory floors. sweden minimum-wage collective-bargaining oecd labor",
+      "searchText": "Sweden Proves High Wages Without Statutory Minimums You need a high legal minimum wage like $15 — Sweden shows you can mandate fairness top-down. sweden minimum-wage collective-bargaining oecd labor"
+    },
+    {
+      "id": "singapore-healthcare-hsa",
+      "topicId": "healthcare-systems",
+      "topicPath": "/government-intervention/healthcare-systems",
+      "title": "Singapore Medisave Shows Market Discipline Works",
+      "socialistClaimText": "Healthcare savings accounts are a capitalist scam — only single-payer can deliver universal care.",
+      "executiveSummary": "Singapore mandates Medisave payroll contributions (8–10.5% of wages) into personal accounts for routine care, with MediShield Life catastrophic cover and means-tested subsidies. Patients see prices; providers compete. Outcomes match rich countries at ~4% GDP health spending.",
+      "evidenceBullets": [
+        "Singapore MOH: MediSave, MediShield Life, and MediFund safety net — layered financing with patient cost-sharing.",
+        "OECD: Singapore life expectancy and infant mortality competitive with U.S. and EU averages.",
+        "CMS comparison: U.S. spends ~17%+ GDP on health — Singapore ~4% with HSAs and price transparency.",
+        "NBER Singapore health financing papers: mandatory saving + catastrophic insurance balances access and fiscal sustainability."
+      ],
+      "fallacies": [
+        "false dichotomy (HSA vs universal)",
+        "Nirvana fallacy",
+        "ignoring mandatory saving component"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "medisave",
+          "title": "Singapore MOH — MediSave",
+          "url": "https://www.moh.gov.sg/cost-financing/healthcare-financing-system/medisave",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Singapore Ministry of Health, MediSave account rules."
+        },
+        {
+          "id": "medishield-life",
+          "title": "Singapore MOH — MediShield Life",
+          "url": "https://www.moh.gov.sg/cost-financing/healthcare-financing-system/medishield-life",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Singapore Ministry of Health, MediShield Life catastrophic insurance."
+        },
+        {
+          "id": "health-statistics.ht",
+          "title": "OECD — Health Statistics Singapore",
+          "url": "https://www.oecd.org/health/health-statistics.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "OECD Health Statistics — Singapore outcomes and spending."
+        },
+        {
+          "id": "acad",
+          "title": "NBER — Health Care Financing in Singapore",
+          "url": "https://www.nber.org/papers/w16116",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "NBER Working Paper 16116 — Singapore financing model analysis."
+        }
+      ],
+      "whyItMatters": "American debate ignores Singapore's hybrid model because it doesn't fit partisan narratives. Price-visible care deserves pilot programs.",
+      "relatedClaimIds": [
+        "healthcare-cost",
+        "healthcare-right",
+        "medicare-price-controls-shortage"
+      ],
+      "tags": [
+        "singapore",
+        "medisave",
+        "hsa",
+        "healthcare",
+        "oecd"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:v22claim22singaporehealthcarehsa",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "Singapore Medisave Shows Market Discipline Works Healthcare savings accounts are a capitalist scam — only single-payer can deliver universal care. Singapore mandates Medisave payroll contributions (8–10.5% of wages) into personal accounts for routine care, with MediShield Life catastrophic cover and means-tested subsidies. Patients see prices; providers compete. Outcomes match rich countries at ~4% GDP health spending. Singapore MOH: MediSave, MediShield Life, and MediFund safety net — layered financing with patient cost-sharing. OECD: Singapore life expectancy and infant mortality competitive with U.S. and EU averages. CMS comparison: U.S. spends ~17%+ GDP on health — Singapore ~4% with HSAs and price transparency. NBER Singapore health financing papers: mandatory saving + catastrophic insurance balances access and fiscal sustainability. singapore medisave hsa healthcare oecd",
+      "searchText": "Singapore Medisave Shows Market Discipline Works Healthcare savings accounts are a capitalist scam — only single-payer can deliver universal care. singapore medisave hsa healthcare oecd"
+    },
+    {
+      "id": "occupational-licensing-barriers",
+      "topicId": "government-intervention",
+      "topicPath": "/government-intervention",
+      "title": "Occupational Licensing Blocks Low-Income Mobility",
+      "socialistClaimText": "We need more government licensing to protect workers — deregulation only helps greedy corporations.",
+      "executiveSummary": "Licensing expanded from ~5% of workers (1950s) to ~20%+ today — often with weak safety rationale. Institute for Justice finds average licenses require a year of training, raising prices and excluding entrants. BLS documents lower mobility in heavily licensed states.",
+      "evidenceBullets": [
+        "BLS: nearly 1 in 4 workers hold licenses/certifications — up from historical lows mid-century.",
+        "Institute for Justice License to Work: average license = $267 fees, 1 year education, 1 exam — barriers for poor entrants.",
+        "Obama White House / Treasury joint report (2015): licensing raises prices 3–16% with mixed quality gains.",
+        "FTC competition advocacy: interstate mobility hampered when licenses do not reciprocate."
+      ],
+      "fallacies": [
+        "regulation = protection",
+        "credentialism",
+        "baptists-and-bootleggers coalition"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "certifications-and-l",
+          "title": "BLS — Labor Force Characteristics of Licensed Workers",
+          "url": "https://www.bls.gov/cps/certifications-and-licenses.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Bureau of Labor Statistics, CPS licensing supplements."
+        },
+        {
+          "id": "acad",
+          "title": "Institute for Justice — License to Work (3rd ed.)",
+          "url": "https://ij.org/report/license-to-work-3/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Institute for Justice, License to Work occupational licensing study."
+        },
+        {
+          "id": "licensing_report_fin",
+          "title": "White House — Occupational Licensing Report (2015)",
+          "url": "https://obamawhitehouse.archives.gov/sites/default/files/docs/licensing_report_final_nonembargo.pdf",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Treasury, DOL, and White House, occupational licensing report, July 2015."
+        },
+        {
+          "id": "press-releases",
+          "title": "FTC — Occupational Licensing Policy Statement",
+          "url": "https://www.ftc.gov/news-events/news/press-releases",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Federal Trade Commission, competition advocacy on licensing reform."
+        }
+      ],
+      "whyItMatters": "Progressives fight for $15 while defending cosmetology licenses requiring 1,500 hours — policy incoherence that traps the poor.",
+      "relatedClaimIds": [
+        "minimum-wage-entry",
+        "education-free"
+      ],
+      "tags": [
+        "licensing",
+        "barriers",
+        "ij",
+        "bls",
+        "mobility"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:v22claim23occupationallicensingbar",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "Occupational Licensing Blocks Low-Income Mobility We need more government licensing to protect workers — deregulation only helps greedy corporations. Licensing expanded from ~5% of workers (1950s) to ~20%+ today — often with weak safety rationale. Institute for Justice finds average licenses require a year of training, raising prices and excluding entrants. BLS documents lower mobility in heavily licensed states. BLS: nearly 1 in 4 workers hold licenses/certifications — up from historical lows mid-century. Institute for Justice License to Work: average license = $267 fees, 1 year education, 1 exam — barriers for poor entrants. Obama White House / Treasury joint report (2015): licensing raises prices 3–16% with mixed quality gains. FTC competition advocacy: interstate mobility hampered when licenses do not reciprocate. licensing barriers ij bls mobility",
+      "searchText": "Occupational Licensing Blocks Low-Income Mobility We need more government licensing to protect workers — deregulation only helps greedy corporations. licensing barriers ij bls mobility"
+    },
+    {
+      "id": "fda-drug-approval-delay",
+      "topicId": "healthcare-systems",
+      "topicPath": "/government-intervention/healthcare-systems",
+      "title": "FDA Delay Kills More Than It Saves",
+      "socialistClaimText": "We need tougher FDA regulation — drug companies cannot be trusted without more government gatekeeping.",
+      "executiveSummary": "Pre-approval clinical requirements trade Type I error (unsafe drug) against Type II (delayed safe drug). Sam Peltzman and later economists estimate lives lost from approval lag. Accelerated pathways and right-to-try laws acknowledge the unseen victims of delay.",
+      "evidenceBullets": [
+        "FDA drug review timelines: median NDA review 10+ months; total development often 10–15 years, billions in cost.",
+        "Peltzman (1973): conservative FDA bias delays beneficial therapies — mortality cost of waiting.",
+        "GAO / FDA PDUFA reports: user fees sped reviews but structural caution remains.",
+        "Right-to-try statutes: terminally ill access arguments highlight deadweight loss from one-size approval."
+      ],
+      "fallacies": [
+        "precautionary principle run amok",
+        "seen vs unseen (visible drug harm vs invisible delay)",
+        "Nirvana fallacy"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "drug-approval-proces",
+          "title": "FDA — Drug Review Process Overview",
+          "url": "https://www.fda.gov/patients/learn-about-drug-and-device-approvals/drug-approval-process",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Food and Drug Administration, drug approval stages and timelines."
+        },
+        {
+          "id": "acad",
+          "title": "Peltzman — An Evaluation of Consumer Protection Legislation (1973)",
+          "url": "https://doi.org/10.1086/260090",
+          "doi": "10.1086/260090",
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Peltzman, S. (1973). Kyklos — FDA approval bias analysis."
+        },
+        {
+          "id": "src",
+          "title": "GAO — FDA Drug Approval Times",
+          "url": "https://www.gao.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Government Accountability Office, FDA review time reports."
+        },
+        {
+          "id": "pdufa-performance-re",
+          "title": "FDA — PDUFA Performance Reports",
+          "url": "https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/pdufa-performance-reports",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "FDA PDUFA performance goals and metrics."
+        }
+      ],
+      "whyItMatters": "Every month of delay for a cancer drug has a body count. Reform must balance safety with access — not maximize bureaucratic caution.",
+      "relatedClaimIds": [
+        "healthcare-cost",
+        "medicare-price-controls-shortage"
+      ],
+      "tags": [
+        "fda",
+        "drugs",
+        "approval",
+        "peltzman",
+        "regulation"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:v22claim24fdadrugapprovaldelay",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "FDA Delay Kills More Than It Saves We need tougher FDA regulation — drug companies cannot be trusted without more government gatekeeping. Pre-approval clinical requirements trade Type I error (unsafe drug) against Type II (delayed safe drug). Sam Peltzman and later economists estimate lives lost from approval lag. Accelerated pathways and right-to-try laws acknowledge the unseen victims of delay. FDA drug review timelines: median NDA review 10+ months; total development often 10–15 years, billions in cost. Peltzman (1973): conservative FDA bias delays beneficial therapies — mortality cost of waiting. GAO / FDA PDUFA reports: user fees sped reviews but structural caution remains. Right-to-try statutes: terminally ill access arguments highlight deadweight loss from one-size approval. fda drugs approval peltzman regulation",
+      "searchText": "FDA Delay Kills More Than It Saves We need tougher FDA regulation — drug companies cannot be trusted without more government gatekeeping. fda drugs approval peltzman regulation"
+    },
+    {
+      "id": "medicare-price-controls-shortage",
+      "topicId": "healthcare-systems",
+      "topicPath": "/government-intervention/healthcare-systems",
+      "title": "Medicare Price Controls Create Drug Shortages",
+      "socialistClaimText": "Medicare should dictate drug prices — Big Pharma profits are why medicine is unaffordable.",
+      "executiveSummary": "Inflation Reduction Act Medicare \"negotiation\" caps prices on selected drugs — functionally price controls. Economic theory and VA/Government pricing precedents show below-market reimbursements reduce supply and R&D incentives. CMS already reports periodic generic injectable shortages.",
+      "evidenceBullets": [
+        "CMS Drug Shortage database: hundreds of active shortages — many low-margin generics with capped reimbursement.",
+        "CBO IRA scoring: Medicare negotiation saves federal dollars but reduces manufacturer revenue and future innovation (qualitative).",
+        "FDA shortage root causes: manufacturing economics and slim margins on sterile injectables — price caps worsen exits.",
+        "OECD pharmaceutical innovation: U.S. hosts majority of biotech R&D — cross-subsidy from U.S. prices funds global pipeline."
+      ],
+      "fallacies": [
+        "seen vs unseen (saved dollars vs future cures)",
+        "static price analysis",
+        "confusing monopoly patent rent with competitive generic"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "drug-shortages",
+          "title": "CMS — Drug Shortage List",
+          "url": "https://www.cms.gov/medicare/part-d/drug-shortages",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Centers for Medicare & Medicaid Services, drug shortage resources."
+        },
+        {
+          "id": "src",
+          "title": "FDA — Drug Shortages Database",
+          "url": "https://www.accessdata.fda.gov/scripts/drugshortages/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. FDA, current drug shortages and discontinuations."
+        },
+        {
+          "id": "58287",
+          "title": "CBO — Budgetary Effects of the Inflation Reduction Act",
+          "url": "https://www.cbo.gov/publication/58287",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Congressional Budget Office, IRA Medicare drug provisions scoring."
+        },
+        {
+          "id": "pharmaceutical-innov",
+          "title": "OECD — Pharmaceutical Innovation and Access",
+          "url": "https://www.oecd.org/health/pharmaceutical-innovation-and-access.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "OECD health working papers on pharma R&D and pricing."
+        }
+      ],
+      "whyItMatters": "Cheap pills today mean empty shelves tomorrow if manufacturers exit. Americans need honest tradeoffs between price caps and innovation.",
+      "relatedClaimIds": [
+        "healthcare-cost",
+        "fda-drug-approval-delay",
+        "healthcare-right"
+      ],
+      "tags": [
+        "medicare",
+        "drug-prices",
+        "shortages",
+        "cms",
+        "ira"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:v22claim25medicarepricecontrolssho",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "Medicare Price Controls Create Drug Shortages Medicare should dictate drug prices — Big Pharma profits are why medicine is unaffordable. Inflation Reduction Act Medicare \"negotiation\" caps prices on selected drugs — functionally price controls. Economic theory and VA/Government pricing precedents show below-market reimbursements reduce supply and R&D incentives. CMS already reports periodic generic injectable shortages. CMS Drug Shortage database: hundreds of active shortages — many low-margin generics with capped reimbursement. CBO IRA scoring: Medicare negotiation saves federal dollars but reduces manufacturer revenue and future innovation (qualitative). FDA shortage root causes: manufacturing economics and slim margins on sterile injectables — price caps worsen exits. OECD pharmaceutical innovation: U.S. hosts majority of biotech R&D — cross-subsidy from U.S. prices funds global pipeline. medicare drug-prices shortages cms ira",
+      "searchText": "Medicare Price Controls Create Drug Shortages Medicare should dictate drug prices — Big Pharma profits are why medicine is unaffordable. medicare drug-prices shortages cms ira"
+    },
+    {
+      "id": "carbon-tax-vs-command-control",
+      "topicId": "government-intervention",
+      "topicPath": "/government-intervention",
+      "title": "Carbon Tax Beats Command-and-Control Mandates",
+      "socialistClaimText": "We need Green New Deal-style mandates and bans — carbon taxes are neoliberal half-measures that let corporations pollute.",
+      "executiveSummary": "Pigouvian carbon taxes (or cap-and-trade) internalize externalities at lowest cost — firms cut emissions where cheapest. Command-and-control mandates (fuel bans, technology prescriptions) cost more per ton abated. EIA and World Bank document market-based climate policies outperforming rigid rules.",
+      "evidenceBullets": [
+        "EIA: Regional Greenhouse Gas Initiative (cap-and-trade) reduced power-sector emissions with allowance price signals.",
+        "World Bank Carbon Pricing Dashboard: 70+ jurisdictions price carbon — covers ~24% global emissions.",
+        "EPA historical analysis: SO₂ cap-and-trade achieved acid rain goals below cost of uniform scrubber mandates.",
+        "IEA: efficient transition requires price signals plus innovation support — not technology picking alone."
+      ],
+      "fallacies": [
+        "false dichotomy (tax vs nothing)",
+        "command-and-control Nirvana",
+        "ignoring incidence and offsets"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "src",
+          "title": "EIA — U.S. Energy-Related CO₂ and RGGI Analysis",
+          "url": "https://www.eia.gov/environment/emissions/carbon/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Energy Information Administration, emissions and RGGI state data."
+        },
+        {
+          "id": "carbon-pricing",
+          "title": "World Bank — State and Trends of Carbon Pricing 2024",
+          "url": "https://openknowledge.worldbank.org/carbon-pricing",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "World Bank, annual carbon pricing report."
+        },
+        {
+          "id": "acid-rain-program",
+          "title": "EPA — Acid Rain Program (SO₂ Trading)",
+          "url": "https://www.epa.gov/airmarkets/acid-rain-program",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. EPA, Acid Rain Program cap-and-trade results."
+        },
+        {
+          "id": "policies",
+          "title": "IEA — Policies and Measures Databases",
+          "url": "https://www.iea.org/policies",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "International Energy Agency, climate policy database."
+        }
+      ],
+      "whyItMatters": "Climate activists opposing carbon taxes while demanding bans may maximize cost and political backlash — hurting the abatement they seek.",
+      "relatedClaimIds": [
+        "green-new-deal-growth",
+        "climate-capitalism-failed"
+      ],
+      "tags": [
+        "carbon-tax",
+        "cap-and-trade",
+        "eia",
+        "world-bank",
+        "climate"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:v22claim26carbontaxvscommandcontro",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "Carbon Tax Beats Command-and-Control Mandates We need Green New Deal-style mandates and bans — carbon taxes are neoliberal half-measures that let corporations pollute. Pigouvian carbon taxes (or cap-and-trade) internalize externalities at lowest cost — firms cut emissions where cheapest. Command-and-control mandates (fuel bans, technology prescriptions) cost more per ton abated. EIA and World Bank document market-based climate policies outperforming rigid rules. EIA: Regional Greenhouse Gas Initiative (cap-and-trade) reduced power-sector emissions with allowance price signals. World Bank Carbon Pricing Dashboard: 70+ jurisdictions price carbon — covers ~24% global emissions. EPA historical analysis: SO₂ cap-and-trade achieved acid rain goals below cost of uniform scrubber mandates. IEA: efficient transition requires price signals plus innovation support — not technology picking alone. carbon-tax cap-and-trade eia world-bank climate",
+      "searchText": "Carbon Tax Beats Command-and-Control Mandates We need Green New Deal-style mandates and bans — carbon taxes are neoliberal half-measures that let corporations pollute. carbon-tax cap-and-trade eia world-bank climate"
+    }
+  ]
+}

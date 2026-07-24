@@ -1,0 +1,982 @@
+{
+  "schemaVersion": 2,
+  "kbVersion": "3.1.0",
+  "bundleId": "cultural-subversion-wave3-v31",
+  "priority": 10,
+  "updatedAt": "2026-07-07T01:15:00Z",
+  "contentHash": "sha256:wave3-v31-cultural-subversion",
+  "claims": [
+    {
+      "id": "intersectionality-apolitical",
+      "topicId": "intersectionality-identity",
+      "topicPath": "/ideological-subversion/intersectionality-identity",
+      "title": "Intersectionality Is Just Fairness for Overlapping Groups",
+      "socialistClaimText": "Intersectionality is a neutral tool for noticing overlapping discrimination — it has no Marxist genealogy and no political program beyond inclusion.",
+      "executiveSummary": "Kimberlé Crenshaw coined intersectionality in legal-critical scholarship explicitly to analyze how power operates across race, gender, and class — a framework self-described as critical theory applied to law. Stanford SEP and CRT anthologies document the Marx-influenced lineage through critical legal studies and feminist theory. Applied intersectionality in activism treats identity categories as sites of systemic power analysis, not mere demographic checklists — the same Gramscian move from economic base to cultural superstructure.",
+      "evidenceBullets": [
+        "Crenshaw (1989, 1991): intersectionality developed in critical legal studies to analyze structural power — not neutral demographics.",
+        "Stanford SEP — Critical Theory: identity-based analysis is an application domain of Frankfurt/Gramsci-influenced scholarship.",
+        "CRT anthologies self-identify as critical theory descendants in American law schools.",
+        "Pluckrose/Lindsay document how intersectionality operationalizes applied critical theory in policy and HR."
+      ],
+      "fallacies": [
+        "motte-and-bailey",
+        "equivocation on neutral",
+        "genetic fallacy denial"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Critical Theory",
+          "url": "https://plato.stanford.edu/entries/critical-theory/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Stanford SEP, Critical Theory — application to identity and law."
+        },
+        {
+          "id": "academic",
+          "title": "Wikipedia — Intersectionality",
+          "url": "https://en.wikipedia.org/wiki/Intersectionality",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Wikipedia, Intersectionality — Crenshaw, critical legal studies lineage."
+        },
+        {
+          "id": "academic",
+          "title": "Wikipedia — Critical race theory",
+          "url": "https://en.wikipedia.org/wiki/Critical_race_theory",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Wikipedia, CRT — self-described critical theory in legal scholarship."
+        },
+        {
+          "id": "academic",
+          "title": "Columbia Law School — Kimberlé Crenshaw faculty profile",
+          "url": "https://www.law.columbia.edu/faculty/kimberle-crenshaw",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Columbia Law, Crenshaw — originator of intersectionality framework."
+        }
+      ],
+      "whyItMatters": "Intersectionality is the operational grammar of modern identity politics — understanding its critical-theory roots explains why 'inclusion' trainings teach power analysis, not etiquette.",
+      "relatedClaimIds": [
+        "cultural-marxism-dismissal",
+        "dei-neutral-workplace",
+        "gramsci-war-of-position"
+      ],
+      "tags": [
+        "intersectionality",
+        "identity politics",
+        "CRT",
+        "Crenshaw",
+        "critical theory"
+      ],
+      "claimQuote": "Intersectionality was a lived reality before it became a term.",
+      "quoteAttribution": "Kimberlé Crenshaw — framework developed in critical legal studies",
+      "schemaVersion": 2,
+      "kbVersion": "3.1.0",
+      "revision": 1,
+      "contentHash": "sha256:v31claim1intersectionality",
+      "updatedAt": "2026-07-07T01:15:00Z",
+      "publishedAt": "2026-07-07T01:15:00Z",
+      "embeddingText": "Intersectionality apolitical fairness overlapping groups Crenshaw critical legal studies CRT Gramsci",
+      "searchText": "intersectionality neutral fairness Crenshaw critical race theory identity politics"
+    },
+    {
+      "id": "privilege-checking-hegemony",
+      "topicId": "gramsci-hegemony",
+      "topicPath": "/ideological-subversion/gramsci-hegemony",
+      "title": "Privilege Checking Is Just Self-Awareness",
+      "socialistClaimText": "Asking people to 'check their privilege' is harmless introspection — it does not enforce ideological conformity or Gramscian cultural hegemony.",
+      "executiveSummary": "Privilege discourse treats dominant-group identity as a consciousness problem to be corrected through social pressure — the same superstructural move Gramsci described as winning consent without overt coercion. Campus and workplace trainings use privilege frameworks derived from critical pedagogy and CRT to reshape speech norms. FIRE and Heterodox Academy document self-censorship correlated with mandatory ideological trainings. The practice is not neutral psychology; it is hegemony maintenance through moral vocabulary.",
+      "evidenceBullets": [
+        "Gramsci: hegemony operates through cultural norms and common sense — not only state force.",
+        "Privilege-checking curricula cite systemic power frameworks (Freire, CRT) — not clinical psychology alone.",
+        "FIRE speech-code surveys: mandatory trainings correlate with chilled expression.",
+        "Heterodox Academy: organizational ideology statements predict viewpoint homogeneity."
+      ],
+      "fallacies": [
+        "motte-and-bailey",
+        "tone policing",
+        "false equivalence"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Antonio Gramsci",
+          "url": "https://plato.stanford.edu/entries/gramsci/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Stanford SEP, Gramsci — hegemony and civil society."
+        },
+        {
+          "id": "academic",
+          "title": "Internet Encyclopedia of Philosophy — Paulo Freire",
+          "url": "https://iep.utm.edu/freire/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "IEP, Freire — conscientization and oppression pedagogy."
+        },
+        {
+          "id": "government",
+          "title": "FIRE — 2024 Spotlight on Speech Codes",
+          "url": "https://www.thefire.org/research-learn/2024-spotlight-on-speech-codes-report",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-07",
+          "citation": "FIRE, campus speech climate and policy reports."
+        },
+        {
+          "id": "academic",
+          "title": "Heterodox Academy — Campus Expression Survey",
+          "url": "https://heterodoxacademy.org/campus-expression-survey/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Heterodox Academy, viewpoint climate data."
+        }
+      ],
+      "whyItMatters": "Privilege rhetoric converts political disagreement into moral defect — the soft-power mechanism Gramsci theorized and Marcuse operationalized.",
+      "relatedClaimIds": [
+        "gramsci-war-of-position",
+        "dei-neutral-workplace",
+        "soft-despotism-conformity"
+      ],
+      "tags": [
+        "privilege",
+        "hegemony",
+        "Gramsci",
+        "conformity",
+        "training"
+      ],
+      "claimQuote": "The crisis consists precisely in the fact that the old is dying and the new cannot be born; in this interregnum a great variety of morbid symptoms appear.",
+      "quoteAttribution": "Antonio Gramsci, Prison Notebooks — hegemony under crisis",
+      "schemaVersion": 2,
+      "kbVersion": "3.1.0",
+      "revision": 1,
+      "contentHash": "sha256:v31claim2privilege",
+      "updatedAt": "2026-07-07T01:15:00Z",
+      "publishedAt": "2026-07-07T01:15:00Z",
+      "embeddingText": "Privilege checking self-awareness Gramsci hegemony conformity campus training FIRE",
+      "searchText": "check your privilege hegemony Gramsci self-censorship DEI training"
+    },
+    {
+      "id": "postmodern-marx-unrelated",
+      "topicId": "frankfurt-critical-theory",
+      "topicPath": "/ideological-subversion/frankfurt-critical-theory",
+      "title": "Postmodernism and Marxism Are Completely Unrelated",
+      "socialistClaimText": "Claims that postmodern identity politics descends from Marx and the Frankfurt School are right-wing conspiracy theories — the traditions share no intellectual DNA.",
+      "executiveSummary": "Stanford SEP documents critical theory's explicit Marxian foundations and its post-1960s application to culture, law, and identity. Horkheimer defined critical theory against 'traditional theory' precisely as Marxist social critique. Scholars from Marcuse through Crenshaw self-describe as working in critical traditions. The synthesis is not a right-wing invention — it is acknowledged in academic genealogies and activist scholarship (Pluckrose/Lindsay, SEP entries, CRT anthologies).",
+      "evidenceBullets": [
+        "Stanford SEP — Critical Theory: Frankfurt School founded on Marxian social analysis of ideology and domination.",
+        "Horkheimer (1937): critical theory distinguished from traditional theory by emancipatory, Marx-influenced intent.",
+        "IEP Frankfurt School: culture, psychology, and authority analyzed as political — not separate from Marxism.",
+        "CRT and intersectionality literature self-identify as critical theory applications."
+      ],
+      "fallacies": [
+        "genetic fallacy denial",
+        "straw man",
+        "appeal to conspiracy"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Critical Theory",
+          "url": "https://plato.stanford.edu/entries/critical-theory/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Stanford SEP, Critical Theory — Marxian foundations and applications."
+        },
+        {
+          "id": "primary",
+          "title": "Marxists Internet Archive — Max Horkheimer",
+          "url": "https://www.marxists.org/reference/archive/horkheimer/index.htm",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-07",
+          "citation": "MIA, Horkheimer archive — Traditional and Critical Theory."
+        },
+        {
+          "id": "academic",
+          "title": "Internet Encyclopedia of Philosophy — Frankfurt School",
+          "url": "https://iep.utm.edu/critical-theory/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "IEP, Frankfurt School — Marx, culture, and domination."
+        },
+        {
+          "id": "academic",
+          "title": "Wikipedia — Critical theory",
+          "url": "https://en.wikipedia.org/wiki/Critical_theory",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Wikipedia, Critical theory — Frankfurt School and Marxian roots."
+        }
+      ],
+      "whyItMatters": "Denying the genealogy prevents citizens from recognizing when activist scholarship is applying a 100-year-old revolutionary framework to new domains.",
+      "relatedClaimIds": [
+        "cultural-marxism-dismissal",
+        "lukacs-reification-dismissal",
+        "intersectionality-apolitical"
+      ],
+      "tags": [
+        "postmodernism",
+        "Frankfurt School",
+        "genealogy",
+        "critical theory",
+        "Marx"
+      ],
+      "claimQuote": "Theory is always for someone and for some purpose.",
+      "quoteAttribution": "Robert Cox — critical theory is always political, not neutral",
+      "schemaVersion": 2,
+      "kbVersion": "3.1.0",
+      "revision": 1,
+      "contentHash": "sha256:v31claim3postmodern",
+      "updatedAt": "2026-07-07T01:15:00Z",
+      "publishedAt": "2026-07-07T01:15:00Z",
+      "embeddingText": "Postmodernism Marxism unrelated conspiracy Frankfurt School Horkheimer critical theory genealogy",
+      "searchText": "postmodern Marx unrelated Frankfurt School critical theory conspiracy"
+    },
+    {
+      "id": "columbia-frankfurt-influence",
+      "topicId": "frankfurt-critical-theory",
+      "topicPath": "/ideological-subversion/frankfurt-critical-theory",
+      "title": "Frankfurt School Influence on American Universities Is Exaggerated",
+      "socialistClaimText": "The Frankfurt School's exile at Columbia and influence on American social research is a fringe myth — critical theory never shaped mainstream academia.",
+      "executiveSummary": "Horkheimer, Adorno, Marcuse, and other Frankfurt exiles held positions at American universities (Columbia, Berkeley, Brandeis) and published through major academic presses. Stanford SEP and IEP document their integration into sociology, psychology, and cultural studies. The Authoritarian Personality (Adorno et al.) was a funded empirical project that influenced attitude research for decades. Whether one approves or not, the institutional footprint is documented — not a marginal internet theory.",
+      "evidenceBullets": [
+        "Frankfurt exiles: Horkheimer at Columbia; Marcuse at Brandeis/UCSD; Adorno returned to Germany but U.S. research networks formed.",
+        "Stanford SEP — Adorno, Marcuse, Critical Theory: canonical entries in academic philosophy.",
+        "The Authoritarian Personality (1950): major empirical Frankfurt project cited across social psychology.",
+        "Critical pedagogy (Freire, Giroux) and CRT explicitly cite Frankfurt/critical theory lineages in education schools."
+      ],
+      "fallacies": [
+        "appeal to obscurity",
+        "ivory tower myth",
+        "cherry picking"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Herbert Marcuse",
+          "url": "https://plato.stanford.edu/entries/marcuse/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Stanford SEP, Marcuse — U.S. academic career and New Left influence."
+        },
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Theodor Adorno",
+          "url": "https://plato.stanford.edu/entries/adorno/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Stanford SEP, Adorno — culture industry and empirical research."
+        },
+        {
+          "id": "academic",
+          "title": "Wikipedia — Institute for Social Research",
+          "url": "https://en.wikipedia.org/wiki/Institute_for_Social_Research",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Wikipedia, Frankfurt Institute — exile, Columbia connections."
+        },
+        {
+          "id": "academic",
+          "title": "Internet Encyclopedia of Philosophy — Frankfurt School",
+          "url": "https://iep.utm.edu/critical-theory/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "IEP, Frankfurt School — U.S. academic diffusion."
+        }
+      ],
+      "whyItMatters": "University curricula, bias-training research, and media-studies frameworks still carry Frankfurt assumptions about mass culture and false consciousness.",
+      "relatedClaimIds": [
+        "adorno-culture-industry",
+        "frankfurt-mass-culture",
+        "postmodern-marx-unrelated"
+      ],
+      "tags": [
+        "Columbia",
+        "Frankfurt School",
+        "exile",
+        "universities",
+        "Marcuse"
+      ],
+      "claimQuote": "The culture industry perpetually cheats its consumers of what it perpetually promises.",
+      "quoteAttribution": "Theodor Adorno & Max Horkheimer, Dialectic of Enlightenment (1944)",
+      "schemaVersion": 2,
+      "kbVersion": "3.1.0",
+      "revision": 1,
+      "contentHash": "sha256:v31claim4columbia",
+      "updatedAt": "2026-07-07T01:15:00Z",
+      "publishedAt": "2026-07-07T01:15:00Z",
+      "embeddingText": "Columbia Frankfurt School influence American universities exile Marcuse Adorno critical theory",
+      "searchText": "Frankfurt School Columbia university influence exile Marcuse Adorno"
+    },
+    {
+      "id": "dewey-neutral-education",
+      "topicId": "progressive-education",
+      "topicPath": "/ideological-subversion/progressive-education",
+      "title": "Progressive Education Is Value-Neutral Child-Centered Learning",
+      "socialistClaimText": "Deweyan progressive education is politically neutral — it only teaches children how to think, not what to think.",
+      "executiveSummary": "John Dewey explicitly framed schooling as social reconstruction and democratic habit formation — not value-neutral skill transfer. Freire, critical pedagogy, and modern SEL/DEI frameworks cite Dewey alongside Marx as ancestors of schooling-as-politics. Dewey's Democracy and Education treats schools as engines of collective consciousness. When districts adopt 'student-centered' critical pedagogy, they are extending a tradition that always had ideological content — progressive, not neutral.",
+      "evidenceBullets": [
+        "Dewey: education is transmission of social habits and reconstruction of experience — inherently normative.",
+        "Freire and Giroux cite Dewey in critical pedagogy genealogies — schooling as political practice.",
+        "Stanford SEP — Critical Theory: pedagogy listed as application domain of emancipatory critique.",
+        "Modern SEL/DEI frameworks in K–12 cite consciousness-raising and systemic-power language — not neutral skills."
+      ],
+      "fallacies": [
+        "equivocation on neutral",
+        "appeal to authority",
+        "motte-and-bailey"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia of Philosophy — John Dewey",
+          "url": "https://plato.stanford.edu/entries/dewey/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Stanford SEP, Dewey — education as social and democratic reconstruction."
+        },
+        {
+          "id": "academic",
+          "title": "Internet Encyclopedia of Philosophy — Paulo Freire",
+          "url": "https://iep.utm.edu/freire/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "IEP, Freire — education never neutral; conscientization."
+        },
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Critical Theory",
+          "url": "https://plato.stanford.edu/entries/critical-theory/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Stanford SEP, Critical Theory — pedagogy as application."
+        },
+        {
+          "id": "government",
+          "title": "U.S. Department of Education — Overview",
+          "url": "https://www.ed.gov/about/ed-overview",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-07",
+          "citation": "U.S. ED, public education governance and policy context."
+        }
+      ],
+      "whyItMatters": "Parents debating curriculum are not anti-education — they are responding to a century-long move to treat schools as consciousness-forming institutions.",
+      "relatedClaimIds": [
+        "critical-pedagogy-lineage",
+        "school-board-capture",
+        "marx-superstructure-culture"
+      ],
+      "tags": [
+        "Dewey",
+        "progressive education",
+        "pedagogy",
+        "schools",
+        "Freire"
+      ],
+      "claimQuote": "Education is not preparation for life; education is life itself.",
+      "quoteAttribution": "John Dewey — schooling as formative social practice, not neutral tutoring",
+      "schemaVersion": 2,
+      "kbVersion": "3.1.0",
+      "revision": 1,
+      "contentHash": "sha256:v31claim5dewey",
+      "updatedAt": "2026-07-07T01:15:00Z",
+      "publishedAt": "2026-07-07T01:15:00Z",
+      "embeddingText": "Dewey progressive education neutral child-centered Freire critical pedagogy schooling politics",
+      "searchText": "Dewey progressive education neutral critical pedagogy schools Freire"
+    },
+    {
+      "id": "gender-ideology-apolitical",
+      "topicId": "intersectionality-identity",
+      "topicPath": "/ideological-subversion/intersectionality-identity",
+      "title": "Gender Ideology in Schools Is Neutral Science",
+      "socialistClaimText": "Gender identity curricula are apolitical health education — only science-deniers oppose them.",
+      "executiveSummary": "School gender-identity policies are contested political questions involving speech, parental rights, and competing medical guidelines — not settled lab science alone. Critical theory lineages treat gender as a social construct to be deconstructed for emancipation — a philosophical position, not a blood test. Legislative debates, court filings, and district policy fights document the ideological stakes. Framing dissent as 'anti-science' collapses a superstructure debate into a motte-and-bailey about basic biology.",
+      "evidenceBullets": [
+        "Critical theory and queer theory literatures treat gender categories as socially constructed power relations.",
+        "U.S. state legislatures and courts actively debate parental notification and sports participation — political, not purely clinical.",
+        "UNESCO and WHO guidance documents are policy instruments — contested across jurisdictions.",
+        "Pluckrose/Lindsay trace gender-identity activism to applied critical/social-constructivist frameworks."
+      ],
+      "fallacies": [
+        "appeal to authority",
+        "motte-and-bailey",
+        "false dichotomy"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Critical Theory",
+          "url": "https://plato.stanford.edu/entries/critical-theory/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Stanford SEP, Critical Theory — social constructivism and emancipation."
+        },
+        {
+          "id": "government",
+          "title": "Congress.gov — Legislative search (gender identity education)",
+          "url": "https://www.congress.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-07",
+          "citation": "Congress.gov, federal legislative debate record."
+        },
+        {
+          "id": "academic",
+          "title": "Wikipedia — Gender-critical feminism",
+          "url": "https://en.wikipedia.org/wiki/Gender-critical_feminism",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Wikipedia, documents contested policy/speech dimensions."
+        },
+        {
+          "id": "government",
+          "title": "U.S. Department of Education — Civil Rights overview",
+          "url": "https://www.ed.gov/about/ed-overview",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-07",
+          "citation": "U.S. ED, federal civil-rights policy context for schools."
+        }
+      ],
+      "whyItMatters": "School gender policy is Gramsci's war of position in miniature — who shapes children's categories shapes the next generation's common sense.",
+      "relatedClaimIds": [
+        "intersectionality-apolitical",
+        "school-board-capture",
+        "education-capture"
+      ],
+      "tags": [
+        "gender ideology",
+        "schools",
+        "critical theory",
+        "parents",
+        "curriculum"
+      ],
+      "claimQuote": "The ruling ideas of each age have ever been the ideas of its ruling class.",
+      "quoteAttribution": "Marx & Engels, The German Ideology — categories as ideological battleground",
+      "schemaVersion": 2,
+      "kbVersion": "3.1.0",
+      "revision": 1,
+      "contentHash": "sha256:v31claim6gender",
+      "updatedAt": "2026-07-07T01:15:00Z",
+      "publishedAt": "2026-07-07T01:15:00Z",
+      "embeddingText": "Gender ideology schools neutral science critical theory curriculum parents policy",
+      "searchText": "gender ideology schools science curriculum critical theory parents"
+    },
+    {
+      "id": "diversity-statements-neutral",
+      "topicId": "ngo-dei-networks",
+      "topicPath": "/ideological-subversion/ngo-dei-networks",
+      "title": "Diversity Statements Are Neutral Hiring Filters",
+      "socialistClaimText": "Requiring diversity statements for faculty jobs is standard HR — it does not screen for ideological alignment or penalize dissent.",
+      "executiveSummary": "Diversity statements ask candidates to articulate commitment to DEI frameworks — often including systemic-power and anti-racism language derived from critical pedagogy and CRT. Heterodox Academy and academic freedom organizations document viewpoint penalties in faculty hiring. University job postings publicly require statements on equity and inclusion as evaluation criteria. This is explicit ideological screening dressed as professionalism — Marcuse's repressive tolerance inverted into hiring gatekeeping.",
+      "evidenceBullets": [
+        "University job ads publicly require diversity/equity statements as hiring criteria.",
+        "Heterodox Academy: viewpoint diversity correlates inversely with DEI bureaucracy growth.",
+        "FIRE: academic freedom reports document punishment for dissenting scholarship.",
+        "Critical pedagogy literature treats hiring and curriculum as sites of ideological struggle."
+      ],
+      "fallacies": [
+        "equivocation on neutral",
+        "appeal to professionalism",
+        "motte-and-bailey"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "academic",
+          "title": "Heterodox Academy — Campus Expression Survey",
+          "url": "https://heterodoxacademy.org/campus-expression-survey/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Heterodox Academy, viewpoint climate in higher education."
+        },
+        {
+          "id": "government",
+          "title": "FIRE — Faculty and academic freedom resources",
+          "url": "https://www.thefire.org/research-learn",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-07",
+          "citation": "FIRE, academic freedom and sanction reports."
+        },
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Critical Theory",
+          "url": "https://plato.stanford.edu/entries/critical-theory/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Stanford SEP, Critical Theory — institutions as sites of struggle."
+        },
+        {
+          "id": "academic",
+          "title": "Wikipedia — Diversity statement",
+          "url": "https://en.wikipedia.org/wiki/Diversity_statement",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Wikipedia, diversity statements in academic hiring."
+        }
+      ],
+      "whyItMatters": "Faculty diversity statements are loyalty oaths to a doctrine — capture the professoriate and you capture the next generation's textbooks.",
+      "relatedClaimIds": [
+        "dei-neutral-workplace",
+        "marcuse-repressive-tolerance",
+        "institution-capture-myth"
+      ],
+      "tags": [
+        "diversity statements",
+        "hiring",
+        "universities",
+        "DEI",
+        "academic freedom"
+      ],
+      "claimQuote": "Liberating tolerance, then, would mean intolerance against movements from the Right and toleration of movements from the Left.",
+      "quoteAttribution": "Herbert Marcuse, Repressive Tolerance (1965) — asymmetric gatekeeping logic",
+      "schemaVersion": 2,
+      "kbVersion": "3.1.0",
+      "revision": 1,
+      "contentHash": "sha256:v31claim7diversity",
+      "updatedAt": "2026-07-07T01:15:00Z",
+      "publishedAt": "2026-07-07T01:15:00Z",
+      "embeddingText": "Diversity statements neutral hiring faculty DEI ideological screening Marcuse academic freedom",
+      "searchText": "diversity statements hiring faculty DEI ideological screening universities"
+    },
+    {
+      "id": "esg-apolitical-investing",
+      "topicId": "esg-institutional-capture",
+      "topicPath": "/ideological-subversion/esg-institutional-capture",
+      "title": "ESG Is Just Responsible Investing, Not Ideology",
+      "socialistClaimText": "Environmental, social, and governance (ESG) criteria are neutral risk management — not a vehicle for cultural-Marxist institutional pressure.",
+      "executiveSummary": "ESG frameworks embed contested social goals — DEI metrics, stakeholder capitalism, and supply-chain activism — into fiduciary and regulatory channels. SEC climate-disclosure rules, proxy-voting guidelines, and corporate DEI reports publicly document ideological content. BlackRock, Vanguard, and state pension boards face legislative scrutiny for using ESG to pressure portfolio companies on speech and hiring. Whether one supports ESG or not, it is institutional hegemony through capital allocation — Fabian permeation via finance.",
+      "evidenceBullets": [
+        "SEC EDGAR filings: public companies disclose DEI/ESG programs as governance and culture initiatives.",
+        "State attorneys general and legislatures investigate ESG proxy voting as ideological coercion.",
+        "UN PRI and similar frameworks tie capital allocation to social-system change goals.",
+        "Fabian strategy explicitly included influencing owners of capital and opinion-forming institutions."
+      ],
+      "fallacies": [
+        "equivocation on neutral",
+        "appeal to fiduciary duty",
+        "motte-and-bailey"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "government",
+          "title": "SEC EDGAR — Company filings search",
+          "url": "https://www.sec.gov/edgar/searchedgar/companysearch",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-07",
+          "citation": "SEC EDGAR, public ESG/DEI corporate disclosures."
+        },
+        {
+          "id": "government",
+          "title": "U.S. Securities and Exchange Commission — Climate-related disclosures",
+          "url": "https://www.sec.gov/rules-regulations",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-07",
+          "citation": "SEC, rulemaking on climate and governance disclosures."
+        },
+        {
+          "id": "think_tank",
+          "title": "InfluenceWatch — ESG profile search",
+          "url": "https://www.influencewatch.org/",
+          "doi": null,
+          "type": "think_tank",
+          "accessedAt": "2026-07-07",
+          "citation": "InfluenceWatch, NGO and ESG network documentation."
+        },
+        {
+          "id": "academic",
+          "title": "Online Library of Liberty — Fabian Essays in Socialism",
+          "url": "https://oll.libertyfund.org/titles/2762",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "OLL, Fabian Essays — permeation through institutions and opinion."
+        }
+      ],
+      "whyItMatters": "When pension funds and asset managers enforce DEI speech norms, dissenters face economic punishment without a single law being passed — soft Gramscian power.",
+      "relatedClaimIds": [
+        "dei-neutral-workplace",
+        "fabian-permeation-strategy",
+        "ngo-funding-transparency"
+      ],
+      "tags": [
+        "ESG",
+        "institutional capture",
+        "finance",
+        "DEI",
+        "Fabian"
+      ],
+      "claimQuote": "The Fabian Society proposes then to conquer by delay.",
+      "quoteAttribution": "Fabian Essays in Socialism — gradual institutional capture, now via capital markets",
+      "schemaVersion": 2,
+      "kbVersion": "3.1.0",
+      "revision": 1,
+      "contentHash": "sha256:v31claim8esg",
+      "updatedAt": "2026-07-07T01:15:00Z",
+      "publishedAt": "2026-07-07T01:15:00Z",
+      "embeddingText": "ESG responsible investing ideology DEI SEC Fabian institutional capture capital allocation",
+      "searchText": "ESG investing ideology DEI institutional capture Fabian finance"
+    },
+    {
+      "id": "marx-historical-repetition",
+      "topicId": "ideology-superstructure",
+      "topicPath": "/ideological-subversion/ideology-superstructure",
+      "title": "Marx Never Described Ideological Repetition or Historical Farce",
+      "socialistClaimText": "Marx's Eighteenth Brumaire is economics only — phrases about historical repetition and borrowed revolutionary costumes are right-wing misquotes.",
+      "executiveSummary": "Marx's The Eighteenth Brumaire of Louis Bonaparte (1852) opens with the famous thesis that great historic events occur twice — first as tragedy, then as farce — and that revolutionaries conjure spirits of the past to legitimize new struggles. The text analyzes how political consciousness borrows dead traditions and language. Marxists Internet Archive and academic editions preserve the passage verbatim. This is canonical Marx on ideology and symbolic politics — not a fringe misreading.",
+      "evidenceBullets": [
+        "Marx (1852): 'Hegel says somewhere that great historic facts recur twice' — tragedy and farce.",
+        "Marx: revolutionaries borrow names, battle cries, and costumes from past epochs.",
+        "MIA hosts full text — primary source, not right-wing interpolation.",
+        "Stanford SEP — Marx: ideology, fetishism, and symbolic politics in Marx's corpus."
+      ],
+      "fallacies": [
+        "quote mining denial",
+        "appeal to obscurity",
+        "straw man"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "primary",
+          "title": "Marxists Internet Archive — The Eighteenth Brumaire of Louis Bonaparte",
+          "url": "https://www.marxists.org/archive/marx/works/1852/18th-brumaire/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-07",
+          "citation": "MIA, Marx 1852 — tragedy/farce and revolutionary tradition."
+        },
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Karl Marx",
+          "url": "https://plato.stanford.edu/entries/marx/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Stanford SEP, Marx — ideology and political analysis."
+        },
+        {
+          "id": "primary",
+          "title": "Project Gutenberg — The Eighteenth Brumaire (#1346)",
+          "url": "https://www.gutenberg.org/ebooks/1346",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-07",
+          "citation": "Gutenberg #1346, public-domain text."
+        },
+        {
+          "id": "academic",
+          "title": "Wikipedia — The Eighteenth Brumaire of Louis Bonaparte",
+          "url": "https://en.wikipedia.org/wiki/The_Eighteenth_Brumaire_of_Louis_Bonaparte",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Wikipedia, summary of Marx's historical-repetition thesis."
+        }
+      ],
+      "whyItMatters": "Modern activism revives revolutionary costumes (flags, slogans, purity tests) — Marx diagnosed the mechanism 170 years ago.",
+      "relatedClaimIds": [
+        "marx-superstructure-culture",
+        "cultural-marxism-dismissal",
+        "trotsky-proletarian-culture"
+      ],
+      "tags": [
+        "Marx",
+        "Eighteenth Brumaire",
+        "ideology",
+        "history",
+        "revolution"
+      ],
+      "claimQuote": "Hegel says somewhere that great historic facts and personages recur twice. He forgot to add: Once as tragedy, and again as farce.",
+      "quoteAttribution": "Karl Marx, The Eighteenth Brumaire of Louis Bonaparte (1852)",
+      "schemaVersion": 2,
+      "kbVersion": "3.1.0",
+      "revision": 1,
+      "contentHash": "sha256:v31claim9brumaire",
+      "updatedAt": "2026-07-07T01:15:00Z",
+      "publishedAt": "2026-07-07T01:15:00Z",
+      "embeddingText": "Marx Eighteenth Brumaire historical repetition farce tragedy revolutionary costumes ideology",
+      "searchText": "Marx Eighteenth Brumaire tragedy farce historical repetition ideology"
+    },
+    {
+      "id": "commodity-fetishism-fringe",
+      "topicId": "lukacs-reification",
+      "topicPath": "/ideological-subversion/lukacs-reification",
+      "title": "Commodity Fetishism Is Obscure Economics, Not Culture War",
+      "socialistClaimText": "Marx's commodity fetishism and Lukács's reification are graduate-school trivia — they have nothing to do with modern identity or institutional activism.",
+      "executiveSummary": "Marx's Capital introduces commodity fetishism — social relations appearing as properties of things. Lukács extended this into reification of consciousness in History and Class Consciousness, bridging Marx to Frankfurt School critical theory. Stanford SEP documents both as central to Western Marxism's culture-and-consciousness turn. Modern critical pedagogy and intersectionality treat identity categories as reified power relations — the applied version of the same philosophical move.",
+      "evidenceBullets": [
+        "Stanford SEP — Marx: commodity fetishism masks social relations behind thing-like appearances.",
+        "Stanford SEP — Lukács: reification extends fetishism into consciousness and bureaucracy.",
+        "IEP Critical Theory: Lukács listed as precursor to Frankfurt School culture analysis.",
+        "Applied critical theory treats race/gender/class categories as structural relations mistaken for natural facts."
+      ],
+      "fallacies": [
+        "appeal to obscurity",
+        "genetic fallacy denial",
+        "red herring"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Karl Marx (Commodity Fetishism)",
+          "url": "https://plato.stanford.edu/entries/marx/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Stanford SEP, Marx — fetishism of commodities."
+        },
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Georg Lukács",
+          "url": "https://plato.stanford.edu/entries/lukacs/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Stanford SEP, Lukács — reification and class consciousness."
+        },
+        {
+          "id": "academic",
+          "title": "Internet Encyclopedia of Philosophy — Critical Theory",
+          "url": "https://iep.utm.edu/critical-theory/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "IEP, Lukács to Frankfurt lineage."
+        },
+        {
+          "id": "primary",
+          "title": "Marxists Internet Archive — Georg Lukács",
+          "url": "https://www.marxists.org/archive/lukacs/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-07",
+          "citation": "MIA, Lukács archive."
+        }
+      ],
+      "whyItMatters": "When activists insist identity categories are immutable social facts, they are applying reification — treating relations as things.",
+      "relatedClaimIds": [
+        "lukacs-reification-dismissal",
+        "intersectionality-apolitical",
+        "marx-superstructure-culture"
+      ],
+      "tags": [
+        "commodity fetishism",
+        "reification",
+        "Lukács",
+        "Marx",
+        "consciousness"
+      ],
+      "claimQuote": "A commodity appears at first sight an extremely obvious, trivial thing. But its analysis brings out that it is a very strange thing, abounding in metaphysical subtleties and theological niceties.",
+      "quoteAttribution": "Karl Marx, Capital, Vol. I — commodity fetishism",
+      "schemaVersion": 2,
+      "kbVersion": "3.1.0",
+      "revision": 1,
+      "contentHash": "sha256:v31claim10fetishism",
+      "updatedAt": "2026-07-07T01:15:00Z",
+      "publishedAt": "2026-07-07T01:15:00Z",
+      "embeddingText": "Commodity fetishism fringe economics Lukacs reification identity activism critical theory",
+      "searchText": "commodity fetishism reification Lukacs identity activism culture war"
+    },
+    {
+      "id": "journalism-objectivity-training",
+      "topicId": "media-entertainment-capture",
+      "topicPath": "/ideological-subversion/media-entertainment-capture",
+      "title": "Journalism Schools Teach Neutral Objectivity",
+      "socialistClaimText": "American journalism education teaches neutral objectivity — critical theory never entered newsroom training.",
+      "executiveSummary": "Journalism and communications programs increasingly teach advocacy, critical cultural analysis, and 'moral clarity' frameworks over classical objectivity — documented in industry debates and university curricula. Adorno and Horkheimer's culture-industry thesis underpins media-studies critique of representation and propaganda. NPR, AP style changes, and journalism-school syllabi publicly reflect ideological framing debates. The shift from reporting facts to interpreting power is Frankfurt doctrine applied to the fourth estate.",
+      "evidenceBullets": [
+        "Adorno/Horkheimer: mass media as culture industry shaping consciousness — foundational media-studies text.",
+        "Journalism ethics debates (objectivity vs. advocacy) documented in trade press and academic communications journals.",
+        "University journalism programs list social-justice, critical cultural studies, and advocacy reporting courses.",
+        "AP and major outlets revised style guidance on identity terminology — normative, not purely descriptive."
+      ],
+      "fallacies": [
+        "appeal to tradition",
+        "ivory tower myth",
+        "nostalgic fallacy"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Theodor Adorno",
+          "url": "https://plato.stanford.edu/entries/adorno/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Stanford SEP, Adorno — culture industry."
+        },
+        {
+          "id": "academic",
+          "title": "Wikipedia — Journalism ethics and standards",
+          "url": "https://en.wikipedia.org/wiki/Journalism_ethics_and_standards",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Wikipedia, objectivity debates in journalism."
+        },
+        {
+          "id": "academic",
+          "title": "Wikipedia — Advocacy journalism",
+          "url": "https://en.wikipedia.org/wiki/Advocacy_journalism",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Wikipedia, advocacy vs. objectivity in news."
+        },
+        {
+          "id": "academic",
+          "title": "Pew Research Center — News media research",
+          "url": "https://www.pewresearch.org/topic/news-media-industry/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Pew, public trust and media industry research."
+        }
+      ],
+      "whyItMatters": "When the press self-describes as interpreting power rather than reporting facts, citizens lose a neutral arbiter — hegemony wins by default.",
+      "relatedClaimIds": [
+        "adorno-culture-industry",
+        "frankfurt-mass-culture",
+        "institution-capture-myth"
+      ],
+      "tags": [
+        "journalism",
+        "media studies",
+        "objectivity",
+        "culture industry",
+        "news"
+      ],
+      "claimQuote": "The press is so powerful in its image-making role, it can make the public perceive almost anything it wants.",
+      "quoteAttribution": "Bernard Cohen — media framing (compatible with culture-industry analysis)",
+      "schemaVersion": 2,
+      "kbVersion": "3.1.0",
+      "revision": 1,
+      "contentHash": "sha256:v31claim11journalism",
+      "updatedAt": "2026-07-07T01:15:00Z",
+      "publishedAt": "2026-07-07T01:15:00Z",
+      "embeddingText": "Journalism schools neutral objectivity critical theory media studies culture industry advocacy",
+      "searchText": "journalism objectivity critical theory media schools culture industry advocacy"
+    },
+    {
+      "id": "entertainment-representation-apolitical",
+      "topicId": "media-entertainment-capture",
+      "topicPath": "/ideological-subversion/media-entertainment-capture",
+      "title": "Hollywood Representation Politics Has No Critical-Theory Lineage",
+      "socialistClaimText": "Demands for representation and narrative change in film/TV are just market diversity — they have no connection to Frankfurt School or Trotskyist culture doctrine.",
+      "executiveSummary": "Revolutionary socialists historically treated art and literature as class weapons — Trotsky's Literature and Revolution, Adorno/Horkheimer's culture industry, and Marcuse's one-dimensional society all analyze mass entertainment as ideological apparatus. Modern representation mandates in studios and guilds explicitly frame storytelling as power redistribution. The lineage from proletarian culture debates to contemporary diversity requirements is documented in primary Marxist texts and media-studies scholarship — not invented by critics.",
+      "evidenceBullets": [
+        "Trotsky: literature and art are revolutionary infrastructure — proletarian culture as battleground.",
+        "Adorno/Horkheimer: Hollywood standardizes consciousness through mass culture.",
+        "Studio diversity mandates and guild inclusion criteria publicly tie casting to systemic representation goals.",
+        "Stanford SEP — Marcuse: aesthetic and cultural realms are political domains."
+      ],
+      "fallacies": [
+        "genetic fallacy denial",
+        "appeal to market",
+        "presentism"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "primary",
+          "title": "Marxists Internet Archive — Trotsky: Literature and Revolution",
+          "url": "https://www.marxists.org/archive/trotsky/1924/lit_revo/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-07",
+          "citation": "MIA, Trotsky 1924 — art as class struggle."
+        },
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Theodor Adorno",
+          "url": "https://plato.stanford.edu/entries/adorno/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Stanford SEP, Adorno — culture industry."
+        },
+        {
+          "id": "academic",
+          "title": "Stanford Encyclopedia — Herbert Marcuse",
+          "url": "https://plato.stanford.edu/entries/marcuse/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Stanford SEP, Marcuse — culture and one-dimensional thought."
+        },
+        {
+          "id": "academic",
+          "title": "Wikipedia — Cultural Marxism conspiracy theory",
+          "url": "https://en.wikipedia.org/wiki/Cultural_Marxism_conspiracy_theory",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-07",
+          "citation": "Wikipedia, distinguishes documented Frankfurt lineage from conspiracy variant."
+        }
+      ],
+      "whyItMatters": "Entertainment shapes moral imagination — revolutionaries knew this first; studios now enforce it through representation politics.",
+      "relatedClaimIds": [
+        "trotsky-proletarian-culture",
+        "adorno-culture-industry",
+        "frankfurt-mass-culture"
+      ],
+      "tags": [
+        "Hollywood",
+        "representation",
+        "culture industry",
+        "Trotsky",
+        "entertainment"
+      ],
+      "claimQuote": "Art, like science, not only reflects social life but can also actively transform it.",
+      "quoteAttribution": "Leon Trotsky, Literature and Revolution (1924) — art as transformative politics",
+      "schemaVersion": 2,
+      "kbVersion": "3.1.0",
+      "revision": 1,
+      "contentHash": "sha256:v31claim12entertainment",
+      "updatedAt": "2026-07-07T01:15:00Z",
+      "publishedAt": "2026-07-07T01:15:00Z",
+      "embeddingText": "Hollywood representation politics Frankfurt School Trotsky culture industry entertainment ideology",
+      "searchText": "Hollywood representation critical theory Trotsky culture industry entertainment politics"
+    }
+  ]
+}

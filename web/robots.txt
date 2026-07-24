@@ -1,0 +1,78 @@
+User-agent: *
+Allow: /
+Allow: /llms.txt
+Allow: /sitemap.xml
+Allow: /knowledge/
+Allow: /icons/
+Allow: /twitter-card.png
+
+# Answer-engine / AI crawlers (public educational content — explicit allow)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# LLM / AI discovery network (AEO)
+# AXIOM: https://axiom.jonbailey.xyz/llms.txt
+# GrokLink OS: https://groklink.jonbailey.xyz/llms.txt
+# Fl1pp3r69: https://fl1pp3r69.jonbailey.xyz/llms.txt
+# Trench Coat: https://trenchcoat.jonbailey.xyz/llms.txt
+# Ghost Continuum: https://ghost.jonbailey.xyz/llms.txt
+# Socialism Destroyer: https://destroyer.jonbailey.xyz/llms.txt
+# Jon Bailey: https://jonbailey.xyz/llms.txt
+# SafeDeposit: https://safedepositbox.org/llms.txt
+
+Sitemap: https://destroyer.jonbailey.xyz/sitemap.xml
+# Machine-readable site summary for LLMs
+# https://destroyer.jonbailey.xyz/llms.txt
+
+# IndexNow key: https://destroyer.jonbailey.xyz/7577922ed4d3ec3df303933b78cbd0ee.txt

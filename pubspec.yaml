@@ -1,0 +1,107 @@
+name: socialism_destroyer
+description: "Socialism Destroyer — The Pro-America Liberty Argument Engine. Fully sourced. Always updated. Built for truth."
+publish_to: 'none'
+version: 2.1.1+6
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State & routing
+  flutter_riverpod: ^2.6.1
+  go_router: ^14.8.1
+
+  # Auth & backend
+  supabase_flutter: ^2.16.0
+  google_sign_in: ^6.2.2
+  sign_in_with_apple: ^6.1.4
+  flutter_dotenv: ^5.2.1
+  crypto: ^3.0.6
+  app_links: ^7.0.0
+
+  # Offline storage + FTS search (native/desktop)
+  hive_flutter: ^1.1.0
+  sqflite: ^2.4.2
+  sqflite_common_ffi: ^2.3.5
+  path: ^1.9.1
+  path_provider: ^2.1.5
+
+  # UI, charts & motion
+  fl_chart: ^0.70.2
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.2
+  shimmer: ^3.0.0
+
+  # Search (web fallback + fuzzy ranking)
+  fuzzy: ^0.5.1
+
+  # Export & share
+  pdf: ^3.11.3
+  printing: ^5.14.2
+  share_plus: ^10.1.4
+  screenshot: ^3.0.0
+
+  # Utils
+  url_launcher: ^6.3.1
+  intl: ^0.20.2
+  uuid: ^4.5.1
+  collection: ^1.19.1
+  equatable: ^2.1.0
+  connectivity_plus: ^6.1.4
+  speech_to_text: ^7.0.0
+  http: ^1.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  integration_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.4.5
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/images/branding/app_icon.png
+  adaptive_icon_background: "#0A1628"
+  adaptive_icon_foreground: assets/images/branding/app_icon_foreground.png
+  remove_alpha_ios: true
+  web:
+    generate: true
+    image_path: assets/images/branding/app_icon.png
+    background_color: "#0A1628"
+    theme_color: "#0A1628"
+  windows:
+    generate: true
+    image_path: assets/images/branding/app_icon.png
+    icon_size: 256
+  macos:
+    generate: true
+    image_path: assets/images/branding/app_icon.png
+
+flutter_native_splash:
+  color: "#0A1628"
+  image: assets/images/branding/splash_logo.png
+  android_12:
+    color: "#0A1628"
+    image: assets/images/branding/splash_logo.png
+    icon_background_color: "#0A1628"
+  web: false
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/
+    - assets/data/v2/
+    - assets/data/v2/seeds/
+    - assets/data/v2/debate_playlists.json
+    - assets/data/books/
+    - assets/images/
+    - assets/images/branding/
+    # .env is gitignored (local secrets only). Bundle the example template for CI/offline.
+    - .env.example

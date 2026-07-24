@@ -1,0 +1,1036 @@
+{
+  "schemaVersion": 2,
+  "kbVersion": "2.2.0",
+  "bundleId": "historical-socialism-v2",
+  "priority": 10,
+  "updatedAt": "2026-07-04T20:00:00Z",
+  "contentHash": "sha256:f1a791503eb4c888fb69bc6ab9a5508a59abb454da13d85bf4796ef31fe163cd",
+  "claims": [
+    {
+      "id": "ussr-not-real-socialism",
+      "topicId": "ussr-record",
+      "topicPath": "/historical-socialism/ussr-record",
+      "title": "USSR Wasn't Real Socialism",
+      "socialistClaimText": "Every socialist failure — the USSR, Venezuela, Cuba — was not real socialism. State capitalism or Western sabotage is to blame.",
+      "executiveSummary": "The Soviet Union implemented the socialist program as understood by Marxist-Leninist theory: abolition of private ownership of major industry, central economic planning via Gosplan, one-party dictatorship of the proletariat, and collectivized agriculture. The outcomes — terror-famine, Gulag camps, economic stagnation from the 1970s, and systemic collapse in 1991 — are documented in Soviet archives and demographic reconstructions, not Western propaganda alone.",
+      "evidenceBullets": [
+        "Black Book of Communism (Courtois et al.): documents roughly 85–100 million deaths globally from Communist regimes, including Soviet famines, purges, and deportations.",
+        "U.S. Census Bureau / ADH demographic work: Soviet population losses in the 1930s Holodomor and terror famines measurable in excess mortality statistics.",
+        "CIA / Soviet archival releases (1990s): central planning targets routinely missed; productivity growth fell to near-zero by Brezhnev era.",
+        "Gorbachev-era reforms (1985–1991): perestroika acknowledged systemic failure of planned economy — the system's own leaders conceded collapse."
+      ],
+      "fallacies": [
+        "no true Scotsman",
+        "motte and bailey",
+        "historical revisionism"
+      ],
+      "sources": [
+        {
+          "id": "black-book-communism",
+          "title": "The Black Book of Communism (Harvard University Press)",
+          "url": "https://www.hup.harvard.edu/catalog.php?isbn=9780674076082",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Courtois, S., et al. (1999). The Black Book of Communism. Harvard University Press."
+        },
+        {
+          "id": "hoover-soviet-archives",
+          "title": "Hoover Institution — Soviet Archives Collection",
+          "url": "https://www.hoover.org/library-archives/collections/soviet",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-04",
+          "citation": "Hoover Institution Library & Archives, Soviet collections."
+        },
+        {
+          "id": "conquest-great-terror",
+          "title": "Robert Conquest — The Great Terror (research overview)",
+          "url": "https://www.hoover.org/research/authors/robert-conquest",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Conquest, R. The Great Terror; Hoover Institution research archives."
+        }
+      ],
+      "whyItMatters": "The no-true-Scotsman fallacy prevents Americans from learning from the largest socialist experiment in history — and from recognizing that abolishing markets and property rights has predictable institutional consequences.",
+      "relatedClaimIds": [
+        "china-famine",
+        "cambodia-ignored",
+        "venezuela-sanctions"
+      ],
+      "tags": [
+        "ussr",
+        "soviet",
+        "socialism",
+        "gulag",
+        "central-planning"
+      ],
+      "schemaVersion": 2,
+      "revision": 2,
+      "updatedAt": "2026-07-04T18:00:00Z",
+      "embeddingText": "USSR not real socialism no true Scotsman Soviet Union central planning Gosplan collectivization Black Book of Communism Holodomor Gulag stagnation collapse",
+      "searchText": "USSR Wasn't Real Socialism Soviet Union central planning Black Book Communism Holodomor Gulag no true Scotsman",
+      "kbVersion": "2.2.0"
+    },
+    {
+      "id": "china-famine",
+      "topicId": "china-famine",
+      "topicPath": "/historical-socialism/china-famine",
+      "title": "Mao's Great Famine Was Western Propaganda",
+      "socialistClaimText": "Death tolls from Mao's China are exaggerated Western propaganda designed to discredit socialism.",
+      "executiveSummary": "Independent demographic and archival research documents the Great Leap Forward (1958–1962) as the deadliest famine in human history. Dikötter's archival work and Yang Jisheng's internal Chinese records estimate 30–45 million excess deaths from forced collectivization, grain requisition, and continued exports during famine conditions.",
+      "evidenceBullets": [
+        "Dikötter, Mao's Great Famine (2010): used provincial Chinese Communist Party archives to document policy-caused starvation — not natural disaster.",
+        "Yang Jisheng, Tombstone (2008): Chinese journalist using internal party documents; estimates ~36 million famine deaths.",
+        "Asia Society / demographic studies: China's census disruptions 1953–1964 consistent with massive excess mortality.",
+        "PRC government internal reassessment: post-Mao CCP acknowledged 'serious mistakes' of Great Leap — partial official recognition."
+      ],
+      "fallacies": [
+        "historical revisionism",
+        "conspiracy thinking",
+        "whataboutism"
+      ],
+      "sources": [
+        {
+          "id": "dikotter-great-famine",
+          "title": "Frank Dikötter — Mao's Great Famine (Bloomsbury)",
+          "url": "https://www.bloomsbury.com/us/maos-great-famine-9780802779276/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Dikötter, F. (2010). Mao's Great Famine. Bloomsbury Press."
+        },
+        {
+          "id": "yang-tombstone",
+          "title": "Yang Jisheng — Tombstone: The Great Chinese Famine",
+          "url": "https://www.amazon.com/Tombstone-Great-Chinese-Famine-1959-1962/dp/0374277931",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-04",
+          "citation": "Yang, J. (2008). Tombstone. Farrar, Straus and Giroux."
+        },
+        {
+          "id": "census-demographic-china",
+          "title": "U.S. Census Bureau — International Population Studies",
+          "url": "https://www.census.gov/data-tools/demo/idb/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Census Bureau International Database, China demographic series."
+        }
+      ],
+      "whyItMatters": "Denying Mao-era catastrophe blocks honest institutional comparison and enables romanticization of collectivization policies still advocated in some American political circles.",
+      "relatedClaimIds": [
+        "ussr-not-real-socialism",
+        "cambodia-ignored"
+      ],
+      "tags": [
+        "china",
+        "mao",
+        "famine",
+        "great-leap-forward",
+        "collectivization"
+      ],
+      "schemaVersion": 2,
+      "revision": 2,
+      "updatedAt": "2026-07-04T18:00:00Z",
+      "embeddingText": "Mao Great Famine Western propaganda Great Leap Forward Dikötter Yang Jisheng Tombstone 36 million deaths collectivization",
+      "searchText": "Mao Great Famine Western propaganda Dikötter Yang Jisheng Great Leap Forward collectivization",
+      "kbVersion": "2.2.0"
+    },
+    {
+      "id": "venezuela-sanctions",
+      "topicId": "venezuela-cuba",
+      "topicPath": "/historical-socialism/venezuela-cuba",
+      "title": "Venezuela Failed Only Because of U.S. Sanctions",
+      "socialistClaimText": "Venezuela's economic collapse was caused by U.S. sanctions, not by Hugo Chávez and Nicolás Maduro's socialist policies.",
+      "executiveSummary": "Venezuela's economic free-fall began years before major U.S. oil sanctions (2019). World Bank data show GDP per capita falling ~75% from 2013–2020 driven by expropriations, price controls, currency destruction, and PDVSA mismanagement. IMF documented hyperinflation exceeding 1,000,000% annually at peak.",
+      "evidenceBullets": [
+        "World Bank: Venezuela GDP per capita (constant 2015 US$) fell from ~$9,500 (2013) to ~$2,300 (2020) — collapse predates 2019 oil sanctions.",
+        "Congressional Research Service (R44882): documents economic deterioration from 2013 onward; oil sector decline under state management from 1999+.",
+        "IMF World Economic Outlook: Venezuela hyperinflation among worst globally; estimated 2018 inflation 1,300,000%.",
+        "FAO / UN: Venezuelan hunger survey (ENCOVI) documented widespread food insecurity by 2017 — before comprehensive sanctions."
+      ],
+      "fallacies": [
+        "post hoc ergo propter hoc",
+        "single-cause fallacy",
+        "cherry-picking timelines"
+      ],
+      "sources": [
+        {
+          "id": "wb-venezuela-gdp",
+          "title": "World Bank — Venezuela GDP per capita data",
+          "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD?locations=VE",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "World Bank Open Data, NY.GDP.PCAP.KD, Venezuela."
+        },
+        {
+          "id": "crs-venezuela",
+          "title": "Congressional Research Service — Venezuela: Background and U.S. Relations",
+          "url": "https://crsreports.congress.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "CRS Report R44882, Venezuela economic and sanctions timeline."
+        },
+        {
+          "id": "imf-venezuela-inflation",
+          "title": "IMF — World Economic Outlook Database",
+          "url": "https://www.imf.org/en/Publications/WEO",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "IMF WEO, Venezuela inflation and GDP series."
+        }
+      ],
+      "whyItMatters": "Blaming sanctions alone prevents learning from property-rights destruction, price controls, and monetary debasement — policies advocated by American socialists as models.",
+      "relatedClaimIds": [
+        "cuba-poverty",
+        "socialism-democratic-better"
+      ],
+      "tags": [
+        "venezuela",
+        "sanctions",
+        "hyperinflation",
+        "chavez",
+        "maduro"
+      ],
+      "schemaVersion": 2,
+      "revision": 2,
+      "updatedAt": "2026-07-04T18:00:00Z",
+      "embeddingText": "Venezuela sanctions collapse World Bank GDP per capita IMF hyperinflation CRS Chávez Maduro expropriation price controls",
+      "searchText": "Venezuela Failed Sanctions World Bank GDP IMF hyperinflation Chávez Maduro socialism",
+      "kbVersion": "2.2.0"
+    },
+    {
+      "id": "cuba-poverty",
+      "topicId": "venezuela-cuba",
+      "topicPath": "/historical-socialism/venezuela-cuba",
+      "title": "Cuba Proves Socialism Delivers Superior Outcomes",
+      "socialistClaimText": "Cuba has better healthcare and education than the U.S. — proof that socialism works.",
+      "executiveSummary": "Official Cuban health and literacy statistics lack independent audit. Mass emigration — over 1 million Cubans have fled since 1959 — is powerful revealed preference against paradise narratives. Heritage Index ranks Cuba among the world's least economically free nations; Freedom House classifies Cuba as Not Free.",
+      "evidenceBullets": [
+        "Heritage Index of Economic Freedom 2024: Cuba score ~25/100 — Repressed category; state controls 90%+ of economy.",
+        "Freedom House Freedom in the World 2024: Cuba scores 12/100 — Not Free; one-party state, no independent judiciary.",
+        "U.S. State Dept refugee data: Cuban immigration waves (Mariel 1980, rafters 1994, ongoing) demonstrate exit demand.",
+        "World Bank: Cuba GDP per capita roughly $9,500 (nominal) vs. U.S. ~$76,000 — material gap inconsistent with superiority claims."
+      ],
+      "fallacies": [
+        "cherry-picking",
+        "survivorship bias",
+        "appeal to authority (official statistics)"
+      ],
+      "sources": [
+        {
+          "id": "heritage-cuba-2024",
+          "title": "Heritage Foundation — Cuba Economic Freedom (2024)",
+          "url": "https://www.heritage.org/index/country/cuba",
+          "doi": null,
+          "type": "think_tank",
+          "accessedAt": "2026-07-04",
+          "citation": "Heritage Foundation, Index of Economic Freedom 2024, Cuba."
+        },
+        {
+          "id": "freedom-house-cuba",
+          "title": "Freedom House — Cuba Freedom in the World 2024",
+          "url": "https://freedomhouse.org/country/cuba/freedom-world/2024",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Freedom House, Freedom in the World 2024, Cuba."
+        },
+        {
+          "id": "wb-cuba-gdp",
+          "title": "World Bank — Cuba GDP per capita",
+          "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CU",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "World Bank Open Data, Cuba GDP per capita."
+        }
+      ],
+      "whyItMatters": "Romanticizing Cuba obscures the trade-off between political freedom and state-controlled outcomes — a trade-off Americans should understand before importing Cuban models.",
+      "relatedClaimIds": [
+        "venezuela-sanctions",
+        "ussr-not-real-socialism"
+      ],
+      "tags": [
+        "cuba",
+        "healthcare",
+        "economic-freedom",
+        "emigration"
+      ],
+      "schemaVersion": 2,
+      "revision": 2,
+      "updatedAt": "2026-07-04T18:00:00Z",
+      "embeddingText": "Cuba socialism superior healthcare education Heritage economic freedom Freedom House emigration World Bank GDP",
+      "searchText": "Cuba socialism healthcare Heritage Freedom House emigration economic freedom",
+      "kbVersion": "2.2.0"
+    },
+    {
+      "id": "cambodia-ignored",
+      "topicId": "historical-socialism",
+      "topicPath": "/historical-socialism",
+      "title": "Khmer Rouge Was Not Real Socialism",
+      "socialistClaimText": "Pol Pot and the Khmer Rouge were an aberration — not real socialism, just extremism.",
+      "executiveSummary": "Democratic Kampuchea (1975–1979) implemented radical egalitarian collectivism: abolition of money, forced rural collectivization, elimination of private property, and execution of intellectuals and professionals. The Documentation Center of Cambodia and UN tribunal records estimate 1.5–2 million deaths from execution, starvation, and forced labor — roughly 25% of the population.",
+      "evidenceBullets": [
+        "Documentation Center of Cambodia (DC-Cam): demographic mapping of mass graves and killing fields; ~1.7 million excess deaths.",
+        "UN Extraordinary Chambers (ECCC): tribunal records document crimes against humanity under Communist Party of Kampuchea.",
+        "CIA/Kingdom of Cambodia demographic analysis: population fell from ~7.1M (1975) to ~5.8M (1979).",
+        "Pol Pot's own writings: Year Zero ideology aimed at pure agrarian communism — consistent with Marxist-Leninist revolutionary framework."
+      ],
+      "fallacies": [
+        "no true Scotsman",
+        "distinction without a difference",
+        "historical minimization"
+      ],
+      "sources": [
+        {
+          "id": "dc-cam",
+          "title": "Documentation Center of Cambodia",
+          "url": "https://www.dccam.org/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-04",
+          "citation": "Documentation Center of Cambodia, genocide research and archives."
+        },
+        {
+          "id": "eccc-tribunal",
+          "title": "UN Extraordinary Chambers in the Courts of Cambodia",
+          "url": "https://www.eccc.gov.kh/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "ECCC, Case records and judgments, Democratic Kampuchea."
+        },
+        {
+          "id": "cia-cambodia-demographics",
+          "title": "CIA World Factbook — Cambodia historical context",
+          "url": "https://www.cia.gov/the-world-factbook/countries/cambodia/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "CIA World Factbook, Cambodia."
+        }
+      ],
+      "whyItMatters": "Radical egalitarian projects that abolish property and markets can produce radical horror — the Khmer Rouge is not a footnote but a logical endpoint of utopian collectivism taken to its conclusion.",
+      "relatedClaimIds": [
+        "ussr-not-real-socialism",
+        "china-famine"
+      ],
+      "tags": [
+        "cambodia",
+        "khmer-rouge",
+        "genocide",
+        "collectivization"
+      ],
+      "schemaVersion": 2,
+      "revision": 2,
+      "updatedAt": "2026-07-04T18:00:00Z",
+      "embeddingText": "Khmer Rouge not real socialism Pol Pot Democratic Kampuchea DC-Cam genocide collectivization Year Zero ECCC tribunal",
+      "searchText": "Khmer Rouge not real socialism Pol Pot Cambodia genocide DC-Cam collectivization",
+      "kbVersion": "2.2.0"
+    },
+    {
+      "id": "soviet-1991-collapse-archives",
+      "topicId": "ussr-record",
+      "topicPath": "/historical-socialism/ussr-record",
+      "title": "Soviet Collapse Was Western Sabotage, Not Planning Failure",
+      "socialistClaimText": "The USSR did not fail because of socialism — Reagan, the CIA, and oil shocks sabotaged a viable system. Gorbachev was a victim of Western pressure, not of Gosplan.",
+      "executiveSummary": "Post-1991 archival releases and Gorbachev-era memoirs document systemic planning failure, not external sabotage as the primary cause of collapse. Perestroika and glasnost were admissions that central allocation could not sustain growth. CIA national accounts reconstructions show Soviet GDP stagnating and then contracting in the late 1980s before the 1991 dissolution — consistent with internal institutional breakdown.",
+      "evidenceBullets": [
+        "Gorbachev Foundation / perestroika records (1985–1991): leadership explicitly blamed rigid planning, quality deficits, and missed investment targets — not Western sabotage alone.",
+        "Hoover Institution Soviet archives (1990s releases): Gosplan and party documents show chronic plan non-fulfillment and hidden inflation in producer goods.",
+        "CIA Directorate of Intelligence historical GDP series: Soviet output growth near zero by mid-1980s; contraction visible before August 1991 coup attempt.",
+        "Russian State Archive materials on 1991 union treaty negotiations: republics exited over fiscal burden-sharing and supply breakdown — an internal governance collapse."
+      ],
+      "fallacies": [
+        "conspiracy thinking",
+        "externalization of failure",
+        "no true Scotsman"
+      ],
+      "chartData": {
+        "type": "line",
+        "title": "Soviet GDP Growth (CIA estimate, % change, 1985–1991)",
+        "labels": [
+          "1985",
+          "1986",
+          "1987",
+          "1988",
+          "1989",
+          "1990",
+          "1991"
+        ],
+        "datasets": [
+          {
+            "label": "GDP growth %",
+            "values": [
+              1.8,
+              2.1,
+              0.9,
+              0.5,
+              -0.3,
+              -2.5,
+              -5
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "id": "soviet-economic-data",
+          "title": "CIA — Historical Soviet GDP Estimates",
+          "url": "https://www.cia.gov/readingroom/collection/soviet-economic-data",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "CIA Reading Room, declassified Soviet economic assessments and national accounts reconstructions."
+        },
+        {
+          "id": "primary",
+          "title": "Gorbachev Foundation — Perestroika Archive",
+          "url": "https://www.gorby.ru/en/rubrs.asp?rubr_id=303",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-04",
+          "citation": "Gorbachev Foundation, published speeches and documents on perestroika reforms (1985–1991)."
+        },
+        {
+          "id": "primary",
+          "title": "Hoover Institution — Soviet Archives Collection",
+          "url": "https://www.hoover.org/library-archives/collections/soviet",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-04",
+          "citation": "Hoover Institution Library & Archives, Soviet planning and party collections."
+        },
+        {
+          "id": "acad",
+          "title": "Ellman & Kontorovich — The Destruction of the Soviet Economic System",
+          "url": "https://www.routledge.com/The-Destruction-of-the-Soviet-Economic-System-An-Insiders-History/Ellman-Kontorovich/p/book/9780765610042",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Ellman, M., & Kontorovich, V. (1998). The Destruction of the Soviet Economic System. M.E. Sharpe."
+        }
+      ],
+      "whyItMatters": "Blaming Western sabotage for 1991 lets Americans ignore what Soviet leaders themselves conceded: abolishing price signals and property rights produced an economy that could not adapt — a lesson for any U.S. push toward central allocation.",
+      "relatedClaimIds": [
+        "ussr-not-real-socialism",
+        "gosplan-systemic-failure",
+        "venezuela-sanctions"
+      ],
+      "tags": [
+        "ussr",
+        "gorbachev",
+        "perestroika",
+        "collapse",
+        "cia",
+        "archives"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:v22claim27soviet1991collapsearchiv",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "Soviet Collapse Was Western Sabotage, Not Planning Failure The USSR did not fail because of socialism — Reagan, the CIA, and oil shocks sabotaged a viable system. Gorbachev was a victim of Western pressure, not of Gosplan. Post-1991 archival releases and Gorbachev-era memoirs document systemic planning failure, not external sabotage as the primary cause of collapse. Perestroika and glasnost were admissions that central allocation could not sustain growth. CIA national accounts reconstructions show Soviet GDP stagnating and then contracting in the late 1980s before the 1991 dissolution — consistent with internal institutional breakdown. Gorbachev Foundation / perestroika records (1985–1991): leadership explicitly blamed rigid planning, quality deficits, and missed investment targets — not Western sabotage alone. Hoover Institution Soviet archives (1990s releases): Gosplan and party documents show chronic plan non-fulfillment and hidden inflation in producer goods. CIA Directorate of Intelligence historical GDP series: Soviet output growth near zero by mid-1980s; contraction visible before August 1991 coup attempt. Russian State Archive materials on 1991 union treaty negotiations: republics exited over fiscal burden-sharing and supply breakdown — an internal governance collapse. ussr gorbachev perestroika collapse cia archives",
+      "searchText": "Soviet Collapse Was Western Sabotage, Not Planning Failure The USSR did not fail because of socialism — Reagan, the CIA, and oil shocks sabotaged a viable system. Gorbachev was a victim of Western pressure, not of Gosplan. ussr gorbachev perestroika collapse cia archives"
+    },
+    {
+      "id": "holodomor-ukraine-archives",
+      "topicId": "ussr-record",
+      "topicPath": "/historical-socialism/ussr-record",
+      "title": "Holodomor Was a Regional Drought, Not Soviet Policy",
+      "socialistClaimText": "Ukrainian famine deaths in the early 1930s were exaggerated by Nazi and Cold War propaganda — bad weather and peasant resistance, not socialist policy, explain mortality.",
+      "executiveSummary": "Demographic reconstructions, Soviet archival grain procurement records, and U.S. government recognition documents converge on policy-induced famine in Soviet Ukraine (1932–1933). Excess mortality estimates of roughly 3.5–5 million are supported by census disruptions, travel restrictions, and punitive dekulakization — not weather alone.",
+      "evidenceBullets": [
+        "U.S. Congress / State Department (2022): official U.S. recognition of Holodomor as genocide — policy-based famine in Ukraine.",
+        "Ukrainian Institute of National Memory & demographic studies: birth-registration deficits and excess mortality peaks 1932–1933 in Ukrainian SSR.",
+        "Soviet archival releases (grain procurement orders): Moscow requisitioned seed grain and restricted peasant movement during famine conditions.",
+        "Rudnytsky / Davies-Wheatcroft archival work: famine correlated with collectivization enforcement, not regional drought indices alone."
+      ],
+      "fallacies": [
+        "historical revisionism",
+        "whataboutism",
+        "conspiracy thinking"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "src",
+          "title": "U.S. Department of State — Holodomor Recognition",
+          "url": "https://www.state.gov/holodomor-recognition/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Department of State, official recognition of the Holodomor (2022)."
+        },
+        {
+          "id": "acad",
+          "title": "Davies & Wheatcroft — The Years of Hunger: Soviet Agriculture, 1931–1933",
+          "url": "https://www.palgrave.com/gp/book/9780230273979",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Davies, R. W., & Wheatcroft, S. G. (2004). The Years of Hunger. Palgrave Macmillan."
+        },
+        {
+          "id": "primary",
+          "title": "Ukrainian Institute of National Memory — Holodomor Research",
+          "url": "https://holodomormuseum.org.ua/en/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-04",
+          "citation": "National Museum of the Holodomor-Genocide, Kyiv — archival and demographic resources."
+        },
+        {
+          "id": "acad",
+          "title": "Marples — Heroes and Villains: Creating National History in Contemporary Ukraine",
+          "url": "https://www.rienner.com/title/heroes_and_villains_creating_national_history_in_contemporary_ukraine",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Marples, D. R. Holodomor demographic and historiographical synthesis."
+        }
+      ],
+      "whyItMatters": "Denying state-engineered famine undermines honest comparison of collectivization to American agricultural markets — and prevents recognition that grain requisition without price signals kills.",
+      "relatedClaimIds": [
+        "ussr-not-real-socialism",
+        "china-famine",
+        "gosplan-systemic-failure"
+      ],
+      "tags": [
+        "holodomor",
+        "ukraine",
+        "famine",
+        "collectivization",
+        "demographics"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:v22claim28holodomorukrainearchives",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "Holodomor Was a Regional Drought, Not Soviet Policy Ukrainian famine deaths in the early 1930s were exaggerated by Nazi and Cold War propaganda — bad weather and peasant resistance, not socialist policy, explain mortality. Demographic reconstructions, Soviet archival grain procurement records, and U.S. government recognition documents converge on policy-induced famine in Soviet Ukraine (1932–1933). Excess mortality estimates of roughly 3.5–5 million are supported by census disruptions, travel restrictions, and punitive dekulakization — not weather alone. U.S. Congress / State Department (2022): official U.S. recognition of Holodomor as genocide — policy-based famine in Ukraine. Ukrainian Institute of National Memory & demographic studies: birth-registration deficits and excess mortality peaks 1932–1933 in Ukrainian SSR. Soviet archival releases (grain procurement orders): Moscow requisitioned seed grain and restricted peasant movement during famine conditions. Rudnytsky / Davies-Wheatcroft archival work: famine correlated with collectivization enforcement, not regional drought indices alone. holodomor ukraine famine collectivization demographics",
+      "searchText": "Holodomor Was a Regional Drought, Not Soviet Policy Ukrainian famine deaths in the early 1930s were exaggerated by Nazi and Cold War propaganda — bad weather and peasant resistance, not socialist policy, explain mortality. holodomor ukraine famine collectivization demographics"
+    },
+    {
+      "id": "north-korea-famine-songbun",
+      "topicId": "historical-socialism",
+      "topicPath": "/historical-socialism",
+      "title": "North Korea Suffered Only From Sanctions and Bad Weather",
+      "socialistClaimText": "North Korea's 1990s famine was caused by floods and U.S. sanctions — not Juche socialism or the regime's allocation system.",
+      "executiveSummary": "The UN Commission of Inquiry documented crimes against humanity including extermination through starvation linked to songbun class-based food distribution. World Bank and FRED carry no reliable North Korean national accounts — opacity itself signals non-market failure. Famine mortality estimates of hundreds of thousands to millions followed the collapse of Soviet subsidies and continued military-first spending, not merely weather.",
+      "evidenceBullets": [
+        "UN Commission of Inquiry on DPRK (2014): systematic denial of food to lower songbun classes; crimes against humanity including extermination.",
+        "World Bank Open Data: no published reliable GDP series for North Korea — absence reflects closed planned economy, not data suppression alone.",
+        "FRED / external reconstructions: no official DPRK macro series; scholars rely on satellite and trade proxy data showing chronic stagnation.",
+        "USDA ERS & refugee testimonies: Public Distribution System collapsed in 1990s while military and elite channels retained priority access."
+      ],
+      "fallacies": [
+        "externalization of failure",
+        "single-cause fallacy",
+        "appeal to ignorance"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "index",
+          "title": "UN Human Rights Council — Commission of Inquiry on DPRK",
+          "url": "https://www.ohchr.org/en/hr-bodies/hrc/co-idprk/index",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "UN HRC, Report of the Commission of Inquiry on human rights in the DPRK (A/HRC/25/CRP.1)."
+        },
+        {
+          "id": "korea-dem-people-s-r",
+          "title": "World Bank — North Korea data availability",
+          "url": "https://data.worldbank.org/country/korea-dem-people-s-rep",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "World Bank Open Data, Democratic People's Republic of Korea indicator coverage."
+        },
+        {
+          "id": "search?st=north%20ko",
+          "title": "FRED — No official DPRK national accounts",
+          "url": "https://fred.stlouisfed.org/search?st=north%20korea",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Federal Reserve Economic Data, search showing absence of official DPRK macro series."
+        },
+        {
+          "id": "acad",
+          "title": "Haggard & Noland — Famine in North Korea: Markets, Aid, and Reform",
+          "url": "https://www.columbia.edu/~sns31/famine.html",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Haggard, S., & Noland, M. Famine in North Korea. Columbia University Press."
+        }
+      ],
+      "whyItMatters": "North Korea is the last Stalinist allocation state — its famine and data void warn Americans that class-based rationing without markets produces starvation and statistical darkness.",
+      "relatedClaimIds": [
+        "ussr-not-real-socialism",
+        "china-famine",
+        "holodomor-ukraine-archives"
+      ],
+      "tags": [
+        "north-korea",
+        "famine",
+        "songbun",
+        "juche",
+        "un-coi"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:v22claim29northkoreafaminesongbun",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "North Korea Suffered Only From Sanctions and Bad Weather North Korea's 1990s famine was caused by floods and U.S. sanctions — not Juche socialism or the regime's allocation system. The UN Commission of Inquiry documented crimes against humanity including extermination through starvation linked to songbun class-based food distribution. World Bank and FRED carry no reliable North Korean national accounts — opacity itself signals non-market failure. Famine mortality estimates of hundreds of thousands to millions followed the collapse of Soviet subsidies and continued military-first spending, not merely weather. UN Commission of Inquiry on DPRK (2014): systematic denial of food to lower songbun classes; crimes against humanity including extermination. World Bank Open Data: no published reliable GDP series for North Korea — absence reflects closed planned economy, not data suppression alone. FRED / external reconstructions: no official DPRK macro series; scholars rely on satellite and trade proxy data showing chronic stagnation. USDA ERS & refugee testimonies: Public Distribution System collapsed in 1990s while military and elite channels retained priority access. north-korea famine songbun juche un-coi",
+      "searchText": "North Korea Suffered Only From Sanctions and Bad Weather North Korea's 1990s famine was caused by floods and U.S. sanctions — not Juche socialism or the regime's allocation system. north-korea famine songbun juche un-coi"
+    },
+    {
+      "id": "east-germany-stasi-economy",
+      "topicId": "historical-socialism",
+      "topicPath": "/historical-socialism",
+      "title": "East Germany Was an Economic Success Under Socialism",
+      "socialistClaimText": "The GDR provided stable jobs, women's equality, and industrial output that rivaled the West — reunification destroyed a functioning socialist economy.",
+      "executiveSummary": "Stasi and SED archives document a surveillance state propping up uncompetitive industry through hidden subsidies. After reunification, Bundesbank and German statistical offices recorded massive productivity gaps: eastern GDP per worker required decades of capital infusion to converge — proof of socialist underperformance, not capitalist sabotage.",
+      "evidenceBullets": [
+        "Federal Commissioner for Stasi Records (BStU): 91,000+ full-time informants — economic espionage and political control were inseparable from production.",
+        "Bundesbank / Destatis convergence data: eastern German productivity roughly 30–40% of western levels at reunification (1990).",
+        "SED Politbüro archives (released 1990s): concealed enterprise losses and hard-currency debt to West Germany.",
+        "OECD Germany territorial reviews: post-1990 transfers exceeded €2 trillion — correcting inherited capital stock and infrastructure deficit."
+      ],
+      "fallacies": [
+        "cherry-picking",
+        "nostalgia bias",
+        "no true Scotsman"
+      ],
+      "chartData": {
+        "type": "line",
+        "title": "East vs. West Germany GDP per Capita Convergence (index, West=100, 1990–2010)",
+        "labels": [
+          "1990",
+          "1995",
+          "2000",
+          "2005",
+          "2010"
+        ],
+        "datasets": [
+          {
+            "label": "East Germany % of West",
+            "values": [
+              33,
+              48,
+              58,
+              66,
+              71
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "id": "src",
+          "title": "Federal Commissioner for the Stasi Records (BStU)",
+          "url": "https://www.bstu.de/en/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "BStU, Stasi archives and research on GDR state security economy."
+        },
+        {
+          "id": "research-centre",
+          "title": "Deutsche Bundesbank — German reunification economic review",
+          "url": "https://www.bundesbank.de/en/bundesbank/research/research-centre",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Deutsche Bundesbank, reunification and convergence research publications."
+        },
+        {
+          "id": "primary",
+          "title": "SED Archives — Federal Archives of Germany",
+          "url": "https://www.bundesarchiv.de/DE/Content/Artikel/Findmittel/Findmittel-node.html",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-04",
+          "citation": "German Federal Archives, SED and GDR economic records."
+        },
+        {
+          "id": "acad",
+          "title": "Sinn — German Unification and the Economics of Transition",
+          "url": "https://www.cesifo.org/en/publications/cesifo-working-papers",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Sinn, H.-W. German unification economic analysis, productivity gap documentation."
+        }
+      ],
+      "whyItMatters": "East Germany was the showcase socialist state behind the Iron Curtain — its productivity collapse upon market integration shows what Americans would risk by replacing price signals with political allocation.",
+      "relatedClaimIds": [
+        "ussr-not-real-socialism",
+        "gosplan-systemic-failure",
+        "romania-ceausescu-debt"
+      ],
+      "tags": [
+        "east-germany",
+        "gdr",
+        "stasi",
+        "reunification",
+        "bundesbank"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:v22claim30eastgermanystasieconomy",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "East Germany Was an Economic Success Under Socialism The GDR provided stable jobs, women's equality, and industrial output that rivaled the West — reunification destroyed a functioning socialist economy. Stasi and SED archives document a surveillance state propping up uncompetitive industry through hidden subsidies. After reunification, Bundesbank and German statistical offices recorded massive productivity gaps: eastern GDP per worker required decades of capital infusion to converge — proof of socialist underperformance, not capitalist sabotage. Federal Commissioner for Stasi Records (BStU): 91,000+ full-time informants — economic espionage and political control were inseparable from production. Bundesbank / Destatis convergence data: eastern German productivity roughly 30–40% of western levels at reunification (1990). SED Politbüro archives (released 1990s): concealed enterprise losses and hard-currency debt to West Germany. OECD Germany territorial reviews: post-1990 transfers exceeded €2 trillion — correcting inherited capital stock and infrastructure deficit. east-germany gdr stasi reunification bundesbank",
+      "searchText": "East Germany Was an Economic Success Under Socialism The GDR provided stable jobs, women's equality, and industrial output that rivaled the West — reunification destroyed a functioning socialist economy. east-germany gdr stasi reunification bundesbank"
+    },
+    {
+      "id": "romania-ceausescu-debt",
+      "topicId": "historical-socialism",
+      "topicPath": "/historical-socialism",
+      "title": "Ceaușescu Romania Was Independent and Prosperous",
+      "socialistClaimText": "Nicolae Ceaușescu built an independent socialist Romania with food self-sufficiency — his overthrow was a Western coup, not popular rejection of austerity.",
+      "executiveSummary": "IMF and World Bank records document Romania's 1980s debt crisis driven by industrial megaprojects and export-for-debt policies that imposed severe domestic rationing. Amnesty International and post-1989 trials documented summary executions of the Ceaușescus after mass uprising in December 1989 — popular rejection of socialist austerity, not foreign coup alone.",
+      "evidenceBullets": [
+        "IMF historical country reports: Romania's 1981–1989 debt rescheduling and austerity imposed to service Western loans for socialist industrialization.",
+        "World Bank — Romania historical files: export-led repayment cut domestic heating, lighting, and food availability.",
+        "Amnesty International (1989–1990): documented repression, Securitate violence, and killings during Timișoara and Bucharest uprisings.",
+        "Romanian National Archives post-1989: televised trial and execution of Nicolae and Elena Ceaușescu (25 December 1989) followed nationwide revolt."
+      ],
+      "fallacies": [
+        "conspiracy thinking",
+        "historical revisionism",
+        "cherry-picking"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "ROU",
+          "title": "IMF — Romania historical country reports",
+          "url": "https://www.imf.org/en/Countries/ROU",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "International Monetary Fund, Romania country history and debt crisis documentation."
+        },
+        {
+          "id": "romania",
+          "title": "World Bank — Romania country profile",
+          "url": "https://data.worldbank.org/country/romania",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "World Bank Open Data and historical Romania economic files."
+        },
+        {
+          "id": "primary",
+          "title": "Amnesty International — Romania 1989 reports",
+          "url": "https://www.amnesty.org/en/location/europe-and-central-asia/eastern-europe-and-central-asia/romania/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-04",
+          "citation": "Amnesty International, Romania human rights reports (1989–1990)."
+        },
+        {
+          "id": "acad",
+          "title": "Deletant — Romania under Communism: Paradox and Degeneration",
+          "url": "https://www.routledge.com/Romania-under-Communism-Paradox-and-Degeneration/Deletant/p/book/9781138246333",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Deletant, D. Romania under Communism. Routledge."
+        }
+      ],
+      "whyItMatters": "Romania shows how socialist industrialization on borrowed capital ends in bread lines and secret-police terror — a cautionary tale for debt-financed central planning rhetoric in U.S. politics.",
+      "relatedClaimIds": [
+        "ussr-not-real-socialism",
+        "east-germany-stasi-economy",
+        "venezuela-sanctions"
+      ],
+      "tags": [
+        "romania",
+        "ceausescu",
+        "imf",
+        "debt",
+        "austerity"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:v22claim31romaniaceausescudebt",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "Ceaușescu Romania Was Independent and Prosperous Nicolae Ceaușescu built an independent socialist Romania with food self-sufficiency — his overthrow was a Western coup, not popular rejection of austerity. IMF and World Bank records document Romania's 1980s debt crisis driven by industrial megaprojects and export-for-debt policies that imposed severe domestic rationing. Amnesty International and post-1989 trials documented summary executions of the Ceaușescus after mass uprising in December 1989 — popular rejection of socialist austerity, not foreign coup alone. IMF historical country reports: Romania's 1981–1989 debt rescheduling and austerity imposed to service Western loans for socialist industrialization. World Bank — Romania historical files: export-led repayment cut domestic heating, lighting, and food availability. Amnesty International (1989–1990): documented repression, Securitate violence, and killings during Timișoara and Bucharest uprisings. Romanian National Archives post-1989: televised trial and execution of Nicolae and Elena Ceaușescu (25 December 1989) followed nationwide revolt. romania ceausescu imf debt austerity",
+      "searchText": "Ceaușescu Romania Was Independent and Prosperous Nicolae Ceaușescu built an independent socialist Romania with food self-sufficiency — his overthrow was a Western coup, not popular rejection of austerity. romania ceausescu imf debt austerity"
+    },
+    {
+      "id": "ethiopia-derg-red-terror",
+      "topicId": "historical-socialism",
+      "topicPath": "/historical-socialism",
+      "title": "Ethiopian Socialism Was Anti-Imperial Liberation Only",
+      "socialistClaimText": "The Derg regime was progressive land reform and anti-imperialism — Red Terror casualties are exaggerated by monarchist propaganda.",
+      "executiveSummary": "The U.S. State Department historical records and the Black Book of Communism document the Derg's Marxist-Leninist turn: nationalizations, collectivization, and the Red Terror (1977–1978) killing tens of thousands. Famine in the 1980s compounded war and forced resettlement — outcomes consistent with socialist militarization, not liberation alone.",
+      "evidenceBullets": [
+        "U.S. Department of State Office of the Historian: Ethiopia 1974–1991 — Derg alignment with Soviet bloc and human rights deterioration.",
+        "Black Book of Communism (Courtois et al.): Ethiopia counted among Communist regimes responsible for mass mortality via terror and famine policy.",
+        "Human Rights Watch / Ethiopia archival work: Red Terror documented with victim lists and kebele militia executions.",
+        "UN / World Food Programme historical briefs: 1984–1985 famine worsened by resettlement and civil war under Mengistu's socialist state."
+      ],
+      "fallacies": [
+        "whataboutism",
+        "historical minimization",
+        "motte and bailey"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "ethiopia",
+          "title": "U.S. Department of State — Office of the Historian, Ethiopia",
+          "url": "https://history.state.gov/countries/ethiopia",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Department of State, Office of the Historian, Ethiopia bilateral history."
+        },
+        {
+          "id": "acad",
+          "title": "The Black Book of Communism (Harvard University Press)",
+          "url": "https://www.hup.harvard.edu/catalog.php?isbn=9780674076082",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Courtois, S., et al. (1999). The Black Book of Communism. Harvard University Press."
+        },
+        {
+          "id": "primary",
+          "title": "Human Rights Watch — Ethiopia Red Terror archives",
+          "url": "https://www.hrw.org/africa/ethiopia",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-04",
+          "citation": "Human Rights Watch, Ethiopia reports on Red Terror and Derg era."
+        },
+        {
+          "id": "ethiopia",
+          "title": "World Food Programme — Ethiopia historical operations",
+          "url": "https://www.wfp.org/countries/ethiopia",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "World Food Programme, Ethiopia famine relief and historical context."
+        }
+      ],
+      "whyItMatters": "Ethiopia proves that land reform plus Marxism-Leninism does not stay moderate — Americans romanticizing \"anti-imperial\" socialism should confront Red Terror body counts and famine.",
+      "relatedClaimIds": [
+        "ussr-not-real-socialism",
+        "cambodia-ignored",
+        "china-famine"
+      ],
+      "tags": [
+        "ethiopia",
+        "derg",
+        "red-terror",
+        "mengistu",
+        "famine"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:v22claim32ethiopiadergredterror",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "Ethiopian Socialism Was Anti-Imperial Liberation Only The Derg regime was progressive land reform and anti-imperialism — Red Terror casualties are exaggerated by monarchist propaganda. The U.S. State Department historical records and the Black Book of Communism document the Derg's Marxist-Leninist turn: nationalizations, collectivization, and the Red Terror (1977–1978) killing tens of thousands. Famine in the 1980s compounded war and forced resettlement — outcomes consistent with socialist militarization, not liberation alone. U.S. Department of State Office of the Historian: Ethiopia 1974–1991 — Derg alignment with Soviet bloc and human rights deterioration. Black Book of Communism (Courtois et al.): Ethiopia counted among Communist regimes responsible for mass mortality via terror and famine policy. Human Rights Watch / Ethiopia archival work: Red Terror documented with victim lists and kebele militia executions. UN / World Food Programme historical briefs: 1984–1985 famine worsened by resettlement and civil war under Mengistu's socialist state. ethiopia derg red-terror mengistu famine",
+      "searchText": "Ethiopian Socialism Was Anti-Imperial Liberation Only The Derg regime was progressive land reform and anti-imperialism — Red Terror casualties are exaggerated by monarchist propaganda. ethiopia derg red-terror mengistu famine"
+    },
+    {
+      "id": "nicaragua-ortega-property",
+      "topicId": "venezuela-cuba",
+      "topicPath": "/historical-socialism/venezuela-cuba",
+      "title": "Nicaraguan Sandinismo Is Democratic Socialism Done Right",
+      "socialistClaimText": "Daniel Ortega and the Sandinistas built participatory socialism with land rights and literacy — U.S. hostility, not policy failure, explains today's crisis.",
+      "executiveSummary": "Congressional Research Service and Freedom House document Ortega's post-2007 authoritarian turn: expropriations, abolition of presidential term limits, and suppression of opposition. Property confiscation and politicized courts mirror patterns seen in Venezuela — elected socialism sliding into personalist control, not Scandinavian welfare.",
+      "evidenceBullets": [
+        "Congressional Research Service (CRS): Nicaragua under Ortega — foreign investment decline, IMF concerns, and authoritarian consolidation.",
+        "Freedom House (2024): Nicaragua \"Not Free\" — score deterioration tied to electoral fraud and opposition arrests.",
+        "U.S. State Department property claims reports: expropriation without adequate compensation under Ortega administrations.",
+        "OAS electoral observation missions: 2021 election lacked democratic legitimacy — opposition leaders imprisoned or barred."
+      ],
+      "fallacies": [
+        "motte and bailey",
+        "definitional sleight of hand",
+        "whataboutism"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "?termsToSearch=nicar",
+          "title": "Congressional Research Service — Nicaragua",
+          "url": "https://crsreports.congress.gov/search/?termsToSearch=nicaragua",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "CRS, Nicaragua country and policy reports."
+        },
+        {
+          "id": "nicaragua",
+          "title": "Freedom House — Nicaragua Freedom in the World",
+          "url": "https://freedomhouse.org/country/nicaragua",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Freedom House, Nicaragua Freedom in the World 2024."
+        },
+        {
+          "id": "src",
+          "title": "U.S. Department of State — Nicaragua Investment Climate",
+          "url": "https://www.state.gov/reports/2024-investment-climate-statements/nicaragua/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Department of State, 2024 Investment Climate Statement — Nicaragua."
+        },
+        {
+          "id": "primary",
+          "title": "Organization of American States — Electoral observation Nicaragua",
+          "url": "https://www.oas.org/en/media_center/press_releases.asp",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-04",
+          "citation": "OAS, electoral observation statements on Nicaragua (2021)."
+        }
+      ],
+      "whyItMatters": "Nicaragua is the hemisphere's live lesson that \"democratic socialism\" can re-elect into expropriation and dictatorship — relevant as U.S. activists cite Sandinista nostalgia without Ortega's 2018–2024 record.",
+      "relatedClaimIds": [
+        "venezuela-sanctions",
+        "ussr-not-real-socialism",
+        "democratic-socialism-definition"
+      ],
+      "tags": [
+        "nicaragua",
+        "ortega",
+        "sandinista",
+        "expropriation",
+        "authoritarianism"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:v22claim33nicaraguaortegaproperty",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "Nicaraguan Sandinismo Is Democratic Socialism Done Right Daniel Ortega and the Sandinistas built participatory socialism with land rights and literacy — U.S. hostility, not policy failure, explains today's crisis. Congressional Research Service and Freedom House document Ortega's post-2007 authoritarian turn: expropriations, abolition of presidential term limits, and suppression of opposition. Property confiscation and politicized courts mirror patterns seen in Venezuela — elected socialism sliding into personalist control, not Scandinavian welfare. Congressional Research Service (CRS): Nicaragua under Ortega — foreign investment decline, IMF concerns, and authoritarian consolidation. Freedom House (2024): Nicaragua \"Not Free\" — score deterioration tied to electoral fraud and opposition arrests. U.S. State Department property claims reports: expropriation without adequate compensation under Ortega administrations. OAS electoral observation missions: 2021 election lacked democratic legitimacy — opposition leaders imprisoned or barred. nicaragua ortega sandinista expropriation authoritarianism",
+      "searchText": "Nicaraguan Sandinismo Is Democratic Socialism Done Right Daniel Ortega and the Sandinistas built participatory socialism with land rights and literacy — U.S. hostility, not policy failure, explains today's crisis. nicaragua ortega sandinista expropriation authoritarianism"
+    },
+    {
+      "id": "gosplan-systemic-failure",
+      "topicId": "ussr-record",
+      "topicPath": "/historical-socialism/ussr-record",
+      "title": "Soviet Central Planning Worked Until Corruption",
+      "socialistClaimText": "Gosplan industrialization modernized the USSR — planning failed only because of bureaucratic corruption, not because allocation without prices is impossible.",
+      "executiveSummary": "Hoover Soviet archives and the CIA's 1991 National Intelligence Estimate document structural planning failure: soft budgets, missing marginal cost signals, and innovation stagnation. Corruption was endogenous to a system without competitive exit — not an exogenous accident fixable by \"better planners.\"",
+      "evidenceBullets": [
+        "Hoover Institution Soviet archives: enterprise reports showing systematic over-reporting of output and under-investment in maintenance.",
+        "CIA National Intelligence Estimate (1991): Soviet economy \"in crisis\" — declining productivity, technology gap, and unsustainable defense burden.",
+        "Kornai — Economics of Shortage: chronic excess demand and queuing inherent to soft budget constraints under socialism.",
+        "Gosplan internal memos (declassified): material balances routinely inconsistent — planners could not reconcile supply and demand without prices."
+      ],
+      "fallacies": [
+        "special pleading",
+        "no true Scotsman",
+        "correlation-causation reversal"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "primary",
+          "title": "Hoover Institution — Soviet Archives Collection",
+          "url": "https://www.hoover.org/library-archives/collections/soviet",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-04",
+          "citation": "Hoover Institution Library & Archives, Gosplan and enterprise records."
+        },
+        {
+          "id": "soviet-economic-data",
+          "title": "CIA — 1991 National Intelligence Estimate on Soviet economy",
+          "url": "https://www.cia.gov/readingroom/collection/soviet-economic-data",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "CIA, declassified 1991 NIE on Soviet economic crisis."
+        },
+        {
+          "id": "acad",
+          "title": "Kornai — Economics of Shortage",
+          "url": "https://www.jstor.org/stable/j.ctt1cc2km2",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Kornai, J. (1980). Economics of Shortage. North-Holland."
+        },
+        {
+          "id": "acad",
+          "title": "Nove — An Economic History of the USSR",
+          "url": "https://www.penguinrandomhouse.com/books/326/an-economic-history-of-the-ussr-by-alec-nove/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Nove, A. An Economic History of the USSR. Penguin."
+        }
+      ],
+      "whyItMatters": "Modern American proposals for industrial policy and sector planning echo Gosplan logic — Soviet archives prove that without prices, corruption and shortage are features, not bugs.",
+      "relatedClaimIds": [
+        "ussr-not-real-socialism",
+        "soviet-1991-collapse-archives",
+        "holodomor-ukraine-archives"
+      ],
+      "tags": [
+        "gosplan",
+        "central-planning",
+        "shortage",
+        "cia",
+        "hoover-archives"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:v22claim34gosplansystemicfailure",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "Soviet Central Planning Worked Until Corruption Gosplan industrialization modernized the USSR — planning failed only because of bureaucratic corruption, not because allocation without prices is impossible. Hoover Soviet archives and the CIA's 1991 National Intelligence Estimate document structural planning failure: soft budgets, missing marginal cost signals, and innovation stagnation. Corruption was endogenous to a system without competitive exit — not an exogenous accident fixable by \"better planners.\" Hoover Institution Soviet archives: enterprise reports showing systematic over-reporting of output and under-investment in maintenance. CIA National Intelligence Estimate (1991): Soviet economy \"in crisis\" — declining productivity, technology gap, and unsustainable defense burden. Kornai — Economics of Shortage: chronic excess demand and queuing inherent to soft budget constraints under socialism. Gosplan internal memos (declassified): material balances routinely inconsistent — planners could not reconcile supply and demand without prices. gosplan central-planning shortage cia hoover-archives",
+      "searchText": "Soviet Central Planning Worked Until Corruption Gosplan industrialization modernized the USSR — planning failed only because of bureaucratic corruption, not because allocation without prices is impossible. gosplan central-planning shortage cia hoover-archives"
+    }
+  ]
+}

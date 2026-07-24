@@ -1,0 +1,768 @@
+{
+  "schemaVersion": 2,
+  "kbVersion": "2.2.0",
+  "bundleId": "nordic-myth-v2",
+  "priority": 10,
+  "updatedAt": "2026-07-04T20:00:00Z",
+  "contentHash": "sha256:7c1935df5b145c18c7b70646c6080eb6f293d64cb713772707b7317eee0fbc12",
+  "claims": [
+    {
+      "id": "nordic-socialist",
+      "topicId": "nordic-democratic-socialism",
+      "topicPath": "/nordic-democratic-socialism",
+      "title": "Nordic Countries Are Socialist",
+      "socialistClaimText": "We should be like Sweden or Denmark — they prove democratic socialism works.",
+      "executiveSummary": "Nordic nations are market economies with robust private property, open trade, and high business freedom scores. Sweden, Denmark, and Norway rank 'Mostly Free' on the Heritage Index — not socialist. High taxes fund generous welfare transfers; they do not collectively own the means of production. Danish PM Lars Løkke Rasmussen stated plainly: 'Denmark is a market economy.'",
+      "evidenceBullets": [
+        "Heritage Index of Economic Freedom 2024: Denmark 77.6, Sweden 74.8, Norway 69.6 — all 'Mostly Free' with strong property rights and trade freedom.",
+        "Fraser Institute Economic Freedom of the World 2023: Nordic nations score above world average on legal system and property rights.",
+        "World Bank Doing Business (legacy series): Nordics consistently top ease-of-doing-business before index suspension.",
+        "Danish PM Lars Løkke Rasmussen (2015 Nordic Council): 'I would like to make some corrections… Denmark is a market economy.'"
+      ],
+      "fallacies": [
+        "definitional sleight of hand",
+        "equivocation",
+        "cherry-picking"
+      ],
+      "sources": [
+        {
+          "id": "heritage-index-2024",
+          "title": "Heritage Foundation — Index of Economic Freedom 2024",
+          "url": "https://www.heritage.org/index/ranking",
+          "doi": null,
+          "type": "think_tank",
+          "accessedAt": "2026-07-04",
+          "citation": "Heritage Foundation, Index of Economic Freedom 2024, country rankings."
+        },
+        {
+          "id": "fraser-efw-2023",
+          "title": "Fraser Institute — Economic Freedom of the World 2023",
+          "url": "https://www.fraserinstitute.org/studies/economic-freedom",
+          "doi": null,
+          "type": "think_tank",
+          "accessedAt": "2026-07-04",
+          "citation": "Fraser Institute, Economic Freedom of the World 2023 Annual Report."
+        },
+        {
+          "id": "danish-pm-market-economy",
+          "title": "Lars Løkke Rasmussen — Nordic Council speech (2015)",
+          "url": "https://www.thelocal.dk/20151031/danish-pm-i-know-that-some-people-in-the-us-associate-the-nordic-model-with-some-sort-of-socialism",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-04",
+          "citation": "Danish PM Lars Løkke Rasmussen, Nordic Council address, October 2015."
+        }
+      ],
+      "whyItMatters": "Mislabeling prosperous market economies as 'socialist' leads Americans to import the wrong policies — high taxes without the underlying economic freedom that generates the wealth to tax.",
+      "relatedClaimIds": [
+        "nordic-capitalist",
+        "democratic-socialism-definition"
+      ],
+      "tags": [
+        "nordic",
+        "sweden",
+        "denmark",
+        "democratic-socialism",
+        "economic-freedom"
+      ],
+      "schemaVersion": 2,
+      "revision": 2,
+      "updatedAt": "2026-07-04T18:00:00Z",
+      "embeddingText": "Nordic countries socialist Sweden Denmark market economy Heritage Index Fraser economic freedom Danish PM",
+      "searchText": "Nordic Countries Are Socialist Sweden Denmark market economy Heritage Fraser democratic socialism",
+      "kbVersion": "2.2.0"
+    },
+    {
+      "id": "nordic-capitalist",
+      "topicId": "nordic-democratic-socialism",
+      "topicPath": "/nordic-democratic-socialism",
+      "title": "Nordic Prosperity Proves Socialism Works",
+      "socialistClaimText": "Nordic prosperity and low inequality prove that socialism — or at least heavy redistribution — creates wealth.",
+      "executiveSummary": "Nordic prosperity predates the modern welfare state. Sweden and Denmark were among Europe's richest nations by the late 19th century through free trade and market liberalization. Post-1990 crises forced market reforms: Sweden reformed pensions, school vouchers, and tax structure after its 1990s banking crisis; Denmark maintains flexicurity labor markets with employer flexibility.",
+      "evidenceBullets": [
+        "Maddison Project / World Bank historical GDP: Sweden and Denmark were high-income before 1960 welfare expansion.",
+        "Swedish banking crisis (1990–1993): prompted pension privatization, school choice reforms, and corporate tax cuts.",
+        "OECD Employment Outlook: Danish 'flexicurity' combines easy hiring/firing with active labor market policy — not job protection socialism.",
+        "World Bank: Nordic GDP per capita growth correlated with trade openness (exports/GDP among highest in OECD)."
+      ],
+      "fallacies": [
+        "post hoc ergo propter hoc",
+        "correlation-causation",
+        "historical cherry-picking"
+      ],
+      "sources": [
+        {
+          "id": "wb-historical-gdp-nordic",
+          "title": "World Bank — Historical GDP per capita (Sweden, Denmark)",
+          "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD?locations=SE-DK",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "World Bank Open Data, Sweden and Denmark GDP per capita series."
+        },
+        {
+          "id": "oecd-flexicurity",
+          "title": "OECD — Denmark: Labour Market and Social Policies (flexicurity)",
+          "url": "https://www.oecd.org/denmark/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "OECD, Denmark labour market policy reviews."
+        },
+        {
+          "id": "riksbank-crisis-1990s",
+          "title": "Sveriges Riksbank — The Swedish Banking Crisis (historical review)",
+          "url": "https://www.riksbank.se/en-gb/press-and-published/notable-publications/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Sveriges Riksbank, Swedish financial crisis 1990s and reform period."
+        }
+      ],
+      "whyItMatters": "Credit for Nordic living standards belongs to centuries of market institutions and trade — not to redistribution alone. Copying welfare without copying economic freedom yields different results.",
+      "relatedClaimIds": [
+        "nordic-socialist",
+        "democratic-socialism-definition"
+      ],
+      "tags": [
+        "nordic",
+        "prosperity",
+        "sweden",
+        "welfare-state",
+        "flexicurity"
+      ],
+      "schemaVersion": 2,
+      "revision": 2,
+      "updatedAt": "2026-07-04T18:00:00Z",
+      "embeddingText": "Nordic prosperity socialism works welfare state Sweden 1990s crisis reforms flexicurity World Bank historical GDP",
+      "searchText": "Nordic Prosperity Proves Socialism Works Sweden welfare flexicurity World Bank OECD reforms",
+      "kbVersion": "2.2.0"
+    },
+    {
+      "id": "democratic-socialism-definition",
+      "topicId": "nordic-democratic-socialism",
+      "topicPath": "/nordic-democratic-socialism",
+      "title": "Democratic Socialism Is Just Scandinavian Welfare",
+      "socialistClaimText": "When Americans say democratic socialism, they just mean a welfare state like Scandinavia — nothing radical.",
+      "executiveSummary": "Modern democratic socialist organizations explicitly advocate worker ownership, decommodification of labor, and public ownership beyond Nordic tax-and-transfer models. The Democratic Socialists of America (DSA) platform calls for nationalizing utilities, worker cooperatives replacing corporate ownership, and abolishing private health insurance. Nordic leaders consistently reject the socialist label.",
+      "evidenceBullets": [
+        "DSA official platform: advocates 'democratic control over the economy' including worker cooperatives and decommodified housing/healthcare.",
+        "Bernie Sanders 2020 platform: included employee ownership funds, Medicare for All abolishing private insurance — beyond Nordic systems.",
+        "Swedish PM Stefan Löfven (2013): rejected socialist label — Sweden built success on 'competitive industry.'",
+        "Cato Institute comparison: Nordic healthcare uses copays, private providers, and market elements absent from M4A proposals."
+      ],
+      "fallacies": [
+        "motte and bailey",
+        "equivocation",
+        "straw man (moderate) / steel man (radical)"
+      ],
+      "sources": [
+        {
+          "id": "dsa-platform",
+          "title": "Democratic Socialists of America — About / What We Stand For",
+          "url": "https://www.dsausa.org/about-us/what-is-democratic-socialism/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-04",
+          "citation": "Democratic Socialists of America, What is Democratic Socialism?"
+        },
+        {
+          "id": "cato-nordic-healthcare",
+          "title": "Cato Institute — Nordic Healthcare Is Not Single-Payer Like M4A",
+          "url": "https://www.cato.org/blog/scandinavian-universal-health-care-facts-myths",
+          "doi": null,
+          "type": "think_tank",
+          "accessedAt": "2026-07-04",
+          "citation": "Cato Institute, Scandinavian universal health care — facts and myths."
+        },
+        {
+          "id": "lofven-market-economy",
+          "title": "Stefan Löfven — Sweden built on competitive industry (Reuters, 2013)",
+          "url": "https://www.reuters.com/article/us-sweden-politics-idUSBRE98I0K620130929",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-04",
+          "citation": "Reuters, Swedish PM Stefan Löfven on market economy, September 2013."
+        }
+      ],
+      "whyItMatters": "Voters deserve clarity: 'democratic socialism' in American politics often means structural ownership changes, not simply higher taxes on a market economy.",
+      "relatedClaimIds": [
+        "nordic-socialist",
+        "economic-democracy"
+      ],
+      "tags": [
+        "democratic-socialism",
+        "dsa",
+        "welfare",
+        "motte-and-bailey"
+      ],
+      "schemaVersion": 2,
+      "revision": 2,
+      "updatedAt": "2026-07-04T18:00:00Z",
+      "embeddingText": "Democratic socialism Scandinavian welfare DSA worker ownership Medicare for All motte and bailey Nordic not socialist",
+      "searchText": "Democratic Socialism Scandinavian Welfare DSA worker ownership Medicare for All motte bailey",
+      "kbVersion": "2.2.0"
+    },
+    {
+      "id": "socialism-democratic-better",
+      "topicId": "nordic-democratic-socialism",
+      "topicPath": "/nordic-democratic-socialism",
+      "title": "Democratic Socialism Cannot Become Authoritarian",
+      "socialistClaimText": "Democratic socialism is different — elected mandates prevent the authoritarianism of past socialist states.",
+      "executiveSummary": "Elected mandates have repeatedly enabled authoritarian consolidation: Hugo Chávez won democratic elections then dismantled checks and balances; Venezuela's Freedom House score fell from Partly Free (1999) to Not Free (2017). Hayek warned that unlimited democratic majorities can extinguish individual liberty — elections alone do not constrain state power without constitutional limits and market institutions.",
+      "evidenceBullets": [
+        "Freedom House Venezuela timeline: score declined from 62/100 (1999) to 14/100 (2024) under elected socialist governments.",
+        "Chávez constitutional referenda (1999, 2009): eliminated presidential term limits and expanded executive power — all via vote.",
+        "Weimar Germany (1919–1933): democratic election produced governments pursuing central planning and emergency powers.",
+        "Hayek, The Road to Serfdom (1944): argues democratic planning tends toward authoritarian control of economic life."
+      ],
+      "fallacies": [
+        "appeal to democracy",
+        "definitional dodge",
+        "hasty generalization"
+      ],
+      "sources": [
+        {
+          "id": "fh-venezuela-timeline",
+          "title": "Freedom House — Venezuela Freedom in the World (historical scores)",
+          "url": "https://freedomhouse.org/country/venezuela/freedom-world/2024",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Freedom House, Venezuela Freedom in the World, historical scores."
+        },
+        {
+          "id": "crs-chavez-authoritarianism",
+          "title": "CRS — Venezuela: U.S. Policy and Chávez era consolidation",
+          "url": "https://crsreports.congress.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Congressional Research Service, Venezuela political development under Chávez."
+        },
+        {
+          "id": "hayek-road-to-serfdom",
+          "title": "F.A. Hayek — The Road to Serfdom (University of Chicago Press)",
+          "url": "https://press.uchicago.edu/ucp/books/book/chicago/R/bo3644774.html",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Hayek, F.A. (1944). The Road to Serfdom. University of Chicago Press."
+        }
+      ],
+      "whyItMatters": "Constitutional limits, property rights, and market institutions — not election rituals — are what prevent democratic mandates from becoming tyranny.",
+      "relatedClaimIds": [
+        "venezuela-sanctions",
+        "ussr-not-real-socialism"
+      ],
+      "tags": [
+        "democracy",
+        "authoritarianism",
+        "venezuela",
+        "chavez",
+        "hayek"
+      ],
+      "schemaVersion": 2,
+      "revision": 2,
+      "updatedAt": "2026-07-04T18:00:00Z",
+      "embeddingText": "Democratic socialism cannot authoritarian Venezuela Chávez Freedom House Hayek Road to Serfdom elections constitutional limits",
+      "searchText": "Democratic Socialism Cannot Become Authoritarian Venezuela Chávez Freedom House Hayek elections",
+      "kbVersion": "2.2.0"
+    },
+    {
+      "id": "economic-democracy",
+      "topicId": "nordic-democratic-socialism",
+      "topicPath": "/nordic-democratic-socialism",
+      "title": "Economic Democracy Ends Exploitation",
+      "socialistClaimText": "Worker cooperatives and economic democracy would end exploitation without the failures of top-down socialism.",
+      "executiveSummary": "Democratic votes over capital allocation recreate the economic calculation and knowledge problems Hayek identified — dispersed local knowledge cannot be aggregated by majority vote. Worker cooperatives exist within market economies (Mondragon in Spain) but scale poorly without price signals and capital markets. Political majorities voting on production decisions can expropriate minorities just as centralized planners do.",
+      "evidenceBullets": [
+        "Hayek, 'The Use of Knowledge in Society' (1945): prices transmit dispersed knowledge planners and voters cannot access.",
+        "Mises, economic calculation problem (1920): without private ownership and market prices, rational allocation is impossible at scale.",
+        "Mondragon Corporation (Spain): largest worker cooperative — still operates within capitalist markets, borrows on capital markets, exports globally.",
+        "OECD cooperative statistics: worker co-ops remain tiny share of OECD employment — niche, not systemic replacement."
+      ],
+      "fallacies": [
+        "nirvana fallacy",
+        "false dilemma",
+        "appeal to democracy"
+      ],
+      "sources": [
+        {
+          "id": "hayek-knowledge-1945",
+          "title": "Hayek — The Use of Knowledge in Society (AER 1945)",
+          "url": "https://doi.org/10.1086/266940",
+          "doi": "10.1086/266940",
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Hayek, F.A. (1945). The Use of Knowledge in Society. American Economic Review, 35(4), 519–530."
+        },
+        {
+          "id": "mises-calculation",
+          "title": "Ludwig von Mises — Economic Calculation in the Socialist Commonwealth (1920)",
+          "url": "https://mises.org/library/economic-calculation-socialist-commonwealth",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Mises, L. von (1920). Economic Calculation in the Socialist Commonwealth."
+        },
+        {
+          "id": "mondragon-overview",
+          "title": "Mondragon Corporation — Corporate structure and markets",
+          "url": "https://www.mondragon-corporation.com/en/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-04",
+          "citation": "Mondragon Corporation, annual reports and corporate governance."
+        }
+      ],
+      "whyItMatters": "Economic democracy sounds humane but faces the same information and incentive constraints as central planning — markets coordinate what votes cannot.",
+      "relatedClaimIds": [
+        "democratic-socialism-definition",
+        "nordic-socialist"
+      ],
+      "tags": [
+        "economic-democracy",
+        "worker-cooperatives",
+        "hayek",
+        "calculation-problem"
+      ],
+      "schemaVersion": 2,
+      "revision": 2,
+      "updatedAt": "2026-07-04T18:00:00Z",
+      "embeddingText": "Economic democracy worker cooperatives exploitation Hayek knowledge problem Mises calculation Mondragon market prices",
+      "searchText": "Economic Democracy Ends Exploitation worker cooperatives Hayek Mises calculation problem Mondragon",
+      "kbVersion": "2.2.0"
+    },
+    {
+      "id": "norway-oil-fund-capitalism",
+      "topicId": "nordic-democratic-socialism",
+      "topicPath": "/nordic-democratic-socialism",
+      "title": "Norway Proves Oil Nationalization Beats Markets",
+      "socialistClaimText": "Norway's Government Pension Fund Global shows state ownership of natural resources outperforms private extraction — democratic socialism manages wealth better than capitalists.",
+      "executiveSummary": "Norway's sovereign wealth fund is explicitly a capitalist portfolio: global equities, bonds, and real estate managed for market return under strict fiscal rules — not collective ownership of domestic production. Heritage Index ranks Norway \"Mostly Free\" with strong property rights; oil revenue is saved and invested abroad precisely to avoid Dutch disease and preserve market competition at home.",
+      "evidenceBullets": [
+        "Norges Bank Investment Management: fund invests in 8,000+ companies across 70 countries — diversified global capitalism, not domestic command allocation.",
+        "Norwegian Ministry of Finance ethical guidelines: fund operates under 4% fiscal rule and parliamentary oversight — fiscal discipline, not socialist planning.",
+        "Heritage Index of Economic Freedom — Norway: high scores on property rights, trade freedom, and business freedom despite large welfare state.",
+        "OECD Norway economic surveys: productivity growth tied to open trade and market-priced oil services — state captures rent, markets allocate labor and capital."
+      ],
+      "fallacies": [
+        "definitional sleight of hand",
+        "cherry-picking",
+        "equivocation"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "src",
+          "title": "Norges Bank Investment Management — Fund overview",
+          "url": "https://www.nbim.no/en/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Norges Bank IM, Government Pension Fund Global strategy and holdings."
+        },
+        {
+          "id": "src",
+          "title": "Norwegian Ministry of Finance — Fiscal rule and fund framework",
+          "url": "https://www.regjeringen.no/en/topics/the-economy/economic-policy/the-government-pension-fund/id1441/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Norwegian Ministry of Finance, fiscal policy and GPFG governance."
+        },
+        {
+          "id": "norway",
+          "title": "Heritage Foundation — Norway Economic Freedom",
+          "url": "https://www.heritage.org/index/country/norway",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Heritage Foundation, Index of Economic Freedom 2024 — Norway."
+        },
+        {
+          "id": "acad",
+          "title": "OECD — Economic Survey of Norway",
+          "url": "https://www.oecd.org/economy/norway-economic-snapshot/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "OECD, Norway economic surveys and productivity analysis."
+        }
+      ],
+      "whyItMatters": "Americans citing Norway as socialism confuse resource rent-saving with abolishing markets — the fund proves capitalist investment discipline, not worker ownership of production.",
+      "relatedClaimIds": [
+        "nordic-socialist",
+        "nordic-capitalist",
+        "democratic-socialism-definition"
+      ],
+      "tags": [
+        "norway",
+        "oil-fund",
+        "sovereign-wealth",
+        "heritage",
+        "capitalism"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:v22claim35norwayoilfundcapitalism",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "Norway Proves Oil Nationalization Beats Markets Norway's Government Pension Fund Global shows state ownership of natural resources outperforms private extraction — democratic socialism manages wealth better than capitalists. Norway's sovereign wealth fund is explicitly a capitalist portfolio: global equities, bonds, and real estate managed for market return under strict fiscal rules — not collective ownership of domestic production. Heritage Index ranks Norway \"Mostly Free\" with strong property rights; oil revenue is saved and invested abroad precisely to avoid Dutch disease and preserve market competition at home. Norges Bank Investment Management: fund invests in 8,000+ companies across 70 countries — diversified global capitalism, not domestic command allocation. Norwegian Ministry of Finance ethical guidelines: fund operates under 4% fiscal rule and parliamentary oversight — fiscal discipline, not socialist planning. Heritage Index of Economic Freedom — Norway: high scores on property rights, trade freedom, and business freedom despite large welfare state. OECD Norway economic surveys: productivity growth tied to open trade and market-priced oil services — state captures rent, markets allocate labor and capital. norway oil-fund sovereign-wealth heritage capitalism",
+      "searchText": "Norway Proves Oil Nationalization Beats Markets Norway's Government Pension Fund Global shows state ownership of natural resources outperforms private extraction — democratic socialism manages wealth better than capitalists. norway oil-fund sovereign-wealth heritage capitalism"
+    },
+    {
+      "id": "sweden-school-vouchers-friskolor",
+      "topicId": "nordic-democratic-socialism",
+      "topicPath": "/nordic-democratic-socialism",
+      "title": "Swedish Education Is Fully Public and Socialist",
+      "socialistClaimText": "Sweden runs a unified public school system — no markets, no choice. That's the democratic socialist model America needs.",
+      "executiveSummary": "Sweden's friskolor (independent schools) system, expanded in the 1990s, uses public vouchers allowing private and cooperative schools to compete for students. OECD reviews document school choice and provider diversity — a market mechanism inside public funding, not a monolithic state monopoly.",
+      "evidenceBullets": [
+        "OECD PISA and country policy reviews: Sweden permits independently operated schools funded by per-pupil public grants (voucher mechanism).",
+        "Swedish National Agency for Education (Skolverket): friskolor enrollment exceeds 15% at compulsory level — substantial competitive sector.",
+        "Fraser Institute — school choice indices: Sweden scores high on parental choice relative to pure monopoly systems.",
+        "Post-2010 Swedish reforms: further liberalized establishment of new schools — market entry, not central assignment."
+      ],
+      "fallacies": [
+        "false dichotomy",
+        "definitional sleight of hand",
+        "cherry-picking"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "sweden.htm",
+          "title": "OECD — Sweden education policy reviews",
+          "url": "https://www.oecd.org/education/school/sweden.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "OECD, Sweden country education policy and PISA context."
+        },
+        {
+          "id": "independent-schools",
+          "title": "Skolverket — Independent schools (friskolor)",
+          "url": "https://www.skolverket.se/en/education/school-system/independent-schools",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Swedish National Agency for Education, friskolor regulations and statistics."
+        },
+        {
+          "id": "acad",
+          "title": "Fraser Institute — School Choice in Sweden",
+          "url": "https://www.fraserinstitute.org/studies/education",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Fraser Institute, school choice and education freedom research."
+        },
+        {
+          "id": "primary",
+          "title": "Swedish Parliament — School choice legislation history",
+          "url": "https://www.riksdagen.se/en/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-04",
+          "citation": "Sveriges Riksdag, 1990s school reform legislative records."
+        }
+      ],
+      "whyItMatters": "School voucher advocates are attacked as right-wing — yet Sweden's \"socialist\" poster child uses competitive provider choice. Importing Nordic labels without Nordic mechanisms misleads U.S. education debates.",
+      "relatedClaimIds": [
+        "nordic-capitalist",
+        "nordic-socialist",
+        "democratic-socialism-definition"
+      ],
+      "tags": [
+        "sweden",
+        "friskolor",
+        "school-vouchers",
+        "oecd",
+        "education"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:v22claim36swedenschoolvouchersfris",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "Swedish Education Is Fully Public and Socialist Sweden runs a unified public school system — no markets, no choice. That's the democratic socialist model America needs. Sweden's friskolor (independent schools) system, expanded in the 1990s, uses public vouchers allowing private and cooperative schools to compete for students. OECD reviews document school choice and provider diversity — a market mechanism inside public funding, not a monolithic state monopoly. OECD PISA and country policy reviews: Sweden permits independently operated schools funded by per-pupil public grants (voucher mechanism). Swedish National Agency for Education (Skolverket): friskolor enrollment exceeds 15% at compulsory level — substantial competitive sector. Fraser Institute — school choice indices: Sweden scores high on parental choice relative to pure monopoly systems. Post-2010 Swedish reforms: further liberalized establishment of new schools — market entry, not central assignment. sweden friskolor school-vouchers oecd education",
+      "searchText": "Swedish Education Is Fully Public and Socialist Sweden runs a unified public school system — no markets, no choice. That's the democratic socialist model America needs. sweden friskolor school-vouchers oecd education"
+    },
+    {
+      "id": "iceland-fishing-quotas-market",
+      "topicId": "nordic-democratic-socialism",
+      "topicPath": "/nordic-democratic-socialism",
+      "title": "Iceland Runs a Planned Socialist Fishing Sector",
+      "socialistClaimText": "Iceland's fisheries are collectively managed socialist commons — proof that resource planning beats private trawlers.",
+      "executiveSummary": "Iceland's ITQ (individual transferable quota) system created tradable catch shares — a market in fishing rights, not central allocation. World Bank case studies cite Iceland as a model of market-based resource management; Heritage ranks Iceland among the world's freest economies with open trade and strong property rights.",
+      "evidenceBullets": [
+        "World Bank — Iceland fisheries ITQ case study: tradable quotas improved efficiency and stock sustainability vs. open-access tragedy.",
+        "Icelandic Fisheries Management Act: quotas are property-like rights, tradable and mortgageable — market institutions, not Gosplan.",
+        "Heritage Index — Iceland: top-tier economic freedom with high trade and investment scores.",
+        "OECD Iceland reviews: export-led fishing sector competes globally; government sets TACs but allocation is market-traded."
+      ],
+      "fallacies": [
+        "equivocation",
+        "category error",
+        "cherry-picking"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "fisheries",
+          "title": "World Bank — Iceland fisheries management case study",
+          "url": "https://www.worldbank.org/en/topic/fisheries",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "World Bank, fisheries governance and ITQ case studies including Iceland."
+        },
+        {
+          "id": "src",
+          "title": "Government of Iceland — Fisheries management",
+          "url": "https://www.government.is/topics/business-and-industry/fisheries/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Government of Iceland, fisheries policy and ITQ framework."
+        },
+        {
+          "id": "iceland",
+          "title": "Heritage Foundation — Iceland Economic Freedom",
+          "url": "https://www.heritage.org/index/country/iceland",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Heritage Foundation, Index of Economic Freedom 2024 — Iceland."
+        },
+        {
+          "id": "acad",
+          "title": "Arnason — On the ITQ fisheries management system in Iceland",
+          "url": "https://www.researchgate.net/publication/227368720",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Arnason, R. ITQ system economic analysis, University of Iceland."
+        }
+      ],
+      "whyItMatters": "Iceland is invoked as egalitarian socialism — its flagship industry uses tradable property rights, the opposite of collective allocation. American ocean policy debates should note Nordic markets, not Nordic myths.",
+      "relatedClaimIds": [
+        "nordic-capitalist",
+        "nordic-socialist",
+        "finland-competitiveness-trade"
+      ],
+      "tags": [
+        "iceland",
+        "fishing",
+        "itq",
+        "quotas",
+        "heritage"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:v22claim37icelandfishingquotasmark",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "Iceland Runs a Planned Socialist Fishing Sector Iceland's fisheries are collectively managed socialist commons — proof that resource planning beats private trawlers. Iceland's ITQ (individual transferable quota) system created tradable catch shares — a market in fishing rights, not central allocation. World Bank case studies cite Iceland as a model of market-based resource management; Heritage ranks Iceland among the world's freest economies with open trade and strong property rights. World Bank — Iceland fisheries ITQ case study: tradable quotas improved efficiency and stock sustainability vs. open-access tragedy. Icelandic Fisheries Management Act: quotas are property-like rights, tradable and mortgageable — market institutions, not Gosplan. Heritage Index — Iceland: top-tier economic freedom with high trade and investment scores. OECD Iceland reviews: export-led fishing sector competes globally; government sets TACs but allocation is market-traded. iceland fishing itq quotas heritage",
+      "searchText": "Iceland Runs a Planned Socialist Fishing Sector Iceland's fisheries are collectively managed socialist commons — proof that resource planning beats private trawlers. iceland fishing itq quotas heritage"
+    },
+    {
+      "id": "finland-competitiveness-trade",
+      "topicId": "nordic-democratic-socialism",
+      "topicPath": "/nordic-democratic-socialism",
+      "title": "Finland Succeeds Through Isolationist Socialism",
+      "socialistClaimText": "Finland's welfare state proves you can close markets, protect industry, and still innovate — socialism works in small economies.",
+      "executiveSummary": "Finland is among the world's most trade-dependent economies: WTO data show exports near 40% of GDP driven by Nokia-era tech, forestry, and machinery. Heritage Index ranks Finland \"Mostly Free\" with high trade freedom — prosperity from global markets taxed for welfare, not autarkic planning.",
+      "evidenceBullets": [
+        "WTO — Finland trade profile: export share of GDP among highest in EU; integrated into global supply chains.",
+        "World Bank — Finland GDP and trade openness series: growth correlated with export manufacturing and services.",
+        "Heritage Index — Finland: strong property rights, trade freedom, and business freedom scores.",
+        "OECD Finland innovation reviews: R&D leadership via competitive firms (Nokia legacy, gaming, cleantech) — not state production monopolies."
+      ],
+      "fallacies": [
+        "false cause",
+        "definitional sleight of hand",
+        "hasty generalization"
+      ],
+      "chartData": null,
+      "sources": [
+        {
+          "id": "finland_e.htm",
+          "title": "WTO — Finland member trade profile",
+          "url": "https://www.wto.org/english/thewto_e/countries_e/finland_e.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "World Trade Organization, Finland trade and tariff profile."
+        },
+        {
+          "id": "finland",
+          "title": "World Bank — Finland trade and GDP data",
+          "url": "https://data.worldbank.org/country/finland",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "World Bank Open Data, Finland exports and GDP series."
+        },
+        {
+          "id": "finland",
+          "title": "Heritage Foundation — Finland Economic Freedom",
+          "url": "https://www.heritage.org/index/country/finland",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Heritage Foundation, Index of Economic Freedom 2024 — Finland."
+        },
+        {
+          "id": "acad",
+          "title": "OECD — Finland Economic Surveys",
+          "url": "https://www.oecd.org/economy/finland-economic-snapshot/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "OECD, Finland competitiveness and innovation reviews."
+        }
+      ],
+      "whyItMatters": "Finland's \"socialist\" reputation hides extreme trade openness — Americans proposing tariffs and nationalization under the Nordic banner import the opposite of Finland's actual model.",
+      "relatedClaimIds": [
+        "nordic-socialist",
+        "nordic-capitalist",
+        "iceland-fishing-quotas-market"
+      ],
+      "tags": [
+        "finland",
+        "trade",
+        "wto",
+        "competitiveness",
+        "heritage"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:v22claim38finlandcompetitivenesstr",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "Finland Succeeds Through Isolationist Socialism Finland's welfare state proves you can close markets, protect industry, and still innovate — socialism works in small economies. Finland is among the world's most trade-dependent economies: WTO data show exports near 40% of GDP driven by Nokia-era tech, forestry, and machinery. Heritage Index ranks Finland \"Mostly Free\" with high trade freedom — prosperity from global markets taxed for welfare, not autarkic planning. WTO — Finland trade profile: export share of GDP among highest in EU; integrated into global supply chains. World Bank — Finland GDP and trade openness series: growth correlated with export manufacturing and services. Heritage Index — Finland: strong property rights, trade freedom, and business freedom scores. OECD Finland innovation reviews: R&D leadership via competitive firms (Nokia legacy, gaming, cleantech) — not state production monopolies. finland trade wto competitiveness heritage",
+      "searchText": "Finland Succeeds Through Isolationist Socialism Finland's welfare state proves you can close markets, protect industry, and still innovate — socialism works in small economies. finland trade wto competitiveness heritage"
+    },
+    {
+      "id": "nordic-defense-us-subsidy",
+      "topicId": "nordic-democratic-socialism",
+      "topicPath": "/nordic-democratic-socialism",
+      "title": "Nordic Welfare Proves Defense Spending Is Wasteful",
+      "socialistClaimText": "Scandinavia spends on hospitals instead of militaries — America should cut defense and copy Nordic priorities. Their security is free.",
+      "executiveSummary": "NATO and SIPRI data show Nordic nations rely on Article 5 and U.S. force posture for deterrence while maintaining below-U.S. but non-trivial defense budgets. Heritage military expenditure comparisons show Nordics free-riding on alliance overhead — welfare states partly financed by externalized security costs, not pacifist socialism.",
+      "evidenceBullets": [
+        "NATO defence expenditure data: Denmark, Norway, and Iceland meet or approach 2% GDP guideline; Sweden joined NATO 2024 — alliance-dependent security.",
+        "SIPRI Military Expenditure Database: U.S. spends ~3.4% GDP on defense vs. Nordics ~1.2–2.5% — gap reflects burden-sharing asymmetry.",
+        "Heritage Index — government spending and military capacity: Nordics benefit from U.S. nuclear umbrella and NATO logistics.",
+        "Pentagon / EUCOM force posture: U.S. bases and exercises in Norway and Denmark underpin regional deterrence Nordics do not replicate alone."
+      ],
+      "fallacies": [
+        "free lunch fallacy",
+        "cherry-picking",
+        "false analogy"
+      ],
+      "chartData": {
+        "type": "bar",
+        "title": "Military Spending (% of GDP, SIPRI / NATO estimates)",
+        "labels": [
+          "USA",
+          "Norway",
+          "Sweden",
+          "Denmark",
+          "Finland",
+          "Iceland"
+        ],
+        "datasets": [
+          {
+            "label": "% GDP",
+            "values": [
+              3.4,
+              1.9,
+              1.3,
+              1.8,
+              2.5,
+              0.1
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "id": "topics_49198.htm",
+          "title": "NATO — Defence expenditure of member countries",
+          "url": "https://www.nato.int/cps/en/natohq/topics_49198.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "NATO, defence expenditure data and 2% guideline reports."
+        },
+        {
+          "id": "milex",
+          "title": "SIPRI — Military Expenditure Database",
+          "url": "https://www.sipri.org/databases/milex",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Stockholm International Peace Research Institute, Milex database."
+        },
+        {
+          "id": "ranking",
+          "title": "Heritage Foundation — Index of Economic Freedom (defence context)",
+          "url": "https://www.heritage.org/index/ranking",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Heritage Foundation, country rankings including government spending metrics."
+        },
+        {
+          "id": "src",
+          "title": "U.S. Department of Defense — European force posture",
+          "url": "https://www.defense.gov/News/Releases/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Department of Defense, EUCOM posture and alliance commitments."
+        }
+      ],
+      "whyItMatters": "Copying Nordic social spending without NATO's U.S.-subsidized security would force Americans to choose between higher taxes, lower welfare, or elevated defense — the \"free\" Nordic model is not replicable at U.S. global posture.",
+      "relatedClaimIds": [
+        "nordic-socialist",
+        "nordic-capitalist",
+        "venezuela-sanctions"
+      ],
+      "tags": [
+        "nordic",
+        "nato",
+        "defense",
+        "sipri",
+        "heritage",
+        "military-spending"
+      ],
+      "claimQuote": null,
+      "quoteAttribution": null,
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:v22claim39nordicdefenseussubsidy",
+      "updatedAt": "2026-07-04T20:00:00Z",
+      "publishedAt": "2026-07-04T20:00:00Z",
+      "embeddingText": "Nordic Welfare Proves Defense Spending Is Wasteful Scandinavia spends on hospitals instead of militaries — America should cut defense and copy Nordic priorities. Their security is free. NATO and SIPRI data show Nordic nations rely on Article 5 and U.S. force posture for deterrence while maintaining below-U.S. but non-trivial defense budgets. Heritage military expenditure comparisons show Nordics free-riding on alliance overhead — welfare states partly financed by externalized security costs, not pacifist socialism. NATO defence expenditure data: Denmark, Norway, and Iceland meet or approach 2% GDP guideline; Sweden joined NATO 2024 — alliance-dependent security. SIPRI Military Expenditure Database: U.S. spends ~3.4% GDP on defense vs. Nordics ~1.2–2.5% — gap reflects burden-sharing asymmetry. Heritage Index — government spending and military capacity: Nordics benefit from U.S. nuclear umbrella and NATO logistics. Pentagon / EUCOM force posture: U.S. bases and exercises in Norway and Denmark underpin regional deterrence Nordics do not replicate alone. nordic nato defense sipri heritage military-spending",
+      "searchText": "Nordic Welfare Proves Defense Spending Is Wasteful Scandinavia spends on hospitals instead of militaries — America should cut defense and copy Nordic priorities. Their security is free. nordic nato defense sipri heritage military-spending"
+    }
+  ]
+}

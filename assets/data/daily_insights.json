@@ -1,0 +1,137 @@
+{
+  "insights": [
+    {
+      "id": "insight-1",
+      "quote": "The natural effort of every individual to better his own condition is so powerful that it is alone, and without any assistance, capable of carrying on the society to wealth and prosperity.",
+      "author": "Adam Smith",
+      "dataPoint": "Extreme global poverty fell from 36% (1990) to ~8.5% (2022) per World Bank — the steepest decline in human history.",
+      "source": "World Bank, Poverty and Shared Prosperity 2023"
+    },
+    {
+      "id": "insight-2",
+      "quote": "The worst thing that can happen to a good cause is not to be skillfully attacked, but to be ineptly defended.",
+      "author": "Frédéric Bastiat",
+      "dataPoint": "U.S. bottom income quintile real consumption rose ~60% (1960–2019) per CBO, even as relative inequality metrics shifted.",
+      "source": "Congressional Budget Office"
+    },
+    {
+      "id": "insight-3",
+      "quote": "The curious task of economics is to demonstrate to men how little they really know about what they imagine they can design.",
+      "author": "F.A. Hayek",
+      "dataPoint": "Heritage Index: countries in 'free' category average GDP per capita 7× higher than 'repressed' category.",
+      "source": "Heritage Foundation Index of Economic Freedom 2024"
+    },
+    {
+      "id": "insight-4",
+      "quote": "Wherever the free market has been permitted to operate, the area that it embraces has tended to expand.",
+      "author": "Milton Friedman",
+      "dataPoint": "Fraser Institute: top quartile economic freedom nations grew 3.1% annually vs 1.6% for bottom quartile (1990–2020).",
+      "source": "Fraser Institute, Economic Freedom of the World 2023"
+    },
+    {
+      "id": "insight-5",
+      "quote": "Life, liberty, and property do not exist because men have made laws. On the contrary, it was the fact of having life, liberty, and property that caused men to make laws in the first place.",
+      "author": "Frédéric Bastiat",
+      "dataPoint": "Chetty et al.: children born to bottom quintile parents have ~7.5% chance of reaching top quintile — mobility exists but policy matters.",
+      "source": "Chetty, Hendren, Kline & Saez, 2014"
+    },
+    {
+      "id": "insight-6",
+      "quote": "The inherent vice of capitalism is the unequal sharing of blessings; the inherent virtue of socialism is the equal sharing of miseries.",
+      "author": "Winston Churchill",
+      "dataPoint": "Venezuela GDP per capita fell ~75% (2013–2020) after nationalizations and price controls intensified.",
+      "source": "World Bank, Venezuela national accounts"
+    },
+    {
+      "id": "insight-7",
+      "quote": "Government is not reason, it is not eloquence — it is force.",
+      "author": "George Washington",
+      "dataPoint": "Nordic countries rank in top 15 on Heritage economic freedom — above the U.S. on business freedom in several indices.",
+      "source": "Heritage Foundation Index of Economic Freedom"
+    },
+    {
+      "id": "insight-8",
+      "quote": "The art of economics consists in looking not merely at the immediate but at the longer effects of any act or policy.",
+      "author": "Henry Hazlitt",
+      "dataPoint": "Seattle minimum wage study (2017): average low-wage worker hours fell enough to offset wage gains for many.",
+      "source": "Jardim et al., NBER Working Paper 25432"
+    },
+    {
+      "id": "insight-9",
+      "quote": "The most dangerous man to any government is the man who is able to think things out for himself.",
+      "author": "H.L. Mencken",
+      "dataPoint": "Soviet archives: estimated 20+ million deaths from famines, purges, and Gulag (Conquest, updated scholarship).",
+      "source": "Robert Conquest, The Great Terror; archival revisions"
+    },
+    {
+      "id": "insight-10",
+      "quote": "What is seen is the benefit to the visible recipient; what is unseen is the cost borne by everyone else.",
+      "author": "Frédéric Bastiat (paraphrase)",
+      "dataPoint": "U.S. real median household income reached record $74,580 (2022, inflation-adjusted) per Census.",
+      "source": "U.S. Census Bureau, Income in the United States: 2022"
+    },
+    {
+      "id": "insight-11",
+      "quote": "The right to property is the guardian of every other right.",
+      "author": "Arthur Lee",
+      "dataPoint": "China's Great Leap Forward famine: Dikötter estimates 45 million deaths (1958–1962) from collectivization.",
+      "source": "Frank Dikötter, Mao's Great Famine"
+    },
+    {
+      "id": "insight-12",
+      "quote": "A society that puts equality before freedom will get neither.",
+      "author": "Milton Friedman",
+      "dataPoint": "Global life expectancy rose from 46 years (1950) to 73 years (2022) alongside market integration.",
+      "source": "Our World in Data / UN World Population Prospects"
+    },
+    {
+      "id": "insight-13",
+      "quote": "The Constitution is a limitation on the government, not on private individuals.",
+      "author": "Ayn Rand",
+      "dataPoint": "Rent control in San Francisco (1995 study): reduced rental housing supply by 15% vs control cities.",
+      "source": "Gyourko & Linneman, Journal of Urban Economics"
+    },
+    {
+      "id": "insight-14",
+      "quote": "Liberty must at all hazards be supported.",
+      "author": "John Adams",
+      "dataPoint": "U.S. immigrant median household income surpasses native-born within 20 years (Census longitudinal data).",
+      "source": "U.S. Census Bureau, Current Population Survey"
+    },
+    {
+      "id": "insight-15",
+      "quote": "The market is not a place, but a process.",
+      "author": "Ludwig von Mises",
+      "dataPoint": "India's poverty rate fell from 45% to under 10% (1993–2022) after 1991 market reforms.",
+      "source": "World Bank, India poverty estimates"
+    },
+    {
+      "id": "insight-wave38-1",
+      "quote": "The economic problem of society is thus not merely a problem of how to allocate given resources—it is a problem of the utilization of knowledge which is not given to anyone in its totality.",
+      "author": "F. A. Hayek",
+      "dataPoint": "KB 3.8.0 adds a full claim on why supercomputers still cannot replace market discovery of prices.",
+      "source": "Hayek, The Use of Knowledge in Society (1945)"
+    },
+    {
+      "id": "insight-wave38-2",
+      "quote": "The state is the organization of the political means.",
+      "author": "Franz Oppenheimer",
+      "dataPoint": "New full text: Oppenheimer The State — political means (force) vs economic means (production and exchange).",
+      "source": "Oppenheimer, The State (Project Gutenberg)"
+    },
+    {
+      "id": "insight-wave38-3",
+      "quote": "To many people, the labor theory of value appears as a self-evident truth.",
+      "author": "Eugen von Böhm-Bawerk",
+      "dataPoint": "New full text: Karl Marx and the Close of His System — classic rebuttal of the labor theory of value.",
+      "source": "Böhm-Bawerk (1896/98 English)"
+    },
+    {
+      "id": "insight-wave38-4",
+      "quote": "The natural effort of every individual to better his own condition is so powerful that it is alone, and without any assistance, capable of carrying on the society to wealth and prosperity.",
+      "author": "Adam Smith",
+      "dataPoint": "World Bank: extreme poverty collapsed most where markets and trade expanded after 1990 — not under pure command allocation.",
+      "source": "World Bank Poverty and Inequality Platform"
+    }
+  ]
+}

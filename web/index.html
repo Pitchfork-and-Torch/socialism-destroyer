@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Free Liberty Argument Engine (KB 3.8.0): steelman socialist claims, then rebut with Census, BLS, CBO, World Bank data. Argument Crusher, multi-turn Debate Simulator, 138 curated claims, 120 public-domain full texts. No account required.">
+  <meta name="keywords" content="socialism debate, liberty arguments, free markets, argument crusher, debate simulator, rent control evidence, minimum wage CBO, Nordic model myth, labor theory of value, Böhm-Bawerk, Bastiat The Law, wealth tax, greedflation, degrowth, AI socialism, public domain library, steelman">
+  <meta name="application-name" content="Socialism Destroyer">
+  <meta name="author" content="Pitchfork-and-Torch / Jon Bailey">
+  <meta name="publisher" content="Pitchfork-and-Torch">
+  <meta name="theme-color" content="#0A1628">
+  <meta name="msapplication-TileColor" content="#0A1628">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <meta name="bingbot" content="index, follow">
+  <meta name="rating" content="general">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="canonical" href="https://destroyer.jonbailey.xyz/">
+  <link rel="alternate" hreflang="en" href="https://destroyer.jonbailey.xyz/">
+  <link rel="alternate" hreflang="en-US" href="https://destroyer.jonbailey.xyz/">
+  <link rel="alternate" hreflang="x-default" href="https://destroyer.jonbailey.xyz/">
+  <link rel="alternate" type="text/plain" href="https://destroyer.jonbailey.xyz/llms.txt" title="LLM / answer-engine site summary">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="https://destroyer.jonbailey.xyz/sitemap.xml">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://destroyer.jonbailey.xyz/">
+  <meta property="og:title" content="Socialism Destroyer — Liberty Argument Engine">
+  <meta property="og:description" content="Steelman socialist claims. Crush with sourced rebuttals. Practice multi-turn debates. 138 claims · 120 PD classics · KB 3.8.0. 100% free, no account.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://destroyer.jonbailey.xyz/twitter-card.png">
+  <meta property="og:image:secure_url" content="https://destroyer.jonbailey.xyz/twitter-card.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Socialism Destroyer — torch and laurel logo on navy: The Pro-America Liberty Argument Engine">
+  <meta property="og:site_name" content="Socialism Destroyer">
+  <meta property="og:updated_time" content="2026-07-22T22:00:00Z">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:domain" content="destroyer.jonbailey.xyz">
+  <meta name="twitter:url" content="https://destroyer.jonbailey.xyz/">
+  <meta name="twitter:title" content="Socialism Destroyer — Liberty Argument Engine">
+  <meta name="twitter:description" content="Steelman · Crusher · Debate Simulator. 138 claims, 120 PD classics, government & academic sources. Free — no account. KB 3.8.0.">
+  <meta name="twitter:image" content="https://destroyer.jonbailey.xyz/twitter-card.png">
+  <meta name="twitter:image:alt" content="Socialism Destroyer — The Pro-America Liberty Argument Engine. Fully sourced. Built for truth.">
+
+  <!-- PWA -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Socialism Destroyer">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="icons/Icon-512.png">
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Performance: critical shell + engine bootstrap -->
+  <link rel="preload" href="icons/Icon-192.png" as="image" type="image/png" fetchpriority="high">
+  <link rel="preload" href="flutter_bootstrap.js?v=5" as="script">
+  <link rel="modulepreload" href="canvaskit/canvaskit.js" crossorigin>
+  <link rel="preload" href="canvaskit/canvaskit.wasm" as="fetch" type="application/wasm" crossorigin>
+  <link rel="prefetch" href="main.dart.js" as="script">
+
+  <title>Socialism Destroyer — Liberty Argument Engine | Free Debate Tool</title>
+
+  <!-- Structured data: Website + App + FAQ + HowTo + Org + Dataset (AEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://destroyer.jonbailey.xyz/#org",
+        "name": "Pitchfork-and-Torch",
+        "url": "https://github.com/Pitchfork-and-Torch",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://destroyer.jonbailey.xyz/icons/Icon-512.png",
+          "width": 512,
+          "height": 512
+        },
+        "sameAs": [
+          "https://github.com/Pitchfork-and-Torch/socialism-destroyer",
+          "https://jonbailey.xyz/"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://destroyer.jonbailey.xyz/#website",
+        "url": "https://destroyer.jonbailey.xyz/",
+        "name": "Socialism Destroyer",
+        "alternateName": ["Liberty Argument Engine", "Socialism Destroyer Debate Tool"],
+        "description": "The Pro-America Liberty Argument Engine — free, fully sourced claim-vs-counterclaim debate reference for individual liberty and free markets.",
+        "inLanguage": "en-US",
+        "publisher": { "@id": "https://destroyer.jonbailey.xyz/#org" },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://destroyer.jonbailey.xyz/crusher?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://destroyer.jonbailey.xyz/#app",
+        "name": "Socialism Destroyer",
+        "url": "https://destroyer.jonbailey.xyz/",
+        "description": "Steelman socialist claims, rebut with government and academic evidence, practice multi-turn debates, and read public-domain liberty and socialist primaries offline.",
+        "applicationCategory": "EducationalApplication",
+        "applicationSubCategory": "Debate and critical thinking",
+        "operatingSystem": "Web, iOS, Android, Windows, macOS, Linux",
+        "browserRequirements": "Requires JavaScript",
+        "isAccessibleForFree": true,
+        "softwareVersion": "2.1.1",
+        "dateModified": "2026-07-22",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "author": { "@id": "https://destroyer.jonbailey.xyz/#org" },
+        "featureList": [
+          "Topic tree with 138 sourced claim-vs-counterclaim entries",
+          "Argument Crusher natural-language rebuttal engine",
+          "Debate Simulator multi-turn spar, challenge, timed drills",
+          "Offline library passage RAG in Evidence Sidebar",
+          "Hybrid FTS + local vector claim retrieval",
+          "Public-domain library with 120 full texts (136 catalog entries)",
+          "Study tools and optional knowledge CDN sync (KB 3.8.0)"
+        ],
+        "screenshot": "https://destroyer.jonbailey.xyz/twitter-card.png"
+      },
+      {
+        "@type": "Dataset",
+        "@id": "https://destroyer.jonbailey.xyz/#knowledge-base",
+        "name": "Socialism Destroyer Knowledge Base",
+        "description": "Curated steelman/rebuttal claims with government, academic, and primary sources plus public-domain library catalog for liberty and socialism debates.",
+        "url": "https://destroyer.jonbailey.xyz/knowledge/data/v2/knowledge_manifest.json",
+        "version": "3.8.0",
+        "license": "https://github.com/Pitchfork-and-Torch/socialism-destroyer/blob/main/LICENSE",
+        "creator": { "@id": "https://destroyer.jonbailey.xyz/#org" },
+        "isAccessibleForFree": true,
+        "keywords": [
+          "socialism",
+          "free markets",
+          "economic calculation",
+          "rent control",
+          "minimum wage",
+          "Nordic model",
+          "labor theory of value"
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://destroyer.jonbailey.xyz/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://destroyer.jonbailey.xyz/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Topics",
+            "item": "https://destroyer.jonbailey.xyz/tree"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Argument Crusher",
+            "item": "https://destroyer.jonbailey.xyz/crusher"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Debate Simulator",
+            "item": "https://destroyer.jonbailey.xyz/debate"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Library",
+            "item": "https://destroyer.jonbailey.xyz/library"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://destroyer.jonbailey.xyz/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Socialism Destroyer?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Socialism Destroyer is a free educational web app (the Liberty Argument Engine) that steelmans socialist and collectivist claims first, then counters them with verifiable government data, peer-reviewed research, historical archives, and public-domain primary texts on liberty and free markets."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Socialism Destroyer free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The web app at https://destroyer.jonbailey.xyz is 100% free with no paywall and no account required. Progress stays on your device."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does the Argument Crusher work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Paste any socialist or collectivist argument into https://destroyer.jonbailey.xyz/crusher. Hybrid full-text search plus offline local-vector retrieval matches curated claims and returns a steelman, counter-evidence, fallacies, and linked sources. Export as Markdown, PDF, or image."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the Debate Simulator?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A multi-turn training mode at https://destroyer.jonbailey.xyz/debate. Spar against opponent claims or use Challenge mode for scored rebuttals. Timed drill playlists, live Evidence Sidebar with offline library passage RAG, and transcript export (Markdown, PDF, image card)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What books are in the library?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The catalog lists 136 works. 120 public-domain full texts are bundled offline — socialist primaries (Marx Capital Vol I, Engels, Lenin, Proudhon, Luxemburg, Kropotkin, Henry George, Russell) and liberty counters (Bastiat, Spencer Man Versus the State, Spooner, Böhm-Bawerk Close of Marx, Oppenheimer The State, Tocqueville Old Regime, Mallock, Belloc, full Federalist Papers). Sixteen modern copyrighted titles are catalog-only with external links (Hayek, Hazlitt, Mises, Friedman, Rothbard)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the current knowledge base version?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Knowledge base KB 3.8.0 with 138 unique curated claims and 120 bundled public-domain library texts, including contemporary arguments (greedflation, AI calculation, China state capitalism, wealth tax, degrowth, misinfo ministries) and new literature (Böhm-Bawerk, Oppenheimer, George, Tocqueville Old Regime). App version 2.1.1. Manifest: https://destroyer.jonbailey.xyz/knowledge/data/v2/knowledge_manifest.json"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is rent control good economics?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Curated entries steelman the affordability claim, then rebut with shortage, quality, and supply evidence (Stanford/Diamond et al. and related research). See https://destroyer.jonbailey.xyz/claim/rent-control-helps and https://destroyer.jonbailey.xyz/claim/rent-control-2020s-evidence."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the Nordic model socialist?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The site steelmans the democratic-socialism framing, then shows Nordic market economies with high trade openness, private ownership of productive capital, and specific welfare designs — not socialist ownership of the means of production. Browse Nordic myth claims at https://destroyer.jonbailey.xyz/tree."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the labor theory of value still explain prices?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The knowledge base steelmans Marxian surplus-value claims, then counters with subjective/marginal value theory and Böhm-Bawerk’s classic critique in Karl Marx and the Close of His System. See https://destroyer.jonbailey.xyz/claim/bohm-bawerk-ltv-dead and https://destroyer.jonbailey.xyz/library/read/bohm-bawerk-close-of-marx."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can supercomputers or AI solve the socialist calculation problem?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The calculation problem is about discovering prices that reflect scarce means and dispersed knowledge — not arithmetic speed. See https://destroyer.jonbailey.xyz/claim/computers-solve-calculation and related Hayek/Mises claims in the topic tree."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where is the machine-readable summary for AI and answer engines?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "https://destroyer.jonbailey.xyz/llms.txt — plain-text site summary for LLMs and answer engines. Sitemap: https://destroyer.jonbailey.xyz/sitemap.xml. Knowledge manifest: https://destroyer.jonbailey.xyz/knowledge/data/v2/knowledge_manifest.json."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "HowTo",
+        "name": "How to use the Argument Crusher",
+        "description": "Paste a collectivist claim and receive a steelman, data-backed rebuttal, fallacies, and sources.",
+        "totalTime": "PT3M",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Open the Crusher",
+            "text": "Go to https://destroyer.jonbailey.xyz/crusher",
+            "url": "https://destroyer.jonbailey.xyz/crusher"
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Paste or type a claim",
+            "text": "Enter any socialist, collectivist, or statist argument in plain language."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Review the steelman",
+            "text": "Read the strongest fair restatement of the opponent claim first."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "Study the rebuttal and sources",
+            "text": "Use executive summary, evidence bullets, fallacies, and linked primary sources. Copy Markdown or export PDF to share."
+          }
+        ]
+      },
+      {
+        "@type": "HowTo",
+        "name": "How to practice with the Debate Simulator",
+        "description": "Multi-turn sparring or timed Challenge drills with sourced coaching and library passages.",
+        "totalTime": "PT15M",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Open Debate Simulator",
+            "text": "Go to https://destroyer.jonbailey.xyz/debate",
+            "url": "https://destroyer.jonbailey.xyz/debate"
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Choose Spar, Challenge, or a timed playlist",
+            "text": "Spar counters opponent claims. Challenge scores your rebuttal. Playlists run timed multi-round drills."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Use the Evidence Sidebar",
+            "text": "Open matched claims, offline library passage RAG snippets, and accumulating primary sources."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "Export your transcript",
+            "text": "Copy Markdown, export PDF, or share a branded debate image card."
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    html { color-scheme: dark; }
+    body {
+      margin: 0;
+      background-color: #0A1628;
+      color: #B8C2CE;
+    }
+    .loading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1.25rem;
+      min-height: 100vh;
+      min-height: 100dvh;
+      color: #E8C96A;
+      font-family: Georgia, "Libre Baskerville", "Times New Roman", serif;
+    }
+    .loading img {
+      width: 96px;
+      height: 96px;
+      border-radius: 22%;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+    }
+    .loading p {
+      margin: 0;
+      font-size: 0.95rem;
+      letter-spacing: 0.02em;
+      color: #B8C2CE;
+    }
+    .loading a { color: #E8C96A; }
+    /* Crawlable SEO/AEO content for no-JS and answer engines that read raw HTML */
+    .seo-fallback {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 4rem;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.55;
+      color: #B8C2CE;
+    }
+    .seo-fallback h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      color: #E8C96A;
+      font-size: 1.75rem;
+      line-height: 1.25;
+      margin: 0 0 0.75rem;
+    }
+    .seo-fallback h2 {
+      font-family: Georgia, "Times New Roman", serif;
+      color: #E8C96A;
+      font-size: 1.15rem;
+      margin: 1.75rem 0 0.5rem;
+    }
+    .seo-fallback a { color: #E8C96A; }
+    .seo-fallback ul { padding-left: 1.2rem; }
+    .seo-fallback li { margin: 0.35rem 0; }
+    .seo-fallback .meta {
+      font-size: 0.9rem;
+      color: #8A96A3;
+    }
+    noscript .seo-fallback { display: block; }
+    @media (prefers-reduced-motion: reduce) {
+      .loading img { box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+  <noscript>
+    <main class="seo-fallback">
+      <h1>Socialism Destroyer — Liberty Argument Engine</h1>
+      <p class="meta">Free educational debate tool · KB 3.8.0 · 138 claims · 120 public-domain full texts · No account</p>
+      <p>Steelman socialist and collectivist claims first, then rebut with Census, BLS, CBO, World Bank, academic, and primary-source evidence. Enable JavaScript for the full app (Argument Crusher, Debate Simulator, offline library reader).</p>
+      <h2>Primary tools</h2>
+      <ul>
+        <li><a href="https://destroyer.jonbailey.xyz/tree">Topic tree</a> — hierarchical claims with sources</li>
+        <li><a href="https://destroyer.jonbailey.xyz/crusher">Argument Crusher</a> — paste any claim for a sourced rebuttal</li>
+        <li><a href="https://destroyer.jonbailey.xyz/debate">Debate Simulator</a> — multi-turn spar &amp; challenge</li>
+        <li><a href="https://destroyer.jonbailey.xyz/library">Library</a> — Bastiat, Marx, Böhm-Bawerk, Tocqueville, Founders…</li>
+        <li><a href="https://destroyer.jonbailey.xyz/study-tools">Study tools</a> — Scholar, FRED, Archive, OLL</li>
+      </ul>
+      <h2>High-intent claims</h2>
+      <ul>
+        <li><a href="https://destroyer.jonbailey.xyz/claim/rent-control-helps">Rent control</a></li>
+        <li><a href="https://destroyer.jonbailey.xyz/claim/nordic-socialist">Nordic model myth</a></li>
+        <li><a href="https://destroyer.jonbailey.xyz/claim/ussr-not-real-socialism">USSR “not real socialism”</a></li>
+        <li><a href="https://destroyer.jonbailey.xyz/claim/bohm-bawerk-ltv-dead">Labor theory of value</a></li>
+        <li><a href="https://destroyer.jonbailey.xyz/claim/computers-solve-calculation">AI / calculation problem</a></li>
+        <li><a href="https://destroyer.jonbailey.xyz/claim/greedflation-price-controls">Greedflation &amp; price controls</a></li>
+        <li><a href="https://destroyer.jonbailey.xyz/claim/china-state-capitalism-works">China state capitalism</a></li>
+        <li><a href="https://destroyer.jonbailey.xyz/claim/wealth-tax-free-lunch">Wealth taxes</a></li>
+        <li><a href="https://destroyer.jonbailey.xyz/claim/degrowth-is-moral">Degrowth</a></li>
+      </ul>
+      <h2>Library highlights</h2>
+      <ul>
+        <li><a href="https://destroyer.jonbailey.xyz/library/read/the-law">Bastiat — The Law</a></li>
+        <li><a href="https://destroyer.jonbailey.xyz/library/read/seen-and-unseen">Bastiat — That Which Is Seen</a></li>
+        <li><a href="https://destroyer.jonbailey.xyz/library/read/bohm-bawerk-close-of-marx">Böhm-Bawerk — Close of Marx</a></li>
+        <li><a href="https://destroyer.jonbailey.xyz/library/read/oppenheimer-the-state">Oppenheimer — The State</a></li>
+        <li><a href="https://destroyer.jonbailey.xyz/library/read/george-progress-and-poverty">Henry George — Progress and Poverty</a></li>
+        <li><a href="https://destroyer.jonbailey.xyz/library/read/marx-capital-vol1">Marx — Capital Vol. I</a></li>
+        <li><a href="https://destroyer.jonbailey.xyz/library/read/tocqueville-old-regime">Tocqueville — Old Regime</a></li>
+      </ul>
+      <h2>For answer engines &amp; crawlers</h2>
+      <ul>
+        <li><a href="https://destroyer.jonbailey.xyz/llms.txt">llms.txt</a> — machine-readable site summary</li>
+        <li><a href="https://destroyer.jonbailey.xyz/sitemap.xml">sitemap.xml</a></li>
+        <li><a href="https://destroyer.jonbailey.xyz/knowledge/data/v2/knowledge_manifest.json">Knowledge CDN manifest</a></li>
+        <li><a href="https://github.com/Pitchfork-and-Torch/socialism-destroyer">GitHub source</a></li>
+      </ul>
+    </main>
+  </noscript>
+
+  <div class="loading" id="loading" role="status" aria-live="polite" aria-busy="true">
+    <img src="icons/Icon-192.png" width="96" height="96" alt="Socialism Destroyer app icon" fetchpriority="high" decoding="async">
+    <p id="loading-text">Loading Socialism Destroyer…</p>
+  </div>
+
+  <script>
+    // Clear stale Flutter service workers / Cache Storage that can pin an old
+    // bootstrap which still fetches CanvasKit from gstatic under a tight CSP.
+    (function () {
+      try {
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.getRegistrations().then(function (regs) {
+            regs.forEach(function (r) { r.unregister(); });
+          }).catch(function () {});
+        }
+        if (window.caches && caches.keys) {
+          caches.keys().then(function (keys) {
+            keys.forEach(function (k) { caches.delete(k); });
+          }).catch(function () {});
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <script src="flutter_bootstrap.js?v=5" async></script>
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      var el = document.getElementById('loading');
+      if (el) el.remove();
+      // Flutter may inject a restrictive viewport; restore zoom for accessibility.
+      var vp = document.querySelector('meta[name="viewport"]');
+      if (vp) {
+        vp.setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover');
+      }
+    });
+    // Surface a recovery path if the engine never paints (CSP / stale SW / network).
+    setTimeout(function () {
+      var el = document.getElementById('loading');
+      var text = document.getElementById('loading-text');
+      if (!el || !text) return;
+      text.innerHTML = 'Still loading… <a href="/">Tap to retry</a> (hard-refresh: Ctrl+Shift+R)';
+    }, 12000);
+  </script>
+  <script src="/projects-panel.js?v=8" defer></script>
+</body>
+</html>

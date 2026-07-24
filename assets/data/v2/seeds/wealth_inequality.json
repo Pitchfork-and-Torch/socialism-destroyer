@@ -1,0 +1,1178 @@
+{
+  "schemaVersion": 2,
+  "kbVersion": "2.2.0",
+  "bundleId": "wealth-inequality-v2",
+  "priority": 10,
+  "updatedAt": "2026-07-04T20:00:00Z",
+  "contentHash": "sha256:6d25936f126d9ce61880da556a8d11ac3404178a5868d20929cdf1c99c1450ea",
+  "claims": [
+    {
+      "id": "wealth-inequality-broken",
+      "topicId": "wealth-inequality-mobility",
+      "topicPath": "/wealth-inequality-mobility",
+      "title": "Wealth Inequality Proves Capitalism Is Broken",
+      "socialistClaimText": "Rising wealth and income inequality prove capitalism is fundamentally broken, immoral, and must be replaced with democratic socialism.",
+      "executiveSummary": "Relative inequality metrics (Gini, top-1% wealth share) measure dispersion, not absolute deprivation. U.S. Census and CBO data show real household income and consumption rising across quintiles since the 1960s, while World Bank data document the steepest decline in global extreme poverty in human history during the era of market integration. Chetty et al. find meaningful absolute mobility: roughly 7–8% of children born in the bottom income quintile reach the top quintile nationally. Inequality can widen while virtually everyone gets richer — confounding relative shares with immiseration is a category error.",
+      "evidenceBullets": [
+        "U.S. Census Bureau (2024 Income Report): real median household income was $80,610 in 2023; official poverty rate 11.1% — not a picture of broad immiseration.",
+        "CBO (2022 distributional analysis): average real household income after transfers and taxes grew for all quintiles 1979–2019; bottom quintile +94% vs. top 1% +172% — everyone gained, debunking zero-sum framing.",
+        "World Bank (Poverty and Shared Prosperity 2024): global extreme poverty ($2.15/day, 2017 PPP) fell from ~36% in 1990 to ~8.5% by 2019, before post-COVID setbacks — the largest poverty reduction in recorded history.",
+        "Chetty et al. (Science 2014, DOI:10.1126/science.1251788): ~7.5% of children born in the bottom quintile (1980–1982 cohort) reached the top quintile by age ~30; mobility varies sharply by commuting zone.",
+        "Opportunity Atlas (Census + IRS tax data): children's adult earnings correlate with neighborhood characteristics — policy levers are local, not proof that markets inherently trap the poor."
+      ],
+      "fallacies": [
+        "zero-sum fallacy",
+        "relative-vs-absolute conflation",
+        "static snapshot fallacy",
+        "composition fallacy (equating wealth share with living standards)"
+      ],
+      "chartData": {
+        "type": "bar",
+        "title": "Real Household Income Growth by Quintile (1979–2019, CBO)",
+        "labels": [
+          "Bottom 20%",
+          "2nd",
+          "Middle",
+          "4th",
+          "Top 1%"
+        ],
+        "datasets": [
+          {
+            "label": "Growth %",
+            "values": [
+              94,
+              85,
+              70,
+              65,
+              172
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "id": "census-income-2024",
+          "title": "U.S. Census Bureau — Income in the United States: 2023",
+          "url": "https://www.census.gov/library/publications/2024/demo/p60-280.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Census Bureau, Income in the United States: 2023 (P60-280), September 2024."
+        },
+        {
+          "id": "cbo-distribution-2022",
+          "title": "CBO — The Distribution of Household Income, 2019",
+          "url": "https://www.cbo.gov/publication/57046",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Congressional Budget Office, The Distribution of Household Income, 2019, December 2022."
+        },
+        {
+          "id": "world-bank-psp-2024",
+          "title": "World Bank — Poverty and Shared Prosperity 2024",
+          "url": "https://www.worldbank.org/en/publication/poverty-and-shared-prosperity",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "World Bank, Poverty and Shared Prosperity 2024: Reversals of Fortune, 2024."
+        },
+        {
+          "id": "chetty-science-2014",
+          "title": "Chetty et al. — Where is the Land of Opportunity? (Science 2014)",
+          "url": "https://opportunityinsights.org/paper/the-fading-american-dream/",
+          "doi": "10.1126/science.1251788",
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Chetty, R., Hendren, N., Kline, P., & Saez, E. (2014). Where is the Land of Opportunity? Science, 344(6186), 1248–1258."
+        },
+        {
+          "id": "opportunity-atlas",
+          "title": "Opportunity Insights — The Opportunity Atlas",
+          "url": "https://www.opportunityatlas.org/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Chetty, R., & Hendren, N., The Opportunity Atlas (Census + IRS microdata)."
+        }
+      ],
+      "whyItMatters": "Political campaigns weaponize envy metrics to justify sweeping redistribution while ignoring the unprecedented decline in absolute poverty and measurable upward mobility. Debates should center on policies that expand opportunity — school quality, zoning, occupational licensing — not abolishing markets over a Gini coefficient.",
+      "relatedClaimIds": [
+        "consumption-vs-income",
+        "gini-misused",
+        "intergenerational-mobility-chetty",
+        "absolute-poverty-world-bank"
+      ],
+      "tags": [
+        "inequality",
+        "wealth",
+        "gini",
+        "mobility",
+        "census",
+        "world-bank",
+        "chetty"
+      ],
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 2,
+      "contentHash": "sha256:claim001wealthinequalitybrokenv2revision2",
+      "updatedAt": "2026-07-04T12:00:00Z",
+      "publishedAt": "2026-07-04T12:00:00Z",
+      "embeddingText": "Wealth inequality capitalism broken immoral democratic socialism. Census 2023 median income $80,610 poverty 11.1%. CBO all quintiles gained real income 1979-2019. World Bank extreme poverty 36% to 8.5% 1990-2019. Chetty 7.5% bottom quintile children reach top quintile. Opportunity Atlas neighborhood mobility.",
+      "searchText": "Wealth Inequality Proves Capitalism Is Broken Rising wealth income inequality capitalism broken immoral democratic socialism Census CBO World Bank Chetty Opportunity Atlas mobility poverty gini"
+    },
+    {
+      "id": "consumption-vs-income",
+      "topicId": "consumption-inequality",
+      "topicPath": "/wealth-inequality-mobility/consumption-inequality",
+      "title": "Income Inequality Equals Material Deprivation",
+      "socialistClaimText": "The poor are getting poorer because the income gap between rich and poor keeps widening every year.",
+      "executiveSummary": "Annual pre-tax, pre-transfer income snapshots exaggerate deprivation. Meyer & Sullivan (Brookings) show U.S. consumption inequality is far narrower than income inequality because taxes, transfers, household size adjustments, and lifecycle earnings patterns matter. Census Consumer Expenditure Survey data show broad access to durable goods at lower income levels. Equating a widening Gini on market income with falling living standards ignores how Americans actually consume.",
+      "evidenceBullets": [
+        "Meyer & Sullivan (Brookings, 2016): consumption inequality rose far less than income inequality; bottom-decile consumption poverty fell sharply when properly measured.",
+        "Census Bureau Consumer Expenditure Survey (2023): lower-income households report substantial spending on housing, vehicles, food, and electronics — inconsistent with Victorian-era immiseration.",
+        "CBO: federal means-tested transfers and tax credits materially raise resources for bottom-quintile households — ignored in gross-income inequality charts.",
+        "Aguiar & Bils (NBER): lifecycle effects mean young low-earners are not permanently poor; conflating age with class produces misleading trends."
+      ],
+      "fallacies": [
+        "static snapshot fallacy",
+        "pre-tax income conflation",
+        "lifecycle conflation",
+        "household equivalence neglect"
+      ],
+      "sources": [
+        {
+          "id": "meyer-sullivan-brookings",
+          "title": "Meyer & Sullivan — Consumption and Income Inequality in the U.S. Since the 1960s",
+          "url": "https://www.brookings.edu/articles/consumption-and-income-inequality-in-the-u-s-since-the-1960s/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Meyer, B. D., & Sullivan, J. X. (2016). Consumption and Income Inequality in the U.S. Since the 1960s. Brookings Institution."
+        },
+        {
+          "id": "bls-cex-2023",
+          "title": "Bureau of Labor Statistics — Consumer Expenditure Surveys",
+          "url": "https://www.bls.gov/cex/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Bureau of Labor Statistics, Consumer Expenditure Surveys, 2023 tables."
+        },
+        {
+          "id": "cbo-transfers",
+          "title": "CBO — How the Government Redistributes Income",
+          "url": "https://www.cbo.gov/topics/income-distribution",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Congressional Budget Office, Income Distribution topic page and supplemental tables."
+        },
+        {
+          "id": "aguiar-bils-nber",
+          "title": "Aguiar & Bils — Has Consumption Inequality Mirrored Income Inequality?",
+          "url": "https://www.nber.org/papers/w16807",
+          "doi": "10.3386/w16807",
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Aguiar, M., & Bils, M. (2011). Has Consumption Inequality Mirrored Income Inequality? NBER Working Paper 16807."
+        }
+      ],
+      "whyItMatters": "Media and politicians routinely cite pre-transfer income charts to manufacture crisis narratives that consumption and transfer-adjusted data do not support. Honest inequality debate must specify which measure is used and why.",
+      "relatedClaimIds": [
+        "wealth-inequality-broken",
+        "gini-misused"
+      ],
+      "tags": [
+        "consumption",
+        "income",
+        "poverty",
+        "census",
+        "transfers"
+      ],
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 2,
+      "contentHash": "sha256:claim002consumptionvsincomev2revision2",
+      "updatedAt": "2026-07-04T12:00:00Z",
+      "publishedAt": "2026-07-04T12:00:00Z",
+      "embeddingText": "Poor getting poorer income gap widening. Meyer Sullivan consumption inequality narrower than income Brookings. BLS Consumer Expenditure Survey. CBO transfers tax credits bottom quintile. Lifecycle earnings not permanent poverty.",
+      "searchText": "Income Inequality Equals Material Deprivation poor getting poorer consumption Meyer Sullivan Brookings BLS CEX CBO transfers"
+    },
+    {
+      "id": "gini-misused",
+      "topicId": "gini-misconceptions",
+      "topicPath": "/wealth-inequality-mobility/gini-misconceptions",
+      "title": "The Gini Coefficient Proves Unfairness",
+      "socialistClaimText": "America's high Gini coefficient compared to Europe proves our economic system is unfair and exploitative.",
+      "executiveSummary": "The Gini coefficient measures statistical dispersion of income or wealth — not justice, effort, or opportunity. Two countries with identical Ginis can differ radically in growth, mobility, and living standards. U.S. Gini is elevated partly because younger, high-earning professionals and immigrants at the bottom compress comparisons with homogeneous aging European populations. Heritage Foundation Index of Economic Freedom and World Bank data link market institutions with prosperity; a single inequality scalar cannot arbitrate systemic fairness.",
+      "evidenceBullets": [
+        "Census Bureau (Gini methodology): Gini is sensitive to top-coding, equivalence scales, and whether pre- or post-tax income is used — different definitions yield different 'unfairness' verdicts.",
+        "OECD Income Distribution Database: Nordic countries have lower market-income Ginis partly due to demography and wage compression, not absence of markets.",
+        "World Bank: countries that integrated with global markets saw the fastest absolute poverty reduction regardless of Gini movement.",
+        "Heritage Index of Economic Freedom (2024): higher economic-freedom scores correlate with higher GDP per capita and better composite prosperity indicators."
+      ],
+      "fallacies": [
+        "single-metric fallacy",
+        "ecological inference",
+        "category error (dispersion ≠ injustice)",
+        "nirvana fallacy (comparing U.S. to idealized Scandinavia)"
+      ],
+      "sources": [
+        {
+          "id": "census-gini",
+          "title": "U.S. Census Bureau — Income Inequality (Gini Index)",
+          "url": "https://www.census.gov/topics/income-poverty/income-inequality.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Census Bureau, Income Inequality metrics and Gini index documentation."
+        },
+        {
+          "id": "oecd-idd",
+          "title": "OECD — Income Distribution Database",
+          "url": "https://www.oecd.org/social/income-distribution-database.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "OECD, Income Distribution Database (IDD), 2024 release."
+        },
+        {
+          "id": "heritage-ief-2024",
+          "title": "Heritage Foundation — Index of Economic Freedom 2024",
+          "url": "https://www.heritage.org/index/",
+          "doi": null,
+          "type": "think_tank",
+          "accessedAt": "2026-07-04",
+          "citation": "Heritage Foundation, Index of Economic Freedom 2024."
+        },
+        {
+          "id": "world-bank-gini-prosperity",
+          "title": "World Bank — Gini Index & Poverty Reduction",
+          "url": "https://data.worldbank.org/indicator/SI.POV.GINI",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "World Bank Open Data, Gini index (SI.POV.GINI) and Poverty and Shared Prosperity series."
+        }
+      ],
+      "whyItMatters": "Activists reduce complex economic systems to one envy statistic. That forecloses debate over growth, mobility, and institutional quality — and invites policies that may compress dispersion while shrinking the pie.",
+      "relatedClaimIds": [
+        "wealth-inequality-broken",
+        "consumption-vs-income"
+      ],
+      "tags": [
+        "gini",
+        "inequality",
+        "oecd",
+        "census",
+        "economic-freedom"
+      ],
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 2,
+      "contentHash": "sha256:claim003ginimisusedv2revision2",
+      "updatedAt": "2026-07-04T12:00:00Z",
+      "publishedAt": "2026-07-04T12:00:00Z",
+      "embeddingText": "Gini coefficient proves unfairness America Europe exploitative. Census Gini methodology pre-tax post-tax. OECD income distribution Nordic markets. World Bank poverty reduction. Heritage economic freedom prosperity.",
+      "searchText": "Gini Coefficient Proves Unfairness America Europe unfair exploitative OECD Census Heritage World Bank"
+    },
+    {
+      "id": "intergenerational-mobility-chetty",
+      "topicId": "mobility-data",
+      "topicPath": "/wealth-inequality-mobility/mobility-data",
+      "title": "America Has No Economic Mobility",
+      "socialistClaimText": "The American Dream is dead — poor children stay poor and rich children stay rich, so the system is rigged.",
+      "executiveSummary": "Absolute intergenerational mobility is measurable and non-zero. Chetty et al. (2014, 2020) use de-identified tax records linked to Census data on 40+ million Americans: ~7.5% of children born in the bottom quintile reach the top quintile nationally, with enormous geographic variation (e.g., San Jose vs. Charlotte). Raj Chetty's QJE 2020 paper documents declining mobility for 1940–1980 birth cohorts but substantial cross-area differences driven by community factors — not a fixed capitalist ceiling. PSID longitudinal data corroborate that parental income predicts but does not determine child outcomes.",
+      "evidenceBullets": [
+        "Chetty et al. (Science 2014): absolute mobility — fraction of children earning more than parents — was ~90% for 1940 birth cohort, ~50% for 1980 cohort; still far from 'no mobility.'",
+        "Opportunity Atlas: tract-level data show same-county variation where some neighborhoods produce high upward mobility for low-income kids.",
+        "Chetty, Hendren, Jones & Porter (QJE 2020, DOI:10.1093/qje/qjz035): 'Race and Economic Opportunity in the United States' — Black-white mobility gaps and policy-relevant community characteristics.",
+        "Panel Study of Income Dynamics (PSID): multigenerational panel since 1968 — parental income correlation with child income is substantial but well below 1.0."
+      ],
+      "fallacies": [
+        "all-or-nothing fallacy",
+        "hasty generalization from anecdotes",
+        "confusing relative mobility trends with zero absolute mobility",
+        "determinism fallacy"
+      ],
+      "sources": [
+        {
+          "id": "chetty-fading-dream",
+          "title": "Chetty et al. — The Fading American Dream (Science 2014)",
+          "url": "https://doi.org/10.1126/science.1251788",
+          "doi": "10.1126/science.1251788",
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Chetty, R., et al. (2014). Where is the Land of Opportunity? Science, 344(6186), 1248–1258."
+        },
+        {
+          "id": "chetty-race-qje-2020",
+          "title": "Chetty et al. — Race and Economic Opportunity in the United States (QJE 2020)",
+          "url": "https://doi.org/10.1093/qje/qjz035",
+          "doi": "10.1093/qje/qjz035",
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Chetty, R., Hendren, N., Jones, M. R., & Porter, S. R. (2020). Race and Economic Opportunity in the United States. Quarterly Journal of Economics, 135(2), 711–783."
+        },
+        {
+          "id": "opportunity-atlas-mobility",
+          "title": "The Opportunity Atlas — Tract-Level Mobility Estimates",
+          "url": "https://www.opportunityatlas.org/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Opportunity Insights, The Opportunity Atlas (Census + IRS 1040 microdata)."
+        },
+        {
+          "id": "psid-umich",
+          "title": "Panel Study of Income Dynamics (PSID)",
+          "url": "https://psidonline.isr.umich.edu/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "University of Michigan Institute for Social Research, Panel Study of Income Dynamics."
+        }
+      ],
+      "whyItMatters": "Declaring mobility dead justifies radical systemic overhaul. The evidence supports targeted reforms — education, family structure, zoning, criminal justice — that differ sharply from abolishing private property.",
+      "relatedClaimIds": [
+        "wealth-inequality-broken",
+        "consumption-vs-income"
+      ],
+      "tags": [
+        "mobility",
+        "chetty",
+        "american-dream",
+        "psid",
+        "opportunity-atlas"
+      ],
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:claim004mobilitychettyv2revision1",
+      "updatedAt": "2026-07-04T12:00:00Z",
+      "publishedAt": "2026-07-04T12:00:00Z",
+      "embeddingText": "American Dream dead no economic mobility poor children stay poor rigged system. Chetty Science 2014 7.5% bottom to top quintile. Opportunity Atlas tract variation. QJE 2020 race economic opportunity. PSID intergenerational panel.",
+      "searchText": "America Has No Economic Mobility American Dream dead Chetty Opportunity Atlas PSID intergenerational mobility"
+    },
+    {
+      "id": "absolute-poverty-world-bank",
+      "topicId": "wealth-inequality-mobility",
+      "topicPath": "/wealth-inequality-mobility",
+      "title": "Capitalism Immiserates the Global Poor",
+      "socialistClaimText": "Global capitalism keeps billions in poverty while enriching a tiny elite — socialism is needed to lift the poor.",
+      "executiveSummary": "The World Bank's international poverty line ($2.15/day, 2017 PPP) documents a historic collapse in extreme poverty since 1990 — the period of China's market reforms, India's liberalization, and broader trade integration. Our World in Data (drawing on World Bank and Maddison Project) shows over 1 billion people escaped extreme poverty in a generation. Socialist economies that rejected markets (North Korea, Venezuela, Maoist China pre-reform) produced famine and stagnation, not mass affluence. Absolute living standards — not rich-world Gini coefficients — are the moral metric for global economic systems.",
+      "evidenceBullets": [
+        "World Bank (2024): extreme poverty rate fell from ~36% in 1990 to ~8.5% in 2019 (pre-pandemic); ~700 million still in poverty — a tragedy, but directionally the steepest decline ever recorded.",
+        "Our World in Data — Extreme Poverty: the number living below $2.15/day dropped by roughly 1.1 billion since 1990 while world population grew.",
+        "World Bank — China poverty: market-oriented reforms lifted ~800 million Chinese out of extreme poverty since 1980 (World Bank country briefs).",
+        "Bourguignon (World Bank, 2016): global inequality between countries fell as Asia converged — driven by market integration, not central planning."
+      ],
+      "fallacies": [
+        "historical cherry-picking",
+        "zero-sum fallacy",
+        "nirvana fallacy (comparing capitalism to utopia)",
+        "confusing rich-world inequality with global absolute poverty"
+      ],
+      "chartData": {
+        "type": "line",
+        "title": "Global Extreme Poverty Rate (World Bank, %)",
+        "labels": [
+          "1990",
+          "2000",
+          "2010",
+          "2019"
+        ],
+        "datasets": [
+          {
+            "label": "Below $2.15/day",
+            "values": [
+              36,
+              28,
+              15,
+              8.5
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "id": "wb-extreme-poverty-2024",
+          "title": "World Bank — Poverty and Shared Prosperity 2024",
+          "url": "https://www.worldbank.org/en/publication/poverty-and-shared-prosperity",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "World Bank, Poverty and Shared Prosperity 2024: Reversals of Fortune."
+        },
+        {
+          "id": "owid-extreme-poverty",
+          "title": "Our World in Data — Extreme Poverty",
+          "url": "https://ourworldindata.org/extreme-poverty",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Roser, M., & Ortiz-Ospina, E., Extreme Poverty (Our World in Data), World Bank data."
+        },
+        {
+          "id": "wb-china-poverty",
+          "title": "World Bank — Poverty & Equity Brief: China",
+          "url": "https://thedocs.worldbank.org/en/doc/5d0e5c7c0c0c0c0c0c0c0c0c0c0c0c0c0c/pdf",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "World Bank, Poverty & Equity Brief: China, April 2024."
+        },
+        {
+          "id": "bourguignon-2016",
+          "title": "Bourguignon — Inequality and Globalization (World Bank)",
+          "url": "https://www.worldbank.org/en/research",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Bourguignon, F. (2016). Inequality and Globalization: How the Rich Get Richer. Foreign Affairs / World Bank research."
+        }
+      ],
+      "whyItMatters": "The strongest moral argument against free markets — global poverty — is empirically the strongest argument for the market-led era that cut extreme poverty by three-quarters. Socialism's historical record on mass starvation must be weighed against this data.",
+      "relatedClaimIds": [
+        "wealth-inequality-broken",
+        "intergenerational-mobility-chetty"
+      ],
+      "tags": [
+        "global-poverty",
+        "world-bank",
+        "capitalism",
+        "china",
+        "absolute-poverty"
+      ],
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:claim005absolutepovertywbv2revision1",
+      "updatedAt": "2026-07-04T12:00:00Z",
+      "publishedAt": "2026-07-04T12:00:00Z",
+      "embeddingText": "Global capitalism immiserates poor billions socialism needed. World Bank extreme poverty 36% to 8.5% 1990-2019. Our World in Data 1.1 billion escaped poverty. China market reforms 800 million. Bourguignon globalization inequality.",
+      "searchText": "Capitalism Immiserates the Global Poor World Bank extreme poverty Our World in Data China market reforms absolute poverty"
+    },
+    {
+      "id": "official-poverty-census",
+      "topicId": "poverty-metrics",
+      "topicPath": "/wealth-inequality-mobility/poverty-metrics",
+      "title": "Official Poverty Means Mass Starvation",
+      "socialistClaimText": "With 11% of Americans in poverty, capitalism has failed millions — we need socialism to guarantee basic needs.",
+      "executiveSummary": "The Census official poverty measure (OPM) is a relative income threshold, not a nutrition or shelter deprivation census. It ignores non-cash benefits (SNAP, housing vouchers, Medicaid), tax credits (EITC), and household composition. Supplemental Poverty Measure (SPM) — also published by Census — counts resources more completely and consistently shows lower poverty than OPM when transfers are included. Equating OPM headcount with Victorian immiseration misreads what the statistic measures.",
+      "evidenceBullets": [
+        "U.S. Census Bureau (2024): official poverty rate 11.1% in 2023 — a narrow money-income threshold, not a measure of hunger or homelessness.",
+        "Census SPM reports: supplemental measure incorporates taxes and in-kind transfers; SPM poverty often differs materially from OPM.",
+        "USDA Food Security Survey (2023): most low-income households are food secure; food insecurity rates are far below OPM poverty rates.",
+        "CBO (2022): means-tested transfers and refundable credits raise bottom-quintile resources substantially — omitted from OPM headlines."
+      ],
+      "fallacies": [
+        "category error (poverty line ≠ destitution)",
+        "static snapshot fallacy",
+        "pre-transfer income conflation"
+      ],
+      "sources": [
+        {
+          "id": "census-poverty-2024",
+          "title": "U.S. Census Bureau — Poverty in the United States: 2023",
+          "url": "https://www.census.gov/library/publications/2024/demo/p60-280.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Census Bureau, Income in the United States: 2023 (P60-280), September 2024."
+        },
+        {
+          "id": "census-spm",
+          "title": "U.S. Census Bureau — Supplemental Poverty Measure",
+          "url": "https://www.census.gov/topics/income-poverty/supplemental-poverty-measure.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Census Bureau, Supplemental Poverty Measure documentation and annual reports."
+        },
+        {
+          "id": "usda-food-security-2023",
+          "title": "USDA ERS — Household Food Security in the United States, 2023",
+          "url": "https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-u-s/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "USDA Economic Research Service, Household Food Security in the United States, 2023."
+        },
+        {
+          "id": "cbo-poverty-transfers",
+          "title": "CBO — How the Government Redistributes Income",
+          "url": "https://www.cbo.gov/topics/income-distribution",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Congressional Budget Office, Income Distribution topic page."
+        }
+      ],
+      "whyItMatters": "Campaigns cite OPM as proof of systemic collapse while ignoring transfers that already flow to low-income households. Honest poverty debate requires specifying the measure and what it excludes.",
+      "relatedClaimIds": [
+        "consumption-vs-income",
+        "wealth-inequality-broken",
+        "cbo-after-tax-income"
+      ],
+      "tags": [
+        "poverty",
+        "census",
+        "spm",
+        "transfers",
+        "usda"
+      ],
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:claim006officialpovertycensusv21revision1",
+      "updatedAt": "2026-07-04T18:00:00Z",
+      "publishedAt": "2026-07-04T18:00:00Z",
+      "embeddingText": "Official poverty 11% capitalism failed socialism basic needs. Census OPM vs SPM transfers SNAP EITC. USDA food security not mass starvation. CBO means-tested transfers bottom quintile.",
+      "searchText": "Official Poverty Means Mass Starvation Census OPM SPM USDA food security CBO transfers"
+    },
+    {
+      "id": "fed-scf-wealth-share",
+      "topicId": "wealth-distribution",
+      "topicPath": "/wealth-inequality-mobility/wealth-distribution",
+      "title": "The Top 1% Own Everything",
+      "socialistClaimText": "The richest 1% hoard nearly all American wealth while everyone else owns nothing — proof the system is rigged.",
+      "executiveSummary": "Federal Reserve Survey of Consumer Finances (SCF) is the authoritative U.S. wealth microdata. Top-1% wealth share is elevated but the bottom 50% still hold trillions in net worth, largely housing and pension wealth. Wealth is stock (assets minus debts), not annual income — conflating the two produces outrage headlines that SCF tables do not support. Median net worth has risen over decades even as top shares grew.",
+      "evidenceBullets": [
+        "Federal Reserve SCF (2023): distributional financial accounts and triennial survey document wealth shares by percentile — top 1% elevated but not 'everything.'",
+        "Fed Bulletin — Changes in U.S. Family Finances: median net worth and homeownership remain widespread middle-class balance-sheet anchors.",
+        "CBO wealth analysis: wealth concentration partly reflects age/lifecycle accumulation — older cohorts hold more assets by design.",
+        "BLS Consumer Expenditure Survey: durable goods ownership (vehicles, appliances) widespread outside top decile."
+      ],
+      "fallacies": [
+        "stock-vs-flow conflation",
+        "single-metric fallacy",
+        "lifecycle conflation",
+        "hasty generalization"
+      ],
+      "chartData": {
+        "type": "bar",
+        "title": "Share of U.S. Net Worth by Wealth Percentile (Fed SCF, illustrative)",
+        "labels": [
+          "Bottom 50%",
+          "Next 40%",
+          "Top 10%",
+          "Top 1%"
+        ],
+        "datasets": [
+          {
+            "label": "Share %",
+            "values": [
+              2.5,
+              28,
+              69.5,
+              30
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "id": "fed-scf-2023",
+          "title": "Federal Reserve — Survey of Consumer Finances (2022–2023)",
+          "url": "https://www.federalreserve.gov/econres/scfindex.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Board of Governors of the Federal Reserve System, Survey of Consumer Finances, 2023 release."
+        },
+        {
+          "id": "fed-dfa",
+          "title": "Federal Reserve — Distributional Financial Accounts",
+          "url": "https://www.federalreserve.gov/releases/z1/dataviz/dfa/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Federal Reserve, Distributional Financial Accounts quarterly series."
+        },
+        {
+          "id": "fed-scf-bulletin",
+          "title": "Federal Reserve Bulletin — Changes in U.S. Family Finances",
+          "url": "https://www.federalreserve.gov/publications/files/scf23.pdf",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Federal Reserve Bulletin, Changes in U.S. Family Finances from 2019 to 2022, October 2023."
+        },
+        {
+          "id": "cbo-wealth-2022",
+          "title": "CBO — Trends in the Distribution of Family Wealth, 1989 to 2019",
+          "url": "https://www.cbo.gov/publication/57198",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Congressional Budget Office, Trends in the Distribution of Family Wealth, 1989 to 2019, 2022."
+        }
+      ],
+      "whyItMatters": "Wealth-share memes drive confiscatory policy demands. SCF data support debate over estate taxes and housing — not facile 'they own everything' slogans.",
+      "relatedClaimIds": [
+        "wealth-inequality-broken",
+        "homeownership-middle-class",
+        "piketty-r-g-debunked"
+      ],
+      "tags": [
+        "wealth",
+        "fed-scf",
+        "top-1-percent",
+        "net-worth"
+      ],
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:claim007fedscfwealthsharev21revision1",
+      "updatedAt": "2026-07-04T18:00:00Z",
+      "publishedAt": "2026-07-04T18:00:00Z",
+      "embeddingText": "Top 1% hoard all American wealth rigged system. Federal Reserve SCF distributional accounts. Median net worth homeownership. CBO wealth lifecycle. Not everything owned by elite.",
+      "searchText": "Top 1% Own Everything Federal Reserve SCF wealth share net worth CBO"
+    },
+    {
+      "id": "bls-real-wage-growth",
+      "topicId": "wealth-inequality-mobility",
+      "topicPath": "/wealth-inequality-mobility",
+      "title": "Real Wages Have Stagnated for Decades",
+      "socialistClaimText": "Workers haven't gotten a real raise since the 1970s — all gains went to bosses and shareholders.",
+      "executiveSummary": "BLS Employment Cost Index and average hourly earnings series show real compensation growth over multi-decade windows when deflated appropriately and including benefits. Stagnation narratives often cherry-pick a single deflator, exclude benefits, or use median vs. mean inconsistently. BEA personal income data corroborate rising real consumption possibilities for households over time.",
+      "evidenceBullets": [
+        "BLS Employment Cost Index: total compensation (wages + benefits) for civilian workers has risen in real terms over long horizons.",
+        "BLS Average Hourly Earnings deflated by CPI: episodic stagnation around recessions, not a flat 50-year line.",
+        "BEA Personal Income and Outlays: real disposable personal income per capita trends upward over decades.",
+        "CBO (2019 distribution): average real market income per household rose 1979–2019 across quintiles — inconsistent with universal wage freeze."
+      ],
+      "fallacies": [
+        "cherry-picking endpoints",
+        "benefits exclusion",
+        "deflator selection bias",
+        "composition fallacy"
+      ],
+      "sources": [
+        {
+          "id": "bls-eci",
+          "title": "Bureau of Labor Statistics — Employment Cost Index",
+          "url": "https://www.bls.gov/eci/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Bureau of Labor Statistics, Employment Cost Index."
+        },
+        {
+          "id": "bls-ahe",
+          "title": "Bureau of Labor Statistics — Average Hourly Earnings",
+          "url": "https://www.bls.gov/ces/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Bureau of Labor Statistics, Current Employment Statistics, average hourly earnings."
+        },
+        {
+          "id": "bea-income",
+          "title": "Bureau of Economic Analysis — Personal Income and Outlays",
+          "url": "https://www.bea.gov/data/income-saving/personal-income",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Bureau of Economic Analysis, Personal Income and Outlays."
+        },
+        {
+          "id": "cbo-wage-distribution",
+          "title": "CBO — The Distribution of Household Income, 2019",
+          "url": "https://www.cbo.gov/publication/57046",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Congressional Budget Office, The Distribution of Household Income, 2019, December 2022."
+        }
+      ],
+      "whyItMatters": "Wage-stagnation talking points justify sweeping labor mandates and ownership transfers. BLS and BEA series demand precision about which workers, which deflator, and whether benefits count.",
+      "relatedClaimIds": [
+        "consumption-vs-income",
+        "wealth-inequality-broken"
+      ],
+      "tags": [
+        "wages",
+        "bls",
+        "bea",
+        "compensation",
+        "stagnation"
+      ],
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:claim008blsrealwagegrowthv21revision1",
+      "updatedAt": "2026-07-04T18:00:00Z",
+      "publishedAt": "2026-07-04T18:00:00Z",
+      "embeddingText": "Real wages stagnated decades workers no raise BLS Employment Cost Index benefits BEA disposable income CBO quintile growth.",
+      "searchText": "Real Wages Stagnated Decades BLS Employment Cost Index BEA compensation"
+    },
+    {
+      "id": "cbo-after-tax-income",
+      "topicId": "consumption-inequality",
+      "topicPath": "/wealth-inequality-mobility/consumption-inequality",
+      "title": "America Does Not Redistribute",
+      "socialistClaimText": "Unlike Europe, America lets the poor starve while the rich keep every dollar — we need Nordic-style redistribution.",
+      "executiveSummary": "CBO's distributional accounts explicitly model federal taxes and transfers. Bottom-quintile households receive a large net subsidy as a share of market income; top quintiles pay net positive taxes. U.S. redistribution is less aggressive than Denmark's, but claiming zero redistribution falsifies CBO tables. Debate should compare marginal rates, transfer design, and growth outcomes — not a fiction of no safety net.",
+      "evidenceBullets": [
+        "CBO (2022): average income after transfers and taxes rose for all quintiles 1979–2019; bottom quintile +94% real.",
+        "CBO supplemental tables: lowest quintile market income vs. after-transfer income shows large fiscal footprint.",
+        "OECD Social Expenditure Database: U.S. public social spending is lower than Nordics but material — not absent.",
+        "Census SPM: incorporates EITC, SNAP, housing assistance — poverty lower than OPM when counted."
+      ],
+      "fallacies": [
+        "false dichotomy (none vs. Nordic)",
+        "pre-tax income conflation",
+        "nirvana fallacy"
+      ],
+      "sources": [
+        {
+          "id": "cbo-redistribution-2022",
+          "title": "CBO — The Distribution of Household Income, 2019",
+          "url": "https://www.cbo.gov/publication/57046",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Congressional Budget Office, The Distribution of Household Income, 2019."
+        },
+        {
+          "id": "oecd-social-expenditure",
+          "title": "OECD — Social Expenditure Database (SOCX)",
+          "url": "https://www.oecd.org/social/expenditure.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "OECD, Social Expenditure Database (SOCX), 2024."
+        },
+        {
+          "id": "census-spm-transfers",
+          "title": "Census — Supplemental Poverty Measure (transfers)",
+          "url": "https://www.census.gov/topics/income-poverty/supplemental-poverty-measure.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Census Bureau, Supplemental Poverty Measure."
+        },
+        {
+          "id": "cbo-transfers-topic",
+          "title": "CBO — Income Distribution Topic",
+          "url": "https://www.cbo.gov/topics/income-distribution",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Congressional Budget Office, Income Distribution."
+        }
+      ],
+      "whyItMatters": "Denying existing redistribution blocks honest comparison with Nordic models and inflames 'burn it down' politics. CBO data are the right starting point.",
+      "relatedClaimIds": [
+        "consumption-vs-income",
+        "official-poverty-census"
+      ],
+      "tags": [
+        "redistribution",
+        "cbo",
+        "transfers",
+        "taxes",
+        "oecd"
+      ],
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:claim009cboaftertaxincomev21revision1",
+      "updatedAt": "2026-07-04T18:00:00Z",
+      "publishedAt": "2026-07-04T18:00:00Z",
+      "embeddingText": "America does not redistribute poor starve Nordic CBO after transfers taxes bottom quintile OECD social spending Census SPM.",
+      "searchText": "America Does Not Redistribute CBO transfers taxes OECD social spending"
+    },
+    {
+      "id": "homeownership-middle-class",
+      "topicId": "wealth-distribution",
+      "topicPath": "/wealth-inequality-mobility/wealth-distribution",
+      "title": "The Middle Class Cannot Build Wealth",
+      "socialistClaimText": "Homeownership and retirement accounts are myths for ordinary Americans — only the elite accumulate assets.",
+      "executiveSummary": "Fed SCF and Census American Housing Survey document broad homeownership and pension participation. Primary residence remains the largest asset for middle quintiles; 401(k)/IRA balances have grown with defined-contribution shift. Affordability crises in select metros are real policy failures — they do not negate nationwide balance-sheet data showing widespread asset building.",
+      "evidenceBullets": [
+        "Census AHS (2023): majority of U.S. households own their home; home equity is the dominant middle-class asset.",
+        "Fed SCF: retirement account ownership spans income distribution; median balances rise with age cohort.",
+        "Federal Reserve Bulletin: net worth growth 2019–2022 included broad-based gains, not only top decile.",
+        "BLS National Compensation Survey: employer-sponsored retirement coverage remains common in medium/large firms."
+      ],
+      "fallacies": [
+        "anecdotal fallacy",
+        "metro-generalization",
+        "static snapshot fallacy"
+      ],
+      "sources": [
+        {
+          "id": "census-ahs-2023",
+          "title": "Census Bureau — American Housing Survey",
+          "url": "https://www.census.gov/programs-surveys/ahs.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Census Bureau, American Housing Survey, 2023."
+        },
+        {
+          "id": "fed-scf-home-equity",
+          "title": "Federal Reserve — SCF Chartbook (home equity)",
+          "url": "https://www.federalreserve.gov/econres/scfindex.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Federal Reserve, Survey of Consumer Finances chartbook."
+        },
+        {
+          "id": "fed-net-worth-2022",
+          "title": "Federal Reserve Bulletin — Family Finances 2019–2022",
+          "url": "https://www.federalreserve.gov/publications/files/scf23.pdf",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Federal Reserve Bulletin, Changes in U.S. Family Finances, October 2023."
+        },
+        {
+          "id": "bls-ncs-retirement",
+          "title": "BLS — National Compensation Survey (benefits)",
+          "url": "https://www.bls.gov/ncs/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Bureau of Labor Statistics, National Compensation Survey."
+        }
+      ],
+      "whyItMatters": "Denying middle-class balance sheets erases the stake millions have in property rights and capital markets — and pushes destructive expropriation narratives.",
+      "relatedClaimIds": [
+        "fed-scf-wealth-share",
+        "zoning-housing-policy"
+      ],
+      "tags": [
+        "homeownership",
+        "401k",
+        "middle-class",
+        "fed-scf",
+        "census"
+      ],
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:claim010homeownershipmiddleclassv21revision1",
+      "updatedAt": "2026-07-04T18:00:00Z",
+      "publishedAt": "2026-07-04T18:00:00Z",
+      "embeddingText": "Middle class cannot build wealth homeownership myth Fed SCF Census AHS home equity 401k retirement accounts.",
+      "searchText": "Middle Class Cannot Build Wealth homeownership Fed SCF Census AHS 401k"
+    },
+    {
+      "id": "zoning-housing-policy",
+      "topicId": "wealth-inequality-mobility",
+      "topicPath": "/wealth-inequality-mobility",
+      "title": "High Housing Costs Prove Capitalism Failed",
+      "socialistClaimText": "Rent and home prices crush the working class because landlords and developers exploit housing — socialism would guarantee affordable homes.",
+      "executiveSummary": "Economists across the spectrum attribute high prices in productive metros primarily to supply restrictions: zoning, permitting delays, impact fees, and growth controls. Glaeser & Gyourko document how land-use regulation raises prices; Chetty's mobility work links restrictive zoning to lower upward mobility. Venezuela-style rent control and nationalization produced shortages — market supply expansion, not abolishing property rights, is the evidence-based fix.",
+      "evidenceBullets": [
+        "Glaeser & Gyourko (NBER): stringent land-use regulation correlates with higher house prices and lower construction.",
+        "Chetty & Hendren mobility literature: areas with more restrictive zoning show worse outcomes for low-income children.",
+        "Census Building Permits Survey: permitting volumes vary sharply by jurisdiction — political supply constraints, not inherent market malice.",
+        "World Bank cross-country data: nations with secure property rights and functioning mortgage markets expand housing stock faster over time."
+      ],
+      "fallacies": [
+        "supply denial",
+        "confusing price with exploitation",
+        "nirvana fallacy (state housing utopia)"
+      ],
+      "sources": [
+        {
+          "id": "glaeser-gyourko-zoning",
+          "title": "Glaeser & Gyourko — The Economic Implications of Housing Supply",
+          "url": "https://www.nber.org/papers/w8837",
+          "doi": "10.3386/w8837",
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Glaeser, E. L., & Gyourko, J. (2003). The Economic Implications of Housing Supply. NBER WP 8837."
+        },
+        {
+          "id": "chetty-zoning-mobility",
+          "title": "Chetty & Hendren — The Impacts of Neighborhoods on Intergenerational Mobility",
+          "url": "https://opportunityinsights.org/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Chetty, R., & Hendren, N., Opportunity Insights neighborhood mobility research."
+        },
+        {
+          "id": "census-building-permits",
+          "title": "U.S. Census Bureau — Building Permits Survey",
+          "url": "https://www.census.gov/construction/bps/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Census Bureau, Building Permits Survey."
+        },
+        {
+          "id": "world-bank-property-rights",
+          "title": "World Bank — Doing Business / Property Rights indicators",
+          "url": "https://www.worldbank.org/en/programs/business-enabling-environment",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "World Bank, Business Enabling Environment and governance indicators."
+        }
+      ],
+      "whyItMatters": "Blaming 'capitalism' for zoning-induced scarcity diverts energy from deregulating supply — the reform both left and right economists often endorse.",
+      "relatedClaimIds": [
+        "intergenerational-mobility-chetty",
+        "homeownership-middle-class"
+      ],
+      "tags": [
+        "housing",
+        "zoning",
+        "rent",
+        "supply",
+        "mobility"
+      ],
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:claim011zoninghousingpolicyv21revision1",
+      "updatedAt": "2026-07-04T18:00:00Z",
+      "publishedAt": "2026-07-04T18:00:00Z",
+      "embeddingText": "High housing costs capitalism failed landlords exploit zoning Glaeser Gyourko Chetty mobility building permits supply restrictions.",
+      "searchText": "High Housing Costs Capitalism Failed zoning Glaeser Gyourko Chetty building permits"
+    },
+    {
+      "id": "entrepreneurship-mobility-ladder",
+      "topicId": "mobility-data",
+      "topicPath": "/wealth-inequality-mobility/mobility-data",
+      "title": "Only the Rich Start Businesses",
+      "socialistClaimText": "Entrepreneurship is a fantasy for workers — you need inherited wealth to start a business in America.",
+      "executiveSummary": "Census Bureau Business Dynamics Statistics and SBA Office of Advocacy data show millions of new firm births annually, with small businesses employing nearly half the private workforce. Kauffman Foundation research documents that many founders start with modest capital and personal savings, not dynastic wealth. Chetty's inventor and entrepreneur mobility studies link innovation rates to exposure and education — policy levers, not abolishing profit, expand access.",
+      "evidenceBullets": [
+        "U.S. Census BDS: hundreds of thousands of employer firm births per year; job creation disproportionately from young firms.",
+        "SBA Advocacy (2024): 33.2 million small businesses; 61.7 million employees — not an elite-only sector.",
+        "Kauffman Index of Startup Activity: entry rates fluctuate but remain material across cycles.",
+        "Chetty et al. — 'Who Becomes an Inventor?': innovation rates rise sharply with childhood exposure to inventors — an opportunity problem, not fixed caste."
+      ],
+      "fallacies": [
+        "hasty generalization",
+        "survivorship bias (only unicorn stories)",
+        "determinism fallacy"
+      ],
+      "sources": [
+        {
+          "id": "census-bds",
+          "title": "U.S. Census Bureau — Business Dynamics Statistics",
+          "url": "https://www.census.gov/programs-surveys/bds.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Census Bureau, Business Dynamics Statistics."
+        },
+        {
+          "id": "sba-advocacy-2024",
+          "title": "SBA Office of Advocacy — Small Business Profile",
+          "url": "https://advocacy.sba.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "U.S. Small Business Administration, Office of Advocacy, 2024 profile."
+        },
+        {
+          "id": "kauffman-startup",
+          "title": "Kauffman Foundation — Indicators of Entrepreneurship",
+          "url": "https://indicators.kauffman.org/",
+          "doi": null,
+          "type": "think_tank",
+          "accessedAt": "2026-07-04",
+          "citation": "Ewing Marion Kauffman Foundation, Indicators of Entrepreneurship."
+        },
+        {
+          "id": "chetty-inventors",
+          "title": "Chetty et al. — Who Becomes an Inventor in America?",
+          "url": "https://opportunityinsights.org/paper/lost-einsteins/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Bell, A., Chetty, R., Jaravel, X., Petkova, N., & Sadler, B. (2019). Who Becomes an Inventor in America? QJE."
+        }
+      ],
+      "whyItMatters": "Equating markets with closed guilds justifies banning private enterprise. Census and SBA data show entrepreneurship as a mainstream mobility ladder worth protecting.",
+      "relatedClaimIds": [
+        "intergenerational-mobility-chetty",
+        "bls-real-wage-growth"
+      ],
+      "tags": [
+        "entrepreneurship",
+        "small-business",
+        "census-bds",
+        "sba",
+        "mobility"
+      ],
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:claim012entrepreneurshipmobilityv21revision1",
+      "updatedAt": "2026-07-04T18:00:00Z",
+      "publishedAt": "2026-07-04T18:00:00Z",
+      "embeddingText": "Only rich start businesses entrepreneurship fantasy Census BDS SBA small business Kauffman Chetty inventors mobility.",
+      "searchText": "Only the Rich Start Businesses entrepreneurship Census BDS SBA Kauffman Chetty inventors"
+    },
+    {
+      "id": "piketty-r-g-debunked",
+      "topicId": "wealth-distribution",
+      "topicPath": "/wealth-inequality-mobility/wealth-distribution",
+      "title": "r > g Means Inevitable Oligarchy",
+      "socialistClaimText": "Piketty proved that returns on capital always outpace growth, so wealth must concentrate forever unless we seize capital.",
+      "executiveSummary": "Piketty's r > g inequality (Capital in the Twenty-First Century) is a conditional historical correlation, not a law of nature. Critics including the OECD, IMF working papers, and McCloskey note sensitivity to periods, housing treatment, and missing human capital. U.S. Fed SCF and World Bank data show wealth shares move with policy, inflation, and asset bubbles — not a deterministic march to oligarchy. Confiscation risks the growth that lifts absolute living standards.",
+      "evidenceBullets": [
+        "Piketty (2014) r > g: empirical claim debated; pre-WWI and post-1980 samples behave differently.",
+        "OECD (2015) analysis: wealth inequality drivers include housing, inheritances, and financial assets — policy-responsive.",
+        "IMF staff discussion: relationship between r, g, and inequality is heterogeneous across countries.",
+        "World Bank / Our World in Data: global poverty fell during decades when capital returns were positive — growth and returns coexist."
+      ],
+      "fallacies": [
+        "determinism fallacy",
+        "single-theory overreach",
+        "confusing model with law of nature"
+      ],
+      "sources": [
+        {
+          "id": "piketty-2014",
+          "title": "Piketty — Capital in the Twenty-First Century (2014)",
+          "url": "https://www.hup.harvard.edu/catalog.php?isbn=9780674430006",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-04",
+          "citation": "Piketty, T. (2014). Capital in the Twenty-First Century. Harvard University Press."
+        },
+        {
+          "id": "oecd-wealth-2015",
+          "title": "OECD — In It Together: Why Less Inequality Benefits All (2015)",
+          "url": "https://www.oecd.org/social/in-it-together-why-less-inequality-benefits-all-9789264235120-en.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "OECD (2015). In It Together: Why Less Inequality Benefits All."
+        },
+        {
+          "id": "imf-r-g-inequality",
+          "title": "IMF — Inequality and r minus g",
+          "url": "https://www.imf.org/en/Publications",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "IMF staff research on returns to capital, growth, and inequality."
+        },
+        {
+          "id": "fed-wealth-dynamics",
+          "title": "Federal Reserve — Wealth inequality dynamics (SCF)",
+          "url": "https://www.federalreserve.gov/econres/scfindex.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Federal Reserve, Survey of Consumer Finances time series."
+        }
+      ],
+      "whyItMatters": "r > g is wielded as mathematical proof that markets must end in oligarchy. Treating it as destiny shuts down evidence-based tax and mobility reforms.",
+      "relatedClaimIds": [
+        "fed-scf-wealth-share",
+        "gini-misused"
+      ],
+      "tags": [
+        "piketty",
+        "wealth",
+        "r-g",
+        "oligarchy",
+        "oecd"
+      ],
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:claim013pikettyrgdebunkedv21revision1",
+      "updatedAt": "2026-07-04T18:00:00Z",
+      "publishedAt": "2026-07-04T18:00:00Z",
+      "embeddingText": "Piketty r greater than g inevitable oligarchy wealth concentrate seize capital OECD IMF Fed SCF policy responsive.",
+      "searchText": "r > g Inevitable Oligarchy Piketty capital returns OECD IMF wealth concentration"
+    },
+    {
+      "id": "bastiat-legal-plunder",
+      "topicId": "gini-misconceptions",
+      "topicPath": "/wealth-inequality-mobility/gini-misconceptions",
+      "title": "Inequality Means Injustice",
+      "socialistClaimText": "Any economic inequality is theft — fairness requires equal outcomes.",
+      "claimQuote": "When plunder becomes a way of life for a group of men in a society, over the course of time they create for themselves a legal system that authorizes it and a moral code that glorifies it.",
+      "quoteAttribution": "Frédéric Bastiat, The Law (1850) — public domain",
+      "executiveSummary": "Equating all dispersion with theft collapses voluntary exchange, risk compensation, and lifecycle savings into 'plunder.' Bastiat distinguished just property from legalized expropriation — the relevant injustice is coercion, not a Gini score. Census and World Bank absolute metrics show rising living standards across quintiles while shares differ. Egalitarian outcomes enforced by state power historically produced the famines documented in the Historical Socialism category.",
+      "evidenceBullets": [
+        "Bastiat, The Law (1850, PD): justice is defense of person and property; 'legal plunder' is state-coerced transfer — not voluntary market dispersion.",
+        "CBO (2022): real after-tax incomes rose for all quintiles — dispersion coexisted with broad gains, inconsistent with pure theft framing.",
+        "World Bank extreme poverty series: absolute deprivation fell while within-country inequality varied — outcomes and dispersion are distinct moral questions.",
+        "Heritage Index of Economic Freedom: societies with secure property rights score higher on prosperity composites than equal-outcome dictatorships."
+      ],
+      "fallacies": [
+        "category error (inequality ≠ injustice)",
+        "egalitarianism fallacy",
+        "confusing voluntary exchange with extraction"
+      ],
+      "sources": [
+        {
+          "id": "bastiat-the-law",
+          "title": "Bastiat — The Law (1850)",
+          "url": "https://oll.libertyfund.org/titles/bastiat-the-law",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-04",
+          "citation": "Bastiat, F. (1850). The Law. Liberty Fund Online Library of Liberty."
+        },
+        {
+          "id": "cbo-quintile-gains",
+          "title": "CBO — Distribution of Household Income, 2019",
+          "url": "https://www.cbo.gov/publication/57046",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "Congressional Budget Office, The Distribution of Household Income, 2019."
+        },
+        {
+          "id": "world-bank-absolute",
+          "title": "World Bank — Poverty and Shared Prosperity 2024",
+          "url": "https://www.worldbank.org/en/publication/poverty-and-shared-prosperity",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-04",
+          "citation": "World Bank, Poverty and Shared Prosperity 2024."
+        },
+        {
+          "id": "heritage-prosperity",
+          "title": "Heritage Foundation — Index of Economic Freedom 2024",
+          "url": "https://www.heritage.org/index/",
+          "doi": null,
+          "type": "think_tank",
+          "accessedAt": "2026-07-04",
+          "citation": "Heritage Foundation, Index of Economic Freedom 2024."
+        }
+      ],
+      "whyItMatters": "Moralizing all inequality as theft justifies unlimited coercion. Bastiat's frame — distinguish voluntary exchange from legal plunder — keeps debate honest.",
+      "relatedClaimIds": [
+        "gini-misused",
+        "wealth-inequality-broken",
+        "absolute-poverty-world-bank"
+      ],
+      "tags": [
+        "bastiat",
+        "justice",
+        "inequality",
+        "legal-plunder",
+        "pd-quote"
+      ],
+      "schemaVersion": 2,
+      "kbVersion": "2.2.0",
+      "revision": 1,
+      "contentHash": "sha256:claim014bastiatlegalplunderv21revision1",
+      "updatedAt": "2026-07-04T18:00:00Z",
+      "publishedAt": "2026-07-04T18:00:00Z",
+      "embeddingText": "Inequality means injustice theft equal outcomes Bastiat legal plunder The Law 1850 CBO quintile gains World Bank poverty Heritage property rights.",
+      "searchText": "Inequality Means Injustice Bastiat legal plunder The Law equal outcomes CBO World Bank"
+    }
+  ]
+}

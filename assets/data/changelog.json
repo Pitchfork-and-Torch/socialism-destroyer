@@ -1,0 +1,265 @@
+{
+  "currentVersion": "3.8.0",
+  "lastUpdated": "2026-07-22",
+  "entries": [
+    {
+      "version": "3.8.0",
+      "date": "2026-07-22",
+      "title": "v3.8.0 — Contemporary arguments + literature expansion",
+      "changes": [
+        "15 new curated claims: greedflation, AI calculation, China state capitalism, wealth tax, student debt, Georgism, degrowth, misinfo ministries, industrial policy, AI-socialism, Oppenheimer state theory, Böhm-Bawerk LTV, soft despotism welfare, 2020s rent control, syndicalism steelman",
+        "9 new public-domain full texts: Henry George Progress and Poverty, Oppenheimer The State, Dewey Democracy and Education, Russell Proposed Roads to Freedom, Hunter Violence and the Labor Movement, Walling Socialism As It Is, Spargo Syndicalism, Böhm-Bawerk Close of Marx, Tocqueville Old Regime",
+        "5 catalog-only modern classics (external links): Hayek Road to Serfdom, Hazlitt Economics in One Lesson, Mises Socialism, Friedman Capitalism and Freedom, Rothbard Man Economy and State",
+        "28+ new claim↔book reading links across LTV, housing, speech, education, and calculation",
+        "Library catalog 136 entries; bundled full texts 120; topics/manifest/changelog aligned to KB 3.8.0"
+      ]
+    },
+    {
+      "version": "3.7.1",
+      "date": "2026-07-14",
+      "title": "v2.1 — Library RAG, local vectors, drills, SEO/AEO, store prep",
+      "changes": [
+        "Offline library passage RAG in Debate Evidence Sidebar (claim links + windowed full texts)",
+        "Enabled local vector retrieval (hashed bag-of-words cosine) in hybrid Crusher pipeline",
+        "Timed debate drill playlists (5 curated playlists) with multi-round Challenge openings",
+        "Shareable multi-turn debate image cards (PNG) + export menu",
+        "Citation freshness automation: tools/check_citation_freshness.mjs",
+        "Store submission checklist: docs/STORE-SUBMISSION.md",
+        "SEO/AEO: Debate HowTo + FAQ, sitemap /debate, llms.txt 2.1.0, meta refresh",
+        "UX optimize: non-blocking debate turn loading; app 2.1.0+5"
+      ]
+    },
+    {
+      "version": "3.7.0",
+      "date": "2026-07-14",
+      "title": "v2.0 — Debate Simulator + Semantic Argument Crusher 2.0",
+      "changes": [
+        "New first-class Debate Simulator (/debate): multi-turn Spar and Challenge modes",
+        "Offline rebuttal scoring (evidence, specificity, fallacy discipline) with coaching feedback",
+        "Live Evidence Sidebar: aggregated sources + matched claim deep links",
+        "Full transcript export (Markdown + branded PDF); Hive multi-turn session store",
+        "Crusher 2.0: Continue in Debate Simulator CTA; optional multi-turn LLM polish path",
+        "Home hub card + Ctrl+5 desktop shortcut; deep links ?q=&mode=&claim=&topic=",
+        "App version 2.0.0; docs ADR-004, DEBATE-SIMULATOR.md, analysis report"
+      ]
+    },
+    {
+      "version": "3.6.0",
+      "date": "2026-07-11",
+      "title": "Audit pass — Spencer, Spooner, SEO/AEO, Crusher copy export",
+      "changes": [
+        "Added Herbert Spencer The Man Versus the State (PD essays, cleaned IA OCR)",
+        "Added Lysander Spooner: No Treason VI, Trial by Jury, Letter to Cleveland, Unconstitutionality of Slavery (Project Gutenberg)",
+        "Library catalog 122 / bundled full texts 111; claim↔book links +8",
+        "Argument Crusher: one-click Copy Markdown + Copy Steelman",
+        "Fixed meta encoding mojibake; aligned schema/FAQ/llms.txt book counts; added HowTo JSON-LD",
+        "Sitemap regenerated (239 URLs); knowledge CDN KB 3.6.0"
+      ]
+    },
+    {
+      "version": "3.5.0",
+      "date": "2026-07-08",
+      "title": "Public-domain library expansion — socialism steelman + liberty counters",
+      "changes": [
+        "Added ~55 public-domain full texts (catalog now 117, bundled full texts 106)",
+        "Socialist/left primaries: Proudhon, Engels Condition & Origin of Family, Marx Critique PE / Value Price Profit / Poverty of Philosophy / Capital Vol I, Bebel, Kropotkin, Luxemburg, Goldman, Wilde, Spargo, La Monte, Mill on Socialism, Bellamy, Morris, More, Rousseau, Plekhanov, Lenin Imperialism, Engels Anti-Dühring",
+        "Counter-arguments & liberty: Mallock Critical Examination of Socialism, Barker British Socialism, Belloc Servile State, Bastiat Harmonies & Free Trade, Ricardo, Malthus, Mill Principles, Ruskin, Sumner Forgotten Man, Washington Up from Slavery, Milton Areopagitica, Plato Republic, Chesterton Orthodoxy & Heretics, Nietzsche, Dostoevsky Notes & Crime and Punishment, Conrad Secret Agent & Under Western Eyes, Turgenev Fathers and Sons, Hobbes, Machiavelli, full Federalist Papers, Keynes Economic Consequences, Mallock Aristocracy & Evolution, Maine Ancient Law, Lecky Map of Life, Looking Further Forward (anti-Bellamy), Bellamy Equality",
+        "Pipeline tools: bulk_add_pd_library.py + wave2 (Gutenberg + Marxists.org)"
+      ]
+    },
+    {
+      "version": "3.4.1",
+      "date": "2026-07-08",
+      "title": "Audit upgrade — library integrity, deps, SEO/AEO",
+      "changes": [
+        "Confirmed 51 bundled full texts + 11 catalog-only copyrighted entries (integrity audit clean)",
+        "Unified knowledge base version to 3.4.1 (manifest, books, topics, changelog)",
+        "Removed unused packages: flutter_markdown, pdfx, lottie",
+        "Patched analyzer warnings; safe dependency bumps (supabase_flutter, equatable)",
+        "Refreshed llms.txt / sitemap / docs LIBRARY catalog for answer engines",
+        "App version 1.1.1+3 production web polish"
+      ]
+    },
+    {
+      "version": "3.1.1",
+      "date": "2026-07-07",
+      "title": "Production Polish & Deploy",
+      "changes": [
+        "Cleaned stale Gutenberg raw downloads (wrong IDs removed)",
+        "publish-web.ps1 reads kbVersion from manifest (was hardcoded 2.7.2)",
+        "Sitemap now indexes all v2/v3 manifest claim bundles (123+ claim URLs)",
+        "App version 1.1.0+2 — production web deploy to destroyer.jonbailey.xyz"
+      ]
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-07-07",
+      "title": "Ideological Subversion Wave 3 — Maximum Cultural Marxism Canon",
+      "changes": [
+        "12 new wave-3 claims: intersectionality, privilege/hegemony, postmodern-Marx genealogy, Columbia Frankfurt exile, Dewey progressive education, gender ideology, diversity statements, ESG capture, Marx Brumaire, commodity fetishism, journalism objectivity, Hollywood representation",
+        "4 new subtopics: intersectionality-identity, media-entertainment-capture, progressive-education, esg-institutional-capture",
+        "6 new PD/summary library texts: Marx 18th Brumaire, Burke Reflections, Acton liberty essays, Chesterton What's Wrong, Orwell Animal Farm allegory summary",
+        "4 new external essential-reading entries: Bloom Closing of the American Mind, Scruton Fools Frauds Firebrands, Rufo America's Cultural Revolution, Sowell Vision of the Anointed",
+        "24 new claim-to-book reading links across the expanded subversion tree — 31 total subversion claims, 62 library entries"
+      ]
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-07-06",
+      "title": "Mill Representative Government — Full Gutenberg Excerpt",
+      "changes": [
+        "Regenerated mill-representative-government.txt from Gutenberg #5669 (correct full text)",
+        "Three chapters: false democracy, real vs. supposed interest, mode of voting",
+        "Bakunin Gutenberg #36568 raw archived; full text confirmed in library"
+      ]
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-07-06",
+      "title": "Ideological Subversion — Complete Canon (v3)",
+      "changes": [
+        "4 new subtopics: Lukács, Soviet active measures, education capture, NGO/DEI networks",
+        "9 new wave-2 claims: Lukács reification, Adorno culture industry, Fabian permeation, Comintern fronts, DEI, school boards, NGO 990s, Trotsky proletarian culture",
+        "2 more PD texts: Trotsky Literature and Revolution, Marx Wage Labour and Capital",
+        "6 copyrighted essential-reading entries (Freire, Pluckrose, Marcuse, Adorno, Alinsky, CRT anthology) with Open Library links",
+        "Library UI: bundled PD vs essential external sections; claim links open in-app or externally",
+        "20+ new claim-to-book reading links across the subversion tree"
+      ]
+    },
+    {
+      "version": "2.9.0",
+      "date": "2026-07-06",
+      "title": "Source Link Audit + PD Library Wave",
+      "changes": [
+        "Audited all cultural-subversion source URLs; fixed 404s (Freire IEP, Horkheimer MIA index, OLL Tocqueville/Mill, LOC title, IRS EO-BMF)",
+        "Replaced bot-blocked Britannica links with Wikipedia equivalents; added Dutschke/long-march Wikipedia source",
+        "8 new public-domain library texts: Spencer, Sumner (full), Engels, Fabian Essays, Mill Rep. Gov., Bakunin (full), Lenin State & Revolution, Marx German Ideology",
+        "9 new claim-to-book reading links tying PD canon to ideological-subversion claims"
+      ]
+    },
+    {
+      "version": "2.8.0",
+      "date": "2026-07-06",
+      "title": "Ideological Subversion & Cultural Marxism Pack",
+      "changes": [
+        "New topic tree: Ideological Subversion & Cultural Marxism (6 subtopics)",
+        "10 new claims: Gramsci hegemony, Frankfurt School, Marcuse repressive tolerance, institution capture, critical pedagogy lineage",
+        "2 new PD library texts: Lenin What Is To Be Done, Marx Critique of the Gotha Programme",
+        "Reading links for Tocqueville, Mill, Manifesto, Lenin tied to subversion claims",
+        "Scope expands beyond economics to culture, institutions, and consciousness — still fully sourced"
+      ]
+    },
+    {
+      "version": "2.7.2",
+      "date": "2026-07-05",
+      "title": "SEO, AEO & Cloudflare Pass",
+      "changes": [
+        "llms.txt for answer-engine crawlers; expanded robots.txt AI bot rules",
+        "Auto-generated sitemap.xml with all claims, library books, and core routes",
+        "FAQPage + WebSite JSON-LD; richer meta descriptions and OG tags",
+        "Cloudflare _headers: icon caching, COOP/CORP, service worker no-cache",
+        "Library reader route fix; share URLs point to destroyer.jonbailey.xyz",
+        "Removed local machine paths and Supabase project ref from committed tooling"
+      ]
+    },
+    {
+      "version": "2.7.1",
+      "date": "2026-07-05",
+      "title": "Publish Readiness — SEO, Lighthouse & Web Polish",
+      "changes": [
+        "robots.txt and sitemap.xml for crawlers",
+        "Open Graph, Twitter Card, canonical URL, and JSON-LD structured data",
+        "Security headers: HSTS, Permissions-Policy, X-Robots-Tag index",
+        "PWA manifest scope/start_url/id hardened",
+        "Lighthouse audit tooling — mobile + desktop reports in tools/reports/",
+        "Loading splash accessibility: aria-live, noscript fallback, zoom-friendly viewport"
+      ]
+    },
+    {
+      "version": "2.7.0",
+      "date": "2026-07-05",
+      "title": "Web Performance & American Canon Expansion",
+      "changes": [
+        "Web startup: deferred Supabase, claims index, and search bootstrap after first frame",
+        "System font stacks on web — no Google Fonts CDN fetches at runtime",
+        "Preload hints and cache headers for main.dart.js and flutter_bootstrap.js",
+        "Six new PD classics: Magna Carta, Brutus I, Federalist 84, Mayflower Compact, Northwest Ordinance, Webster–Hayne",
+        "Public library now 35 titles — founding canon, economics, and debate essentials"
+      ]
+    },
+    {
+      "version": "2.6.0",
+      "date": "2026-07-05",
+      "title": "Expanded American Canon",
+      "changes": [
+        "Six new PD classics: Federalist 78, Articles of Confederation, Jefferson inaugural, Patrick Henry, Age of Reason, American Scholar",
+        "Public library expanded to 29 titles",
+        "Lighthouse audit tooling for mobile performance tracking"
+      ]
+    },
+    {
+      "version": "2.3.0",
+      "date": "2026-07-04",
+      "title": "Production Intelligence Sync",
+      "changes": [
+        "Sync Latest Intelligence pipeline ready for CDN delta drops",
+        "Auto-check on launch + user-visible changelog for every kbVersion release",
+        "Library card layout hardened for offline grid/list rendering",
+        "Bundled baseline refreshed — 90+ claims, full PD reader, Argument Crusher"
+      ]
+    },
+    {
+      "version": "2.2.0",
+      "date": "2026-07-04",
+      "title": "Major Content Expansion — 50+ Priority Claims",
+      "changes": [
+        "12 profit/exploitation claims: Bastiat, Hayek, Mises, BLS/BEA productivity",
+        "14 government intervention claims: CBO minimum wage, Stanford rent control, Singapore healthcare",
+        "13 historical socialism claims: USSR 1991 archives, Holodomor, North Korea, East Germany, Gosplan",
+        "10 Nordic myth claims: oil fund, school vouchers, Heritage/Fraser economic freedom",
+        "8 human nature claims: calculation & knowledge problems, tragedy of commons, public choice",
+        "6 founding principles claims: Locke, Madison Federalist, Bastiat, Declaration",
+        "14 wealth inequality claims retained with Census/BLS/World Bank/Chetty sourcing",
+        "Knowledge base now 90+ unique fully-sourced claim/counter pairs"
+      ]
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-07-04",
+      "title": "Wealth Inequality Expansion + Community Suggestions",
+      "changes": [
+        "9 new fully sourced claims on poverty metrics, Fed SCF wealth, BLS wages, housing/zoning, entrepreneurship, and Piketty",
+        "New subtopics: Poverty Metrics and Wealth Distribution",
+        "Public-domain Bastiat quote on legal plunder vs. market dispersion",
+        "Suggest New Claim flow for signed-in users (moderated review queue)",
+        "Home dashboard: recent updates strip and knowledge-base freshness badge"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-07-04",
+      "title": "Library Reader & Argument Crusher",
+      "changes": [
+        "Full in-app reader for Bastiat's The Law with TOC, search, highlights, and notes",
+        "Argument Crusher: curated claim mapping, structured responses, debate history, PDF/PNG export",
+        "v2 curated claim seeds: wealth inequality, historical socialism, Nordic myth",
+        "Sync Latest Intelligence: versioned delta sync, changelog, auto-check on launch",
+        "Offline-first overlay store — bundled knowledge works without network"
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-07-04",
+      "title": "Initial Knowledge Base Release",
+      "changes": [
+        "45 fully-sourced claim/counter pairs across 10 topic categories",
+        "Argument Crusher with semantic search over curated knowledge base",
+        "Public domain library: Smith, Bastiat, Locke, Federalist Papers",
+        "Interactive charts on key claims (poverty, mobility, GDP comparisons)",
+        "Google, Apple, and magic-link authentication",
+        "Offline-first architecture with optional Supabase sync",
+        "Daily Based Insight rotation on home dashboard"
+      ]
+    }
+  ]
+}

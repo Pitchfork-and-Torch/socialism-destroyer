@@ -1,0 +1,481 @@
+{
+  "schemaVersion": 2,
+  "kbVersion": "3.11.0",
+  "bundleId": "pd-steelman-wave4-v39",
+  "priority": 10,
+  "updatedAt": "2026-08-01T21:08:28Z",
+  "contentHash": "sha256:2f1ba03f4f887393cc43c8e79daa6833dad0a179e06db32a2b5674cf91535433",
+  "claims": [
+    {
+      "id": "conspicuous-consumption-proves-capitalism-waste",
+      "topicId": "late-stage-capitalism",
+      "topicPath": "/late-stage-capitalism",
+      "title": "Conspicuous Consumption Proves Capitalism Is Pure Waste",
+      "socialistClaimText": "Advertising, luxury brands, and status goods prove capitalism produces wasteful consumption for elite status rather than real human needs — just as Veblen described.",
+      "executiveSummary": "Veblen's Theory of the Leisure Class is a serious steelman: humans do compete via status goods. But markets also expand access to status-adjacent goods over time (phones, cars, fashion), lower real prices of basics, and fund innovation that was once luxury. Status competition exists under socialism too — party privileges, dachas, nomenklatura goods — without the productivity gains of open competition.",
+      "evidenceBullets": [
+        "Veblen (1899) correctly observed status emulation; the text is public domain and worth reading in full in the app library.",
+        "BLS / CPI long series: real prices of apparel, consumer electronics, and many durables fell for decades while quality rose — status goods democratize.",
+        "Soviet and Eastern Bloc archives document hierarchical privilege goods (special stores, dachas) without competitive consumer markets.",
+        "Markets reallocate production when status tastes shift; central plans historically misallocated toward prestige projects (steel, missiles) over consumer welfare."
+      ],
+      "fallacies": [
+        "composition fallacy",
+        "nirvana fallacy",
+        "selective historical comparison"
+      ],
+      "sources": [
+        {
+          "id": "veblen-leisure-class-pd",
+          "title": "Thorstein Veblen — The Theory of the Leisure Class (Project Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/833",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-26",
+          "citation": "Veblen, T. (1899). The Theory of the Leisure Class. Project Gutenberg #833."
+        },
+        {
+          "id": "bls-cpi",
+          "title": "BLS Consumer Price Index",
+          "url": "https://www.bls.gov/cpi/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-26",
+          "citation": "U.S. Bureau of Labor Statistics, CPI."
+        }
+      ],
+      "whyItMatters": "Americans inherit Veblenian anti-market rhetoric without reading how status competition also thrived under socialist privilege systems.",
+      "relatedClaimIds": [
+        "wealth-inequality-broken",
+        "billionaires-shouldnt-exist"
+      ],
+      "tags": [
+        "veblen",
+        "conspicuous-consumption",
+        "status",
+        "late-stage"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-26T17:00:00Z",
+      "embeddingText": "Veblen leisure class conspicuous consumption advertising luxury waste capitalism status goods nomenklatura",
+      "searchText": "Conspicuous Consumption Proves Capitalism Is Pure Waste Veblen leisure class status advertising luxury",
+      "kbVersion": "3.9.0",
+      "relatedBookIds": [
+        "veblen-theory-leisure-class"
+      ]
+    },
+    {
+      "id": "iron-heel-oligarchy-inevitable",
+      "topicId": "historical-socialism",
+      "topicPath": "/historical-socialism",
+      "title": "Jack London's Iron Heel Shows Capitalism Ends in Fascist Oligarchy",
+      "socialistClaimText": "London's Iron Heel predicted that capital would crush labor with a military oligarchy — so revolution is necessary self-defense.",
+      "executiveSummary": "The Iron Heel is powerful revolutionary fiction, not a forecast model. Open market democracies expanded suffrage, union rights, real wages, and middle classes after 1908 rather than converging on a permanent Iron Heel. Actual 20th-century totalitarian oligarchies arose most lethally under Marxist-Leninist one-party states that banned independent unions and capital markets.",
+      "evidenceBullets": [
+        "London (1908) is PD fiction worth steelmanning; it is not empirical political economy.",
+        "U.S./UK real wages and consumer durables access rose dramatically across the 20th century under mixed market systems.",
+        "Independent trade unions were crushed in USSR, Maoist China, and other socialist states — the opposite of worker empowerment.",
+        "Polyarchy and electoral turnover in market democracies constrain permanent military-capital oligarchy better than vanguard parties did."
+      ],
+      "fallacies": [
+        "fiction-as-forecast",
+        "selection bias",
+        "false dichotomy"
+      ],
+      "sources": [
+        {
+          "id": "london-iron-heel-pd",
+          "title": "Jack London — The Iron Heel (Project Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/1164",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-26",
+          "citation": "London, J. (1908). The Iron Heel. Project Gutenberg #1164."
+        },
+        {
+          "id": "bls-union",
+          "title": "BLS Union Members Summary",
+          "url": "https://www.bls.gov/news.release/union2.toc.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Bureau of Labor Statistics, Union Members summary (labor organization context for oligarchy claims)."
+        }
+      ],
+      "whyItMatters": "Revolutionary literature is taught as prophecy; outcomes data favor open markets plus rights over Iron Heel scripts.",
+      "relatedClaimIds": [
+        "ussr-not-real-socialism"
+      ],
+      "tags": [
+        "jack-london",
+        "iron-heel",
+        "oligarchy",
+        "revolution"
+      ],
+      "schemaVersion": 2,
+      "revision": 2,
+      "updatedAt": "2026-08-01T21:08:28Z",
+      "embeddingText": "Jack London Iron Heel oligarchy fascist capitalism labor revolution dystopia",
+      "searchText": "Iron Heel oligarchy Jack London capitalism fascism revolution inevitable",
+      "kbVersion": "3.11.0",
+      "relatedBookIds": [
+        "london-iron-heel",
+        "dostoevsky-possessed"
+      ]
+    },
+    {
+      "id": "jungle-proves-unregulated-capitalism-cruel",
+      "topicId": "profit-exploitation",
+      "topicPath": "/profit-exploitation",
+      "title": "The Jungle Proves Unregulated Capitalism Is Inherently Cruel",
+      "socialistClaimText": "Sinclair's Jungle proves free markets inevitably produce meatpacking horrors, immigrant exploitation, and filth — so only socialism or heavy socialization can protect workers and consumers.",
+      "executiveSummary": "The Jungle correctly exposed packinghouse abuses and helped spur food safety law — a classic market-failure-plus-reform story. It does not prove socialist ownership is required. Competitive markets, liability, unions, and targeted regulation raised food safety and wages without abolishing private packing firms. Socialist meat systems later produced their own shortages, black markets, and quality failures.",
+      "evidenceBullets": [
+        "Sinclair (1906) is PD and essential progressive-era steelman reading in the library.",
+        "U.S. Pure Food and Drug Act / Meat Inspection Act (1906) show democratic reform path without nationalizing the industry.",
+        "Long-run foodborne illness and sanitation improvements tracked inspection, refrigeration, logistics, and competition — not Gosplan.",
+        "Sinclair himself later complained readers focused on food safety over his socialist conversion message — the public chose reform capitalism."
+      ],
+      "fallacies": [
+        "anecdote to system",
+        "false dichotomy",
+        "nirvana fallacy"
+      ],
+      "sources": [
+        {
+          "id": "sinclair-jungle-pd",
+          "title": "Upton Sinclair — The Jungle (Project Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/140",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-26",
+          "citation": "Sinclair, U. (1906). The Jungle. Project Gutenberg #140."
+        },
+        {
+          "id": "fda-history",
+          "title": "FDA History — Pure Food and Drug Act",
+          "url": "https://www.fda.gov/about-fda/histories-product-regulation/part-i-1906-food-and-drugs-act-and-its-enforcement",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-26",
+          "citation": "U.S. FDA historical materials on 1906 Act."
+        }
+      ],
+      "whyItMatters": "Progressive muckraking is real; the leap from expose to socialist ownership skips the successful reform-capitalist path.",
+      "relatedClaimIds": [
+        "profit-exploitation-theft"
+      ],
+      "tags": [
+        "sinclair",
+        "jungle",
+        "food-safety",
+        "labor"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-26T17:00:00Z",
+      "embeddingText": "Upton Sinclair Jungle packinghouse meat inspection Pure Food Act exploitation reform",
+      "searchText": "The Jungle unregulated capitalism cruel Sinclair packinghouse food safety",
+      "kbVersion": "3.9.0",
+      "relatedBookIds": [
+        "sinclair-the-jungle",
+        "zola-germinal"
+      ]
+    },
+    {
+      "id": "commune-model-for-democracy",
+      "topicId": "historical-socialism",
+      "topicPath": "/historical-socialism",
+      "title": "The Paris Commune Is the Model for Real Democracy",
+      "socialistClaimText": "Marx's Civil War in France shows the Paris Commune as true democracy of the working class — the model we should revive instead of bourgeois parliaments.",
+      "executiveSummary": "Marx's Civil War in France is the primary steelman for Commune-style 'smash the state' democracy. Historically the 1871 Commune was short-lived, internally factional, and followed by repression; 20th-century regimes that claimed Commune lineage built one-party states with secret police, not rotating worker councils with exit rights. Liberal constitutional democracy with property, speech, and multiparty competition has a stronger peace and prosperity record.",
+      "evidenceBullets": [
+        "Marx's own Civil War in France is PD via MIA and bundled in the library for full steelman reading.",
+        "Lenin later cited Commune lessons to justify dictatorship of the proletariat — not multiparty liberalism.",
+        "Empirical Polity/V-Dem style democracy measures favor open contestation and civil liberties over single-class dictatorship models.",
+        "Exit, voice, and property rights allow peaceful disagreement; Commune-style dual power historically escalates to civil war."
+      ],
+      "fallacies": [
+        "romanticism",
+        "survivorship bias",
+        "motte and bailey"
+      ],
+      "sources": [
+        {
+          "id": "marx-civil-war-france-mia",
+          "title": "Karl Marx — The Civil War in France (Marxists Internet Archive)",
+          "url": "https://www.marxists.org/archive/marx/works/1871/civil-war-france/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-26",
+          "citation": "Marx, K. (1871). The Civil War in France. MIA."
+        },
+        {
+          "id": "heritage-index",
+          "title": "Heritage Index of Economic Freedom",
+          "url": "https://www.heritage.org/index/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-08-01",
+          "citation": "Heritage Foundation Index of Economic Freedom (comparative institutions)."
+        }
+      ],
+      "whyItMatters": "Commune romanticism is taught without the institutional path from 'worker democracy' to party dictatorship.",
+      "relatedClaimIds": [
+        "ussr-not-real-socialism"
+      ],
+      "tags": [
+        "commune",
+        "marx",
+        "democracy",
+        "dictatorship"
+      ],
+      "schemaVersion": 2,
+      "revision": 2,
+      "updatedAt": "2026-08-01T21:08:28Z",
+      "embeddingText": "Paris Commune Marx Civil War in France worker democracy smash state dictatorship proletariat",
+      "searchText": "Paris Commune real democracy Marx Civil War in France",
+      "kbVersion": "3.11.0",
+      "relatedBookIds": [
+        "marx-civil-war-france",
+        "lenin-state-and-revolution"
+      ]
+    },
+    {
+      "id": "reform-is-betrayal-luxemburg",
+      "topicId": "nordic-democratic-socialism",
+      "topicPath": "/nordic-democratic-socialism",
+      "title": "Reform Is Betrayal — Only Revolution Delivers Socialism",
+      "socialistClaimText": "Rosa Luxemburg proved Bernstein-style reformism betrays the working class; democratic socialism that keeps markets is fake.",
+      "executiveSummary": "Luxemburg's Reform or Revolution is the classic revolutionary steelman against gradualism. Yet the Nordic and broader social-democratic record shows high living standards via markets plus welfare, not via Luxemburgist seizure of production. Revolutionary paths that rejected reformism produced famine, secret police, and stagnation far more often than worker emancipation.",
+      "evidenceBullets": [
+        "Luxemburg (1900) is PD and bundled for steelman reading against democratic-socialist gradualism.",
+        "Nordic economies rank high on economic freedom and private ownership of capital despite large welfare states.",
+        "Revolutionary socialist states that followed anti-reform orthodoxy (USSR, Maoist China, Cambodia) produced mass deaths and low consumption.",
+        "Bernstein's evolutionary path is closer to what successful high-trust welfare states actually did — trade, property, democracy."
+      ],
+      "fallacies": [
+        "no true Scotsman",
+        "false purity spiral",
+        "ignoring opportunity cost"
+      ],
+      "sources": [
+        {
+          "id": "luxemburg-ror-mia",
+          "title": "Rosa Luxemburg — Reform or Revolution (MIA)",
+          "url": "https://www.marxists.org/archive/luxemburg/works/1900/reform-revolution/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-26",
+          "citation": "Luxemburg, R. (1900). Reform or Revolution. MIA."
+        },
+        {
+          "id": "heritage-efw-nordic",
+          "title": "Heritage Index of Economic Freedom / Fraser EFW",
+          "url": "https://www.heritage.org/index/",
+          "doi": null,
+          "type": "think-tank",
+          "accessedAt": "2026-07-26",
+          "citation": "Heritage Foundation Index of Economic Freedom (Nordic rankings)."
+        }
+      ],
+      "whyItMatters": "Campus rhetoric often treats reform as betrayal; history rewards open markets with safety nets over revolutionary purity.",
+      "relatedClaimIds": [
+        "nordic-are-socialist"
+      ],
+      "tags": [
+        "luxemburg",
+        "bernstein",
+        "reform",
+        "revolution",
+        "nordic"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-26T17:00:00Z",
+      "embeddingText": "Rosa Luxemburg Reform or Revolution Bernstein democratic socialism Nordic markets",
+      "searchText": "Reform is betrayal Luxemburg revolution only real socialism Nordic",
+      "kbVersion": "3.9.0",
+      "relatedBookIds": [
+        "luxemburg-reform-or-revolution",
+        "wells-new-worlds-for-old"
+      ]
+    },
+    {
+      "id": "vanguard-party-necessary",
+      "topicId": "historical-socialism",
+      "topicPath": "/historical-socialism",
+      "title": "A Vanguard Party Is Necessary to Lead the Workers",
+      "socialistClaimText": "Lenin's Left-Wing Communism and What Is to Be Done show workers need a professional revolutionary party; spontaneous movements fail.",
+      "executiveSummary": "Lenin's vanguard theory is the operational steelman for centralized revolutionary organization. In practice vanguard parties substituted themselves for the working class, banned rival parties and independent unions, and built police states. Liberal democracies allow parties, unions, and NGOs to compete without a single organizational monopoly on 'class interest'.",
+      "evidenceBullets": [
+        "Lenin's Left-Wing Communism is PD and now bundled for tactical steelman reading.",
+        "One-party states claiming proletarian representation suppressed strikes and free unions (USSR 1920s–80s; PRC).",
+        "Competitive elections and free association let workers choose representation without a permanent vanguard monopoly.",
+        "Public choice: professional revolutionaries have their own power incentives once state violence is monopolized."
+      ],
+      "fallacies": [
+        "special pleading",
+        "ends justify means",
+        "reification of the class"
+      ],
+      "sources": [
+        {
+          "id": "lenin-lwc-mia",
+          "title": "V. I. Lenin — Left-Wing Communism (MIA)",
+          "url": "https://www.marxists.org/archive/lenin/works/1920/lwc/",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-26",
+          "citation": "Lenin, V. I. (1920). Left-Wing Communism: an Infantile Disorder. MIA."
+        },
+        {
+          "id": "state-dept-human-rights",
+          "title": "U.S. State Dept Country Reports on Human Rights",
+          "url": "https://www.state.gov/reports-bureau-of-democracy-human-rights-and-labor/country-reports-on-human-rights-practices/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Department of State Country Reports on Human Rights Practices (one-party repression record)."
+        }
+      ],
+      "whyItMatters": "Vanguard theory is the organizational DNA of 20th-century totalitarian socialism; it must be steelmanned then rejected on liberty and evidence grounds.",
+      "relatedClaimIds": [
+        "ussr-not-real-socialism"
+      ],
+      "tags": [
+        "lenin",
+        "vanguard",
+        "party",
+        "bolshevik"
+      ],
+      "schemaVersion": 2,
+      "revision": 2,
+      "updatedAt": "2026-08-01T21:08:28Z",
+      "embeddingText": "Lenin Left-Wing Communism vanguard party professional revolutionaries dictatorship",
+      "searchText": "Vanguard party necessary Lenin Left-Wing Communism workers leadership",
+      "kbVersion": "3.11.0",
+      "relatedBookIds": [
+        "lenin-left-wing-communism",
+        "lenin-what-is-to-be-done"
+      ]
+    },
+    {
+      "id": "wells-scientific-utopia-works",
+      "topicId": "calculation-problem",
+      "topicPath": "/calculation-problem",
+      "title": "Scientific Experts Can Plan a Modern Utopia",
+      "socialistClaimText": "H. G. Wells showed that trained administrators and science can redesign society rationally — markets are primitive trial-and-error.",
+      "executiveSummary": "Wells's Modern Utopia and New Worlds for Old are eloquent technocratic steelmans. Mises/Hayek calculation and knowledge problems remain: experts lack the price signals and local knowledge needed to allocate scarce capital. 20th-century planning experiments that claimed scientific administration produced shortages, black markets, and political privilege — not Wellsian harmony.",
+      "evidenceBullets": [
+        "Wells PD texts are bundled for steelman reading of constructive/Fabian socialism.",
+        "Mises (1920) and Hayek (1945) knowledge problem: dispersed local knowledge is not centralizable into a single plan.",
+        "Gosplan, Great Leap targets, and Venezuelan price controls illustrate scientific-looking plans failing consumer coordination.",
+        "Market prices aggregate trade-offs continuous planning committees cannot simulate without property and exchange."
+      ],
+      "fallacies": [
+        "technocratic hubris",
+        "nirvana fallacy",
+        "engineer society fallacy"
+      ],
+      "sources": [
+        {
+          "id": "wells-modern-utopia-pd",
+          "title": "H. G. Wells — A Modern Utopia (Project Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/6424",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-26",
+          "citation": "Wells, H. G. A Modern Utopia. Project Gutenberg #6424."
+        },
+        {
+          "id": "hayek-use-of-knowledge",
+          "title": "F. A. Hayek — The Use of Knowledge in Society",
+          "url": "https://www.econlib.org/library/Essays/hykKnw.html",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-07-26",
+          "citation": "Hayek, F. A. (1945). The Use of Knowledge in Society."
+        }
+      ],
+      "whyItMatters": "Technocratic socialism still sells as 'follow the science'; Wells is the literary root — calculation is the rebuttal.",
+      "relatedClaimIds": [
+        "computers-solve-calculation"
+      ],
+      "tags": [
+        "wells",
+        "utopia",
+        "planning",
+        "technocracy"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-26T17:00:00Z",
+      "embeddingText": "Wells Modern Utopia New Worlds for Old scientific planning technocracy calculation problem",
+      "searchText": "Scientific experts plan modern utopia Wells socialism markets primitive",
+      "kbVersion": "3.9.0",
+      "relatedBookIds": [
+        "wells-modern-utopia",
+        "wells-new-worlds-for-old",
+        "looking-further-forward"
+      ]
+    },
+    {
+      "id": "stirner-egoism-defeats-solidarity",
+      "topicId": "human-nature-incentives",
+      "topicPath": "/human-nature-incentives",
+      "title": "Class Solidarity Is a Fiction — Only Egoism Is Real",
+      "socialistClaimText": "Some radicals argue Stirner proved collective class ideals are spooks; only the unique ego matters — so Marxist solidarity is fraudulent.",
+      "executiveSummary": "Stirner's Ego and His Own is the radical individualist steelman Marx hated. It usefully attacks sacred collective abstractions, but pure egoism is not a complete social theory of cooperation. Markets and voluntary associations harness self-interest without requiring a unified proletarian will or a vanguard to invent one.",
+      "evidenceBullets": [
+        "Stirner PD text is bundled; Marx/Engels spent a large section of German Ideology attacking him.",
+        "Market exchange is mutual advantage among egos — no mystical class subject required.",
+        "Collective action problems (Olson) show 'class interest' does not automatically produce class action.",
+        "Constitutional liberty protects the unique individual against both capital cartels and party collectives."
+      ],
+      "fallacies": [
+        "false dichotomy",
+        "straw collective"
+      ],
+      "sources": [
+        {
+          "id": "stirner-ego-pd",
+          "title": "Max Stirner — The Ego and His Own (Project Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/34580",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-26",
+          "citation": "Stirner, M. The Ego and His Own. Project Gutenberg #34580."
+        },
+        {
+          "id": "bls-jolt2",
+          "title": "BLS JOLTS",
+          "url": "https://www.bls.gov/jlt/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Bureau of Labor Statistics Job Openings and Labor Turnover Survey (voluntary cooperation via markets)."
+        }
+      ],
+      "whyItMatters": "Understanding Stirner clarifies why Marxist projects police 'incorrect' individuality — the collective subject is fragile.",
+      "relatedClaimIds": [],
+      "tags": [
+        "stirner",
+        "egoism",
+        "solidarity",
+        "individualism"
+      ],
+      "schemaVersion": 2,
+      "revision": 2,
+      "updatedAt": "2026-08-01T21:08:28Z",
+      "embeddingText": "Stirner Ego and His Own egoism class solidarity spooks Marx German Ideology",
+      "searchText": "Stirner egoism defeats class solidarity only unique individual real",
+      "kbVersion": "3.11.0",
+      "relatedBookIds": [
+        "stirner-ego-and-his-own",
+        "marx-german-ideology"
+      ]
+    }
+  ]
+}

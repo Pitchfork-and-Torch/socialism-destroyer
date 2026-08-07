@@ -1,0 +1,156 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-07-04",
+  "topics": [
+    {
+      "id": "wealth-inequality-mobility",
+      "title": "Wealth Inequality & Mobility",
+      "description": "Relative vs. absolute inequality, intergenerational mobility, and what the data actually shows about opportunity in market economies.",
+      "icon": "trending_up",
+      "order": 1,
+      "children": [
+        {
+          "id": "gini-misconceptions",
+          "title": "Gini Coefficient Misconceptions",
+          "order": 1
+        },
+        {
+          "id": "mobility-data",
+          "title": "Intergenerational Mobility",
+          "order": 2
+        },
+        {
+          "id": "consumption-inequality",
+          "title": "Consumption vs. Income Inequality",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "profit-exploitation",
+      "title": "Profit, Exploitation & \"The Rich Get Richer\"",
+      "description": "Labor theory of value, surplus value, profit as coordination signal, and why voluntary exchange is not theft.",
+      "icon": "account_balance",
+      "order": 2,
+      "children": [
+        {
+          "id": "labor-theory",
+          "title": "Labor Theory of Value",
+          "order": 1
+        },
+        {
+          "id": "profit-function",
+          "title": "Economic Function of Profit",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "historical-socialism",
+      "title": "Historical Record of Socialism",
+      "description": "Documented outcomes in the USSR, Maoist China, Venezuela, Cuba, Cambodia, and other socialist experiments.",
+      "icon": "history_edu",
+      "order": 3,
+      "children": [
+        {
+          "id": "ussr-record",
+          "title": "Soviet Union",
+          "order": 1
+        },
+        {
+          "id": "china-famine",
+          "title": "Maoist China",
+          "order": 2
+        },
+        {
+          "id": "venezuela-cuba",
+          "title": "Venezuela & Cuba",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "nordic-democratic-socialism",
+      "title": "The Nordic Model Myth & \"Democratic Socialism\"",
+      "description": "What Scandinavia actually runs — market economies with high taxes, not socialist ownership of production.",
+      "icon": "public",
+      "order": 4,
+      "children": []
+    },
+    {
+      "id": "human-nature-incentives",
+      "title": "Human Nature, Incentives & Economic Calculation",
+      "description": "Calculation problem, knowledge problem, incentive structures, and why central planning fails at scale.",
+      "icon": "psychology",
+      "order": 5,
+      "children": [
+        {
+          "id": "calculation-problem",
+          "title": "Economic Calculation Problem",
+          "order": 1
+        },
+        {
+          "id": "knowledge-problem",
+          "title": "Knowledge Problem",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "government-intervention",
+      "title": "Government Intervention",
+      "description": "Minimum wage, healthcare, UBI, education, Green New Deal, rent control — evidence on intervention outcomes.",
+      "icon": "gavel",
+      "order": 6,
+      "children": [
+        {
+          "id": "minimum-wage",
+          "title": "Minimum Wage",
+          "order": 1
+        },
+        {
+          "id": "healthcare-systems",
+          "title": "Healthcare Systems",
+          "order": 2
+        },
+        {
+          "id": "ubi-rent-control",
+          "title": "UBI & Rent Control",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "global-poverty-capitalism",
+      "title": "Global Poverty, Capitalism & Absolute Living Standards",
+      "description": "World Bank absolute poverty metrics, global GDP growth, and the unprecedented decline in extreme poverty since 1990.",
+      "icon": "language",
+      "order": 7,
+      "children": []
+    },
+    {
+      "id": "founding-principles",
+      "title": "American Founding Principles vs. Collectivism",
+      "description": "Natural rights, limited government, rule of law, and why the Founders rejected collectivist schemes.",
+      "icon": "flag",
+      "order": 8,
+      "children": []
+    },
+    {
+      "id": "free-speech-socialist-regimes",
+      "title": "Free Speech, Dissent & Socialist Regimes",
+      "description": "Censorship, political prisoners, and the consistent suppression of dissent under socialist governments.",
+      "icon": "record_voice_over",
+      "order": 9,
+      "children": []
+    },
+    {
+      "id": "late-stage-capitalism",
+      "title": "Myths About \"Late-Stage Capitalism\" & Inequality Metrics",
+      "description": "Debunking the narrative that market economies are in terminal decline.",
+      "icon": "insights",
+      "order": 10,
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,784 @@
+{
+  "schemaVersion": 1,
+  "kbVersion": "3.8.0",
+  "updatedAt": "2026-07-22T22:35:27Z",
+  "links": [
+    {
+      "claimId": "profit-is-theft",
+      "bookId": "wealth-of-nations",
+      "chapterId": "invisible-hand",
+      "reason": "Smith's invisible hand explains how self-interest coordinates voluntary exchange — the antidote to the labor-theory-of-value.",
+      "priority": 1
+    },
+    {
+      "claimId": "profit-is-theft",
+      "bookId": "seen-and-unseen",
+      "chapterId": "broken-window",
+      "reason": "Bastiat demolishes the illusion that redistribution creates wealth rather than merely moving it.",
+      "priority": 2
+    },
+    {
+      "claimId": "exploitation-marx",
+      "bookId": "wealth-of-nations",
+      "chapterId": "division-of-labor",
+      "reason": "Division of labor and exchange explain rising productivity without surplus-value theft.",
+      "priority": 1
+    },
+    {
+      "claimId": "rent-control-helps",
+      "bookId": "seen-and-unseen",
+      "chapterId": "public-works",
+      "reason": "Housing mandates have seen beneficiaries and unseen shortages — read before defending rent caps.",
+      "priority": 1
+    },
+    {
+      "claimId": "rent-control-helps",
+      "bookId": "the-law",
+      "chapterId": "identify-plunder",
+      "reason": "Bastiat's test for legal plunder applies when the state seizes property rights in the name of affordability.",
+      "priority": 2
+    },
+    {
+      "claimId": "minimum-wage-no-harm",
+      "bookId": "seen-and-unseen",
+      "chapterId": "broken-window",
+      "reason": "Mandatory wage floors have visible winners and unseen job losses at the margin.",
+      "priority": 1
+    },
+    {
+      "claimId": "minimum-wage-entry",
+      "bookId": "seen-and-unseen",
+      "chapterId": "state-fountain",
+      "reason": "Every mandated benefit is paid from somewhere — usually the worker who never gets hired.",
+      "priority": 1
+    },
+    {
+      "claimId": "healthcare-right",
+      "bookId": "seen-and-unseen",
+      "chapterId": "public-works",
+      "reason": "Single-payer promises visible care while hiding queues, rationing, and tax burdens.",
+      "priority": 1
+    },
+    {
+      "claimId": "ussr-not-real-socialism",
+      "bookId": "the-law",
+      "chapterId": "socialist-appeals",
+      "reason": "Bastiat shows how socialists use law to reorganize society — exactly what the USSR did.",
+      "priority": 1
+    },
+    {
+      "claimId": "venezuela-sanctions",
+      "bookId": "seen-and-unseen",
+      "chapterId": "introduction",
+      "reason": "Single-cause explanations ignore unseen institutional failures Bastiat teaches us to trace.",
+      "priority": 1
+    },
+    {
+      "claimId": "nordic-socialist",
+      "bookId": "wealth-of-nations",
+      "chapterId": "role-of-government",
+      "reason": "Smith's three duties of government clarify what Nordic states still leave to markets.",
+      "priority": 1
+    },
+    {
+      "claimId": "billionaires-shouldnt-exist",
+      "bookId": "wealth-of-nations",
+      "chapterId": "principle-of-exchange",
+      "reason": "Voluntary exchange is not zero-sum — wealth creation is not theft from workers.",
+      "priority": 1
+    },
+    {
+      "claimId": "constitution-limits",
+      "bookId": "us-constitution",
+      "chapterId": "bill-of-rights",
+      "reason": "Read the actual enumerated limits and the Bill of Rights — not a paraphrase.",
+      "priority": 1
+    },
+    {
+      "claimId": "constitution-limits",
+      "bookId": "federalist-10-51",
+      "chapterId": "federalist-51",
+      "reason": "Madison on checks, balances, and controlling government power.",
+      "priority": 2
+    },
+    {
+      "claimId": "constitution-limits",
+      "bookId": "the-law",
+      "chapterId": "life-liberty-property",
+      "reason": "Bastiat grounds law in life, liberty, and property — the American founding in one essay.",
+      "priority": 3
+    },
+    {
+      "claimId": "wealth-inequality-broken",
+      "bookId": "wealth-of-nations",
+      "chapterId": "division-of-labor",
+      "reason": "Universal opulence from specialization refutes the fixed-pie fallacy.",
+      "priority": 1
+    },
+    {
+      "claimId": "mobility-dead",
+      "bookId": "wealth-of-nations",
+      "chapterId": "monopoly-restraint",
+      "reason": "Smith on monopoly and restraint — barriers to entry block mobility more than inequality statistics show.",
+      "priority": 2
+    },
+    {
+      "claimId": "calculation-impossible",
+      "bookId": "seen-and-unseen",
+      "chapterId": "state-fountain",
+      "reason": "Central planners cannot see what private actors would have built with the same resources.",
+      "priority": 1
+    },
+    {
+      "claimId": "cultural-marxism-dismissal",
+      "bookId": "communist-manifesto",
+      "chapterId": "bourgeois",
+      "reason": "Marx and Engels on bourgeois law, morality, and ruling ideas — culture is in the program from 1848.",
+      "priority": 1
+    },
+    {
+      "claimId": "gramsci-war-of-position",
+      "bookId": "lenin-what-is-to-be-done",
+      "chapterId": "organisers",
+      "reason": "Lenin's organiser model parallels Gramsci's institution-focused strategy.",
+      "priority": 1
+    },
+    {
+      "claimId": "marcuse-repressive-tolerance",
+      "bookId": "on-liberty",
+      "chapterId": "thought",
+      "reason": "Mill's defense of dissent is the direct counterweight to asymmetric tolerance.",
+      "priority": 1
+    },
+    {
+      "claimId": "marx-superstructure-culture",
+      "bookId": "marx-critique-gotha",
+      "chapterId": "mental-physical",
+      "reason": "Marx ties communist transition to overcoming mental/physical labor division.",
+      "priority": 1
+    },
+    {
+      "claimId": "lenin-vanguard-ideology",
+      "bookId": "lenin-what-is-to-be-done",
+      "chapterId": "newspaper",
+      "reason": "The newspaper as collective organiser — propaganda infrastructure by design.",
+      "priority": 1
+    },
+    {
+      "claimId": "soft-despotism-conformity",
+      "bookId": "democracy-in-america",
+      "chapterId": "democratic-despotism",
+      "reason": "Tocqueville's soft despotism — the herd of timid animals under a schoolmaster state.",
+      "priority": 1
+    },
+    {
+      "claimId": "soft-despotism-conformity",
+      "bookId": "self-reliance",
+      "chapterId": "society",
+      "reason": "Emerson on society's conspiracy against the independence of each member.",
+      "priority": 2
+    },
+    {
+      "claimId": "campus-speech-ideological",
+      "bookId": "on-liberty",
+      "chapterId": "thought",
+      "reason": "Silencing one dissenting person is never justified by majority opinion.",
+      "priority": 1
+    },
+    {
+      "claimId": "critical-pedagogy-lineage",
+      "bookId": "marx-critique-gotha",
+      "chapterId": "state-education",
+      "reason": "Marx on state education — the ideological stakes schools were always meant to carry.",
+      "priority": 1
+    },
+    {
+      "claimId": "cultural-marxism-dismissal",
+      "bookId": "marx-german-ideology",
+      "chapterId": "ruling-ideas",
+      "reason": "Primary Marx/Engels text on ruling ideas and mental production — culture is in the canon.",
+      "priority": 2
+    },
+    {
+      "claimId": "gramsci-war-of-position",
+      "bookId": "fabian-essays-socialism",
+      "chapterId": "conquer-by-delay",
+      "reason": "Fabian conquer-by-delay strategy — the British institution march before Dutschke's phrase.",
+      "priority": 2
+    },
+    {
+      "claimId": "institution-capture-myth",
+      "bookId": "sumner-social-classes",
+      "chapterId": "forgotten-man",
+      "reason": "Who pays when institutions are captured — the Forgotten Man funds every reform.",
+      "priority": 2
+    },
+    {
+      "claimId": "marx-superstructure-culture",
+      "bookId": "marx-german-ideology",
+      "chapterId": "base-superstructure",
+      "reason": "Canonical base/superstructure passage — ideology is not separate from economics.",
+      "priority": 1
+    },
+    {
+      "claimId": "lenin-vanguard-ideology",
+      "bookId": "lenin-state-and-revolution",
+      "chapterId": "smash-state",
+      "reason": "Lenin on smashing the state machine — institutions are the revolutionary prize.",
+      "priority": 2
+    },
+    {
+      "claimId": "frankfurt-mass-culture",
+      "bookId": "engels-utopian-scientific",
+      "chapterId": "introduction",
+      "reason": "Engels on socialism as social reorganization — the materialist root of critical theory.",
+      "priority": 2
+    },
+    {
+      "claimId": "soft-despotism-conformity",
+      "bookId": "spencer-right-to-ignore-state",
+      "chapterId": "majority-myth",
+      "reason": "Spencer on majority-rule superstition — conformity enforced through political myth.",
+      "priority": 2
+    },
+    {
+      "claimId": "campus-speech-ideological",
+      "bookId": "mill-representative-government",
+      "chapterId": "false-democracy",
+      "reason": "Mill on class legislation by majority — the liberal case against asymmetric campus rules.",
+      "priority": 2
+    },
+    {
+      "claimId": "marcuse-repressive-tolerance",
+      "bookId": "bakunin-god-and-the-state",
+      "chapterId": "materialism-authority",
+      "reason": "Bakunin on authority and scientistic rule — precursor to managed asymmetry.",
+      "priority": 3
+    },
+    {
+      "claimId": "marcuse-repressive-tolerance",
+      "bookId": "marcuse-one-dimensional-man",
+      "chapterId": null,
+      "reason": "Full Marcuse argument for one-dimensional thought and managed tolerance.",
+      "priority": 2
+    },
+    {
+      "claimId": "lukacs-reification-dismissal",
+      "bookId": "marx-german-ideology",
+      "chapterId": "ruling-ideas",
+      "reason": "Pre-Lukács formulation of ruling ideas — the root of reification theory.",
+      "priority": 1
+    },
+    {
+      "claimId": "adorno-culture-industry",
+      "bookId": "trotsky-literature-revolution",
+      "chapterId": "art-class",
+      "reason": "Revolutionaries explicitly treated mass art as class struggle — not neutral media studies.",
+      "priority": 2
+    },
+    {
+      "claimId": "fabian-permeation-strategy",
+      "bookId": "fabian-essays-socialism",
+      "chapterId": "conquer-by-delay",
+      "reason": "Primary Fabian source for institution permeation — conquer by delay.",
+      "priority": 1
+    },
+    {
+      "claimId": "soviet-active-measures-myth",
+      "bookId": "lenin-state-and-revolution",
+      "chapterId": "class-state",
+      "reason": "Lenin on the state as class organ — theoretical basis for propaganda apparatus.",
+      "priority": 2
+    },
+    {
+      "claimId": "comintern-front-groups",
+      "bookId": "lenin-what-is-to-be-done",
+      "chapterId": "organisers",
+      "reason": "Vanguard organiser theory — precursor to international front coordination.",
+      "priority": 2
+    },
+    {
+      "claimId": "dei-neutral-workplace",
+      "bookId": "freire-pedagogy-oppressed",
+      "chapterId": null,
+      "reason": "Foundational critical-pedagogy text behind many DEI training frameworks.",
+      "priority": 1
+    },
+    {
+      "claimId": "dei-neutral-workplace",
+      "bookId": "pluckrose-cynical-theories",
+      "chapterId": null,
+      "reason": "Readable map of how critical theory entered HR, universities, and policy.",
+      "priority": 2
+    },
+    {
+      "claimId": "school-board-capture",
+      "bookId": "freire-pedagogy-oppressed",
+      "chapterId": null,
+      "reason": "Freire: education is never neutral — the Left's own theorist on curriculum politics.",
+      "priority": 1
+    },
+    {
+      "claimId": "school-board-capture",
+      "bookId": "bell-critical-race-theory",
+      "chapterId": null,
+      "reason": "CRT anthology — legal-education lineage into K–12 disputes.",
+      "priority": 2
+    },
+    {
+      "claimId": "ngo-funding-transparency",
+      "bookId": "alinsky-rules-for-radicals",
+      "chapterId": null,
+      "reason": "Organizing manual behind pressure campaigns funded through NGO networks.",
+      "priority": 2
+    },
+    {
+      "claimId": "ngo-funding-transparency",
+      "bookId": "fabian-essays-socialism",
+      "chapterId": "fundamental-aims",
+      "reason": "Fabian programme — spread opinions through funded political action.",
+      "priority": 3
+    },
+    {
+      "claimId": "trotsky-proletarian-culture",
+      "bookId": "trotsky-literature-revolution",
+      "chapterId": "proletarian-culture",
+      "reason": "Trotsky on proletarian culture and art as revolutionary weapons.",
+      "priority": 1
+    },
+    {
+      "claimId": "critical-pedagogy-lineage",
+      "bookId": "freire-pedagogy-oppressed",
+      "chapterId": null,
+      "reason": "Primary critical-pedagogy source assigned in education schools worldwide.",
+      "priority": 2
+    },
+    {
+      "claimId": "institution-capture-myth",
+      "bookId": "alinsky-rules-for-radicals",
+      "chapterId": null,
+      "reason": "Practical institution-pressure playbook — capture is strategy, not paranoia.",
+      "priority": 3
+    },
+    {
+      "claimId": "frankfurt-mass-culture",
+      "bookId": "adorno-authoritarian-personality",
+      "chapterId": null,
+      "reason": "Frankfurt empirical project linking psychology, prejudice, and politics.",
+      "priority": 3
+    },
+    {
+      "claimId": "cultural-marxism-dismissal",
+      "bookId": "pluckrose-cynical-theories",
+      "chapterId": null,
+      "reason": "Traces Marx-to-activism pipeline for readers who want modern application.",
+      "priority": 3
+    },
+    {
+      "claimId": "intersectionality-apolitical",
+      "bookId": "bell-critical-race-theory",
+      "chapterId": null,
+      "reason": "Primary CRT anthology — intersectionality's legal-critical lineage.",
+      "priority": 1
+    },
+    {
+      "claimId": "intersectionality-apolitical",
+      "bookId": "pluckrose-cynical-theories",
+      "chapterId": null,
+      "reason": "Readable map of applied critical theory in identity politics.",
+      "priority": 2
+    },
+    {
+      "claimId": "privilege-checking-hegemony",
+      "bookId": "democracy-in-america",
+      "chapterId": "majority-power",
+      "reason": "Tocqueville on majority tyranny — soft coercion without gulags.",
+      "priority": 2
+    },
+    {
+      "claimId": "postmodern-marx-unrelated",
+      "bookId": "marx-german-ideology",
+      "chapterId": "ruling-ideas",
+      "reason": "Primary Marx on ruling ideas — root of critical theory's genealogy.",
+      "priority": 1
+    },
+    {
+      "claimId": "postmodern-marx-unrelated",
+      "bookId": "scruton-fools-frauds-firebrands",
+      "chapterId": null,
+      "reason": "Philosophical critique of thinkers who subverted liberal institutions.",
+      "priority": 2
+    },
+    {
+      "claimId": "columbia-frankfurt-influence",
+      "bookId": "bloom-closing-american-mind",
+      "chapterId": null,
+      "reason": "Bloom documents Marcuse and campus ideological closure.",
+      "priority": 1
+    },
+    {
+      "claimId": "columbia-frankfurt-influence",
+      "bookId": "adorno-authoritarian-personality",
+      "chapterId": null,
+      "reason": "Frankfurt empirical project that entered American social research.",
+      "priority": 2
+    },
+    {
+      "claimId": "dewey-neutral-education",
+      "bookId": "freire-pedagogy-oppressed",
+      "chapterId": null,
+      "reason": "Freire: education is never neutral — Dewey's progressive heir.",
+      "priority": 1
+    },
+    {
+      "claimId": "dewey-neutral-education",
+      "bookId": "chesterton-whats-wrong",
+      "chapterId": "progressive-fads",
+      "reason": "Chesterton on progressive reformers who never tried the old ideals.",
+      "priority": 2
+    },
+    {
+      "claimId": "gender-ideology-apolitical",
+      "bookId": "pluckrose-cynical-theories",
+      "chapterId": null,
+      "reason": "Traces gender-identity activism to applied critical theory.",
+      "priority": 1
+    },
+    {
+      "claimId": "diversity-statements-neutral",
+      "bookId": "marcuse-one-dimensional-man",
+      "chapterId": null,
+      "reason": "Marcuse's asymmetric tolerance logic behind hiring gatekeeping.",
+      "priority": 1
+    },
+    {
+      "claimId": "diversity-statements-neutral",
+      "bookId": "bloom-closing-american-mind",
+      "chapterId": null,
+      "reason": "University closure and ideological hiring culture.",
+      "priority": 2
+    },
+    {
+      "claimId": "esg-apolitical-investing",
+      "bookId": "fabian-essays-socialism",
+      "chapterId": "conquer-by-delay",
+      "reason": "Fabian conquer-by-delay — permeation now via pension and proxy power.",
+      "priority": 1
+    },
+    {
+      "claimId": "esg-apolitical-investing",
+      "bookId": "sowell-vision-of-the-anointed",
+      "chapterId": null,
+      "reason": "How anointed crusades capture institutions despite trade-offs.",
+      "priority": 2
+    },
+    {
+      "claimId": "marx-historical-repetition",
+      "bookId": "marx-18th-brumaire",
+      "chapterId": "tragedy-farce",
+      "reason": "Primary Marx — tragedy, farce, and revolutionary costume.",
+      "priority": 1
+    },
+    {
+      "claimId": "commodity-fetishism-fringe",
+      "bookId": "marx-wage-labour-capital",
+      "chapterId": "class-ideas",
+      "reason": "Early Marx on ruling ideas and class consciousness.",
+      "priority": 2
+    },
+    {
+      "claimId": "journalism-objectivity-training",
+      "bookId": "adorno-authoritarian-personality",
+      "chapterId": null,
+      "reason": "Frankfurt empirical media-attitude research — ancestor of bias framing.",
+      "priority": 2
+    },
+    {
+      "claimId": "journalism-objectivity-training",
+      "bookId": "engels-utopian-scientific",
+      "chapterId": "introduction",
+      "reason": "Materialist root of ideology critique applied to mass media.",
+      "priority": 3
+    },
+    {
+      "claimId": "entertainment-representation-apolitical",
+      "bookId": "trotsky-literature-revolution",
+      "chapterId": "proletarian-culture",
+      "reason": "Trotsky on art as class weapon — root of representation politics.",
+      "priority": 1
+    },
+    {
+      "claimId": "entertainment-representation-apolitical",
+      "bookId": "orwell-animal-farm",
+      "chapterId": "four-legs",
+      "reason": "Orwell allegory — simplified slogans and mass conformity.",
+      "priority": 2
+    },
+    {
+      "claimId": "privilege-checking-hegemony",
+      "bookId": "burke-reflections",
+      "chapterId": "infinite-caution",
+      "reason": "Burke on prejudice as wisdom — counterweight to privilege moralism.",
+      "priority": 3
+    },
+    {
+      "claimId": "institution-capture-myth",
+      "bookId": "rufo-americas-cultural-revolution",
+      "chapterId": null,
+      "reason": "Primary-source investigation of institutional ideology adoption.",
+      "priority": 1
+    },
+    {
+      "claimId": "school-board-capture",
+      "bookId": "rufo-americas-cultural-revolution",
+      "chapterId": null,
+      "reason": "Documents school-board and curriculum battles with sources.",
+      "priority": 3
+    },
+    {
+      "claimId": "bastiat-legal-plunder",
+      "bookId": "spencer-man-versus-state",
+      "chapterId": "the-coming-slavery",
+      "reason": "Spencer on compulsory cooperation as the coming slavery — pair with Bastiat on legal plunder.",
+      "priority": 2
+    },
+    {
+      "claimId": "bastiat-law-collectivism",
+      "bookId": "spencer-man-versus-state",
+      "chapterId": "the-new-toryism",
+      "reason": "Spencer shows how so-called Liberals became new Tories of state coercion.",
+      "priority": 2
+    },
+    {
+      "claimId": "minimum-wage-no-harm",
+      "bookId": "spencer-man-versus-state",
+      "chapterId": "over-legislation",
+      "reason": "Over-legislation classic: mandated benefits produce unseen harms.",
+      "priority": 2
+    },
+    {
+      "claimId": "constitution-limits",
+      "bookId": "spooner-no-treason",
+      "chapterId": "front",
+      "reason": "Spooner challenges tacit-consent theories of constitutional authority.",
+      "priority": 2
+    },
+    {
+      "claimId": "natural-rights",
+      "bookId": "spooner-letter-cleveland",
+      "chapterId": "front",
+      "reason": "Natural-law indictment of legislative usurpation and artificial poverty.",
+      "priority": 2
+    },
+    {
+      "claimId": "federalist-51-separation",
+      "bookId": "spooner-trial-by-jury",
+      "chapterId": "front",
+      "reason": "Jury power as a check on legislative overreach — companion to separation of powers.",
+      "priority": 2
+    },
+    {
+      "claimId": "founding-collectivist",
+      "bookId": "spooner-unconstitutionality-slavery",
+      "chapterId": "front",
+      "reason": "Natural-rights Constitution against ownership of persons — founding liberty, not collectivism.",
+      "priority": 2
+    },
+    {
+      "claimId": "gosplan-systemic-failure",
+      "bookId": "spencer-man-versus-state",
+      "chapterId": "the-sins-of-legislators",
+      "reason": "Spencer on legislative arrogance and the sins of planners.",
+      "priority": 3
+    },
+    {
+      "claimId": "bohm-bawerk-ltv-dead",
+      "bookId": "bohm-bawerk-close-of-marx",
+      "chapterId": "part-1",
+      "reason": "Primary Austrian demolition of Marxian value and the transformation problem.",
+      "priority": 1
+    },
+    {
+      "claimId": "bohm-bawerk-ltv-dead",
+      "bookId": "marx-capital-vol1",
+      "chapterId": "part-1",
+      "reason": "Steelman: read Marx on value and surplus value before the Austrian rebuttal.",
+      "priority": 2
+    },
+    {
+      "claimId": "exploitation-marx",
+      "bookId": "bohm-bawerk-close-of-marx",
+      "chapterId": "part-1",
+      "reason": "Böhm-Bawerk on why surplus-value theory fails as price theory.",
+      "priority": 1
+    },
+    {
+      "claimId": "georgism-is-socialism",
+      "bookId": "george-progress-and-poverty",
+      "chapterId": "part-1",
+      "reason": "Primary single-tax treatise — steelman the land monopoly claim.",
+      "priority": 1
+    },
+    {
+      "claimId": "georgism-is-socialism",
+      "bookId": "the-law",
+      "chapterId": "identify-plunder",
+      "reason": "Bastiat on legal plunder when fiscal schemes redefine property.",
+      "priority": 2
+    },
+    {
+      "claimId": "oppenheimer-state-is-market",
+      "bookId": "oppenheimer-the-state",
+      "chapterId": "part-1",
+      "reason": "Political means vs economic means — the state is not just a firm.",
+      "priority": 1
+    },
+    {
+      "claimId": "soft-despotism-welfare-state",
+      "bookId": "tocqueville-old-regime",
+      "chapterId": "part-1",
+      "reason": "How administrative centralization and equality-seeking prepared new despotism.",
+      "priority": 1
+    },
+    {
+      "claimId": "soft-despotism-welfare-state",
+      "bookId": "democracy-in-america",
+      "chapterId": "part-1",
+      "reason": "Tocqueville on soft despotism under democratic equality.",
+      "priority": 2
+    },
+    {
+      "claimId": "soft-despotism-conformity",
+      "bookId": "tocqueville-old-regime",
+      "chapterId": "part-1",
+      "reason": "Old Regime centralization as precursor to revolutionary tutelage.",
+      "priority": 2
+    },
+    {
+      "claimId": "computers-solve-calculation",
+      "bookId": "russell-proposed-roads-to-freedom",
+      "chapterId": "part-1",
+      "reason": "Sympathetic map of socialist schemes still constrained by coordination tradeoffs.",
+      "priority": 2
+    },
+    {
+      "claimId": "calculation-impossible",
+      "bookId": "hayek-road-to-serfdom",
+      "chapterId": null,
+      "reason": "Modern classic (catalog-only) on planning, knowledge, and political power.",
+      "priority": 2
+    },
+    {
+      "claimId": "dewey-neutral-education",
+      "bookId": "dewey-democracy-and-education",
+      "chapterId": "part-1",
+      "reason": "Primary progressive education text — schooling as social reconstruction.",
+      "priority": 1
+    },
+    {
+      "claimId": "russell-syndicalism-steelman",
+      "bookId": "russell-proposed-roads-to-freedom",
+      "chapterId": "part-1",
+      "reason": "Russell steelmans syndicalism, socialism, and anarchism with tradeoffs.",
+      "priority": 1
+    },
+    {
+      "claimId": "russell-syndicalism-steelman",
+      "bookId": "hunter-violence-labor-movement",
+      "chapterId": "part-1",
+      "reason": "Documents revolutionary violence traditions inside radical labor politics.",
+      "priority": 2
+    },
+    {
+      "claimId": "ussr-not-real-socialism",
+      "bookId": "walling-socialism-as-it-is",
+      "chapterId": "part-1",
+      "reason": "What socialists themselves said the movement was before Soviet outcomes.",
+      "priority": 2
+    },
+    {
+      "claimId": "greedflation-price-controls",
+      "bookId": "seen-and-unseen",
+      "chapterId": "broken-window",
+      "reason": "Seen profits vs unseen monetary and supply causes of rising prices.",
+      "priority": 1
+    },
+    {
+      "claimId": "greedflation-price-controls",
+      "bookId": "hazlitt-economics-one-lesson",
+      "chapterId": null,
+      "reason": "Modern Bastiat application to price controls and inflation fallacies (catalog-only).",
+      "priority": 2
+    },
+    {
+      "claimId": "rent-control-2020s-evidence",
+      "bookId": "seen-and-unseen",
+      "chapterId": "public-works",
+      "reason": "Visible tenant savings, unseen missing units.",
+      "priority": 1
+    },
+    {
+      "claimId": "rent-control-helps",
+      "bookId": "hazlitt-economics-one-lesson",
+      "chapterId": null,
+      "reason": "Hazlitt restates Bastiat on rent control (catalog-only external).",
+      "priority": 3
+    },
+    {
+      "claimId": "industrial-policy-picks-winners",
+      "bookId": "seen-and-unseen",
+      "chapterId": "public-works",
+      "reason": "Subsidies show winners; taxpayers and unseen alternatives lose.",
+      "priority": 1
+    },
+    {
+      "claimId": "misinfo-ministry-needed",
+      "bookId": "on-liberty",
+      "chapterId": "part-1",
+      "reason": "Mill on liberty of thought and discussion against truth monopolies.",
+      "priority": 1
+    },
+    {
+      "claimId": "misinfo-ministry-needed",
+      "bookId": "milton-areopagitica",
+      "chapterId": "part-1",
+      "reason": "Classic case against pre-publication licensing of ideas.",
+      "priority": 2
+    },
+    {
+      "claimId": "ai-makes-socialism-inevitable",
+      "bookId": "wealth-of-nations",
+      "chapterId": "division-of-labor",
+      "reason": "Productivity and specialization — tools raise living standards under exchange.",
+      "priority": 2
+    },
+    {
+      "claimId": "wealth-tax-free-lunch",
+      "bookId": "sumner-forgotten-man",
+      "chapterId": "part-1",
+      "reason": "Who ultimately pays when the state reassigns capital burdens.",
+      "priority": 2
+    },
+    {
+      "claimId": "student-debt-cancel-justice",
+      "bookId": "spencer-man-versus-state",
+      "chapterId": "the-sins-of-legislators",
+      "reason": "Legislative free lunches and the sins of overconfident reformers.",
+      "priority": 2
+    },
+    {
+      "claimId": "hayek-knowledge-society-full",
+      "bookId": "hayek-road-to-serfdom",
+      "chapterId": null,
+      "reason": "Companion modern classic to the knowledge problem (catalog-only).",
+      "priority": 2
+    },
+    {
+      "claimId": "profit-is-theft",
+      "bookId": "bohm-bawerk-close-of-marx",
+      "chapterId": "part-1",
+      "reason": "Profit is not residual theft of labor hours.",
+      "priority": 2
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-07-22T22:32:37Z",
+  "description": "Topic-relevant works to evaluate for catalog addition. Status: pending | installed | rejected | copyrighted.",
+  "candidates": [
+    {
+      "id": "hayek-road-to-serfdom",
+      "title": "The Road to Serfdom",
+      "author": "F.A. Hayek",
+      "pdStatus": "check_copyright",
+      "status": "installed",
+      "priority": 1,
+      "topicIds": [
+        "calculation-problem",
+        "government-intervention",
+        "historical-socialism"
+      ],
+      "sources": [
+        {
+          "gutenberg": 61,
+          "note": "verify correct ebook — not Communist Manifesto"
+        }
+      ],
+      "searchQueries": [
+        "Hayek Road to Serfdom site:gutenberg.org",
+        "Road to Serfdom public domain"
+      ]
+    },
+    {
+      "id": "mises-human-action-excerpt",
+      "title": "Human Action (calculation / praxeology sections)",
+      "author": "Ludwig von Mises",
+      "pdStatus": "copyrighted",
+      "status": "installed",
+      "priority": 2,
+      "topicIds": [
+        "calculation-problem",
+        "human-nature-incentives"
+      ],
+      "sources": [],
+      "searchQueries": [
+        "Mises economic calculation essay public domain",
+        "Mises Bureaucracy gutenberg"
+      ],
+      "installedAs": "mises-socialism",
+      "notes": " Catalog-only: Socialism analysis (not Human Action full text)."
+    },
+    {
+      "id": "friedman-capitalism-and-freedom",
+      "title": "Capitalism and Freedom",
+      "author": "Milton Friedman",
+      "pdStatus": "copyrighted",
+      "status": "installed",
+      "priority": 2,
+      "topicIds": [
+        "government-intervention",
+        "founding-principles"
+      ],
+      "sources": [],
+      "searchQueries": [
+        "Friedman Free to Choose public domain speech transcript"
+      ]
+    },
+    {
+      "id": "sowell-basic-economics",
+      "title": "Basic Economics",
+      "author": "Thomas Sowell",
+      "pdStatus": "copyrighted",
+      "status": "pending",
+      "priority": 3,
+      "topicIds": [
+        "wealth-inequality-mobility",
+        "government-intervention"
+      ],
+      "sources": [],
+      "notes": "Catalog entry exists without fullTextPath — link Open Library until PD or license."
+    },
+    {
+      "id": "rothbard-man-economy-state",
+      "title": "Man, Economy, and State",
+      "author": "Murray Rothbard",
+      "pdStatus": "check_copyright",
+      "status": "installed",
+      "priority": 2,
+      "topicIds": [
+        "profit-exploitation",
+        "government-intervention"
+      ],
+      "sources": [
+        {
+          "url": "https://mises.org/library/man-economy-and-state"
+        }
+      ],
+      "searchQueries": [
+        "Rothbard Man Economy State mises.org epub"
+      ]
+    },
+    {
+      "id": "hazlitt-economics-in-one-lesson",
+      "title": "Economics in One Lesson",
+      "author": "Henry Hazlitt",
+      "pdStatus": "check_copyright",
+      "status": "installed",
+      "priority": 1,
+      "topicIds": [
+        "government-intervention",
+        "profit-exploitation",
+        "wealth-inequality-mobility"
+      ],
+      "sources": [
+        {
+          "gutenberg": 0,
+          "note": "find correct PG id via search"
+        }
+      ],
+      "searchQueries": [
+        "Hazlitt Economics in One Lesson site:gutenberg.org"
+      ],
+      "installedAs": "hazlitt-economics-one-lesson"
+    },
+    {
+      "id": "de-tocqueville-old-regime",
+      "title": "The Old Regime and the Revolution",
+      "author": "Alexis de Tocqueville",
+      "pdStatus": "public_domain",
+      "status": "installed",
+      "priority": 2,
+      "topicIds": [
+        "historical-socialism",
+        "soft-despotism-conformity"
+      ],
+      "sources": [
+        {
+          "gutenberg": 1303
+        }
+      ],
+      "searchQueries": [
+        "Tocqueville Old Regime gutenberg"
+      ],
+      "installedAs": "tocqueville-old-regime"
+    },
+    {
+      "id": "calhoun-disquisition",
+      "title": "A Disquisition on Government",
+      "author": "John C. Calhoun",
+      "pdStatus": "public_domain",
+      "status": "pending",
+      "priority": 3,
+      "topicIds": [
+        "founding-principles",
+        "government-intervention"
+      ],
+      "sources": [
+        {
+          "url": "https://avalon.law.yale.edu/19th_century/calhoun.asp"
+        }
+      ]
+    },
+    {
+      "id": "ludwig-von-mises-bureaucracy",
+      "title": "Bureaucracy",
+      "author": "Ludwig von Mises",
+      "pdStatus": "check_copyright",
+      "status": "installed",
+      "priority": 2,
+      "topicIds": [
+        "government-intervention",
+        "calculation-problem"
+      ],
+      "sources": [
+        {
+          "url": "https://mises.org/library/bureaucracy"
+        }
+      ]
+    },
+    {
+      "id": "gramsci-prison-notebooks-excerpt",
+      "title": "Prison Notebooks (hegemony excerpts)",
+      "author": "Antonio Gramsci",
+      "pdStatus": "check_copyright",
+      "status": "pending",
+      "priority": 2,
+      "topicIds": [
+        "gramsci-hegemony",
+        "ideology-superstructure",
+        "institution-capture"
+      ],
+      "sources": [
+        {
+          "mia": "/archive/gramsci/"
+        }
+      ],
+      "searchQueries": [
+        "Gramsci Prison Notebooks marxists.org"
+      ]
+    }
+  ]
+}

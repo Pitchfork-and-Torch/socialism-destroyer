@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "kbVersion": "3.7.1",
+  "updatedAt": "2026-07-14",
+  "playlists": [
+    {
+      "id": "core-exploitation",
+      "title": "Exploitation & Labor",
+      "description": "Classic surplus-value and wage arguments. Timed challenge rounds.",
+      "topicId": "profit-exploitation",
+      "defaultSeconds": 120,
+      "difficulty": "standard",
+      "prompts": [
+        {
+          "text": "Capitalism exploits the working class — profit is unpaid labor stolen from workers.",
+          "claimId": "exploitation-marx",
+          "hint": "Cite subjective value, risk, and coordination — not vibes."
+        },
+        {
+          "text": "Billionaires should not exist. Nobody needs that much wealth.",
+          "claimId": "billionaires-shouldnt-exist",
+          "hint": "Separate consumption from equity claims; mobility and absolute gains."
+        },
+        {
+          "text": "CEOs are parasites who extract value while workers create everything.",
+          "claimId": "profit-is-theft",
+          "hint": "Residual claimancy, firm theory, and market discipline on excess pay."
+        }
+      ]
+    },
+    {
+      "id": "nordic-myth",
+      "title": "Nordic Model Myths",
+      "description": "Democratic socialism vs Nordic market economies.",
+      "topicId": "nordic-democratic-socialism",
+      "defaultSeconds": 100,
+      "difficulty": "standard",
+      "prompts": [
+        {
+          "text": "Sweden and Denmark prove democratic socialism works — we should copy them.",
+          "claimId": "nordic-socialist",
+          "hint": "Private ownership, school choice, flexible labor, trade openness."
+        },
+        {
+          "text": "If America had Nordic taxes we would finally have justice.",
+          "claimId": "nordic-capitalist",
+          "hint": "Tax mix, VAT, and pre-existing capital markets — not USSR light."
+        }
+      ]
+    },
+    {
+      "id": "historical-failures",
+      "title": "Historical Socialism",
+      "description": "USSR, Venezuela, and No True Scotsman defenses.",
+      "topicId": "historical-socialism",
+      "defaultSeconds": 130,
+      "difficulty": "advanced",
+      "prompts": [
+        {
+          "text": "That was not real socialism. Real socialism has never been tried.",
+          "claimId": "ussr-not-real-socialism",
+          "hint": "Pin institutions: planning, property, political monopoly."
+        },
+        {
+          "text": "Venezuela only failed because of US sanctions.",
+          "claimId": "venezuela-sanctions",
+          "hint": "Pre-sanctions collapse, oil expropriation, and price controls."
+        }
+      ]
+    },
+    {
+      "id": "intervention-rapid",
+      "title": "Rapid Fire Intervention",
+      "description": "Short rounds on minimum wage, rent control, and healthcare slogans.",
+      "topicId": "government-intervention",
+      "defaultSeconds": 75,
+      "difficulty": "speed",
+      "prompts": [
+        {
+          "text": "Raising the minimum wage always helps the poor with no jobs lost.",
+          "claimId": "minimum-wage-no-harm",
+          "seconds": 60,
+          "hint": "CBO ranges, hours, and youth employment."
+        },
+        {
+          "text": "Rent control is the obvious fix for housing costs.",
+          "claimId": "rent-control-helps",
+          "seconds": 60,
+          "hint": "Quantity, quality, and allocation effects."
+        },
+        {
+          "text": "Healthcare is a right so markets have no place in medicine.",
+          "claimId": "healthcare-right",
+          "seconds": 75,
+          "hint": "Supply, insurance vs care, and comparative systems."
+        }
+      ]
+    },
+    {
+      "id": "founding-liberty",
+      "title": "Founding & Liberty",
+      "description": "Constitution, natural rights, and collectivist redefinitions.",
+      "topicId": "founding-principles",
+      "defaultSeconds": 110,
+      "difficulty": "standard",
+      "prompts": [
+        {
+          "text": "The Constitution is a living document that must evolve with socialist democracy.",
+          "claimId": "constitution-limits",
+          "hint": "Written limits, amendment process, and majority tyranny."
+        },
+        {
+          "text": "Individual rights are secondary to collective liberation.",
+          "claimId": "natural-rights",
+          "hint": "Natural rights tradition vs class rights."
+        }
+      ]
+    }
+  ]
+}

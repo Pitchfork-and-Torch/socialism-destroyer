@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 2,
+  "kbVersion": "3.13.0",
+  "bundleId": "high-intent-wave3-v313",
+  "priority": 10,
+  "updatedAt": "2026-08-01T21:59:25Z",
+  "contentHash": "sha256:1e5e61f1edee3a720135c8efe9ca076caae7d19e7ab91e022c1aa0a011fb6533",
+  "claims": [
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-01T21:59:25Z",
+      "kbVersion": "3.13.0",
+      "id": "student-loan-pause-is-justice",
+      "topicId": "government-intervention",
+      "topicPath": "/government-intervention",
+      "title": "Permanent Student Loan Pause Is Economic Justice",
+      "socialistClaimText": "Student debt is a trap sold to workers. Permanently pause or cancel federal student loans so a generation can build homes and families.",
+      "executiveSummary": "High balances and aggressive servicing create real hardship. Still, broad pauses transfer costs to taxpayers who never borrowed, raise future tuition pressure, and do not fix completion or program-quality mismatch. Targeted hardship tools and better price signals beat open-ended freezes.",
+      "evidenceBullets": [
+        "CBO and budget offices score large cancellation or pause policies as multi-year federal costs.",
+        "BLS education-earnings data show returns vary widely by completion and field - not a uniform debt trap.",
+        "Federal Student Aid statistics measure borrowers, balances, and repayment statuses over time.",
+        "Price freezes without supply reform encourage higher sticker prices when payments restart."
+      ],
+      "fallacies": [
+        "seen vs unseen",
+        "composition fallacy",
+        "equivocation on justice"
+      ],
+      "sources": [
+        {
+          "id": "fsa-data",
+          "title": "Federal Student Aid - Data Center",
+          "url": "https://studentaid.gov/data-center",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Department of Education Federal Student Aid data center."
+        },
+        {
+          "id": "bls-edu",
+          "title": "BLS - Education pays",
+          "url": "https://www.bls.gov/emp/chart-unemployment-earnings-education.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Bureau of Labor Statistics education and earnings."
+        },
+        {
+          "id": "treasury-fiscal",
+          "title": "U.S. Treasury Fiscal Data",
+          "url": "https://fiscaldata.treasury.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Department of the Treasury Fiscal Data (public balance sheet context)."
+        }
+      ],
+      "whyItMatters": "Loan pauses are live federal politics. Steelman borrower stress, then score fiscal incidence and education market incentives.",
+      "relatedClaimIds": [
+        "student-debt-cancel-justice",
+        "free-college-is-a-right",
+        "education-free"
+      ],
+      "tags": [
+        "student-debt",
+        "loan-pause",
+        "education",
+        "fiscal"
+      ],
+      "embeddingText": "student loan pause cancel debt justice FSA BLS earnings tuition",
+      "searchText": "permanent student loan pause is economic justice cancel federal student loans"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-01T21:59:25Z",
+      "kbVersion": "3.13.0",
+      "id": "public-option-beats-markets",
+      "topicId": "government-intervention",
+      "topicPath": "/government-intervention/healthcare-systems",
+      "title": "A Public Option Will Discipline Private Insurers",
+      "socialistClaimText": "Add a government public option that anyone can join. Competition from a nonprofit public plan will force private insurers to lower prices and cover everyone.",
+      "executiveSummary": "A public option can expand coverage for some groups, but 'compete with private plans' often becomes preferential pricing, soft budget constraints, and crowding-out of private risk pools. CMS NHE accounts still show total system cost depends on utilization, prices, and capacity - not plan brand alone.",
+      "evidenceBullets": [
+        "CMS National Health Expenditure accounts track total U.S. health spending by payer and service.",
+        "Public programs already set administered prices; expanding them changes bargaining power and provider supply responses.",
+        "International mixed systems still ration via wait times, formularies, or dual private tiers.",
+        "Competition requires exit and comparable rules - subsidized public plans can dominate without true cost discipline."
+      ],
+      "fallacies": [
+        "nirvana fallacy",
+        "false dichotomy",
+        "composition fallacy"
+      ],
+      "sources": [
+        {
+          "id": "cms-nhe",
+          "title": "CMS National Health Expenditure Data",
+          "url": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "Centers for Medicare & Medicaid Services NHE accounts."
+        },
+        {
+          "id": "bls-medical",
+          "title": "BLS Medical care CPI",
+          "url": "https://www.bls.gov/cpi/factsheets/medical-care.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Bureau of Labor Statistics medical care CPI factsheet."
+        },
+        {
+          "id": "kff-health",
+          "title": "KFF Health System Tracker (reference)",
+          "url": "https://www.healthsystemtracker.org/",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-08-01",
+          "citation": "Peterson-KFF Health System Tracker comparative health metrics."
+        }
+      ],
+      "whyItMatters": "Public option branding sells market competition while often delivering administered prices. Debate needs payer math and capacity, not slogans.",
+      "relatedClaimIds": [
+        "medicare-for-all-pays-for-itself",
+        "healthcare-right",
+        "healthcare-cost"
+      ],
+      "tags": [
+        "public-option",
+        "healthcare",
+        "insurance",
+        "cms"
+      ],
+      "embeddingText": "public option private insurers CMS NHE healthcare competition",
+      "searchText": "public option will discipline private insurers government health plan competition"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-01T21:59:25Z",
+      "kbVersion": "3.13.0",
+      "id": "dei-mandates-are-justice",
+      "topicId": "ideological-subversion",
+      "topicPath": "/ideological-subversion",
+      "title": "DEI Mandates Are Required for Justice",
+      "socialistClaimText": "Diversity, equity, and inclusion mandates in hiring, contracting, and education correct systemic oppression. Opposing DEI is defending privilege.",
+      "executiveSummary": "Open opportunity and non-discrimination are legitimate goals. Coercive quota-like DEI mandates can violate equal protection norms, reduce competence signals, and entrench political criteria. Census and BLS labor data support measuring outcomes without treating group averages as proof of a single cause.",
+      "evidenceBullets": [
+        "EEOC and civil-rights frameworks already ban discrimination by protected class; mandates go further into preferential treatment.",
+        "BLS occupational and CPS data show multi-factor labor market differences (education, experience, industry) not reducible to one narrative.",
+        "Court and agency actions have constrained race-preferential programs in education and contracting.",
+        "Viewpoint diversity and process fairness are distinct from demographic quotas sold as equity."
+      ],
+      "fallacies": [
+        "motte and bailey",
+        "equivocation on equity",
+        "ad hominem"
+      ],
+      "sources": [
+        {
+          "id": "eeoc",
+          "title": "U.S. EEOC - Prohibited employment policies",
+          "url": "https://www.eeoc.gov/prohibited-employment-policiespractices",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Equal Employment Opportunity Commission prohibited practices."
+        },
+        {
+          "id": "bls-cps",
+          "title": "BLS Current Population Survey",
+          "url": "https://www.bls.gov/cps/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Bureau of Labor Statistics CPS labor force statistics."
+        },
+        {
+          "id": "census-acs",
+          "title": "Census American Community Survey",
+          "url": "https://www.census.gov/programs-surveys/acs",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Census Bureau American Community Survey."
+        }
+      ],
+      "whyItMatters": "DEI fights dominate campuses and HR. Steelman anti-discrimination goals, then separate them from coercive demographic engineering.",
+      "relatedClaimIds": [
+        "poverty-racism-only",
+        "intersectionality-identity",
+        "rich-get-richer-poor-poorer"
+      ],
+      "tags": [
+        "dei",
+        "equity",
+        "hiring",
+        "civil-rights"
+      ],
+      "embeddingText": "DEI mandates justice hiring equity EEOC BLS Census discrimination",
+      "searchText": "DEI mandates are required for justice diversity equity inclusion hiring quotas"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-01T21:59:25Z",
+      "kbVersion": "3.13.0",
+      "id": "climate-reparations-owed",
+      "topicId": "global-poverty-capitalism",
+      "topicPath": "/global-poverty-capitalism",
+      "title": "Rich Countries Owe Climate Reparations",
+      "socialistClaimText": "Industrial capitalism caused climate damage. Wealthy nations must pay climate reparations and transfer technology to the Global South.",
+      "executiveSummary": "Climate risk and adaptation finance are serious policy problems. Open-ended reparations rhetoric often ignores that emissions growth is now driven by developing industrializers, that historical emitters also created the technologies that raise living standards, and that institutions and energy abundance matter more than guilt transfers alone.",
+      "evidenceBullets": [
+        "EIA and IPCC-linked inventories show multi-decade shifts in regional emissions shares.",
+        "World Bank development indicators link energy access to poverty reduction and health.",
+        "Adaptation and resilience projects need governance quality; cash transfers without institutions underperform.",
+        "Trade and technology diffusion historically reduced costs of clean tech faster than pure aid narratives."
+      ],
+      "fallacies": [
+        "single-cause fallacy",
+        "historical inevitability",
+        "nirvana fallacy"
+      ],
+      "sources": [
+        {
+          "id": "eia-intl",
+          "title": "U.S. EIA International Energy Data",
+          "url": "https://www.eia.gov/international/data/world",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Energy Information Administration international energy data."
+        },
+        {
+          "id": "worldbank-energy",
+          "title": "World Bank Energy overview",
+          "url": "https://www.worldbank.org/en/topic/energy",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "World Bank energy and development materials."
+        },
+        {
+          "id": "noaa-climate",
+          "title": "NOAA Climate.gov",
+          "url": "https://www.climate.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "NOAA Climate.gov science and data portal."
+        }
+      ],
+      "whyItMatters": "Climate finance diplomacy uses reparations language that can block practical energy abundance strategies in poor countries.",
+      "relatedClaimIds": [
+        "climate-capitalism-failed",
+        "africa-exploited",
+        "green-new-deal-jobs-guarantee"
+      ],
+      "tags": [
+        "climate",
+        "reparations",
+        "energy",
+        "development"
+      ],
+      "embeddingText": "climate reparations rich countries Global South EIA World Bank energy",
+      "searchText": "rich countries owe climate reparations Global South loss and damage payments"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-01T21:59:25Z",
+      "kbVersion": "3.13.0",
+      "id": "grocery-price-controls-now",
+      "topicId": "government-intervention",
+      "topicPath": "/government-intervention",
+      "title": "Grocery Price Controls Will Stop Greedflation",
+      "socialistClaimText": "Food corporations are price-gouging families. Cap grocery prices or tax 'excess' food profits until shelves are fair again.",
+      "executiveSummary": "Food inflation hurts households, but price caps create shortages, quality declines, and black markets. BLS CPI food series already measure price changes; Fed and USDA data show supply shocks, energy, and labor costs matter. Prosecuting fraud is not the same as freezing market-clearing prices.",
+      "evidenceBullets": [
+        "BLS CPI food-at-home indexes track grocery inflation without proving collusion.",
+        "USDA ERS food price outlooks document farm, wholesale, and retail cost layers.",
+        "Historical price controls (wartime, 1970s) produced queues and quality degradation.",
+        "Antitrust has tools for cartel behavior; caps are a different and costlier instrument."
+      ],
+      "fallacies": [
+        "single-cause fallacy",
+        "seen vs unseen",
+        "equivocation on gouging"
+      ],
+      "sources": [
+        {
+          "id": "bls-cpi-food",
+          "title": "BLS CPI - Food",
+          "url": "https://www.bls.gov/cpi/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Bureau of Labor Statistics CPI food factsheet."
+        },
+        {
+          "id": "usda-ers",
+          "title": "USDA ERS Food Price Outlook",
+          "url": "https://www.ers.usda.gov/data-products/food-price-outlook/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Department of Agriculture Economic Research Service food price outlook."
+        },
+        {
+          "id": "fed-beige",
+          "title": "Federal Reserve Beige Book",
+          "url": "https://www.federalreserve.gov/monetarypolicy/beige-book-default.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "Federal Reserve Beige Book regional economic conditions."
+        }
+      ],
+      "whyItMatters": "Grocery price-control politics returns every inflation spike. Keep measurement and supply economics, reject shelf-emptying caps.",
+      "relatedClaimIds": [
+        "greedflation-price-controls",
+        "price-gouging-bans-help-consumers",
+        "algorithmic-pricing-is-collusion"
+      ],
+      "tags": [
+        "groceries",
+        "price-controls",
+        "inflation",
+        "food"
+      ],
+      "embeddingText": "grocery price controls greedflation BLS CPI USDA food inflation",
+      "searchText": "grocery price controls stop greedflation cap food prices tax excess profits"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-01T21:59:25Z",
+      "kbVersion": "3.13.0",
+      "id": "public-housing-only-solution",
+      "topicId": "ubi-rent-control",
+      "topicPath": "/government-intervention/ubi-rent-control",
+      "title": "Only Mass Public Housing Solves Shelter",
+      "socialistClaimText": "Private housing markets failed. Only mass public housing construction and social ownership can guarantee shelter as a right.",
+      "executiveSummary": "Public housing can house some low-income households, but exclusive social ownership historically suffered maintenance backlogs, political allocation, and crime concentration. Census AHS and HUD data show supply constraints (zoning, permits, construction) dominate affordability. Expanding private supply plus targeted vouchers often beats monopoly public stock strategies.",
+      "evidenceBullets": [
+        "Census American Housing Survey measures stock, quality, and cost burdens.",
+        "HUD housing data document public housing inventory challenges and waitlists.",
+        "Cities with more housing permits see slower rent growth than highly constrained cities.",
+        "Social ownership alone does not create carpenters, lumber, or land-use permission."
+      ],
+      "fallacies": [
+        "false dichotomy",
+        "nirvana fallacy",
+        "single-cause fallacy"
+      ],
+      "sources": [
+        {
+          "id": "census-ahs",
+          "title": "Census American Housing Survey",
+          "url": "https://www.census.gov/programs-surveys/ahs.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Census Bureau American Housing Survey."
+        },
+        {
+          "id": "hud-pd",
+          "title": "HUD User - Housing data",
+          "url": "https://www.huduser.gov/portal/home.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Department of Housing and Urban Development research portal."
+        },
+        {
+          "id": "bls-cpi-shelter",
+          "title": "BLS CPI Shelter",
+          "url": "https://www.bls.gov/cpi/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Bureau of Labor Statistics Consumer Price Index (shelter)."
+        }
+      ],
+      "whyItMatters": "Public-housing-only slogans block YIMBY supply reforms that actually lower rents citywide.",
+      "relatedClaimIds": [
+        "housing-must-be-decommodified",
+        "rent-freeze-solves-city-housing",
+        "rent-control-helps"
+      ],
+      "tags": [
+        "public-housing",
+        "housing",
+        "supply",
+        "hud"
+      ],
+      "embeddingText": "mass public housing only solution social ownership Census AHS HUD rents",
+      "searchText": "only mass public housing solves shelter social housing right private markets failed"
+    }
+  ]
+}

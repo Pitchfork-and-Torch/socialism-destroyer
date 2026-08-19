@@ -1,0 +1,3 @@
+# SPA fallback — existing static files (knowledge CDN, assets, SEO files) still win.
+# Do not rewrite API/knowledge JSON under /knowledge/* when the file exists.
+/*    /index.html   200

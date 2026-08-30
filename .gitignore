@@ -1,0 +1,116 @@
+# Golden test diff artifacts (regenerated locally on failure)
+test/golden/failures/
+
+# Local Lighthouse runs
+lighthouse-report.json
+/lighthouse-report.json
+tools/reports/
+tools/node_modules/
+
+# Gutenberg raw downloads (curated texts live in assets/data/books/)
+assets/data/books/_gutenberg_raw/
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+Thumbs.db
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code (keep launch configs if desired)
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Flutter / Dart / Pub
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+
+# Symbolication & obfuscation
+app.*.symbols
+app.*.map.json
+
+# Android
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/local.properties
+/android/.gradle/
+/android/captures/
+/android/key.properties
+*.jks
+*.keystore
+
+# iOS / macOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+
+# Windows / Linux
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+
+# Environment & secrets — NEVER commit
+.env
+.env.local
+.env.*.local
+.env.*.backup
+.env.local.backup
+!.env.example
+!.env.web.publish
+*.pem
+secrets/
+
+# Generated exports
+exports/
+*.pdf.tmp
+
+# Hive / SQLite local DB (dev)
+*.hive
+*.lock
+
+# Test artifacts
+test_driver/screenshots/
+
+# Local CDN publish output (upload to production bucket)
+dist/
+
+# Cloudflare wrangler local state
+.wrangler/
+
+# One-off history scrub tooling (contains patterns — do not commit)
+tools/secret-scrub-expressions.txt**/wrangler-account.json
+
+# Gutenberg/raw install caches (not for public tree)
+assets/data/books/_source_cache/
+

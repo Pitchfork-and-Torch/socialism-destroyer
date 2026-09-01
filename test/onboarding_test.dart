@@ -30,7 +30,7 @@ void main() {
 
     expect(find.text('Skip'), findsOneWidget);
     expect(find.text('Discover the Engine'), findsOneWidget);
-    expect(find.textContaining('Liberty Argument Engine'), findsOneWidget);
+    expect(find.textContaining('steelmans the opposing argument'), findsOneWidget);
     expect(find.text('Fully Sourced'), findsOneWidget);
   });
 

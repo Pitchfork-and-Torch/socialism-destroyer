@@ -88,7 +88,7 @@ void main() {
     testWidgets('mobile shows crush bar, insight, and bottom nav', (tester) async {
       await pumpHome(tester, const Size(390, 844));
       expect(find.text('Crush Any Argument'), findsOneWidget);
-      expect(find.text("Today's Based Insight"), findsOneWidget);
+      expect(find.text("Today's Insight"), findsOneWidget);
       expect(find.byType(CompactBottomChrome), findsOneWidget);
       expect(find.text('Wealth & Mobility'), findsOneWidget);
     });

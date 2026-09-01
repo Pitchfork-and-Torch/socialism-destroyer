@@ -3,10 +3,22 @@
 **Socialism Destroyer** (Liberty Argument Engine) - free, fully sourced claim-vs-counterclaim debate tool.
 
 **Current knowledge base:** KB 3.17.0 (updated 2026-08-28)  
+**Current app:** 2.6.1  
 **Live:** https://destroyer.jonbailey.xyz/  
 **In-app:** Home intelligence strip or Sync panel -> **Changelog** (same data as this file).
 
-Versions below are knowledge-base releases. App version is independent (see `pubspec.yaml`).
+Knowledge-base versions below are independent of the app version (see `pubspec.yaml`).
+
+## 2.6.1 (2026-09-01)
+
+**App honesty pass -- copy and version constants match the shipped engine**
+
+- App 2.6.1; KB remains 3.17.0 (no new claims)
+- `AppConstants.knowledgeBaseVersion` was still 3.1.1; now 3.17.0 to match the bundled manifest
+- Onboarding and home hub no longer say 45+ / 160+ claims or 10 categories (201 unique claims, 11 topic families)
+- Dropped slogan copy (Super-Based, Always updated, ultimate, American exceptionalism as a product claim, Three Weapons, Today's Based Insight)
+- README encoding rot fixed; architecture and feature list match code (local search, on-device notes, stores not shipped)
+- AEO / llms.txt: retrieval described as FTS on native, fuzzy + hashed bag-of-words on web; no cloud vector index
 
 ## 3.17.0 (2026-08-28)
 

@@ -27,8 +27,8 @@ class HubNavCards extends StatelessWidget {
       icon: Icons.account_tree_rounded,
       title: 'Topic Tree',
       subtitle: compact
-          ? '160+ sourced claims'
-          : '10 categories · 160+ sourced claims',
+          ? '201 sourced claims'
+          : '11 topic families · 201 sourced claims',
       onTap: onTree,
       compact: compact,
     );

@@ -66,6 +66,11 @@ Items deferred from routine-upgrade cycles. Prefer small ships from this list.
 - Supply, Trade & Infrastructure topic child; Crusher phrase boosts + home pack chips
 - 201 unique claims / 20 bundles; App 2.6.0
 
+## Shipped in app 2.6.1 (2026-09-01)
+
+- Honesty pass only: version constants, README, onboarding, home hub, AEO/llms match the shipped engine
+- KB unchanged at 3.17.0 (201 unique claims, 11 topic families)
+
 ## Suggested next-cycle pick order
 
 1. Broader Flutter web a11y (contrast ratios, keyboard-only tree nav beyond focus tokens)

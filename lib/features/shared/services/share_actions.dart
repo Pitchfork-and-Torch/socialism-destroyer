@@ -19,7 +19,7 @@ abstract final class ShareActions {
     final source = insight['source'] ?? '';
     return shareText(
       '"$quote"\n— $author\n\n$data\nSource: $source\n\n— Socialism Destroyer',
-      subject: "Today's Based Insight",
+      subject: "Today's Insight",
     );
   }
 

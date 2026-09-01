@@ -2,46 +2,48 @@
 
 **The Pro-America Liberty Argument Engine**
 
-> *The ultimate claim-vs-counterclaim engine for individual liberty, free markets, and American exceptionalism. Fully sourced. Always updated. Built for truth.*
+A sourced claim-vs-counterclaim engine for individual liberty and free markets. Every entry steelmans the opposing argument first, then answers with government data, academic research, historical archives, and public-domain primaries. No slogans in place of evidence.
 
 [![Live](https://img.shields.io/badge/live-destroyer.jonbailey.xyz-02569B)](https://destroyer.jonbailey.xyz)
-[![App](https://img.shields.io/badge/app-2.6.0-1B4F72)](https://destroyer.jonbailey.xyz)
+[![App](https://img.shields.io/badge/app-2.6.1-1B4F72)](https://destroyer.jonbailey.xyz)
 [![KB](https://img.shields.io/badge/KB-3.17.0-117A65)](https://destroyer.jonbailey.xyz)
-[![Flutter](https://img.shields.io/badge/Flutter-3.44+-02569B?logo=flutter)](https://flutter.dev)
+[![Flutter](https://img.shields.io/badge/Dart-3.12+-02569B?logo=flutter)](https://flutter.dev)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ---
 
-## Vision
+## What this is
 
-Socialism Destroyer is a **serious, authoritative reference and debate tool**, not a meme app. Every claim and counter is sourced from primary data, peer-reviewed research, and verifiable historical records. The app steelmans socialist arguments first, then dismantles them with evidence, incentives, and historical outcomes.
+Socialism Destroyer is a **reference and practice tool**, not a meme app. The live product is the free web app at [destroyer.jonbailey.xyz](https://destroyer.jonbailey.xyz). The same Flutter codebase can be built for iOS, Android, Windows, macOS, and Linux; store distribution is **not shipped** (Phase 8).
 
-**Target user feeling:** *"I just opened the app and instantly feel smarter and more equipped."*
+**Current corpus (KB 3.17.0):** 201 unique curated claims (legacy seed plus v2 bundles, de-duplicated by id), 11 top-level topic families, 120 bundled public-domain full texts, and 16 catalog-only copyrighted titles with external links.
 
-### Free for everyone
+### Free, no account
 
-The live web app at [destroyer.jonbailey.xyz](https://destroyer.jonbailey.xyz) is **100% free**: no paywall, no subscription, and **no account required**. Topic tree, Argument Crusher, public-domain library, study tools, intelligence sync, and claim suggestions all work immediately after a short onboarding. Progress, notes, and favorites stay on your device (Hive).
+The web app is **free**: no paywall, no subscription, and **no account required**. Topic tree, Argument Crusher, Debate Simulator, public-domain library, study-tool links, optional knowledge CDN sync, and claim suggestions work after a short onboarding. Progress, notes, highlights, and favorites stay on the device (Hive). Suggest-a-claim submissions stay local until a curator merges them.
 
-### Design Principles
+Leftover auth packages exist in `pubspec.yaml` for optional native experiments. They are **not** part of the public web product and are not initialized on cold start.
 
-| Principle | Implementation |
-|-----------|----------------|
-| Truth-first | U.S. Census, BLS, BEA, World Bank, Heritage/Fraser indices, Chetty mobility, Soviet archives |
-| Steelman then rebut | Every entry presents the strongest socialist claim before the counter |
-| No ad hominem | Evidence, incentives, calculation problems, historical outcomes only |
-| Offline-first | Bundled knowledge base + Hive local storage; optional CDN delta sync |
-| Cross-platform native | Single Flutter codebase â†’ iOS, Android, iPadOS, Windows, macOS, Linux |
+### Design principles
 
-### Brand Palette
+| Principle | What the code actually does |
+|-----------|-----------------------------|
+| Truth-first | Claims cite Census, BLS, BEA, CBO, World Bank, academic papers, and primary archives |
+| Steelman then rebut | `socialistClaimText` is the strongest opposing formulation before the counter |
+| No ad hominem | Evidence, incentives, calculation problems, historical outcomes |
+| Offline-first | Bundled knowledge base + Hive local storage; optional CDN delta under `/knowledge` |
+| Flutter codebase | Single repo; **live ship is web**. Other targets are source-buildable, not store-listed |
 
-- **Navy:** `#0A1628` â€” authority, depth
-- **Gold:** `#D4AF37` â€” excellence, liberty accents
-- **Danger red:** `#C0392B` â€” socialist claim highlights
+### Brand palette
+
+- **Navy:** `#0A1628`
+- **Gold:** `#D4AF37`
+- **Danger red:** `#C0392B` (socialist-claim highlight)
 - **Typography:** Libre Baskerville (headings) + Inter (body)
 
-### App Icon & Splash
+### App icon and splash
 
-**Scales + Star** is the shipped motif â€” it reads clearly at small sizes and matches the truth-and-evidence positioning.
+**Scales + Star** is the shipped motif.
 
 | Asset | Preview |
 |-------|---------|
@@ -58,13 +60,12 @@ dart run flutter_native_splash:create
 
 ---
 
-## Quick Start
+## Quick start
 
 ### Prerequisites
 
-- [Flutter SDK](https://docs.flutter.dev/get-started/install) 3.44+ (stable)
-- Dart 3.12+
-- Platform toolchains for your target (Xcode, Android Studio, Visual Studio for Windows)
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (Dart 3.12+)
+- Platform toolchains for your target (optional; web preview needs Chrome)
 
 ### Setup
 
@@ -76,94 +77,86 @@ flutter pub get
 
 cp .env.example .env
 
-flutter run -d windows    # Windows desktop
-flutter run -d chrome     # Web preview (dev only)
-flutter devices           # List available targets
+flutter run -d chrome     # local web preview
+flutter devices           # other attached targets
 ```
 
-Run `flutter run -d windows` or open [destroyer.jonbailey.xyz](https://destroyer.jonbailey.xyz) to preview the live build.
+The production build is [destroyer.jonbailey.xyz](https://destroyer.jonbailey.xyz).
 
-### Environment Variables
+### Environment variables
 
 | Variable | Required | Purpose |
 |----------|----------|---------|
-| `KNOWLEDGE_CDN_URL` | Optional | Delta knowledge sync (production: bundled under `/knowledge`) |
-| `OPENAI_API_KEY` | Optional | Enhanced Argument Crusher LLM overlay |
+| `KNOWLEDGE_CDN_URL` | Optional | Delta knowledge sync (production default: `https://destroyer.jonbailey.xyz/knowledge`) |
+| `OPENAI_API_KEY` | Optional | Argument Crusher / Debate wording overlay. Public web ships without it. |
 
 ---
 
-## Architecture Overview
+## Architecture
 
 ```
 lib/
-â”œâ”€â”€ main.dart                    # App entry, Hive init, Riverpod scope
-â”œâ”€â”€ features/
-â”‚   â”œâ”€â”€ auth/                    # Onboarding (3-screen welcome flow)
-â”‚   â”œâ”€â”€ suggestions/             # Suggest New Claim (local, no account)
-â”‚   â”œâ”€â”€ home/                    # Dashboard, daily insight, quick categories
-â”‚   â”œâ”€â”€ tree/                    # Hierarchical topic tree + claim detail
-│   ├── crusher/                 # Argument Crusher (NL search → sourced rebuttal)
-│   ├── debate_simulator/        # Multi-turn Spar / Challenge (v2.0)
-│   ├── library/                 # Public-domain reader (Smith, Bastiat, Locke…)
-â”‚   â””â”€â”€ shared/
-â”‚       â”œâ”€â”€ router/              # go_router navigation
-â”‚       â””â”€â”€ widgets/             # AppLogo, shared UI
-â”œâ”€â”€ models/                      # Topic, Claim, Source, Book, UserInteraction
-â”œâ”€â”€ services/                    # Knowledge, Search, LocalStorage, Sync, ClaimSuggestion
-â”œâ”€â”€ providers/                   # Riverpod providers
-â”œâ”€â”€ themes/                      # AppColors, AppTheme (navy/gold)
-â””â”€â”€ utils/                       # AppConstants
+  main.dart                         App entry, Riverpod scope
+  core/                             Cold-start init (Hive, optional FTS)
+  features/
+    auth/                           3-screen onboarding (no sign-in)
+    home/                           Dashboard, daily insight, high-intent pack
+    tree/                           Topic tree + claim detail + Battle Brief/Card
+    crusher/                        Argument Crusher (local retrieval)
+    debate_simulator/               Multi-turn Spar / Challenge
+    library/                        Public-domain reader + passage search
+    study_tools/                    Outbound links to free research tools
+    suggestions/                    Suggest New Claim (local, no account)
+    sync/                           Optional CDN overlay + changelog
+    shared/                         go_router, shell, share/export
+  models/                           Topic, Claim, Source, Book, ...
+  services/                         Knowledge, search, Hive, overlay store
+  providers/                        Riverpod
+  themes/                           Navy/gold
+  utils/                            AppConstants (KB version must match manifest)
 
-assets/
-â”œâ”€â”€ data/
-â”‚   â”œâ”€â”€ topics.json              # 10 top-level categories
-â”‚   â”œâ”€â”€ claims_seed.json         # Legacy baseline (superseded by v2 seeds)
-â”‚   â”œâ”€â”€ v2/seeds/*.json          # Curated v2 claims
-â”‚   â”œâ”€â”€ daily_insights.json      # Rotating quotes + data points
-â”‚   â”œâ”€â”€ changelog.json           # Versioned knowledge base changelog
-â”‚   â””â”€â”€ books/                   # Public-domain text assets
-â””â”€â”€ images/                      # Branding, icons
+assets/data/
+  claims_seed.json                  Legacy baseline (overridden by v2 on id clash)
+  v2/knowledge_manifest.json        KB version + bundle list
+  v2/seeds/*.json                   Curated v2 claims
+  v2/topics.json                    Topic tree (11 top-level families)
+  v2/books.json                     Library catalog (136 entries)
+  changelog.json                    In-app KB changelog
+  books/                            Bundled public-domain texts
+  study_tools.json                  Outbound study-tool links
+  daily_insights.json               Rotating quotes + data points
 
-test/                            # Widget + unit tests
-integration_test/                # End-to-end scenarios
-docs/
-â”œâ”€â”€ adr/                         # Architecture Decision Records
-â”œâ”€â”€ ARCHITECTURE.md
-â”œâ”€â”€ BUILD.md
-â”œâ”€â”€ DISTRIBUTION.md              # TestFlight, stores, .exe readiness
-â”œâ”€â”€ TESTING.md
-â””â”€â”€ content-pipeline.md
+test/                               Unit + widget tests (CI skips goldens)
+docs/                               Architecture, claims, debate, distribution
 ```
 
-### Tech Stack
+### Tech stack
 
-| Layer | Choice | Rationale |
-|-------|--------|-----------|
-| Framework | **Flutter** | True native cross-platform from single codebase |
-| State | **Riverpod** | Compile-safe, testable, scales to large apps |
-| Navigation | **go_router** | Declarative routes, deep linking, split-view ready |
-| Offline | **Hive** | Fast key-value for favorites, notes, history |
-| Charts | **fl_chart** | Interactive poverty/mobility/GDP visualizations |
-| Search | **Fuzzy + RAG-ready** | Local fuzzy now; vector layer in Phase 4 |
+| Layer | Choice | What it is used for |
+|-------|--------|---------------------|
+| Framework | **Flutter** | UI; live product is web |
+| State | **Riverpod** | Providers |
+| Navigation | **go_router** | Routes and deep links |
+| Offline | **Hive** | Favorites, notes, highlights, suggestions, overlay on web |
+| Charts | **fl_chart** | Optional claim charts |
+| Search | **FTS5 + fuzzy + hashed bag-of-words** | SQLite FTS5 on native/desktop; fuzzy/token ranking on web; local hashed overlap everywhere. No cloud vector index. |
 
-See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) and [docs/adr/](docs/adr/) for detailed decisions.
+See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) and [docs/adr/](docs/adr/).
 
 ---
 
-## Core Features
+## What ships
 
-| Phase | Status | Deliverable |
-|-------|--------|-------------|
-| 1 | ✅ | Scaffold, onboarding, folder structure |
-| 2 | ✅ | Topic tree UI, detail view, global search |
-| 3 | ✅ | 90+ curated claims, source system, v2 manifest |
-| 4 | ✅ | Argument Crusher (FTS retrieval + optional LLM overlay) |
-| 5 | ✅ | Public-domain library reader, highlights, progress |
-| 6 | ✅ | Knowledge sync panel, changelog, CDN overlay pipeline |
-| 7 | ✅ | Polish: 60fps motion, a11y, desktop shortcuts, share/export, streaks |
-| **2.0** | ✅ | **Debate Simulator** — multi-turn spar/challenge, scoring, evidence sidebar |
-| **2.1** | ✅ | Library passage RAG, local vectors, timed drills, SEO/AEO, store prep |
-| 8 | 🔓 | TestFlight / App Store / Play / signed .exe distribution — see docs/STORE-SUBMISSION.md |
+| Surface | Status | Honest description |
+|---------|--------|--------------------|
+| Topic tree + claim detail | Shipped | 201 unique claims, steelman first, sources, Battle Brief copy, 1200x630 Battle Card PNG |
+| Argument Crusher | Shipped | Matches curated claims via local search; Markdown/PDF/image export; optional LLM overlay if a key is set |
+| Debate Simulator | Shipped | Multi-turn Spar / Challenge, timed playlists, evidence sidebar, library passage search, transcript export |
+| Public-domain library | Shipped | 120 full texts offline; 16 modern titles catalog-only with external links; local highlights and notes |
+| Knowledge sync | Shipped | Optional CDN delta under `/knowledge`; bundled KB is the offline baseline |
+| Study tools | Shipped | Outbound links (Scholar, FRED, Archive, OLL, Gutenberg, Fraser, Heritage, World Bank PIP, ...) |
+| Suggest a claim | Shipped | Local queue; curator merge required |
+| Store listing | Not shipped | See [docs/STORE-SUBMISSION.md](docs/STORE-SUBMISSION.md) |
 
 See [docs/DISTRIBUTION.md](docs/DISTRIBUTION.md) for release checklists.
 
@@ -176,44 +169,45 @@ flutter test
 flutter test integration_test/
 ```
 
-Manual scenarios:
+CI runs `flutter analyze` and `flutter test` excluding `test/golden/` (Linux font variance).
 
-> User types *"capitalism exploits workers"* in Argument Crusher → surfaces exploitation claim + mobility data + related topics.
+Manual checks:
 
-> Open **Debate Simulator** → Challenge mode → write a sourced rebuttal → receive score + evidence sidebar → export transcript.
+- Type a distinctive phrase in Argument Crusher and confirm a curated claim, steelman, and sources.
+- Open Debate Simulator, Challenge mode, evidence sidebar, export.
+- Claim detail: Battle Brief copy and Battle Card PNG.
 
 See [docs/TESTING.md](docs/TESTING.md) and [docs/DEBATE-SIMULATOR.md](docs/DEBATE-SIMULATOR.md).
 
 ---
 
-## Content & Sourcing Standards
+## Content and sourcing
 
-Every counter must cite **specific data or documents** with links/DOIs. Priority sources:
+Every counter must cite **specific data or documents** with live URLs. Priority sources:
 
-- U.S. Census Bureau, BLS, BEA
+- U.S. Census Bureau, BLS, BEA, CBO
 - World Bank (absolute poverty metrics)
 - Heritage Index of Economic Freedom, Fraser Institute
 - Chetty et al. mobility studies
-- Primary Soviet archives, Conquest, DikÃ¶tter
-- Mises, Hayek, Bastiat, Smith, Founding Fathers
+- Primary archives and public-domain classics (Bastiat, Smith, Locke, Bohm-Bawerk, Founders)
 
-Regenerate seed data:
+New claims: follow [docs/ADDING-CLAIMS.md](docs/ADDING-CLAIMS.md). Minimum **two** government/primary/academic sources. After content edits, bump `knowledge_manifest.json`, run `node tools/bump_kb_manifest.mjs`, and update `assets/data/changelog.json`.
 
 ```bash
-node tools/generate_claims_seed.mjs
+node tools/check_citation_freshness.mjs --limit 30
 ```
 
 ---
 
 ## Contributing
 
-1. Branch from `main`: `feat/phase-N-description`
-2. Follow existing folder structure under `lib/features/`
-3. All new claims require minimum 2 primary/government sources
-4. Run `flutter analyze` and `flutter test` before PR
-5. Content changes bump `assets/data/changelog.json`
+1. Branch from `main`.
+2. Match existing folder structure under `lib/features/`.
+3. New claims need at least two primary/government sources and a steelman.
+4. Run `flutter analyze` and `flutter test` before a PR.
+5. Content changes bump `assets/data/changelog.json` and the KB manifest. App version (`pubspec.yaml`) is independent.
 
-### Commit Convention
+### Commit convention
 
 ```
 feat: add argument crusher export to PDF
@@ -237,16 +231,16 @@ The publish script swaps in `.env.web.publish` (no API secrets) before `flutter 
 
 ---
 
-## Legal & Privacy
+## Legal and privacy
 
-- Minimal data collection; reading progress and notes stay local on the web build
-- Fair-use quotes only in claim summaries
-- Community **Suggest New Claim** flow (no account â€” saved locally for curator review; see [docs/ADDING-CLAIMS.md](docs/ADDING-CLAIMS.md))
-- Public-domain texts only in library
-- **100% free** â€” every feature on the web works without payment or account
+- MIT license ([LICENSE](LICENSE)).
+- Reading progress, highlights, notes, and suggestions stay on-device on the web build.
+- Fair-use quotes only in claim summaries.
+- Community **Suggest New Claim** flow (no account; saved locally; see [docs/ADDING-CLAIMS.md](docs/ADDING-CLAIMS.md)).
+- Public-domain texts only in the bundled library; copyrighted titles are catalog links.
+- **Free** -- core tools work without payment or account.
 
 ---
-
 
 ## Related tools (Pitchfork-and-Torch)
 
@@ -259,9 +253,10 @@ The publish script swaps in `.env.web.publish` (no API secrets) before `flutter 
 Debate content stays offline-first; networking tools are optional and separate.
 
 ---
-## Support the work
 
-Socialism Destroyer is **free and open source**. Bug reports and feature requests are welcome via [GitHub Issues](https://github.com/Pitchfork-and-Torch/socialism-destroyer/issues).
+## Support
+
+Socialism Destroyer is **free and open source**. Bug reports and feature requests: [GitHub Issues](https://github.com/Pitchfork-and-Torch/socialism-destroyer/issues).
 
 ---
 

@@ -7,7 +7,7 @@ import '../../../themes/themes.dart';
 import '../../shared/services/share_actions.dart';
 import '../../shared/widgets/export_menu_button.dart';
 
-/// Rotating carousel of "Today's Based Insight" quotes + data points.
+/// Rotating carousel of daily insight quotes + data points.
 class BasedInsightCard extends StatefulWidget {
   const BasedInsightCard({
     super.key,
@@ -80,7 +80,7 @@ class _BasedInsightCardState extends State<BasedInsightCard> {
               const SizedBox(width: AppSpacing.xs),
               Expanded(
                 child: Text(
-                  "Today's Based Insight",
+                  "Today's Insight",
                   style: theme.textTheme.titleMedium?.copyWith(color: sd.accentGold),
                   overflow: TextOverflow.ellipsis,
                 ),

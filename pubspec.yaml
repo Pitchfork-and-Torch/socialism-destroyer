@@ -1,7 +1,7 @@
 name: socialism_destroyer
-description: "Socialism Destroyer - The Pro-America Liberty Argument Engine. Fully sourced. Always updated. Built for truth."
+description: "Socialism Destroyer - The Pro-America Liberty Argument Engine. Steelman first. Fully sourced. Built for truth."
 publish_to: 'none'
-version: 2.6.0+17
+version: 2.6.1+18
 
 environment:
   sdk: ^3.12.2

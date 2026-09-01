@@ -1,8 +1,9 @@
 abstract final class AppConstants {
   static const String appName = 'Socialism Destroyer';
   static const String appSubtitle = 'The Pro-America Liberty Argument Engine';
-  static const String knowledgeBaseVersion = '3.1.1';
-  static const String knowledgeBaseUpdated = '2026-07-05';
+  /// Must match `assets/data/v2/knowledge_manifest.json` `kbVersion`.
+  static const String knowledgeBaseVersion = '3.17.0';
+  static const String knowledgeBaseUpdated = '2026-08-28';
 
   /// Public knowledge delta host (Cloudflare Pages `/knowledge` static tree).
   static const String defaultKnowledgeCdnUrl =

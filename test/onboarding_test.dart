@@ -30,7 +30,7 @@ void main() {
 
     expect(find.text('Skip'), findsOneWidget);
     expect(find.text('Discover the Engine'), findsOneWidget);
-    expect(find.textContaining('Super-Based'), findsOneWidget);
+    expect(find.textContaining('Liberty Argument Engine'), findsOneWidget);
     expect(find.text('Fully Sourced'), findsOneWidget);
   });
 
@@ -48,7 +48,7 @@ void main() {
     await tester.tap(find.text('Discover the Engine'));
     await tester.pumpAndSettle();
 
-    expect(find.textContaining('Three Weapons'), findsOneWidget);
+    expect(find.textContaining('What ships in the app'), findsOneWidget);
     expect(find.text('Topic Tree'), findsOneWidget);
     expect(find.text('Argument Crusher'), findsOneWidget);
   });

@@ -41,6 +41,12 @@ void main() {
       final manifest = await service.getManifest();
       expect(manifest.meta.schemaVersion, 2);
       expect(manifest.meta.kbVersion, '3.17.0');
+      expect(AppConstants.knowledgeBaseVersion, manifest.meta.kbVersion);
+    });
+
+    test('dedupes overlapping legacy and v2 bundles to 201 unique claims', () async {
+      final claims = await service.getClaims();
+      expect(claims.length, 201);
     });
 
     test('v2.2 profit exploitation bundle overrides legacy thin claims', () async {

@@ -87,7 +87,7 @@ void main() {
     );
     await waitForFinder(
       tester,
-      find.textContaining('Your Super-Based'),
+      find.textContaining('The Pro-America'),
       maxPumps: 40,
     );
     for (var i = 0; i < 12; i++) {

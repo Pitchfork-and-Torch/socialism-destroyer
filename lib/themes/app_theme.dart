@@ -13,8 +13,8 @@ import 'design_system.dart';
 /// with inverted surfaces. Both meet WCAG 2.1 AA for body text pairings.
 abstract final class AppTheme {
   static const String tagline =
-      'The ultimate claim-vs-counterclaim engine for individual liberty, '
-      'free markets, and American exceptionalism. Fully sourced. Always updated. Built for truth.';
+      'A sourced claim-vs-counterclaim engine for individual liberty and '
+      'free markets. Steelman first. Built for truth.';
 
   static ThemeData get light => _build(Brightness.light);
   static ThemeData get dark => _build(Brightness.dark);

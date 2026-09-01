@@ -185,13 +185,13 @@ class _MissionPage extends StatelessWidget {
                 .scale(begin: const Offset(0.9, 0.9), end: const Offset(1, 1)),
             const SizedBox(height: 24),
             Text(
-              'Your Super-Based\nLiberty Argument Engine',
+              'The Pro-America\nLiberty Argument Engine',
               style: Theme.of(context).textTheme.displayLarge?.copyWith(fontSize: 30),
               textAlign: TextAlign.center,
             ).animate(delay: 200.ms).fadeIn(duration: 450.ms),
             const SizedBox(height: 16),
             Text(
-              'A serious, fully sourced reference for individual liberty, free markets, and American exceptionalism — built for truth, not memes.',
+              'A sourced claim-vs-counterclaim reference. Every entry steelmans the opposing argument first, then answers with government data, academic research, and public-domain primaries.',
               style: Theme.of(context).textTheme.bodyLarge,
               textAlign: TextAlign.center,
             ).animate(delay: 280.ms).fadeIn(duration: 450.ms),
@@ -271,17 +271,17 @@ class _FeaturesPage extends StatelessWidget {
       (
         Icons.account_tree,
         'Topic Tree',
-        'Navigate 45+ sourced claim/counter pairs across 10 categories — from Nordic myths to Venezuela\'s record.',
+        'Browse 201 unique sourced claim/counter pairs across 11 topic families — from Nordic-model myths to the historical record.',
       ),
       (
         Icons.bolt,
         'Argument Crusher',
-        'Paste any socialist claim. Get an executive summary, evidence, sources, and fallacies in seconds.',
+        'Paste a claim. Local search matches curated steelmans, evidence, fallacies, and sources. Optional LLM overlay if a key is configured.',
       ),
       (
         Icons.menu_book,
         'Public Domain Library',
-        'Read Smith, Bastiat, Locke, and the Federalist Papers — with highlights and synced notes.',
+        'Read Smith, Bastiat, Locke, and the Federalist Papers — highlights and notes stay on this device.',
       ),
     ];
 
@@ -292,13 +292,13 @@ class _FeaturesPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Text(
-              'Three Weapons.\nOne Engine.',
+              'What ships in the app',
               style: Theme.of(context).textTheme.headlineMedium,
               textAlign: TextAlign.center,
             ).animate().fadeIn(duration: 400.ms),
             const SizedBox(height: 8),
             Text(
-              'Everything you need to debate with confidence — offline-first, always updated.',
+              'Bundled knowledge base, local search, and a public-domain library. No account required.',
               style: Theme.of(context).textTheme.bodyMedium,
               textAlign: TextAlign.center,
             ),
@@ -347,10 +347,10 @@ class _TipsPage extends StatelessWidget {
   final bool isWide;
 
   static const _tips = [
-    ('Search or browse the Topic Tree', 'Find fully sourced rebuttals in under 30 seconds.'),
-    ('Crush any custom argument', 'Paste a claim into Argument Crusher for instant evidence.'),
-    ('Study the classics', 'Smith and Bastiat passages linked to the claims you explore.'),
-    ('Suggest missing claims', 'Submit sourced ideas from Home or Topic Tree — every entry is moderated.'),
+    ('Search or browse the Topic Tree', 'Open a claim to read the steelman, evidence, fallacies, and sources.'),
+    ('Use Argument Crusher', 'Paste a claim; the engine matches curated entries and their citations.'),
+    ('Read the public-domain library', 'Smith, Bastiat, Locke, and other bundled texts. Notes stay on-device.'),
+    ('Suggest a missing claim', 'Submissions are saved locally for curator review — nothing publishes until sourced.'),
   ];
 
   @override
@@ -361,13 +361,13 @@ class _TipsPage extends StatelessWidget {
         child: Column(
           children: [
             Text(
-              'Ready in 10 Minutes',
+              'How to use it',
               style: Theme.of(context).textTheme.headlineMedium,
               textAlign: TextAlign.center,
             ).animate().fadeIn(duration: 400.ms),
             const SizedBox(height: 8),
             Text(
-              'Four moves to feel smarter and more equipped.',
+              'Four moves. Progress stays on this device.',
               style: Theme.of(context).textTheme.bodyMedium,
               textAlign: TextAlign.center,
             ),
@@ -396,7 +396,7 @@ class _TipsPage extends StatelessWidget {
               ],
             const SizedBox(height: 20),
             Text(
-              'You\'re equipped. Let\'s go.',
+              'No account required.',
               style: Theme.of(context).textTheme.titleLarge?.copyWith(color: AppColors.gold),
               textAlign: TextAlign.center,
             ).animate(delay: 400.ms).fadeIn(duration: 400.ms),

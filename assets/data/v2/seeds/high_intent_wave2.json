@@ -1,0 +1,679 @@
+{
+  "schemaVersion": 2,
+  "kbVersion": "3.11.0",
+  "bundleId": "high-intent-wave2-v311",
+  "priority": 10,
+  "updatedAt": "2026-08-01T21:08:28Z",
+  "contentHash": "sha256:fdb8202ef1bfe8d567ccb17a9d746ee26148c4fb62c5223518deb94a6f6367f5",
+  "claims": [
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-01T21:08:28Z",
+      "kbVersion": "3.11.0",
+      "id": "medicare-for-all-pays-for-itself",
+      "topicId": "government-intervention",
+      "topicPath": "/government-intervention/healthcare-systems",
+      "title": "Medicare for All Pays for Itself",
+      "socialistClaimText": "A single national public insurer would eliminate private insurance waste, bargain drug prices down, and cover everyone for less total cost. Medicare for All pays for itself.",
+      "executiveSummary": "Single-payer can reduce administrative overhead in some accounting models, but CBO-class fiscal work still shows large mandatory federal spending increases, tax needs, and wait-list and capacity risks when prices are forced below market clearing levels. 'Pays for itself' conflates lower private premiums with higher taxes and ignores supply response in labor, drugs, and capital.",
+      "evidenceBullets": [
+        "CBO analyses of single-payer and large coverage expansions show substantial increases in federal outlays even when private premiums fall.",
+        "CMS NHE accounts already measure U.S. health spending; shifting who pays does not automatically create doctors, nurses, beds, or new drugs.",
+        "Price controls on drugs and procedures can reduce measured spending while reducing innovation and supply (classic shortage logic).",
+        "International single-payer systems still ration via queues, coverage limits, or dual private tiers - not free infinite care."
+      ],
+      "fallacies": [
+        "nirvana fallacy",
+        "seen vs unseen",
+        "composition fallacy"
+      ],
+      "sources": [
+        {
+          "id": "cms-nhe",
+          "title": "CMS National Health Expenditure Data",
+          "url": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "Centers for Medicare & Medicaid Services, National Health Expenditure accounts."
+        },
+        {
+          "id": "cbo-health",
+          "title": "CBO - Health care and budget",
+          "url": "https://www.cbo.gov/topics/health-care",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "Congressional Budget Office materials on health care spending and coverage options."
+        },
+        {
+          "id": "bls-medical-cpi",
+          "title": "BLS - Medical care CPI",
+          "url": "https://www.bls.gov/cpi/factsheets/medical-care.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Bureau of Labor Statistics, medical care price measurement."
+        }
+      ],
+      "whyItMatters": "Health care is the largest ongoing fiscal and liberty debate. Voters need steelman single-payer claims plus honest fiscal and capacity constraints.",
+      "relatedClaimIds": [
+        "healthcare-cost",
+        "healthcare-right",
+        "medicare-price-controls-shortage"
+      ],
+      "tags": [
+        "medicare-for-all",
+        "single-payer",
+        "healthcare",
+        "cbo",
+        "cms"
+      ],
+      "embeddingText": "medicare for all single payer pays for itself CMS NHE CBO health spending administration waste",
+      "searchText": "Medicare for All pays for itself single payer free healthcare national public insurer CMS CBO"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-01T21:08:28Z",
+      "kbVersion": "3.11.0",
+      "id": "rent-freeze-solves-city-housing",
+      "topicId": "ubi-rent-control",
+      "topicPath": "/government-intervention/ubi-rent-control",
+      "title": "Citywide Rent Freezes Solve the Housing Crisis",
+      "socialistClaimText": "Housing is a human right. Freeze rents citywide, stop landlord greed, and people will finally afford homes without waiting for market filtering.",
+      "executiveSummary": "Rent freezes help some sitting tenants short-term but reduce maintenance, conversions, and new supply. Census and academic work on rent control shows lower mobility and quality tradeoffs. Solving scarcity requires more housing units (zoning, permitting, construction), not locking below-market prices on a fixed stock.",
+      "evidenceBullets": [
+        "Census American Housing Survey and housing vacancy data measure stock, tenure, and costs - freezes do not create units.",
+        "Peer-reviewed rent control studies (e.g. San Francisco) find reduced supply and misallocation even when incumbent tenants gain.",
+        "BEA construction and residential investment series show housing is a capital stock problem, not only a price-label problem.",
+        "Black markets, key money, and waitlists historically appear when rents are capped below market."
+      ],
+      "fallacies": [
+        "seen vs unseen",
+        "zero-sum fallacy",
+        "single-cause fallacy"
+      ],
+      "sources": [
+        {
+          "id": "census-ahs",
+          "title": "Census American Housing Survey",
+          "url": "https://www.census.gov/programs-surveys/ahs.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Census Bureau, American Housing Survey."
+        },
+        {
+          "id": "census-housing",
+          "title": "Census Housing topics",
+          "url": "https://www.census.gov/topics/housing.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Census Bureau housing statistics hub."
+        },
+        {
+          "id": "bls-cpi-shelter",
+          "title": "BLS CPI Shelter",
+          "url": "https://www.bls.gov/cpi/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Bureau of Labor Statistics Consumer Price Index (shelter)."
+        }
+      ],
+      "whyItMatters": "City rent freezes are a live campaign slogan. Voters need supply-side evidence, not landlord-villain narratives alone.",
+      "relatedClaimIds": [
+        "rent-control-helps",
+        "rent-control-2020s-evidence",
+        "housing-must-be-decommodified"
+      ],
+      "tags": [
+        "rent-freeze",
+        "rent-control",
+        "housing",
+        "zoning",
+        "supply"
+      ],
+      "embeddingText": "rent freeze citywide housing crisis rent control census AHS supply zoning landlords",
+      "searchText": "rent freeze solves housing crisis citywide rent control freeze rents landlords greed"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-01T21:08:28Z",
+      "kbVersion": "3.11.0",
+      "id": "wealth-tax-europe-proves-it-works",
+      "topicId": "wealth-inequality-mobility",
+      "topicPath": "/wealth-inequality-mobility",
+      "title": "European Wealth Taxes Prove the Rich Can Be Taxed Fairly",
+      "socialistClaimText": "Europe already taxes extreme wealth successfully. The U.S. should copy annual net-worth taxes to fund public goods and shrink oligarchy.",
+      "executiveSummary": "Several European countries tried annual wealth taxes and later repealed or narrowed them due to capital flight, valuation costs, and low net yield. OECD and treasury-style reviews document administrative complexity and mobility of capital. Capital income and property taxes remain more common durable tools than broad annual net-worth levies.",
+      "evidenceBullets": [
+        "OECD tax policy work surveys wealth taxation design, base, and reasons many countries scaled back annual net-worth taxes.",
+        "Fed SCF and Distributional Financial Accounts measure U.S. wealth concentration without proving an annual wealth tax is administrable at low cost.",
+        "Valuing private businesses, art, and illiquid assets annually creates costly disputes; high earners relocate residency more easily than wage workers.",
+        "Estate, property, and capital-gains taxes already tax wealth stock or realization with different incentive profiles."
+      ],
+      "fallacies": [
+        "selection bias",
+        "nirvana fallacy",
+        "composition fallacy"
+      ],
+      "sources": [
+        {
+          "id": "oecd-wealth-tax",
+          "title": "OECD - The Role and Design of Net Wealth Taxes",
+          "url": "https://www.oecd.org/en/publications/the-role-and-design-of-net-wealth-taxes-in-the-oecd_9789264290303-en.html",
+          "doi": null,
+          "type": "academic",
+          "accessedAt": "2026-08-01",
+          "citation": "OECD (2018). The Role and Design of Net Wealth Taxes in the OECD."
+        },
+        {
+          "id": "fed-scf",
+          "title": "Federal Reserve Survey of Consumer Finances",
+          "url": "https://www.federalreserve.gov/econres/scfindex.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "Board of Governors of the Federal Reserve System, Survey of Consumer Finances."
+        },
+        {
+          "id": "treasury-tax",
+          "title": "U.S. Treasury Tax Policy",
+          "url": "https://home.treasury.gov/policy-issues/tax-policy",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Department of the Treasury, tax policy materials."
+        }
+      ],
+      "whyItMatters": "Wealth-tax slogans import European branding without European exit history and administrative failure modes.",
+      "relatedClaimIds": [
+        "wealth-tax-justice",
+        "billionaires-shouldnt-exist",
+        "fed-scf-wealth-share"
+      ],
+      "tags": [
+        "wealth-tax",
+        "oecd",
+        "europe",
+        "scf",
+        "capital-flight"
+      ],
+      "embeddingText": "European wealth tax works OECD net worth tax SCF capital flight valuation",
+      "searchText": "European wealth taxes prove it works annual net worth tax copy Europe tax the rich"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-01T21:08:28Z",
+      "kbVersion": "3.11.0",
+      "id": "green-new-deal-jobs-guarantee",
+      "topicId": "government-intervention",
+      "topicPath": "/government-intervention",
+      "title": "A Green Jobs Guarantee Ends Unemployment and Climate Risk",
+      "socialistClaimText": "The government should guarantee a green job to anyone who wants one, rebuild infrastructure, and end both unemployment and climate catastrophe through public planning.",
+      "executiveSummary": "Public infrastructure and cleaner energy can be valuable, but a universal jobs guarantee faces calculation and incentive problems: who decides project value, how wages clear, and what happens to private productivity when labor is pulled into political projects. BLS employment data and BEA productivity accounts still matter for real living standards; emissions goals need price signals and technology, not only headcount mandates.",
+      "evidenceBullets": [
+        "BLS employment and unemployment series measure labor markets; guarantee employment can coexist with low productivity and high fiscal cost.",
+        "BEA GDP-by-industry and productivity data show living standards track real output per hour more than payroll headcount alone.",
+        "EPA and EIA energy data show emissions and energy mix change with technology, prices, and regulation - not only job titles labeled green.",
+        "Historical public works can build assets; open-ended guarantees risk soft budget constraints and political project selection."
+      ],
+      "fallacies": [
+        "nirvana fallacy",
+        "false dichotomy",
+        "single-cause fallacy"
+      ],
+      "sources": [
+        {
+          "id": "bls-emp",
+          "title": "BLS Employment",
+          "url": "https://www.bls.gov/ces/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Bureau of Labor Statistics, Current Employment Statistics."
+        },
+        {
+          "id": "bea-gdp",
+          "title": "BEA GDP by Industry",
+          "url": "https://www.bea.gov/data/gdp/gdp-industry",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Bureau of Economic Analysis, GDP by industry."
+        },
+        {
+          "id": "eia-energy",
+          "title": "U.S. EIA Energy Overview",
+          "url": "https://www.eia.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Energy Information Administration energy statistics."
+        }
+      ],
+      "whyItMatters": "Jobs-guarantee + climate packages are high-intent policy platforms. Debate needs labor, fiscal, and energy data - not only moral urgency.",
+      "relatedClaimIds": [
+        "industrial-policy-works",
+        "automation-unemployment",
+        "greedflation-price-controls"
+      ],
+      "tags": [
+        "green-new-deal",
+        "jobs-guarantee",
+        "climate",
+        "planning",
+        "bls"
+      ],
+      "embeddingText": "green new deal jobs guarantee unemployment climate public planning BLS BEA EIA",
+      "searchText": "green jobs guarantee ends unemployment climate Green New Deal public planning"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-01T21:08:28Z",
+      "kbVersion": "3.11.0",
+      "id": "gig-economy-is-exploitation",
+      "topicId": "profit-exploitation",
+      "topicPath": "/profit-exploitation",
+      "title": "The Gig Economy Is Pure Exploitation",
+      "socialistClaimText": "App platforms misclassify workers as contractors to steal benefits and wage protections. Ban gig contracting and force employee status for all platform labor.",
+      "executiveSummary": "Some platforms push risk onto workers and some contracts are one-sided. Still, contractor status also enables flexible hours and multi-apping that many workers choose. BLS Contingent Worker and alternative employment data show diverse arrangements. Forced reclassification can raise costs, reduce hours, or shrink platform supply rather than delivering uniform middle-class W-2 jobs.",
+      "evidenceBullets": [
+        "BLS Contingent Worker Supplement measures alternative work arrangements, preferences, and demographics.",
+        "IRS and DOL rules distinguish employees vs independent contractors using control and independence tests - not slogans.",
+        "Many gig workers report valuing schedule flexibility; reclassification can cut flexibility and raise consumer prices.",
+        "Enforcement against fraud and wage theft is compatible with voluntary independent contracting; the binary ban is not the only tool."
+      ],
+      "fallacies": [
+        "composition fallacy",
+        "false dichotomy",
+        "motte and bailey"
+      ],
+      "sources": [
+        {
+          "id": "bls-cws",
+          "title": "BLS Contingent Worker Supplement",
+          "url": "https://www.bls.gov/cps/lfcharacteristics.htm#contingent",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Bureau of Labor Statistics materials on contingent and alternative employment."
+        },
+        {
+          "id": "dol-contractor",
+          "title": "U.S. DOL - Independent contractor guidance",
+          "url": "https://www.dol.gov/agencies/whd/flsa/misclassification",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Department of Labor Wage and Hour Division misclassification resources."
+        },
+        {
+          "id": "bls-jolt",
+          "title": "BLS Job Openings and Labor Turnover",
+          "url": "https://www.bls.gov/jlt/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Bureau of Labor Statistics JOLTS."
+        }
+      ],
+      "whyItMatters": "Gig classification fights are live labor politics. Steelman worker vulnerability, then evidence on flexibility tradeoffs and measurement.",
+      "relatedClaimIds": [
+        "wage-labor-voluntary-contract",
+        "exploitation-marx",
+        "minimum-wage-entry"
+      ],
+      "tags": [
+        "gig-economy",
+        "contractors",
+        "misclassification",
+        "platforms",
+        "bls"
+      ],
+      "embeddingText": "gig economy exploitation misclassification contractor employee BLS contingent worker platforms",
+      "searchText": "gig economy is pure exploitation misclassify contractors Uber DoorDash ban gig work"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-01T21:08:28Z",
+      "kbVersion": "3.11.0",
+      "id": "break-up-big-tech-for-democracy",
+      "topicId": "founding-principles",
+      "topicPath": "/founding-principles",
+      "title": "Break Up Big Tech to Save Democracy",
+      "socialistClaimText": "Tech monopolies control speech and markets. Only forced breakups and public utility regulation can restore democracy and competitive markets.",
+      "executiveSummary": "Concentrated platforms raise real competition and speech concerns. Antitrust has tools for exclusionary conduct, but size alone is not illegal under U.S. law and breakups can destroy integration efficiencies consumers value. FTC/DOJ cases must prove competitive harm. Speech power is also constrained by First Amendment limits on government viewpoint control of private platforms.",
+      "evidenceBullets": [
+        "FTC and DOJ antitrust resources explain consumer-welfare and competitive-process standards used in monopoly cases.",
+        "Census business dynamics and concentration measures are multi-dimensional; Big Tech is not a single market.",
+        "Platform markets often have multi-homing, entry, and rapid product cycles that classic industrial monopolies lacked.",
+        "Government-mandated speech rules on private platforms risk viewpoint discrimination lawsuits and political capture."
+      ],
+      "fallacies": [
+        "equivocation",
+        "slippery slope (unchecked)",
+        "nirvana fallacy"
+      ],
+      "sources": [
+        {
+          "id": "ftc-antitrust",
+          "title": "FTC Competition guidance",
+          "url": "https://www.ftc.gov/advice-guidance/competition-guidance",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Federal Trade Commission competition guidance."
+        },
+        {
+          "id": "doj-atr",
+          "title": "DOJ Antitrust Division",
+          "url": "https://www.justice.gov/atr",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Department of Justice Antitrust Division."
+        },
+        {
+          "id": "census-bds",
+          "title": "Census Business Dynamics Statistics",
+          "url": "https://www.census.gov/programs-surveys/bds.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Census Bureau Business Dynamics Statistics."
+        }
+      ],
+      "whyItMatters": "Anti-monopoly rhetoric is shared left and right. Productive debate separates proven competitive harm from political control of platforms.",
+      "relatedClaimIds": [
+        "corporate-personhood-kills-democracy",
+        "constitution-limits",
+        "finance-parasitic"
+      ],
+      "tags": [
+        "antitrust",
+        "big-tech",
+        "monopoly",
+        "ftc",
+        "speech"
+      ],
+      "embeddingText": "break up big tech monopoly antitrust FTC DOJ democracy speech platforms",
+      "searchText": "break up Big Tech save democracy monopoly platforms public utility regulation"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-01T21:08:28Z",
+      "kbVersion": "3.11.0",
+      "id": "free-college-is-a-right",
+      "topicId": "government-intervention",
+      "topicPath": "/government-intervention",
+      "title": "College Must Be Free for Everyone",
+      "socialistClaimText": "Higher education is a right. Make public college tuition-free for all so debt stops crushing a generation and equalizes opportunity.",
+      "executiveSummary": "Human capital investment has high social value, but free college shifts costs to taxpayers and can inflate demand without raising completion or labor-market match quality. BLS education-earnings data show returns vary by field and completion. Price signals and targeted aid can expand access with fewer empty-seat subsidies than universal free tuition.",
+      "evidenceBullets": [
+        "BLS education and earnings charts show average premiums that vary widely by degree and occupation - not a uniform right to any program.",
+        "NCES and College Scorecard-style data show completion gaps; free tuition does not automatically raise graduation rates.",
+        "CBO and budget offices score large free-college proposals as multi-year mandatory spending increases.",
+        "Labor market shortages are occupation-specific; subsidizing every major equally can misallocate scarce instructional capacity."
+      ],
+      "fallacies": [
+        "nirvana fallacy",
+        "composition fallacy",
+        "equivocation on rights"
+      ],
+      "sources": [
+        {
+          "id": "bls-edu-earn",
+          "title": "BLS - Education pays",
+          "url": "https://www.bls.gov/emp/chart-unemployment-earnings-education.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Bureau of Labor Statistics education and earnings chart."
+        },
+        {
+          "id": "nces",
+          "title": "NCES - National Center for Education Statistics",
+          "url": "https://nces.ed.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Department of Education NCES data."
+        },
+        {
+          "id": "cbo-education",
+          "title": "CBO - Education",
+          "url": "https://www.cbo.gov/topics/education",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "Congressional Budget Office education budget topics."
+        }
+      ],
+      "whyItMatters": "Student debt politics dominates youth turnout. Debate needs completion, field returns, and fiscal scorekeeping.",
+      "relatedClaimIds": [
+        "student-debt-cancel-justice",
+        "education-free",
+        "occupational-licensing-barriers"
+      ],
+      "tags": [
+        "free-college",
+        "tuition",
+        "student-debt",
+        "bls",
+        "nces"
+      ],
+      "embeddingText": "free college right tuition free higher education student debt BLS NCES CBO",
+      "searchText": "college must be free for everyone free tuition right cancel student debt opportunity"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-01T21:08:28Z",
+      "kbVersion": "3.11.0",
+      "id": "algorithmic-pricing-is-collusion",
+      "topicId": "profit-exploitation",
+      "topicPath": "/profit-exploitation",
+      "title": "Algorithmic Pricing Is Illegal Collusion",
+      "socialistClaimText": "When firms use similar pricing algorithms, they effectively collude. Ban dynamic algorithmic pricing and restore fair human prices.",
+      "executiveSummary": "Algorithms can implement cartel rules - and that can be illegal under antitrust law. But independent parallel pricing, revenue management, and response to shared demand shocks are not automatically collusion. DOJ/FTC treat agreement and facilitation as key elements. Dynamic pricing also allocates scarce goods (flights, hotels, ride-hail) without queues.",
+      "evidenceBullets": [
+        "DOJ and FTC competition guidance distinguish concerted action from independent parallel conduct.",
+        "Revenue management raises prices when demand is high, which rations scarce capacity more than freezing list prices does.",
+        "BLS CPI methods already grapple with quality and sales-price variation; fair human prices is not an objective series.",
+        "Banning algorithms would not ban human cartels and could freeze inefficient static prices."
+      ],
+      "fallacies": [
+        "equivocation",
+        "post hoc",
+        "slippery slope"
+      ],
+      "sources": [
+        {
+          "id": "doj-atr2",
+          "title": "DOJ Antitrust Division",
+          "url": "https://www.justice.gov/atr",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Department of Justice Antitrust Division."
+        },
+        {
+          "id": "ftc-comp",
+          "title": "FTC Competition guidance",
+          "url": "https://www.ftc.gov/advice-guidance/competition-guidance",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Federal Trade Commission competition guidance."
+        },
+        {
+          "id": "bls-cpi2",
+          "title": "BLS CPI",
+          "url": "https://www.bls.gov/cpi/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Bureau of Labor Statistics Consumer Price Index."
+        }
+      ],
+      "whyItMatters": "Algorithm panic is a new form of price-control politics. Keep antitrust standards, reject blanket bans on price discovery tools.",
+      "relatedClaimIds": [
+        "price-gouging-bans-help-consumers",
+        "greedflation-price-controls",
+        "profit-is-theft"
+      ],
+      "tags": [
+        "algorithmic-pricing",
+        "collusion",
+        "antitrust",
+        "dynamic-pricing"
+      ],
+      "embeddingText": "algorithmic pricing collusion dynamic pricing antitrust DOJ FTC revenue management",
+      "searchText": "algorithmic pricing is illegal collusion ban dynamic pricing algorithms surge pricing cartel"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-01T21:08:28Z",
+      "kbVersion": "3.11.0",
+      "id": "industrial-policy-beats-markets",
+      "topicId": "government-intervention",
+      "topicPath": "/government-intervention",
+      "title": "Industrial Policy Beats Free Markets",
+      "socialistClaimText": "Strategic tariffs, subsidies, and state-directed investment outperform chaotic free markets. Pick winners in chips, EVs, and steel for national strength.",
+      "executiveSummary": "Targeted industrial policy can address real externalities and security risks, but political selection of winners often creates soft budgets, lobbying races, and retaliation. BEA and BLS data still track productivity where market competition disciplines costs. Successful mixed economies keep exit, prices, and trade discipline - not permanent politicized capital allocation.",
+      "evidenceBullets": [
+        "BEA industry accounts show which sectors raise real value added; subsidy presence alone does not equal productivity.",
+        "ITC and Census trade data document tariff incidence and import patterns - costs fall on domestic users as well as foreign firms.",
+        "Historical industrial policies show both catch-up successes and white elephants; selection and exit rules matter.",
+        "Security-sensitive supply chains can justify narrow policy without generalizing to economy-wide planning."
+      ],
+      "fallacies": [
+        "false dichotomy",
+        "selection bias",
+        "nirvana fallacy"
+      ],
+      "sources": [
+        {
+          "id": "bea-industry",
+          "title": "BEA Industry Accounts",
+          "url": "https://www.bea.gov/data/gdp/gdp-industry",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Bureau of Economic Analysis industry accounts."
+        },
+        {
+          "id": "census-trade",
+          "title": "Census Foreign Trade",
+          "url": "https://www.census.gov/foreign-trade/index.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Census Bureau foreign trade statistics."
+        },
+        {
+          "id": "bls-prod",
+          "title": "BLS Productivity",
+          "url": "https://www.bls.gov/productivity/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Bureau of Labor Statistics productivity program."
+        }
+      ],
+      "whyItMatters": "Industrial policy is bipartisan now. Liberty-minded analysis must allow security exceptions without surrendering calculation discipline.",
+      "relatedClaimIds": [
+        "industrial-policy-works",
+        "china-state-capitalism-works",
+        "nationalize-critical-infrastructure"
+      ],
+      "tags": [
+        "industrial-policy",
+        "tariffs",
+        "subsidies",
+        "chips",
+        "planning"
+      ],
+      "embeddingText": "industrial policy beats markets tariffs subsidies pick winners chips BEA trade productivity",
+      "searchText": "industrial policy beats free markets strategic tariffs subsidies pick winners national strength"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-01T21:08:28Z",
+      "kbVersion": "3.11.0",
+      "id": "late-stage-capitalism-is-collapsing",
+      "topicId": "late-stage-capitalism",
+      "topicPath": "/late-stage-capitalism",
+      "title": "We Are in Late-Stage Capitalism Collapse",
+      "socialistClaimText": "Inequality, corporate power, and recurring crises prove capitalism is in its terminal late stage and must be replaced by socialism before total collapse.",
+      "executiveSummary": "Late-stage capitalism is a rhetorical frame, not a measured phase transition. Absolute living standards, global extreme poverty reduction, and technological capability rose across decades even amid crises. Business cycles, financial crises, and policy failures are real - they do not prove an inevitable terminal law of history.",
+      "evidenceBullets": [
+        "World Bank poverty data document large long-run declines in extreme poverty under market-expanding globalization periods.",
+        "BEA real GDP per capita and BLS real wage/productivity series show long-run material gains inconsistent with a simple collapse narrative.",
+        "Census and Fed wealth data show inequality metrics can rise while absolute consumption for lower quintiles also rises.",
+        "Socialist planned economies also experienced crises, shortages, and elite privilege - collapse risk is not unique to markets."
+      ],
+      "fallacies": [
+        "historical inevitability",
+        "motte and bailey",
+        "relative-vs-absolute conflation"
+      ],
+      "sources": [
+        {
+          "id": "worldbank-poverty",
+          "title": "World Bank Poverty and Inequality Platform",
+          "url": "https://pip.worldbank.org/home",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "World Bank Poverty and Inequality Platform."
+        },
+        {
+          "id": "bea-gdp-cap",
+          "title": "BEA National Accounts",
+          "url": "https://www.bea.gov/data/gdp/gross-domestic-product",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Bureau of Economic Analysis GDP accounts."
+        },
+        {
+          "id": "bls-real-comp",
+          "title": "BLS Productivity and Costs",
+          "url": "https://www.bls.gov/productivity/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-01",
+          "citation": "U.S. Bureau of Labor Statistics labor productivity and costs."
+        }
+      ],
+      "whyItMatters": "Late-stage slogans license radical politics without measurements. Force absolute metrics and comparative systems evidence.",
+      "relatedClaimIds": [
+        "global-poverty-falling",
+        "wealth-inequality-broken",
+        "ussr-not-real-socialism"
+      ],
+      "tags": [
+        "late-stage-capitalism",
+        "collapse",
+        "inequality",
+        "poverty",
+        "world-bank"
+      ],
+      "embeddingText": "late stage capitalism collapsing terminal crisis inequality world bank GDP living standards",
+      "searchText": "late-stage capitalism is collapsing terminal stage replace with socialism inequality crisis"
+    }
+  ]
+}

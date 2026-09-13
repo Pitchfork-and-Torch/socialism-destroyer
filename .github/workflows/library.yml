@@ -1,0 +1,110 @@
+name: Library Pipeline
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/data/books/**'
+      - 'assets/data/v2/books.json'
+      - 'assets/data/v2/library_*.json'
+      - 'tools/library_pipeline.py'
+      - 'tools/fetch_full_library.py'
+      - 'tools/verify_full_texts.py'
+      - 'tools/library_registry.py'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'assets/data/books/**'
+      - 'assets/data/v2/books.json'
+      - 'assets/data/v2/library_*.json'
+      - 'tools/library_pipeline.py'
+      - 'tools/fetch_full_library.py'
+      - 'tools/verify_full_texts.py'
+      - 'tools/library_registry.py'
+  schedule:
+    # Weekly Sunday 09:00 UTC — verify, repair, snapshot offline cache
+    - cron: '0 9 * * 0'
+  workflow_dispatch:
+    inputs:
+      force_all:
+        description: 'Refresh every book even when already verified'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Verify bundled full texts
+        run: python tools/library_pipeline.py verify
+
+  heartbeat:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run library heartbeat
+        run: |
+          ARGS="heartbeat"
+          if [ "${{ github.event.inputs.force_all }}" = "true" ]; then
+            ARGS="heartbeat --force-all"
+          fi
+          python tools/library_pipeline.py $ARGS || true
+
+      # Public product policy: main is always exactly one commit.
+      # Bare `git push` races when main moves and also stacks second commits.
+      - name: Ship library snapshot (single-commit main)
+        env:
+          PRODUCT_MSG: "Socialism Destroyer - The Pro-America Liberty Argument Engine"
+        run: |
+          set -euo pipefail
+          git config user.name "Pitchfork-and-Torch"
+          git config user.email "297513015+Pitchfork-and-Torch@users.noreply.github.com"
+
+          git add \
+            assets/data/books/_source_cache \
+            assets/data/v2/library_run_state.json \
+            assets/data/v2/books.json \
+            assets/data/books/*.txt 2>/dev/null || true
+
+          if git diff --staged --quiet; then
+            echo "No library changes to commit."
+            exit 0
+          fi
+
+          # Full tree with library updates applied (index after checkout + git add).
+          WANTED_TREE=$(git write-tree)
+
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            EXPECTED=$(git rev-parse origin/main)
+
+            # Orphan single commit (no parents) so history stays one commit.
+            NEW_COMMIT=$(git commit-tree "$WANTED_TREE" -m "$PRODUCT_MSG")
+            git reset --hard "$NEW_COMMIT"
+
+            if git push --force-with-lease=refs/heads/main:"$EXPECTED" origin HEAD:main; then
+              echo "Shipped single-commit main (attempt ${attempt})."
+              exit 0
+            fi
+
+            echo "Race on main (attempt ${attempt}); retrying..."
+            sleep $((attempt * 2))
+          done
+
+          echo "Failed to ship library snapshot after retries."
+          exit 1

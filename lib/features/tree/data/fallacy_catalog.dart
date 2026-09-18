@@ -45,6 +45,20 @@ abstract final class FallacyCatalog {
       counterTip: 'Ask what institutional features distinguish "real" socialism from every attempt.',
     ),
     FallacyEntry(
+      id: 'nirvana fallacy',
+      label: 'Nirvana Fallacy',
+      description:
+          'Compares real markets to an idealized planned alternative that has never been delivered.',
+      counterTip: 'Compare feasible institutions, not slogans — ask for the operating mechanism and trade-offs.',
+    ),
+    FallacyEntry(
+      id: 'single-cause fallacy',
+      label: 'Single-Cause Fallacy',
+      description:
+          'Pins a complex collapse or outcome on one convenient external factor.',
+      counterTip: 'Separate timing and mechanisms: controls, money printing, and expropriation usually precede the blamed cause.',
+    ),
+    FallacyEntry(
       id: 'motte and bailey',
       label: 'Motte and Bailey',
       description:

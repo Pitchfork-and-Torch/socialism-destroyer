@@ -55,6 +55,31 @@ void main() {
       expect(state.highlights, hasLength(1));
       expect(state.highlights.first.note, 'Key insight');
     });
+
+    test('createHighlight swaps inverted start/end so spans stay ordered', () async {
+      await service.createHighlight(
+        bookId: 'the-law',
+        start: 200,
+        end: 150,
+        note: 'Dragged backwards',
+      );
+      final state = service.loadState('the-law');
+      final hit = state.highlights.singleWhere((h) => h.note == 'Dragged backwards');
+      expect(hit.start, 150);
+      expect(hit.end, 200);
+    });
+
+    test('BookHighlight.fromJson normalizes inverted ranges', () {
+      final hit = BookHighlight.fromJson({
+        'id': 'h1',
+        'start': 40,
+        'end': 10,
+        'colorKey': 'gold',
+        'createdAt': DateTime.now().toIso8601String(),
+      });
+      expect(hit.start, 10);
+      expect(hit.end, 40);
+    });
   });
 
   group('BookContentParser', () {

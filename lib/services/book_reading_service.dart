@@ -74,10 +74,14 @@ class BookReadingService {
     String? note,
     String colorKey = 'gold',
   }) async {
+    final range = BookHighlight.normalizeRange(start, end);
+    if (range.$1 == range.$2) {
+      throw ArgumentError.value(end, 'end', 'Highlight range must be non-empty');
+    }
     final highlight = BookHighlight(
       id: _uuid.v4(),
-      start: start,
-      end: end,
+      start: range.$1,
+      end: range.$2,
       note: note,
       colorKey: colorKey,
       createdAt: DateTime.now(),

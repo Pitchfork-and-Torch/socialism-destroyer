@@ -75,17 +75,34 @@ class BookHighlight extends Equatable {
   final DateTime createdAt;
   final DateTime? updatedAt;
 
-  factory BookHighlight.fromJson(Map<String, dynamic> json) => BookHighlight(
-        id: json['id'] as String,
-        start: json['start'] as int,
-        end: json['end'] as int,
-        note: json['note'] as String?,
-        colorKey: json['colorKey'] as String? ?? 'gold',
-        createdAt: DateTime.parse(json['createdAt'] as String),
-        updatedAt: json['updatedAt'] != null
-            ? DateTime.parse(json['updatedAt'] as String)
-            : null,
-      );
+  /// Ensures [start] <= [end] so reader span painting never rewinds its cursor.
+  static (int, int) normalizeRange(int start, int end) {
+    var a = start;
+    var b = end;
+    if (a > b) {
+      final tmp = a;
+      a = b;
+      b = tmp;
+    }
+    if (a < 0) a = 0;
+    if (b < 0) b = 0;
+    return (a, b);
+  }
+
+  factory BookHighlight.fromJson(Map<String, dynamic> json) {
+    final range = normalizeRange(json['start'] as int, json['end'] as int);
+    return BookHighlight(
+      id: json['id'] as String,
+      start: range.$1,
+      end: range.$2,
+      note: json['note'] as String?,
+      colorKey: json['colorKey'] as String? ?? 'gold',
+      createdAt: DateTime.parse(json['createdAt'] as String),
+      updatedAt: json['updatedAt'] != null
+          ? DateTime.parse(json['updatedAt'] as String)
+          : null,
+    );
+  }
 
   Map<String, dynamic> toJson() => {
         'id': id,

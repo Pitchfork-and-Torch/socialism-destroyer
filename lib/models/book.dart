@@ -20,7 +20,8 @@ class BookRecommendation extends Equatable {
       BookRecommendation(
         topicId: json['topicId'] as String,
         reason: json['reason'] as String,
-        priority: json['priority'] as int? ?? 0,
+        // Overlay / web JSON often yields doubles for priority; `as int` threw.
+        priority: (json['priority'] as num?)?.toInt() ?? 0,
       );
 
   Map<String, dynamic> toJson() => {

@@ -122,6 +122,24 @@ void main() {
       });
       expect(chapter.startOffset, 0);
     });
+
+    test('BookRecommendation.fromJson accepts num priority from JSON', () {
+      final rec = BookRecommendation.fromJson({
+        'topicId': 't1',
+        'reason': 'core reading',
+        'priority': 2.0,
+      });
+      expect(rec.priority, 2);
+      expect(rec.topicId, 't1');
+    });
+
+    test('BookRecommendation.fromJson defaults missing priority to zero', () {
+      final rec = BookRecommendation.fromJson({
+        'topicId': 't2',
+        'reason': 'optional',
+      });
+      expect(rec.priority, 0);
+    });
   });
 
   group('BookContentParser', () {

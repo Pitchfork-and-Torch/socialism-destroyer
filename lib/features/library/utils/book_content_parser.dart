@@ -23,17 +23,21 @@ class BookContentParser {
     var offset = 0;
 
     void addBlock(String text, {bool isHeader = false, String? chapterId, int level = 0}) {
-      if (text.trim().isEmpty) return;
+      // Coordinates address the displayed block text. Advancing by the raw
+      // (often trailing-newline) length while storing trim() left gaps, so
+      // highlight/selection offsets drifted past the stored string.
+      final display = text.trim();
+      if (display.isEmpty) return;
       blocks.add(
         BookContentBlock(
-          text: text.trim(),
+          text: display,
           globalStart: offset,
           isHeader: isHeader,
           chapterId: chapterId,
           level: level,
         ),
       );
-      offset += text.length;
+      offset += display.length;
     }
 
     final lines = content.split('\n');

@@ -73,6 +73,22 @@ void main() {
         isTrue,
       );
     });
+
+    test('globalStart is contiguous over trimmed block text', () {
+      const content = '# Title\n\n## Chapter One\n\nBody line.\n';
+      final blocks = BookContentParser.parse(content, const []);
+      expect(blocks, isNotEmpty);
+      var expected = 0;
+      for (final b in blocks) {
+        expect(b.globalStart, expected, reason: b.text);
+        expect(b.text, equals(b.text.trim()));
+        expected += b.text.length;
+      }
+      expect(
+        int.parse(BookContentParser.fullTextLengthKey(blocks)),
+        expected,
+      );
+    });
   });
 
   group('Library screens', () {

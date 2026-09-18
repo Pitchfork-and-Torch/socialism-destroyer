@@ -1,0 +1,496 @@
+{
+  "schemaVersion": 2,
+  "kbVersion": "3.19.0",
+  "bundleId": "high-intent-wave9-v319",
+  "priority": 10,
+  "updatedAt": "2026-09-21T23:40:00Z",
+  "contentHash": "sha256:26768e7113c7762f7abb374e47030302e0c5ebe3c829b638dadb409708b26015",
+  "claims": [
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-09-21T23:40:00Z",
+      "kbVersion": "3.19.0",
+      "id": "social-wealth-fund-owns-the-market",
+      "topicId": "planning-desk",
+      "topicPath": "/government-intervention/planning",
+      "title": "A Social Wealth Fund Should Own the Market",
+      "socialistClaimText": "The public should own a slice of every large firm through a social wealth fund, then pay every resident a dividend. Norway and Alaska already prove that collective ownership of capital beats leaving the stock market to private savers.",
+      "executiveSummary": "Norway's Government Pension Fund Global and the Alaska Permanent Fund are resource-rent savings vehicles, not a plan to socialize operating companies at home. Norges Bank Investment Management states that the fund invests only abroad so the Norwegian economy does not overheat, and that it holds small stakes across thousands of listed companies rather than running them. The Alaska fund is built from oil royalties the state already owns. A fund that instead takes a politically directed slice of domestic firms is a different institution: taxpayers bear the crash, politicians get a portfolio, and households who already hold those shares in retirement accounts are taxed into a second claim on the same firms. Passive foreign saving of a windfall is not evidence that a legislature can own the means of production and still get market prices.",
+      "evidenceBullets": [
+        "NBIM says the Government Pension Fund Global invests only abroad so the domestic economy does not overheat, and that the fund holds small stakes rather than operating companies.",
+        "The Alaska Permanent Fund is a state resource fund financed by oil wealth. It does not run the non-oil corporate sector.",
+        "A domestic own-every-large-firm fund stacks political portfolio risk on the retirement accounts that already own those firms."
+      ],
+      "fallacies": [
+        "false equivalence",
+        "composition fallacy",
+        "seen vs unseen"
+      ],
+      "sources": [
+        {
+          "id": "nbim-about-fund",
+          "title": "Norges Bank Investment Management: About the fund",
+          "url": "https://www.nbim.no/en/about-us/about-the-fund/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-21",
+          "citation": "NBIM: the Government Pension Fund Global invests only abroad so the Norwegian economy does not overheat."
+        },
+        {
+          "id": "apfc-home",
+          "title": "Alaska Permanent Fund Corporation",
+          "url": "https://apfc.org/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-21",
+          "citation": "Alaska Permanent Fund Corporation: the state permanent fund manages oil-wealth savings and the dividend framework."
+        }
+      ],
+      "whyItMatters": "The social-wealth-fund slogan borrows two funds that were built to save a resource rent, then asks them to prove the state should own domestic industry.",
+      "relatedClaimIds": [
+        "norway-oil-fund-capitalism",
+        "mandatory-worker-ownership"
+      ],
+      "tags": [
+        "social-wealth-fund",
+        "ownership",
+        "dividend",
+        "planning-desk"
+      ],
+      "embeddingText": "social wealth fund own a slice of every large firm resident dividend Norway Alaska permanent fund not a domestic planner",
+      "searchText": "social wealth fund should own a slice of every large firm and pay a resident dividend alaska permanent fund norway invests only abroad"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-09-21T23:40:00Z",
+      "kbVersion": "3.19.0",
+      "id": "federal-job-guarantee-last-resort",
+      "topicId": "planning-desk",
+      "topicPath": "/government-intervention/planning",
+      "title": "A Federal Job Guarantee Ends Unemployment",
+      "socialistClaimText": "The federal government should be the employer of last resort. Anyone who wants work gets a living-wage public job, involuntary unemployment ends, and that public wage becomes the floor.",
+      "executiveSummary": "The Federal Reserve's maximum-employment mandate is a macroeconomic objective, not an entitlement to a federally funded position. BLS counts someone as unemployed only if they are jobless, available, and searched recently. A public employer that hires everyone who shows up, at a fixed wage, changes that pool and competes with private firms for the same workers. The jobs on the public payroll are the part you see. The hours, training, and private roles that disappear when firms cannot match the public wage are the part you do not. The United States already has a workforce statute, the Workforce Innovation and Opportunity Act: local boards and training, not a national last-resort payroll.",
+      "evidenceBullets": [
+        "Federal Reserve Act section 2A states the goals of maximum employment and stable prices. It does not create a right to a public job.",
+        "BLS Current Population Survey concepts require recent active search before a person is counted as unemployed.",
+        "Public Law 113-128, the Workforce Innovation and Opportunity Act, is the federal workforce statute: local boards and training, not a single public employer of last resort."
+      ],
+      "fallacies": [
+        "seen vs unseen",
+        "composition fallacy",
+        "nirvana fallacy"
+      ],
+      "sources": [
+        {
+          "id": "fed-section-2a",
+          "title": "Federal Reserve Act, Section 2A",
+          "url": "https://www.federalreserve.gov/aboutthefed/section2a.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-21",
+          "citation": "Board of Governors: Federal Reserve Act section 2A, monetary policy objectives of maximum employment and stable prices."
+        },
+        {
+          "id": "bls-cps-concepts",
+          "title": "BLS: How the government measures unemployment",
+          "url": "https://www.bls.gov/cps/cps_htgm.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-21",
+          "citation": "BLS Current Population Survey concepts: unemployed persons are jobless, available, and recently searching."
+        },
+        {
+          "id": "wioa-pl-113-128",
+          "title": "Workforce Innovation and Opportunity Act, Public Law 113-128",
+          "url": "https://www.govinfo.gov/content/pkg/PLAW-113publ128/pdf/PLAW-113publ128.pdf",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-21",
+          "citation": "Public Law 113-128, Workforce Innovation and Opportunity Act: the federal workforce system of local boards and training."
+        }
+      ],
+      "whyItMatters": "A job guarantee polls as the end of unemployment. The statute on the books is a dual mandate and a training system, and the public wage still has an unseen private cost.",
+      "relatedClaimIds": [
+        "green-new-deal-jobs-guarantee",
+        "minimum-wage-no-harm"
+      ],
+      "tags": [
+        "job-guarantee",
+        "employment",
+        "last-resort",
+        "planning-desk"
+      ],
+      "embeddingText": "federal job guarantee employer of last resort public wage BLS unemployment definition Federal Reserve section 2A WIOA",
+      "searchText": "federal job guarantee employer of last resort anyone who wants work gets a living-wage public job"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-09-21T23:40:00Z",
+      "kbVersion": "3.19.0",
+      "id": "mmt-deficits-do-not-bind",
+      "topicId": "planning-desk",
+      "topicPath": "/government-intervention/planning",
+      "title": "A Currency Issuer Can Fund the Program",
+      "socialistClaimText": "The United States cannot run out of dollars. Deficits do not constrain a monetary sovereign. Congress should spend on public jobs, care, and industry first, and tax later only to cool inflation.",
+      "executiveSummary": "A sovereign can create nominal balances. It cannot create the nurses, transformers, and dwellings those balances are supposed to buy. Treasury's Debt to the Penny is the stock of dollar promises already outstanding. BLS CPI is the record of the price level when nominal demand outruns supply, including the 2021-2023 episode. The Bank of England's account of modern money creation explains how commercial banks expand deposits when they lend. That mechanism is not a warrant for a legislature to purchase any real bundle at stable prices. Tax-later assumes a political system that will withdraw demand on time. The price data are what we have when it does not.",
+      "evidenceBullets": [
+        "Treasury Fiscal Data publishes Debt to the Penny. Outstanding dollar liabilities are an accounting stock, not a metaphor.",
+        "BLS CPI measures prices households pay. Nominal spending still bids for scarce real resources.",
+        "The Bank of England bulletin on money creation separates commercial-bank lending from the claim that a government can buy any real program at an unchanged price level."
+      ],
+      "fallacies": [
+        "seen vs unseen",
+        "single-cause fallacy",
+        "composition fallacy"
+      ],
+      "sources": [
+        {
+          "id": "treasury-debt-penny",
+          "title": "Treasury Fiscal Data: Debt to the Penny",
+          "url": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-21",
+          "citation": "U.S. Treasury Fiscal Data Debt to the Penny: outstanding public debt."
+        },
+        {
+          "id": "bls-cpi",
+          "title": "BLS Consumer Price Index",
+          "url": "https://www.bls.gov/cpi/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-21",
+          "citation": "BLS CPI: the official consumer price level."
+        },
+        {
+          "id": "boe-money-creation",
+          "title": "Bank of England: Money creation in the modern economy",
+          "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-21",
+          "citation": "Bank of England Quarterly Bulletin 2014 Q1: how commercial banks create deposits when they lend."
+        }
+      ],
+      "whyItMatters": "Spend-first slogans treat the dollar press as a real-resource press. The debt stock and the price level are the public record of the difference.",
+      "relatedClaimIds": [
+        "green-new-deal-growth",
+        "ubi-solves-all"
+      ],
+      "tags": [
+        "mmt",
+        "deficits",
+        "inflation",
+        "planning-desk"
+      ],
+      "embeddingText": "modern monetary theory currency issuer deficits do not bind tax later inflation Treasury debt CPI Bank of England money creation",
+      "searchText": "modern monetary theory a currency issuer cannot run out of dollars deficits do not constrain spend first tax later"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-09-21T23:40:00Z",
+      "kbVersion": "3.19.0",
+      "id": "tariff-wall-rebuilds-wages",
+      "topicId": "planning-desk",
+      "topicPath": "/government-intervention/planning",
+      "title": "A Tariff Wall Rebuilds the Working Class",
+      "socialistClaimText": "A broad tariff wall makes foreigners pay to rebuild American industry. Factories come home, wages rise, and the revenue funds public goods.",
+      "executiveSummary": "The 2018 tariff episode is the recent test of the claim that foreigners pay. Amiti, Redding, and Weinstein, in the Journal of Economic Perspectives (2019), find complete pass-through of those tariffs into the prices US importers paid, and they estimate a reduction in aggregate US real income of about $1.4 billion per month by the end of 2018. Retaliatory tariffs reduced real income abroad as well. Census foreign-trade statistics are the official goods ledger. BLS manufacturing employment is the jobs ledger. A tax that raises the price of inputs and consumer goods can protect a visible plant while charging every household that buys the taxed goods. That is incidence, not a foreign gift.",
+      "evidenceBullets": [
+        "JEP 2019: complete pass-through of the 2018 tariffs into US import prices, and about $1.4 billion per month of US real-income loss by the end of 2018.",
+        "Census foreign trade is the official record of goods flows. It is not a finding that the other country paid the tax.",
+        "BLS manufacturing (NAICS 31-33) reports employment and hours on a different line from the household prices of taxed goods."
+      ],
+      "fallacies": [
+        "seen vs unseen",
+        "post hoc",
+        "composition fallacy"
+      ],
+      "sources": [
+        {
+          "id": "amiti-jep-2019",
+          "title": "Amiti, Redding, and Weinstein: The Impact of the 2018 Tariffs on Prices and Welfare",
+          "url": "https://www.aeaweb.org/articles?id=10.1257/jep.33.4.187",
+          "doi": "10.1257/jep.33.4.187",
+          "type": "academic",
+          "accessedAt": "2026-09-21",
+          "citation": "Journal of Economic Perspectives 33(4), 2019: complete pass-through and about $1.4 billion per month of US real-income loss by the end of 2018."
+        },
+        {
+          "id": "census-foreign-trade",
+          "title": "U.S. Census Bureau: Foreign Trade",
+          "url": "https://www.census.gov/foreign-trade/index.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-21",
+          "citation": "Census Bureau official U.S. international trade statistics."
+        },
+        {
+          "id": "bls-manufacturing",
+          "title": "BLS: Manufacturing industries (NAICS 31-33)",
+          "url": "https://www.bls.gov/iag/tgs/iag31-33.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-21",
+          "citation": "BLS industries at a glance for manufacturing employment, hours, and earnings."
+        }
+      ],
+      "whyItMatters": "Tariff-wall politics sells a foreigner-pays story. The 2018 price evidence says importers and households paid.",
+      "relatedClaimIds": [
+        "industrial-policy-beats-markets",
+        "industrial-policy-picks-winners"
+      ],
+      "tags": [
+        "tariff",
+        "trade",
+        "incidence",
+        "planning-desk"
+      ],
+      "embeddingText": "tariff wall foreigners pay 2018 tariffs pass-through Amiti Redding Weinstein Census trade BLS manufacturing",
+      "searchText": "broad tariff wall makes foreigners pay to rebuild industry factories and wages"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-09-21T23:40:00Z",
+      "kbVersion": "3.19.0",
+      "id": "national-investment-bank-picks-credit",
+      "topicId": "planning-desk",
+      "topicPath": "/government-intervention/planning",
+      "title": "A National Investment Bank Should Allocate Credit",
+      "socialistClaimText": "Private banks will not finance the long projects the country needs. A national investment bank should allocate credit to strategic and green industry, the way Germany's public promotional bank already does.",
+      "executiveSummary": "Germany's KfW is a public promotional bank with a state mandate. That is a fiscal credit program, not proof that planners out-allocate private lenders across a whole economy. In the United States, the Federal Credit Reform Act already requires the budget to record the cost of federal direct loans and loan guarantees. A new national investment bank that directs loans to favored sectors adds a political portfolio. The financed plant is visible. The subsidy cost, the guarantee tail, and the private loans that were crowded out are not. Directed credit is industrial policy with a balance sheet. When the project fails, the taxpayer owns the residual.",
+      "evidenceBullets": [
+        "KfW describes itself as the promotional bank of the Federal Republic, with a public mandate, not as a replacement for market prices in every sector.",
+        "The Federal Credit Reform Act of 1990 puts the subsidy cost of federal loans and guarantees on the budget. New directed credit is more of that machinery.",
+        "Seen projects financed by a public bank are not the unseen private credit those funds would have been, or the residual taxpayers still carry."
+      ],
+      "fallacies": [
+        "seen vs unseen",
+        "nirvana fallacy",
+        "composition fallacy"
+      ],
+      "sources": [
+        {
+          "id": "kfw-about",
+          "title": "KfW: About KfW",
+          "url": "https://www.kfw.de/About-KfW/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-21",
+          "citation": "KfW, the promotional bank of the Federal Republic of Germany."
+        },
+        {
+          "id": "fcra-1990",
+          "title": "Federal Credit Reform Act of 1990 (Public Law 101-508)",
+          "url": "https://www.govinfo.gov/content/pkg/STATUTE-104/pdf/STATUTE-104-Pg1388.pdf",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-21",
+          "citation": "Omnibus Budget Reconciliation Act of 1990, Title XIII, Federal Credit Reform Act, 104 Stat. 1388."
+        }
+      ],
+      "whyItMatters": "A national investment bank sounds like extra capital. Under the credit-reform statute it is a scored subsidy aimed at sectors the legislature prefers.",
+      "relatedClaimIds": [
+        "industrial-policy-beats-markets",
+        "industrial-policy-picks-winners"
+      ],
+      "tags": [
+        "credit",
+        "development-bank",
+        "subsidy",
+        "planning-desk"
+      ],
+      "embeddingText": "national investment bank allocate credit strategic industry KfW Federal Credit Reform Act subsidy cost",
+      "searchText": "national investment bank should allocate credit to strategic and green industry public development bank"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-09-21T23:40:00Z",
+      "kbVersion": "3.19.0",
+      "id": "codetermination-half-the-board",
+      "topicId": "planning-desk",
+      "topicPath": "/government-intervention/planning",
+      "title": "Workers Must Hold Half the Board",
+      "socialistClaimText": "Shareholders extract the wage and the investment. Workers should elect half the board, as Germany requires, so firms stop the short-term looting and pay the people who produce.",
+      "executiveSummary": "The statute the slogan points at is Germany's 1976 Codetermination Act (Mitbestimmungsgesetz). It covers companies that as a rule employ more than 2,000 people. On a repeated tie, section 29 gives the supervisory-board chair a second vote. The deputy does not get that second vote. Worker seats are not a controlling majority. The wage evidence is also narrower than the slogan. Jaeger, Schoefer, and Heining studied Germany's one-third worker-seat mandate, which is a smaller board share than half, and found no effect on wages or the labor share. They reject the story that firms disinvested to escape worker power: shared governance, if anything, came with more capital formation, not a wage takeover. Board seats are a governance rule. They are not a machine that hands the surplus to the workforce.",
+      "evidenceBullets": [
+        "Mitbestimmungsgesetz section 1 covers firms that as a rule have more than 2,000 employees. Section 29: after a repeated tie, the chair has two votes and the deputy does not.",
+        "The Quarterly Journal of Economics (2021) abstract: no wage effects and no labor-share effects from the one-third mandate, and capital formation was not lower.",
+        "That study is the one-third rule, not the parity board. The half-board slogan is a stronger demand than the mandate the wage evidence actually tests, and the parity statute still breaks ties for the chair."
+      ],
+      "fallacies": [
+        "false equivalence",
+        "composition fallacy",
+        "nirvana fallacy"
+      ],
+      "sources": [
+        {
+          "id": "mitbestg-1",
+          "title": "Mitbestimmungsgesetz section 1 (covered firms)",
+          "url": "https://www.gesetze-im-internet.de/mitbestg/__1.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-21",
+          "citation": "German Codetermination Act section 1: companies that as a rule employ more than 2,000 people."
+        },
+        {
+          "id": "mitbestg-29",
+          "title": "Mitbestimmungsgesetz section 29 (votes)",
+          "url": "https://www.gesetze-im-internet.de/mitbestg/__29.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-21",
+          "citation": "German Codetermination Act section 29: on a repeated tie the chair has two votes; the deputy does not."
+        },
+        {
+          "id": "nber-w26519",
+          "title": "Jaeger, Schoefer, and Heining: Labor in the Boardroom",
+          "url": "https://www.nber.org/papers/w26519",
+          "doi": "10.3386/w26519",
+          "type": "academic",
+          "accessedAt": "2026-09-21",
+          "citation": "NBER w26519; published QJE 2021, doi:10.1093/qje/qjaa038. One-third board mandate: no wage or labor-share effect; capital formation not lower."
+        }
+      ],
+      "whyItMatters": "Half the board is sold as worker control of pay. The German tie-break and the one-third wage study both say seats are not that machine.",
+      "relatedClaimIds": [
+        "mandatory-worker-ownership",
+        "sectoral-bargaining-is-democracy"
+      ],
+      "tags": [
+        "codetermination",
+        "board",
+        "wages",
+        "planning-desk"
+      ],
+      "embeddingText": "codetermination half the board worker directors Mitbestimmungsgesetz chair casting vote Jaeger Schoefer Heining no wage effect",
+      "searchText": "workers must hold half the board codetermination worker directors Germany supervisory board"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-09-21T23:40:00Z",
+      "kbVersion": "3.19.0",
+      "id": "vienna-social-housing-is-the-model",
+      "topicId": "planning-desk",
+      "topicPath": "/government-intervention/planning",
+      "title": "Copy Vienna and Socialize Housing",
+      "socialistClaimText": "Vienna already took housing out of the market. Around half the city lives in municipal or subsidized flats. US cities should copy that model and stop treating shelter as a private commodity.",
+      "executiveSummary": "Vienna's own housing office is the record, and it is not an abolition of private rental. The city's English social-housing pages report about 220,000 municipal flats, about 200,000 other subsidized flats, and around half of residents living in subsidized dwellings. The city's German market page splits the unit stock differently and still shows a large private share, on the order of a third of units. Limited-profit associations are expected to cover cost and reinvest. That is a regulated building system, not a free flat for anyone who arrives. Banning private rental, which is a different slogan, is not the policy Vienna publishes. US assisted housing, tracked by HUD, is a different stock again: a subsidy program with its own supply and concentration problems, not a century of municipal construction on city land.",
+      "evidenceBullets": [
+        "City of Vienna (English): about 220,000 municipal flats, about 200,000 subsidized flats, and around half of residents in subsidized dwellings.",
+        "City of Vienna (German market page): the unit stock still includes a large private sector, about a third of units, beside municipal and co-operative stock.",
+        "HUD's assisted-housing data describe the US subsidy stock. They are not the Vienna limited-profit builder, and they are not a ban on private rental."
+      ],
+      "fallacies": [
+        "false equivalence",
+        "nirvana fallacy",
+        "composition fallacy"
+      ],
+      "sources": [
+        {
+          "id": "vienna-social-housing",
+          "title": "City of Vienna: Social housing",
+          "url": "https://socialhousing.wien/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-21",
+          "citation": "City of Vienna social-housing pages: municipal stock, subsidized flats, and the resident share in subsidized dwellings."
+        },
+        {
+          "id": "vienna-wohnungsmarkt",
+          "title": "City of Vienna: Wohnungsmarkt",
+          "url": "https://socialhousing.wien/de/politik/wohnungsmarkt",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-21",
+          "citation": "City of Vienna housing-market page: unit shares, including the private rental sector."
+        },
+        {
+          "id": "hud-picture",
+          "title": "HUD User: Assisted housing data",
+          "url": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-21",
+          "citation": "HUD Picture of Subsidized Households and related assisted-housing datasets."
+        }
+      ],
+      "whyItMatters": "Copy Vienna is the polite version of decommodify housing. Vienna's own pages still show a private sector and a cost-covering limited-profit builder.",
+      "relatedClaimIds": [
+        "public-housing-only-solution",
+        "housing-must-be-decommodified"
+      ],
+      "tags": [
+        "vienna",
+        "social-housing",
+        "limited-profit",
+        "planning-desk"
+      ],
+      "embeddingText": "Vienna model social housing municipal flats limited-profit private rental still exists HUD assisted housing",
+      "searchText": "copy the Vienna model social housing should be the default limited-profit municipal flats not a private-rental ban"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-09-21T23:40:00Z",
+      "kbVersion": "3.19.0",
+      "id": "capital-controls-make-wealth-taxes-stick",
+      "topicId": "planning-desk",
+      "topicPath": "/government-intervention/planning",
+      "title": "Capital Controls Make a Wealth Tax Stick",
+      "socialistClaimText": "Wealth taxes failed in Europe only because the rich could leave. Add capital controls and an exit tax, lock the fortunes in, and the same tax will fund public goods.",
+      "executiveSummary": "Denmark ran one of the highest wealth taxes and then cut and abolished it. Jakobsen, Jakobsen, Kleven, and Zucman, using Danish administrative wealth records, find that the tax reduced wealth accumulation in the short and medium run, with larger effects at the very top, and that the long-run elasticity of wealth with respect to the net-of-tax return is sizable at the top. Before the 1989 reform the marginal rate was 2.2 percent. That is a response inside a country with records, not a story that only airplanes defeated the tax. Locking the exits does not repeal the accumulation response. It adds a second control. The IMF's 2022 review of its institutional view says capital flows can bring substantial benefits, and that capital-flow measures should not substitute for warranted macroeconomic adjustment. That review also says it did not write a rule for using those measures for social or political objectives, because the analytical foundation was not there. A permanent cage so a domestic wealth tax cannot be avoided is that different policy, and it still leaves valuation, debt against taxable assets, and the decision to save.",
+      "evidenceBullets": [
+        "Danish administrative records: the wealth tax reduced accumulation, more at the very top. The pre-1989 marginal rate was 2.2 percent; the tax was later abolished (1997).",
+        "The long-run elasticity of wealth with respect to the net-of-tax return is sizable at the top. That is not an airport story.",
+        "IMF 2022 review: capital flows can bring substantial benefits; capital-flow measures should not substitute for macroeconomic adjustment; social or political uses were not given a new rule."
+      ],
+      "fallacies": [
+        "single-cause fallacy",
+        "false dichotomy",
+        "seen vs unseen"
+      ],
+      "sources": [
+        {
+          "id": "nber-w24371",
+          "title": "Jakobsen, Jakobsen, Kleven, and Zucman: Wealth Taxation and Wealth Accumulation",
+          "url": "https://www.nber.org/papers/w24371",
+          "doi": "10.3386/w24371",
+          "type": "academic",
+          "accessedAt": "2026-09-21",
+          "citation": "NBER w24371; QJE 2020, doi:10.1093/qje/qjz032. Denmark wealth tax reduced accumulation, with larger effects at the top."
+        },
+        {
+          "id": "imf-iv-2022",
+          "title": "IMF: Review of the Institutional View on Capital Flows",
+          "url": "https://www.elibrary.imf.org/view/journals/007/2022/008/article-A001-en.xml",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-09-21",
+          "citation": "IMF Policy Papers 2022/008, 30 March 2022: capital flows can bring substantial benefits; CFMs should not substitute for macroeconomic adjustment; social or political uses were not given a new rule."
+        }
+      ],
+      "whyItMatters": "The flight story treats capital controls as the missing piece of a wealth tax. Denmark's records show the fortunes shrink even when they are still on the books.",
+      "relatedClaimIds": [
+        "wealth-tax-free-lunch",
+        "wealth-tax-europe-proves-it-works",
+        "abolish-inherited-wealth"
+      ],
+      "tags": [
+        "capital-controls",
+        "wealth-tax",
+        "exit-tax",
+        "planning-desk"
+      ],
+      "embeddingText": "capital controls exit tax wealth tax Denmark accumulation elasticity IMF institutional view",
+      "searchText": "capital controls and an exit tax so a wealth tax cannot be escaped lock the fortunes in"
+    }
+  ]
+}

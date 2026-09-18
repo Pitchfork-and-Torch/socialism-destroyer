@@ -137,7 +137,10 @@ class ClaimSuggestionService {
         throw const ClaimSuggestionException('Each source needs a title and URL.');
       }
       final uri = Uri.tryParse(s.url.trim());
-      if (uri == null || !uri.hasScheme) {
+      // Message promised http(s); scheme-only checks accepted javascript:/file:/data:.
+      if (uri == null ||
+          !(uri.scheme == 'http' || uri.scheme == 'https') ||
+          uri.host.isEmpty) {
         throw const ClaimSuggestionException('Source URLs must be valid http(s) links.');
       }
     }

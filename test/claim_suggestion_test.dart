@@ -65,5 +65,39 @@ void main() {
         throwsA(isA<ClaimSuggestionException>()),
       );
     });
+
+    test('rejects non-http(s) source schemes', () {
+      expect(
+        () => service.submit(
+          topicId: 'wealth-inequality-mobility',
+          title: 'Valid Title Here',
+          socialistClaim: 'Socialist claim with enough characters here.',
+          counterSummary:
+              'Counter summary with enough characters to satisfy the minimum length.',
+          sources: const [
+            SuggestionSource(title: 'Bad', url: 'javascript:alert(1)'),
+            SuggestionSource(title: 'Ok', url: 'https://example.com'),
+          ],
+        ),
+        throwsA(isA<ClaimSuggestionException>()),
+      );
+    });
+
+    test('rejects scheme-less and empty-host URLs', () {
+      expect(
+        () => service.submit(
+          topicId: 'wealth-inequality-mobility',
+          title: 'Valid Title Here',
+          socialistClaim: 'Socialist claim with enough characters here.',
+          counterSummary:
+              'Counter summary with enough characters to satisfy the minimum length.',
+          sources: const [
+            SuggestionSource(title: 'File', url: 'file:///tmp/x'),
+            SuggestionSource(title: 'Ok', url: 'https://example.com'),
+          ],
+        ),
+        throwsA(isA<ClaimSuggestionException>()),
+      );
+    });
   });
 }

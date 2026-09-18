@@ -90,7 +90,10 @@ class BookHighlight extends Equatable {
   }
 
   factory BookHighlight.fromJson(Map<String, dynamic> json) {
-    final range = normalizeRange(json['start'] as int, json['end'] as int);
+    // Overlay / web JSON often yields doubles for offsets; `as int` threw.
+    final start = (json['start'] as num?)?.toInt() ?? 0;
+    final end = (json['end'] as num?)?.toInt() ?? 0;
+    final range = normalizeRange(start, end);
     return BookHighlight(
       id: json['id'] as String,
       start: range.$1,

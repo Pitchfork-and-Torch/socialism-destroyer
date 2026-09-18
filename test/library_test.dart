@@ -80,6 +80,28 @@ void main() {
       expect(hit.start, 10);
       expect(hit.end, 40);
     });
+
+    test('BookHighlight.fromJson accepts num offsets from JSON', () {
+      final hit = BookHighlight.fromJson({
+        'id': 'h2',
+        'start': 12.0,
+        'end': 40.5,
+        'colorKey': 'gold',
+        'createdAt': DateTime.utc(2026, 9, 18).toIso8601String(),
+      });
+      expect(hit.start, 12);
+      expect(hit.end, 40);
+    });
+
+    test('BookHighlight.fromJson defaults missing offsets to zero', () {
+      final hit = BookHighlight.fromJson({
+        'id': 'h3',
+        'colorKey': 'gold',
+        'createdAt': DateTime.utc(2026, 9, 18).toIso8601String(),
+      });
+      expect(hit.start, 0);
+      expect(hit.end, 0);
+    });
   });
 
   group('BookContentParser', () {

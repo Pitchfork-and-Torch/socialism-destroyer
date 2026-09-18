@@ -39,9 +39,7 @@ class ResearchQuickActions extends StatelessWidget {
         icon: Icons.history_edu_outlined,
         label: 'Wayback',
         tooltip: 'Search Internet Archive',
-        onTap: () => _open(
-          'https://web.archive.org/web/*/${Uri.encodeComponent('https://en.wikipedia.org/wiki/Special:Search?search=$q')}',
-        ),
+        onTap: () => _open(ResearchLinks.waybackWikipediaSearch(q)),
       ),
       _Action(
         icon: Icons.menu_book_outlined,

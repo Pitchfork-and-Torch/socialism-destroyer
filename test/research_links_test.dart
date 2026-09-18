@@ -22,4 +22,17 @@ void main() {
       contains('q=labor%20theory'),
     );
   });
+
+  test('waybackWikipediaSearch leaves target URL unencoded', () {
+    final link = ResearchLinks.waybackWikipediaSearch('labor theory');
+    expect(
+      link.startsWith(
+        'https://web.archive.org/web/*/https://en.wikipedia.org/',
+      ),
+      isTrue,
+    );
+    expect(link.contains('%3A'), isFalse);
+    expect(link.contains('%2F'), isFalse);
+    expect(link, contains('search=labor%20theory'));
+  });
 }

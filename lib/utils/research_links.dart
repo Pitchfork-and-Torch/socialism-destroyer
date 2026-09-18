@@ -15,6 +15,16 @@ abstract final class ResearchLinks {
     return 'https://web.archive.org/web/*/$target';
   }
 
+
+  /// Wikipedia search via Wayback. Only the query value is encoded; the
+  /// archive.org target path must keep a literal https:// (see waybackMachine).
+  static String waybackWikipediaSearch(String query) {
+    final q = query.trim().isEmpty ? 'economic freedom' : query.trim();
+    return waybackMachine(
+      'https://en.wikipedia.org/wiki/Special:Search?search=${Uri.encodeComponent(q)}',
+    );
+  }
+
   static String archiveSaveNow(String url) =>
       'https://web.archive.org/save/${url.startsWith('http') ? url : 'https://$url'}';
 

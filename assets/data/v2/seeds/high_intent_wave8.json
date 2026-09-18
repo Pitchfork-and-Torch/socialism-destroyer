@@ -1,0 +1,530 @@
+{
+  "schemaVersion": 2,
+  "kbVersion": "3.18.0",
+  "bundleId": "high-intent-wave8-v318",
+  "priority": 10,
+  "updatedAt": "2026-09-05T22:00:00Z",
+  "contentHash": "sha256:16f489a3b8bbbbdcf516a95f5557862ede96e6821cb838dc821eceb405706a19",
+  "claims": [
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-09-05T22:00:00Z",
+      "kbVersion": "3.18.0",
+      "id": "cancel-all-student-debt",
+      "topicId": "household-capture",
+      "topicPath": "/government-intervention/household",
+      "title": "Cancel All Federal Student Debt",
+      "socialistClaimText": "Federal student loans are a trap sold as opportunity. Wipe the entire federal student-debt book so a generation can buy homes, start families, and stop paying tribute to the Department of Education.",
+      "executiveSummary": "Balances are large, and some programs failed borrowers. Federal Student Aid, Treasury Fiscal Data, and NCES already publish outstanding federal loans, originations, and attainment. Cancellation is a transfer to people who already received the tuition, not a refund of the classroom. It does not lower the next cohort's sticker price. Schools that captured the loans keep the buildings. Taxpayers who did not attend, or who already repaid, fund the wipe. Pause-and-forgive cycles also reprice the next origination. The unseen half is tuition that keeps rising after the slate is clean.",
+      "evidenceBullets": [
+        "Federal Student Aid data centers report outstanding Direct and FFEL balances, borrowers, and status. A slogan wipe is not an inventory.",
+        "Treasury Fiscal Data tracks federal credit programs as assets and costs. Cancellation is scored as a fiscal event, not a free lunch.",
+        "NCES still publishes enrollment, prices, and attainment. Debt cancellation does not write those series down.",
+        "Borrowers who already repaid, and households that never borrowed, are the residual payers unless taxes or other outlays fall."
+      ],
+      "fallacies": [
+        "seen vs unseen",
+        "composition fallacy",
+        "special pleading"
+      ],
+      "sources": [
+        {
+          "id": "fsa-data-center",
+          "title": "Federal Student Aid Data Center",
+          "url": "https://studentaid.gov/data-center",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-05",
+          "citation": "U.S. Department of Education Federal Student Aid portfolio and borrower statistics."
+        },
+        {
+          "id": "treasury-fiscal",
+          "title": "Treasury Fiscal Data",
+          "url": "https://fiscaldata.treasury.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-05",
+          "citation": "U.S. Treasury Fiscal Data on federal finance, including credit program costs."
+        },
+        {
+          "id": "nces",
+          "title": "National Center for Education Statistics",
+          "url": "https://nces.ed.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-05",
+          "citation": "NCES enrollment, price, and attainment series."
+        }
+      ],
+      "whyItMatters": "Full cancellation polls as justice. Steelman the trap, then look at FSA balances and NCES prices - not a one-time wipe.",
+      "relatedClaimIds": [
+        "student-loan-pause-is-justice",
+        "free-college-is-a-right"
+      ],
+      "tags": [
+        "student-debt",
+        "education",
+        "cancellation",
+        "household"
+      ],
+      "embeddingText": "cancel all federal student debt wipe student loans FSA NCES Treasury",
+      "searchText": "cancel all federal student debt wipe the entire student loan book so a generation can buy homes"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-09-05T22:00:00Z",
+      "kbVersion": "3.18.0",
+      "id": "ban-junk-fees-is-justice",
+      "topicId": "household-capture",
+      "topicPath": "/government-intervention/household",
+      "title": "Ban Junk Fees So the Sticker Is the Price",
+      "socialistClaimText": "Airlines, landlords, tickets, and banks hide the real price in junk fees. Ban surprise add-ons so the advertised number is what you pay, and stop firms from nickel-and-diming households.",
+      "executiveSummary": "Opaque add-ons are a real consumer-protection problem, and CFPB, FTC, and BLS already police deception and measure prices. A total ban on optional paid extras is not the same as requiring the all-in number up front. Unbundling can be a feature: a bag fee lets a traveler who packs light pay less. If every add-on is illegal, the base sticker rises and the option disappears. Truth-in-advertising and itemized checkout are the narrow tools. A slogan ban on fees is a price control on a menu of services.",
+      "evidenceBullets": [
+        "CFPB consumer tools and junk-fee work treat surprise, unavoidable add-ons as a disclosure and unfairness problem, not a proof that every optional fee is theft.",
+        "FTC truth-in-advertising rules already target deceptive headline prices. Enforcement is the issue more often than a missing statute.",
+        "BLS CPI baskets include fees that households actually pay. A ban that forces bundling changes the index composition, it does not freeze real resource cost.",
+        "An optional fee that some buyers skip is a price. Forbidding it transfers the cost into the base fare."
+      ],
+      "fallacies": [
+        "equivocation",
+        "nirvana fallacy",
+        "seen vs unseen"
+      ],
+      "sources": [
+        {
+          "id": "cfpb",
+          "title": "Consumer Financial Protection Bureau",
+          "url": "https://www.consumerfinance.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-05",
+          "citation": "CFPB consumer protection, junk-fee, and credit-market pages."
+        },
+        {
+          "id": "ftc-advertising",
+          "title": "FTC Truth in Advertising",
+          "url": "https://www.ftc.gov/news-events/topics/truth-advertising",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-05",
+          "citation": "Federal Trade Commission truth-in-advertising guidance."
+        },
+        {
+          "id": "bls-cpi",
+          "title": "BLS Consumer Price Index",
+          "url": "https://www.bls.gov/cpi/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-05",
+          "citation": "Bureau of Labor Statistics CPI, including fee-inclusive household prices."
+        }
+      ],
+      "whyItMatters": "Junk-fee bans poll as honesty. Steelman surprise charges, then separate disclosure from a ban on optional prices.",
+      "relatedClaimIds": [
+        "grocery-price-controls-now",
+        "cap-credit-card-interest"
+      ],
+      "tags": [
+        "junk-fees",
+        "cfpb",
+        "prices",
+        "household"
+      ],
+      "embeddingText": "ban junk fees advertised price sticker CFPB FTC CPI surprise add-ons",
+      "searchText": "ban junk fees so the advertised number is the real price surprise add-ons airlines landlords banks"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-09-05T22:00:00Z",
+      "kbVersion": "3.18.0",
+      "id": "universal-public-childcare",
+      "topicId": "household-capture",
+      "topicPath": "/government-intervention/household",
+      "title": "Make Childcare a Public Utility",
+      "socialistClaimText": "Childcare is too expensive because markets ration care. Make it a free public utility like kindergarten so parents can work and children get equal starts.",
+      "executiveSummary": "Prices are high in many metros, and quality is uneven. Census, BLS, and HHS/ACF already measure who uses paid care, what it costs, and how subsidies work. Turning care into a free utility is a labor-demand shock for workers who currently do the job, plus a fiscal commitment that does not create extra classrooms overnight. Waiting lists, staffing ratios, and facility rules still bind. Countries that expanded public slots did not abolish scarcity; they reassigned who waits and who pays. Parental time is still a real input.",
+      "evidenceBullets": [
+        "Census child-care pages document arrangements, costs, and which households use paid care versus relatives.",
+        "BLS employment and wage series cover child-care workers. A 'free utility' still has to hire them at a wage.",
+        "HHS Office of Child Care administers existing subsidy and quality programs. Scaling to universal free slots is a different budget, not a missing office.",
+        "Capacity, ratios, and background-check rules are quantity constraints. Zero price does not add rooms."
+      ],
+      "fallacies": [
+        "nirvana fallacy",
+        "seen vs unseen",
+        "free lunch"
+      ],
+      "sources": [
+        {
+          "id": "census-child-care",
+          "title": "Census Child Care",
+          "url": "https://www.census.gov/topics/families/child-care.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-05",
+          "citation": "U.S. Census Bureau child-care arrangements and cost topics."
+        },
+        {
+          "id": "bls",
+          "title": "Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-05",
+          "citation": "BLS employment, wages, and household survey pages covering care work."
+        },
+        {
+          "id": "acf-occ",
+          "title": "HHS Office of Child Care",
+          "url": "https://www.acf.hhs.gov/occ",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-05",
+          "citation": "Administration for Children and Families Office of Child Care."
+        }
+      ],
+      "whyItMatters": "Public childcare polls as equal starts. Steelman the cost, then look at Census use and BLS staffing - not a kindergarten clone.",
+      "relatedClaimIds": [
+        "twenty-five-dollar-minimum-wage",
+        "baby-bonds-close-the-gap"
+      ],
+      "tags": [
+        "childcare",
+        "household",
+        "labor",
+        "public-utility"
+      ],
+      "embeddingText": "universal public childcare free daycare public utility Census BLS ACF OCC",
+      "searchText": "make childcare a free public utility like kindergarten so parents can work"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-09-05T22:00:00Z",
+      "kbVersion": "3.18.0",
+      "id": "ban-private-prisons",
+      "topicId": "household-capture",
+      "topicPath": "/government-intervention/household",
+      "title": "Ban Private Prisons",
+      "socialistClaimText": "Private prisons profit from cages. Ban them so incarceration cannot be a business and the state stops filling beds for contractors.",
+      "executiveSummary": "Contractor incentives are a real governance issue, and BJS, BOP, and Census of Governments already count who holds prisoners and who pays. Most U.S. inmates sit in public facilities. A ban on private operators shifts the same bodies onto state payrolls; it does not repeal sentencing statutes or crime. Occupancy guarantees in some contracts are the narrow scandal. Ending those clauses is not the same as pretending public guards have no overtime, no unions, and no budget incentive to keep capacity. The crime and sentencing book is the volume knob.",
+      "evidenceBullets": [
+        "BJS prison and jail series report custody by facility type, including public and private. Private share is a minority of stock.",
+        "Federal BOP pages document federal custody, contracts, and facility lists. A slogan ban is not a sentencing reform.",
+        "Census of Governments tracks state and local correctional employment and spending. Public systems are already a large payroll.",
+        "Bed volume follows convictions and sentence length. Changing the contractor does not change the docket."
+      ],
+      "fallacies": [
+        "scapegoating",
+        "composition fallacy",
+        "nirvana fallacy"
+      ],
+      "sources": [
+        {
+          "id": "bjs",
+          "title": "Bureau of Justice Statistics",
+          "url": "https://bjs.ojp.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-05",
+          "citation": "BJS prisoners, jails, and corrections statistics."
+        },
+        {
+          "id": "bop",
+          "title": "Federal Bureau of Prisons",
+          "url": "https://www.bop.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-05",
+          "citation": "U.S. Bureau of Prisons facilities and inmate statistics."
+        },
+        {
+          "id": "census-cog",
+          "title": "Census of Governments",
+          "url": "https://www.census.gov/programs-surveys/cog.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-05",
+          "citation": "Census of Governments state and local employment and finance, including corrections."
+        }
+      ],
+      "whyItMatters": "Private-prison bans poll as ending profit from cages. Steelman the contract, then look at BJS custody mix and sentencing volume.",
+      "relatedClaimIds": [
+        "dei-mandates-are-justice"
+      ],
+      "tags": [
+        "prisons",
+        "criminal-justice",
+        "contractors",
+        "household"
+      ],
+      "embeddingText": "ban private prisons BJS BOP Census of Governments contractor beds",
+      "searchText": "ban private prisons so incarceration cannot be a business and the state stops filling contractor beds"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-09-05T22:00:00Z",
+      "kbVersion": "3.18.0",
+      "id": "ban-congress-stock-trading",
+      "topicId": "household-capture",
+      "topicPath": "/government-intervention/household",
+      "title": "Ban Congress from Trading Stocks",
+      "socialistClaimText": "Members of Congress write the rules and then trade the companies they regulate. Ban individual stock trading so the rich in office cannot front-run the public.",
+      "executiveSummary": "Conflict of interest is a real ethics problem, and House, Senate, and SEC already run disclosure and insider-trading law. A total ban on individual names is one instrument; index funds, blind trusts, and enforcement of the STOCK Act are others. Most household wealth is not a member's ticker tape. Banning members from diversified funds can shrink the talent pool without proving committee votes were purchased. The narrow fix is timely disclosure and prosecution of actual material nonpublic information. A slogan ban is not a substitute for reading the ethics filings.",
+      "evidenceBullets": [
+        "House Ethics publishes STOCK Act and financial-disclosure rules for members and staff.",
+        "Senate Ethics covers the same duty in the Senate. The paperwork already exists; late filings are an enforcement fact.",
+        "SEC insider-trading and reporting pages apply to anyone who trades on material nonpublic information, including officials.",
+        "A ban that forbids even broad index funds treats diversified beta as a crime. That is a different claim from stopping a committee chair's single-name flip."
+      ],
+      "fallacies": [
+        "equivocation",
+        "nirvana fallacy",
+        "guilt by association"
+      ],
+      "sources": [
+        {
+          "id": "house-ethics",
+          "title": "House Committee on Ethics",
+          "url": "https://ethics.house.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-05",
+          "citation": "U.S. House Committee on Ethics, including STOCK Act and disclosure."
+        },
+        {
+          "id": "senate-ethics",
+          "title": "Senate Select Committee on Ethics",
+          "url": "https://www.ethics.senate.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-05",
+          "citation": "U.S. Senate Select Committee on Ethics."
+        },
+        {
+          "id": "sec",
+          "title": "U.S. Securities and Exchange Commission",
+          "url": "https://www.sec.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-05",
+          "citation": "SEC insider-trading, reporting, and market-structure pages."
+        }
+      ],
+      "whyItMatters": "A Congress stock ban polls as draining the swamp. Steelman the conflict, then look at ethics filings and SEC law - not a ban on index funds.",
+      "relatedClaimIds": [
+        "break-up-big-tech-for-democracy",
+        "wealth-tax-europe-proves-it-works"
+      ],
+      "tags": [
+        "congress",
+        "stocks",
+        "ethics",
+        "household"
+      ],
+      "embeddingText": "ban congress stock trading STOCK Act House Ethics Senate Ethics SEC insider",
+      "searchText": "ban members of Congress from trading individual stocks so they cannot front-run the public"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-09-05T22:00:00Z",
+      "kbVersion": "3.18.0",
+      "id": "ban-payday-loans",
+      "topicId": "household-capture",
+      "topicPath": "/government-intervention/household",
+      "title": "Ban Payday Loans",
+      "socialistClaimText": "Payday lenders trap the working poor in triple-digit APR cycles. Ban the product so households cannot be harvested by storefront credit.",
+      "executiveSummary": "High APRs on short loans are ugly, and CFPB, FDIC, and the Fed already publish how these products work and who uses them. A ban removes one expensive option. It does not create a cheap unsecured substitute for a bounced rent check. Informal lenders, overdraft, and bounced-check fees are the usual substitutes. Usury caps that kill legal storefronts historically push volume off-book. Disclosure, ability-to-repay, and bank small-dollar products are narrower tools. Pretending zero price credit appears after a ban is the free-lunch step.",
+      "evidenceBullets": [
+        "CFPB payday-loan consumer tools describe typical terms, rollovers, and complaint patterns.",
+        "FDIC household banking surveys track the unbanked and underbanked, including use of alternative credit.",
+        "Federal Reserve consumer and community pages cover small-dollar credit and overdraft as neighboring products.",
+        "A ban that closes legal storefronts does not close the rent due date. Substitution is the unseen half."
+      ],
+      "fallacies": [
+        "nirvana fallacy",
+        "seen vs unseen",
+        "false dichotomy"
+      ],
+      "sources": [
+        {
+          "id": "cfpb-payday",
+          "title": "CFPB Payday Loans",
+          "url": "https://www.consumerfinance.gov/consumer-tools/payday-loans/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-05",
+          "citation": "CFPB consumer tools on payday loans."
+        },
+        {
+          "id": "fdic",
+          "title": "FDIC",
+          "url": "https://www.fdic.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-05",
+          "citation": "FDIC household banking and consumer-protection pages."
+        },
+        {
+          "id": "fed-consumers",
+          "title": "Federal Reserve Consumers and Communities",
+          "url": "https://www.federalreserve.gov/consumerscommunities.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-05",
+          "citation": "Federal Reserve consumer and community affairs."
+        }
+      ],
+      "whyItMatters": "Payday bans poll as protecting the poor. Steelman the APR, then look at CFPB terms and FDIC substitution - not a free credit line.",
+      "relatedClaimIds": [
+        "cap-credit-card-interest",
+        "postal-banking-is-justice"
+      ],
+      "tags": [
+        "payday",
+        "credit",
+        "cfpb",
+        "household"
+      ],
+      "embeddingText": "ban payday loans triple digit APR CFPB FDIC Fed small dollar credit",
+      "searchText": "ban payday loans so the working poor are not trapped in triple-digit APR cycles"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-09-05T22:00:00Z",
+      "kbVersion": "3.18.0",
+      "id": "forgive-all-medical-debt",
+      "topicId": "household-capture",
+      "topicPath": "/government-intervention/household",
+      "title": "Forgive All Medical Debt",
+      "socialistClaimText": "Nobody should go bankrupt from a hospital bill. Wipe medical debt from credit reports and cancel outstanding balances so illness is not a collections industry.",
+      "executiveSummary": "Medical bills wreck some households, and CFPB, CMS, and Census already measure spending, insurance, and collections. Forgiving today's balances is a transfer to providers and borrowers on the existing stock. It does not set tomorrow's chargemaster or insurance design. Credit-report removal is a scoring change; cancellation is a fiscal or hospital-writeoff event. If prices and utilization stay the same, the next cohort re-accumulates the same book. Narrower tools are price transparency, emergency-care rules, and insurance. A one-time wipe is not a cost curve.",
+      "evidenceBullets": [
+        "CFPB research and consumer pages cover medical collections on credit reports and household harm from billed care.",
+        "CMS National Health Expenditure data remain the official U.S. health-spending accounts. Debt is a lagging claim on that spending.",
+        "Census health-insurance and household pages show coverage gaps that generate uncompensated and delayed bills.",
+        "Wiping yesterday's receivables does not bind tomorrow's list prices or utilization."
+      ],
+      "fallacies": [
+        "seen vs unseen",
+        "nirvana fallacy",
+        "composition fallacy"
+      ],
+      "sources": [
+        {
+          "id": "cfpb-home",
+          "title": "Consumer Financial Protection Bureau",
+          "url": "https://www.consumerfinance.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-05",
+          "citation": "CFPB consumer finance and medical-collections research hub."
+        },
+        {
+          "id": "cms-nhe",
+          "title": "CMS National Health Expenditure Data",
+          "url": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-05",
+          "citation": "CMS National Health Expenditure accounts."
+        },
+        {
+          "id": "census-health",
+          "title": "Census Health",
+          "url": "https://www.census.gov/topics/health.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-05",
+          "citation": "U.S. Census Bureau health insurance and household health topics."
+        }
+      ],
+      "whyItMatters": "Medical-debt wipes poll as mercy. Steelman bankruptcy from a bill, then look at CMS spending and coverage - not a one-time collections holiday.",
+      "relatedClaimIds": [
+        "insulin-price-cap-is-justice",
+        "medicare-for-all-pays-for-itself",
+        "public-option-beats-markets"
+      ],
+      "tags": [
+        "medical-debt",
+        "health",
+        "credit",
+        "household"
+      ],
+      "embeddingText": "forgive all medical debt cancel hospital bills CFPB CMS Census credit reports",
+      "searchText": "forgive all medical debt wipe hospital bills from credit reports so illness is not a collections industry"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-09-05T22:00:00Z",
+      "kbVersion": "3.18.0",
+      "id": "ban-stock-buybacks",
+      "topicId": "household-capture",
+      "topicPath": "/government-intervention/household",
+      "title": "Ban Stock Buybacks",
+      "socialistClaimText": "Buybacks starve workers and investment so executives can juice the ticker. Ban share repurchases and force profits into wages and factories.",
+      "executiveSummary": "Repurchases return cash to owners, and SEC, BEA, and Treasury already measure corporate profits, distributions, and buyback disclosure. A ban does not create a wage fund. Cash that cannot be returned via buybacks still belongs to residual claimants: dividends, cash piles, M&A, or debt paydown. Investment happens when projects beat the cost of capital, not when a distribution channel is closed. Workers are paid from product markets and labor markets. Treating a ticker-support tool as the reason real wages stall skips productivity and labor supply. Disclosure of 10b-18 programs is the narrow governance tool.",
+      "evidenceBullets": [
+        "SEC pages cover share-repurchase disclosure and market structure. Buybacks are a regulated distribution, not a secret payroll theft.",
+        "BEA corporate-profit and national-account series show earnings, dividends, and investment as separate flows.",
+        "Treasury corporate-tax and economic pages treat distributions as after-tax events. A ban reallocates residual cash, it does not mint wages.",
+        "If a project has a positive NPV, firms can fund it with retained earnings or new capital whether or not buybacks exist."
+      ],
+      "fallacies": [
+        "seen vs unseen",
+        "composition fallacy",
+        "post hoc"
+      ],
+      "sources": [
+        {
+          "id": "sec-buybacks",
+          "title": "U.S. Securities and Exchange Commission",
+          "url": "https://www.sec.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-05",
+          "citation": "SEC share-repurchase disclosure and market-structure pages."
+        },
+        {
+          "id": "bea",
+          "title": "Bureau of Economic Analysis",
+          "url": "https://www.bea.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-05",
+          "citation": "BEA corporate profits, dividends, and investment accounts."
+        },
+        {
+          "id": "treasury",
+          "title": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-05",
+          "citation": "Treasury economic policy and corporate-tax pages."
+        }
+      ],
+      "whyItMatters": "Buyback bans poll as putting workers first. Steelman the ticker juice, then look at BEA profits and SEC disclosure - not a wage machine.",
+      "relatedClaimIds": [
+        "financial-transaction-tax-justice",
+        "executive-pay-ratio-cap"
+      ],
+      "tags": [
+        "buybacks",
+        "corporate",
+        "sec",
+        "household"
+      ],
+      "embeddingText": "ban stock buybacks share repurchases SEC BEA Treasury wages investment",
+      "searchText": "ban stock buybacks so profits go to wages and factories instead of juicing the ticker"
+    }
+  ]
+}

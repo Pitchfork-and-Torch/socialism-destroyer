@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://socialism-destroyer.dev/schemas/v2/book.schema.json",
+  "title": "BookDocument",
+  "type": "object",
+  "required": ["schemaVersion", "kbVersion", "updatedAt", "books"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "minimum": 2 },
+    "kbVersion": { "type": "string" },
+    "updatedAt": { "type": "string", "format": "date-time" },
+    "contentHash": { "type": "string" },
+    "books": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Book" }
+    }
+  },
+  "$defs": {
+    "BookRecommendation": {
+      "type": "object",
+      "required": ["topicId", "reason"],
+      "properties": {
+        "topicId": { "type": "string" },
+        "reason": { "type": "string" },
+        "priority": { "type": "integer" }
+      }
+    },
+    "Book": {
+      "type": "object",
+      "required": ["id", "title", "author", "description", "pdStatus"],
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "author": { "type": "string" },
+        "description": { "type": "string" },
+        "pdStatus": {
+          "enum": ["public_domain", "copyrighted", "unknown"]
+        },
+        "excerptPath": { "type": "string" },
+        "fullTextPath": { "type": "string" },
+        "externalUrl": { "type": "string", "format": "uri" },
+        "chapters": { "type": "array" },
+        "recommendations": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/BookRecommendation" }
+        },
+        "recommendedTopicIds": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "schemaVersion": { "type": "integer" },
+        "revision": { "type": "integer" },
+        "contentHash": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      }
+    }
+  }
+}

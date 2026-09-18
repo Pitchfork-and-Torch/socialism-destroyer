@@ -90,11 +90,15 @@ abstract final class FallacyCatalog {
 
   static FallacyEntry? resolve(String raw) {
     final key = raw.toLowerCase().trim();
+    if (key.isEmpty) return null;
     for (final e in _entries) {
       if (e.id == key || e.label.toLowerCase() == key) return e;
     }
+    // Only match when the haystack contains a known id/label. The reverse
+    // (e.id.contains(key)) let short keys like "no" or "theory" falsely hit
+    // the first entry whose id happened to include that substring.
     for (final e in _entries) {
-      if (key.contains(e.id) || e.id.contains(key)) return e;
+      if (key.contains(e.id) || key.contains(e.label.toLowerCase())) return e;
     }
     return null;
   }

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:socialism_destroyer/models/book.dart';
 import 'package:socialism_destroyer/models/book_reading.dart';
 import 'package:socialism_destroyer/features/library/screens/library_reader_screen.dart';
 import 'package:socialism_destroyer/features/library/screens/library_screen.dart';
@@ -57,6 +58,7 @@ void main() {
     });
 
     test('createHighlight swaps inverted start/end so spans stay ordered', () async {
+      final service = BookReadingService();
       await service.createHighlight(
         bookId: 'the-law',
         start: 200,
@@ -101,6 +103,24 @@ void main() {
       });
       expect(hit.start, 0);
       expect(hit.end, 0);
+    });
+
+    test('BookChapter.fromJson accepts num startOffset from JSON', () {
+      final chapter = BookChapter.fromJson({
+        'id': 'ch1',
+        'title': 'Chapter One',
+        'startOffset': 148.0,
+      });
+      expect(chapter.startOffset, 148);
+      expect(chapter.id, 'ch1');
+    });
+
+    test('BookChapter.fromJson defaults missing startOffset to zero', () {
+      final chapter = BookChapter.fromJson({
+        'id': 'ch2',
+        'title': 'Untitled',
+      });
+      expect(chapter.startOffset, 0);
     });
   });
 

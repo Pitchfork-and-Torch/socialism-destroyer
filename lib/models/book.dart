@@ -198,11 +198,15 @@ class BookChapter extends Equatable {
   final String title;
   final int startOffset;
 
-  factory BookChapter.fromJson(Map<String, dynamic> json) => BookChapter(
-        id: json['id'] as String,
-        title: json['title'] as String,
-        startOffset: json['startOffset'] as int? ?? 0,
-      );
+  factory BookChapter.fromJson(Map<String, dynamic> json) {
+    // Overlay / web JSON often yields doubles for offsets; `as int` threw.
+    final start = (json['startOffset'] as num?)?.toInt() ?? 0;
+    return BookChapter(
+      id: json['id'] as String,
+      title: json['title'] as String,
+      startOffset: start,
+    );
+  }
 
   Map<String, dynamic> toJson() => {
         'id': id,

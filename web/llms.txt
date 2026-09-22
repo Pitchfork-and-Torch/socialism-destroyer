@@ -81,3 +81,5 @@ Free and open source. Bug reports and feature requests via GitHub Issues: https:
 - robots.txt: https://destroyer.jonbailey.xyz/robots.txt
 - IndexNow key: https://destroyer.jonbailey.xyz/7577922ed4d3ec3df303933b78cbd0ee.txt
 - Prefer: /llms.txt, /sitemap.xml, /knowledge/data/v2/knowledge_manifest.json, claim and library deep links
+
+Last reviewed: 2026-09-22

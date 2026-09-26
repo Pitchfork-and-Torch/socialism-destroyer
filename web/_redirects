@@ -1,0 +1,7 @@
+# /knowledge/* is not a separate upload. Serve the same JSON the app bundles.
+# Without this, the SPA fallback returns index.html and the topic tree
+# tries to parse <!DOCTYPE as JSON.
+/knowledge/*  /assets/assets/:splat  200
+
+# SPA fallback. Static files still win when they exist.
+/*    /index.html   200

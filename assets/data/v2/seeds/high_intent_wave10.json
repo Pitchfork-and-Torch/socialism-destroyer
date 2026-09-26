@@ -1,0 +1,466 @@
+{
+  "schemaVersion": 2,
+  "kbVersion": "3.20.0",
+  "bundleId": "high-intent-wave10-v320",
+  "priority": 10,
+  "updatedAt": "2026-09-26T16:00:00Z",
+  "contentHash": "sha256:5218fb6e10269b37dd6b3ba628b339de84c2eb66b3e9c2c248dbd28fec5587ba",
+  "claims": [
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-09-26T16:00:00Z",
+      "kbVersion": "3.20.0",
+      "id": "pro-act-restores-organizing",
+      "topicId": "statute-desk",
+      "topicPath": "/government-intervention/statute",
+      "title": "Pass the PRO Act",
+      "socialistClaimText": "Pass the PRO Act. The NLRA's promise is a dead letter while employers hold captive-audience meetings, penalties are token, and solidarity boycotts are banned. H.R. 20 restores the right to organize.",
+      "executiveSummary": "Congress.gov lists H.R. 20, the Richard L. Trumka Protecting the Right to Organize Act of 2025, as introduced on March 5, 2025 and referred to the House Committee on Education and Workforce. Its status is Introduced. It is not the statute in force. The NLRB's guide to the National Labor Relations Act is the statute that is: employees may organize and bargain, and the Act already defines unfair labor practices. BLS reports that 10.0 percent of wage and salary workers were union members in 2025, 14.7 million people. The public-sector rate was 32.9 percent and the private-sector rate was 5.9 percent. Those 2025 annual figures are an 11-month average that excludes October, because that month was not collected during the shutdown, so they are not strictly comparable with other years. A membership rate is not a finding that the statute fails to state the right. A bill still in committee is not a restoration of a right the current Act already states.",
+      "evidenceBullets": [
+        "Congress.gov: H.R. 20, 119th Congress, introduced March 5, 2025, referred to the House Committee on Education and Workforce, status Introduced.",
+        "The NLRB publishes the National Labor Relations Act as the statute on organizing and unfair labor practices.",
+        "BLS Union Members 2025: 10.0 percent membership, 14.7 million members, public sector 32.9 percent, private sector 5.9 percent. The 2025 annual average excludes October."
+      ],
+      "fallacies": [
+        "nirvana fallacy",
+        "single-cause fallacy",
+        "seen vs unseen"
+      ],
+      "sources": [
+        {
+          "id": "congress-hr20-119",
+          "title": "Congress.gov: H.R. 20, Richard L. Trumka Protecting the Right to Organize Act of 2025",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/20",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-26",
+          "citation": "Congress.gov: H.R. 20, 119th Congress, introduced March 5, 2025, referred to the House Committee on Education and Workforce."
+        },
+        {
+          "id": "nlrb-nlra",
+          "title": "NLRB: National Labor Relations Act",
+          "url": "https://www.nlrb.gov/guidance/key-reference-materials/national-labor-relations-act",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-26",
+          "citation": "NLRB key-reference page for the National Labor Relations Act, the statute in force on organizing and unfair labor practices."
+        },
+        {
+          "id": "bls-union2-2025",
+          "title": "BLS: Union Members, 2025",
+          "url": "https://www.bls.gov/news.release/union2.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-26",
+          "citation": "BLS USDL-26-0229, February 18, 2026: union membership rate 10.0 percent in 2025. Annual estimates exclude October 2025."
+        }
+      ],
+      "whyItMatters": "The PRO Act slogan treats a committee bill as the repair of a right the National Labor Relations Act already states, and treats a membership rate as proof the statute is a dead letter.",
+      "relatedClaimIds": [
+        "sectoral-bargaining-is-democracy",
+        "repeal-right-to-work"
+      ],
+      "tags": [
+        "pro-act",
+        "nlra",
+        "organizing",
+        "statute-desk"
+      ],
+      "embeddingText": "PRO Act H.R. 20 restore the right to organize NLRA NLRB BLS union membership 10 percent",
+      "searchText": "pass the pro act h.r. 20 restores the right to organize nlra captive audience"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-09-26T16:00:00Z",
+      "kbVersion": "3.20.0",
+      "id": "repeal-right-to-work",
+      "topicId": "statute-desk",
+      "topicPath": "/government-intervention/statute",
+      "title": "Repeal Right-to-Work",
+      "socialistClaimText": "Repeal Taft-Hartley section 14(b). Right-to-work lets free riders take the contract and refuse the dues. Every state should require fair-share fees so the union that bargains for you gets paid.",
+      "executiveSummary": "29 U.S.C. 164(b) is not a hidden loophole. It says the National Labor Relations Act does not authorize a union-security agreement that requires membership as a condition of employment where State law prohibits that agreement. Congress wrote the state option into the statute. Janus v. AFSCME, docket 16-1466, is a different holding: on June 27, 2018 the Supreme Court reversed and remanded, and held that States and public-sector unions may not extract agency fees from nonconsenting public employees. That First Amendment rule does not enact or repeal 164(b). BLS still shows a large gap inside the same national labor market: public-sector membership 32.9 percent, private-sector 5.9 percent, in the 2025 release. Forcing private-sector fees does not follow from the public-sector rate, and the public-sector compulsion Janus barred is not the same statute as 14(b).",
+      "evidenceBullets": [
+        "29 U.S.C. 164(b) withholds NLRA authorization for membership-as-a-condition agreements where State law prohibits them.",
+        "Supreme Court docket 16-1466, Janus v. AFSCME: judgment reversed and remanded on June 27, 2018. Public-sector agency fees from nonconsenting employees violate the First Amendment.",
+        "BLS Union Members 2025 separates a 32.9 percent public-sector membership rate from a 5.9 percent private-sector rate."
+      ],
+      "fallacies": [
+        "false equivalence",
+        "composition fallacy",
+        "single-cause fallacy"
+      ],
+      "sources": [
+        {
+          "id": "usc-29-164",
+          "title": "29 U.S.C. 164, Office of the Law Revision Counsel",
+          "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title29-section164&num=0&edition=prelim",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-26",
+          "citation": "29 U.S.C. 164(b): the NLRA does not authorize union-security agreements forbidden by State law."
+        },
+        {
+          "id": "scotus-janus-docket",
+          "title": "Supreme Court docket 16-1466, Janus v. AFSCME",
+          "url": "https://www.supremecourt.gov/docket/docketfiles/html/public/16-1466.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-26",
+          "citation": "Supreme Court docket 16-1466: Janus v. AFSCME, judgment reversed and remanded June 27, 2018."
+        },
+        {
+          "id": "bls-union2-rtw",
+          "title": "BLS: Union Members, 2025",
+          "url": "https://www.bls.gov/news.release/union2.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-26",
+          "citation": "BLS USDL-26-0229: 2025 public-sector union membership 32.9 percent, private-sector 5.9 percent."
+        }
+      ],
+      "whyItMatters": "Right-to-work is debated as if 14(b) were an accident and Janus were a private-sector dues statute. One is a congressional choice about State law. The other is a First Amendment holding about public employees.",
+      "relatedClaimIds": [
+        "pro-act-restores-organizing",
+        "sectoral-bargaining-is-democracy"
+      ],
+      "tags": [
+        "right-to-work",
+        "taft-hartley",
+        "dues",
+        "statute-desk"
+      ],
+      "embeddingText": "repeal right to work Taft-Hartley 14(b) 29 USC 164 Janus public sector agency fees BLS",
+      "searchText": "repeal right to work taft-hartley section 14(b) fair-share fees free riders"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-09-26T16:00:00Z",
+      "kbVersion": "3.20.0",
+      "id": "public-bank-every-state",
+      "topicId": "statute-desk",
+      "topicPath": "/government-intervention/statute",
+      "title": "A Public Bank in Every State",
+      "socialistClaimText": "Charter a public bank in every state on the Bank of North Dakota model and move household deposits out of Wall Street. One public bank already proves the private banking system is optional.",
+      "executiveSummary": "Bank of North Dakota's operations page says that, in partnership with a majority of North Dakota's financial institutions, it promotes agriculture, commerce, and industry. The same page quotes the 1919 operating policy: the bank shall assist existing financial institutions and shall not, in any manner, destroy or be harmful to them. It also says the bank does not compete with those institutions, that most deposits come from state taxes and fees, and that North Dakota residents are a very small part of the deposit base. That is a partner and a depository for public funds, not a finding that household deposits have to move onto a state balance sheet. The FDIC Quarterly Banking Profile is the statistical record of the insured institutions that already hold household deposits.",
+      "evidenceBullets": [
+        "BND operations: partnership with a majority of the state's financial institutions, under a 1919 policy not to destroy existing institutions.",
+        "The same page: the bank does not compete with local institutions, and residents are a very small part of the deposit base.",
+        "The FDIC Quarterly Banking Profile reports on the insured depository institutions that already intermediate household deposits."
+      ],
+      "fallacies": [
+        "hasty generalization",
+        "false equivalence",
+        "composition fallacy"
+      ],
+      "sources": [
+        {
+          "id": "bnd-operations",
+          "title": "Bank of North Dakota: BND Operations",
+          "url": "https://bnd.nd.gov/about-bnd/bnd-operations/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-26",
+          "citation": "Bank of North Dakota operations page: partnership with a majority of the state's financial institutions, and a 1919 policy not to destroy them."
+        },
+        {
+          "id": "fdic-qbp",
+          "title": "FDIC Quarterly Banking Profile",
+          "url": "https://www.fdic.gov/quarterly-banking-profile",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-26",
+          "citation": "FDIC Quarterly Banking Profile: the statistical release on FDIC-insured depository institutions."
+        }
+      ],
+      "whyItMatters": "The public-bank slogan borrows a bank whose own page says it partners with private institutions and must not destroy them, then treats that charter as proof those institutions should lose household deposits.",
+      "relatedClaimIds": [
+        "postal-banking-is-justice",
+        "national-investment-bank-picks-credit"
+      ],
+      "tags": [
+        "public-bank",
+        "deposits",
+        "north-dakota",
+        "statute-desk"
+      ],
+      "embeddingText": "public bank every state Bank of North Dakota partnership does not compete FDIC deposits",
+      "searchText": "public bank in every state bank of north dakota model move household deposits out of private banks"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-09-26T16:00:00Z",
+      "kbVersion": "3.20.0",
+      "id": "abolish-the-debt-ceiling",
+      "topicId": "statute-desk",
+      "topicPath": "/government-intervention/statute",
+      "title": "Abolish the Debt Ceiling",
+      "socialistClaimText": "Abolish the debt ceiling. It is a manufactured hostage crisis. A monetary sovereign should pay Social Security and fund public investment without a ritual vote that threatens default.",
+      "executiveSummary": "31 U.S.C. 3101 limits the face amount of obligations issued under that chapter. The ceiling is a statute about how much debt Treasury may have outstanding, not a machine that creates real resources. Treasury's Debt to the Penny dataset is the stock of dollar liabilities already issued. Raising or repealing the limit changes whether more of that stock may be issued. It does not add the nurses, transformers, or dwellings a spending bill names. The vote is a checkpoint on new borrowing. Removing the checkpoint removes the vote. The obligations already on the books remain the obligations.",
+      "evidenceBullets": [
+        "31 U.S.C. 3101 is the statutory face-amount limit on obligations issued under chapter 31.",
+        "Treasury Fiscal Data publishes Debt to the Penny, the outstanding stock of Treasury liabilities.",
+        "A higher ceiling or no ceiling authorizes more borrowing. It does not produce the real goods the borrowing is supposed to buy."
+      ],
+      "fallacies": [
+        "seen vs unseen",
+        "nirvana fallacy",
+        "composition fallacy"
+      ],
+      "sources": [
+        {
+          "id": "usc-31-3101",
+          "title": "31 U.S.C. 3101, Office of the Law Revision Counsel",
+          "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title31-section3101&num=0&edition=prelim",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-26",
+          "citation": "31 U.S.C. 3101: the public-debt limit on the face amount of obligations."
+        },
+        {
+          "id": "treasury-debt-penny",
+          "title": "Treasury Fiscal Data: Debt to the Penny",
+          "url": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-26",
+          "citation": "U.S. Treasury Fiscal Data, Debt to the Penny: outstanding Treasury debt."
+        }
+      ],
+      "whyItMatters": "Calling the ceiling a hostage crisis skips the statute. The limit is a vote on the stock of obligations. Abolishing the vote does not abolish the stock, and it does not create the real resources spending bills name.",
+      "relatedClaimIds": [
+        "mmt-deficits-do-not-bind"
+      ],
+      "tags": [
+        "debt-ceiling",
+        "treasury",
+        "borrowing",
+        "statute-desk"
+      ],
+      "embeddingText": "abolish the debt ceiling 31 USC 3101 Debt to the Penny borrowing limit not real resources",
+      "searchText": "abolish the debt ceiling manufactured hostage crisis monetary sovereign public investment"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-09-26T16:00:00Z",
+      "kbVersion": "3.20.0",
+      "id": "bayh-dole-march-in-sets-prices",
+      "topicId": "statute-desk",
+      "topicPath": "/government-intervention/statute",
+      "title": "March In on Drug Patents",
+      "socialistClaimText": "If the NIH paid for the science, the public owns the price. Use Bayh-Dole march-in rights to seize the patent and set a fair price whenever a drug costs too much.",
+      "executiveSummary": "35 U.S.C. 203 lets a funding agency require licensing of a subject invention in specified cases: the contractor has not taken effective steps toward practical application, health or safety needs are not reasonably satisfied, public-use requirements are not met, or a domestic-industry agreement has been breached. Those are license triggers written into the statute. They are not a general rule that a high price, by itself, moves title to a price board. NIST's Bayh-Dole page says the draft interagency march-in framework was published for comment on December 8, 2023, that the comment period closed on February 6, 2024, and that NIST is still reviewing those comments. The same page describes the March 24, 2023 final rule as a revision of the implementing regulations, including clarifications of the march-in process. A draft framework still under review is not a completed price-control statute.",
+      "evidenceBullets": [
+        "35 U.S.C. 203 lists the march-in grounds. A high price is not, in the statutory text, a freestanding fifth ground.",
+        "NIST's Bayh-Dole page: the draft march-in framework was published for comment on December 8, 2023, the comment period closed February 6, 2024, and the comments are still under review.",
+        "The same page describes the March 24, 2023 final rule as clarifications of the march-in process. It does not publish a finished rule that a high price, by itself, triggers march-in."
+      ],
+      "fallacies": [
+        "nirvana fallacy",
+        "composition fallacy",
+        "seen vs unseen"
+      ],
+      "sources": [
+        {
+          "id": "usc-35-203",
+          "title": "35 U.S.C. 203, Office of the Law Revision Counsel",
+          "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title35-section203&num=0&edition=prelim",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-26",
+          "citation": "35 U.S.C. 203: march-in rights on subject inventions funded under the Bayh-Dole Act."
+        },
+        {
+          "id": "nist-bayh-dole",
+          "title": "NIST: Bayh-Dole regulations",
+          "url": "https://www.nist.gov/tpo/policy-coordination/bayh-dole-act",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-26",
+          "citation": "NIST Technology Partnerships Office: draft march-in framework comment period closed February 6, 2024, comments still under review; March 24, 2023 final rule clarified the march-in process."
+        }
+      ],
+      "whyItMatters": "March-in is a narrow license remedy with listed grounds. Treating every high drug price as an automatic public seizure rewrites section 203 into a price board the statute does not enact.",
+      "relatedClaimIds": [
+        "insulin-price-cap-is-justice"
+      ],
+      "tags": [
+        "bayh-dole",
+        "march-in",
+        "patents",
+        "statute-desk"
+      ],
+      "embeddingText": "Bayh-Dole march-in drug patents 35 USC 203 NIST draft framework not a price board",
+      "searchText": "bayh-dole march-in rights seize the patent and set a fair drug price nih paid"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-09-26T16:00:00Z",
+      "kbVersion": "3.20.0",
+      "id": "retail-cbdc-replaces-deposits",
+      "topicId": "statute-desk",
+      "topicPath": "/government-intervention/statute",
+      "title": "A Digital Dollar Should Replace Bank Deposits",
+      "socialistClaimText": "Give every household a public account at the Federal Reserve. A retail central-bank digital dollar should replace fragile private deposits and make payments a public utility.",
+      "executiveSummary": "The Federal Reserve's January 2022 discussion paper on a U.S. central-bank digital currency says the paper is not a decision to issue one. It says the Board does not intend to proceed without clear support from the executive branch and from Congress, ideally as a specific authorizing law. The same paper says that, if a CBDC were created, the analysis to that point suggested it would best be privacy-protected, intermediated, widely transferable, and identity-verified. Intermediated means private institutions still sit between the household and the central bank. That is the opposite of a public account that replaces deposits. FDIC deposit insurance is the existing guarantee on deposits at insured banks, up to the statutory limit. Moving the deposit stock onto the Fed's balance sheet is a different institution from the one the Board described, and the Board said it would not build even that other design without Congress.",
+      "evidenceBullets": [
+        "Federal Reserve, January 2022: no intent to proceed with a CBDC without executive and congressional support, ideally a specific authorizing law.",
+        "The same paper says a U.S. CBDC, if created, would best be intermediated rather than a direct household account at the central bank.",
+        "FDIC deposit insurance already covers deposits at insured banks up to the statutory limit."
+      ],
+      "fallacies": [
+        "false equivalence",
+        "nirvana fallacy",
+        "seen vs unseen"
+      ],
+      "sources": [
+        {
+          "id": "fed-cbdc-2022",
+          "title": "Federal Reserve: Money and Payments, January 2022",
+          "url": "https://www.federalreserve.gov/publications/january-2022-cbdc.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-26",
+          "citation": "Board of Governors discussion paper, January 2022: no CBDC without executive and congressional support, and an intermediated design if one were issued."
+        },
+        {
+          "id": "fdic-deposit-insurance",
+          "title": "FDIC: Deposit Insurance",
+          "url": "https://www.fdic.gov/resources/deposit-insurance/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-26",
+          "citation": "FDIC deposit insurance for deposits at insured banks."
+        }
+      ],
+      "whyItMatters": "A public Fed account for everyone is a deposit monopoly. The Board's own paper refused to proceed without a statute and described an intermediated instrument, not a replacement for bank deposits.",
+      "relatedClaimIds": [
+        "public-bank-every-state",
+        "postal-banking-is-justice"
+      ],
+      "tags": [
+        "cbdc",
+        "digital-dollar",
+        "deposits",
+        "statute-desk"
+      ],
+      "embeddingText": "retail CBDC digital dollar replace bank deposits Federal Reserve intermediated FDIC authorizing law",
+      "searchText": "retail central bank digital dollar public account at the federal reserve replace private deposits"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-09-26T16:00:00Z",
+      "kbVersion": "3.20.0",
+      "id": "inclusionary-zoning-is-owed",
+      "topicId": "statute-desk",
+      "topicPath": "/government-intervention/statute",
+      "title": "Every New Building Owes Affordable Units",
+      "socialistClaimText": "Every new private building should set aside a large share of homes at below-market rents. Developers can afford inclusionary zoning. The mandate is how a city builds affordable housing without a new tax.",
+      "executiveSummary": "HUD's Worst Case Housing Needs 2025 report, using the 2023 American Housing Survey, counts 8.46 million renter households with worst-case needs: very low income, no housing assistance, and either a severe rent burden or severely inadequate housing, or both. The same report says that in 2023 only 59 affordable units were available per 100 very-low-income renter households. That is a unit gap. Census Building Permits counts new privately owned housing units authorized. A mandatory below-market set-aside is a tax on those authorizations. The discounted units written into an ordinance are the part you see. The projects that no longer pencil, and the market-rate homes that are never started, are the part you do not. HUD's count is not a finding that an unpriced mandate closes the gap.",
+      "evidenceBullets": [
+        "HUD Worst Case Housing Needs 2025: 8.46 million worst-case renter households in 2023, essentially unchanged from the 2021 record.",
+        "The same report: 59 affordable and available units per 100 very-low-income renter households in 2023.",
+        "Census Building Permits is the authorization count for new private housing, the flow a set-aside taxes."
+      ],
+      "fallacies": [
+        "seen vs unseen",
+        "nirvana fallacy",
+        "single-cause fallacy"
+      ],
+      "sources": [
+        {
+          "id": "hud-worst-case-2025",
+          "title": "HUD: Worst Case Housing Needs, 2025 Report to Congress",
+          "url": "https://www.huduser.gov/portal/publications/Worst-Case-Housing-Needs-2025-Report-to-Congress.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-26",
+          "citation": "HUD PD&R, Worst Case Housing Needs 2025, from the 2023 American Housing Survey: 8.46 million households, 59 affordable available units per 100 very-low-income renters."
+        },
+        {
+          "id": "census-bps",
+          "title": "Census Bureau: Building Permits Survey",
+          "url": "https://www.census.gov/construction/bps/index.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-26",
+          "citation": "Census Bureau Building Permits Survey: new privately owned housing units authorized."
+        }
+      ],
+      "whyItMatters": "Inclusionary zoning shows the discounted apartment and hides the building that does not get permitted. HUD's shortage is a count of units, not a warrant for an unpriced mandate.",
+      "relatedClaimIds": [
+        "vienna-social-housing-is-the-model",
+        "rent-control-2020s-evidence"
+      ],
+      "tags": [
+        "inclusionary-zoning",
+        "housing-supply",
+        "set-aside",
+        "statute-desk"
+      ],
+      "embeddingText": "inclusionary zoning set aside affordable units HUD worst case needs Census building permits",
+      "searchText": "inclusionary zoning every new building owes affordable below-market units set-aside"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-09-26T16:00:00Z",
+      "kbVersion": "3.20.0",
+      "id": "eviction-bans-are-housing-policy",
+      "topicId": "statute-desk",
+      "topicPath": "/government-intervention/statute",
+      "title": "Ban Evictions",
+      "socialistClaimText": "Eviction is how landlords clear a building. A standing eviction ban, and a hair-trigger emergency ban, keeps people housed. The CDC moratorium proved the federal government can stop evictions when housing requires it.",
+      "executiveSummary": "The CDC's temporary halt was a public-health order, not a housing-rights statute. The Federal Register published that halt as a temporary measure tied to COVID-19. In Alabama Association of Realtors v. Department of Health and Human Services, the Supreme Court held that the CDC lacked statutory authority for a nationwide eviction moratorium. The opinion is the August 26, 2021 per curiam in the 21A23 application. That holding is about the statute the agency invoked. It is not a ruling that every lease enforces itself, and it is not a ruling that a legislature may never regulate the timing of an eviction. A ban keeps the tenant you see in place. It also raises the cost of the next lease to a riskier tenant, which tightens screening and shrinks the set of units offered to the people the ban was supposed to help. The order that was struck down did not become a housing constitution because it was popular.",
+      "evidenceBullets": [
+        "The Federal Register order was a temporary halt in residential evictions tied to COVID-19, not a permanent housing entitlement.",
+        "Supreme Court, Alabama Association of Realtors v. HHS (Aug. 26, 2021): the CDC lacked statutory authority for a nationwide eviction moratorium.",
+        "A ban on removal changes who will be offered the next lease. The tenant who stays is seen. The applicant who is never approved is not."
+      ],
+      "fallacies": [
+        "seen vs unseen",
+        "false equivalence",
+        "nirvana fallacy"
+      ],
+      "sources": [
+        {
+          "id": "scotus-21a23",
+          "title": "Supreme Court: Alabama Association of Realtors v. HHS",
+          "url": "https://www.supremecourt.gov/opinions/20pdf/21a23_ap6c.pdf",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-26",
+          "citation": "Supreme Court per curiam, August 26, 2021, Alabama Association of Realtors v. Department of Health and Human Services: the CDC lacked authority for a nationwide eviction moratorium."
+        },
+        {
+          "id": "fr-cdc-eviction-2021",
+          "title": "Federal Register: CDC temporary halt in residential evictions, August 6, 2021",
+          "url": "https://www.federalregister.gov/documents/2021/08/06/2021-16945/temporary-halt-in-residential-evictions-in-communities-with-substantial-or-high-transmission-of",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-09-26",
+          "citation": "86 Fed. Reg. 43244: CDC temporary halt in residential evictions to prevent the further spread of COVID-19."
+        }
+      ],
+      "whyItMatters": "The moratorium slogan treats a struck public-health order as a housing constitution. The Court held the agency lacked the statute. A real eviction statute would still have an unseen cost in who gets the next lease.",
+      "relatedClaimIds": [
+        "rent-control-2020s-evidence",
+        "inclusionary-zoning-is-owed"
+      ],
+      "tags": [
+        "eviction",
+        "moratorium",
+        "leases",
+        "statute-desk"
+      ],
+      "embeddingText": "eviction ban CDC moratorium Alabama Association of Realtors Supreme Court lacked authority Federal Register",
+      "searchText": "ban evictions cdc moratorium federal eviction ban keeps people housed"
+    }
+  ]
+}

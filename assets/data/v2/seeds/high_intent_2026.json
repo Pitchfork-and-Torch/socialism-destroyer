@@ -1,0 +1,480 @@
+{
+  "schemaVersion": 2,
+  "kbVersion": "3.11.0",
+  "bundleId": "high-intent-2026-v310",
+  "priority": 10,
+  "updatedAt": "2026-08-01T21:08:28Z",
+  "contentHash": "sha256:33dfa3e300a97949a732623ac3ab6b5f95f8e68a225244b11a024596d4435708",
+  "claims": [
+    {
+      "id": "stock-buybacks-are-theft",
+      "topicId": "profit-exploitation",
+      "topicPath": "/profit-exploitation",
+      "title": "Stock Buybacks Are Theft From Workers",
+      "socialistClaimText": "Share buybacks are pure financial engineering that steal cash workers produced and should have received as wages or public investment. Ban buybacks and force reinvestment or redistribution.",
+      "executiveSummary": "Buybacks return capital to owners when firms lack higher-return projects - economically similar to dividends with tax and flexibility differences. Banning them does not magically raise wages; wages track productivity, labor markets, and firm-specific human capital. Forcing trapped cash into low-return projects wastes capital and slows growth that funds real wage gains.",
+      "evidenceBullets": [
+        "SEC rules permit buybacks under disclosure frameworks; they are not 'stealing' in the legal or accounting sense of diverting employee escrow.",
+        "BEA / BLS productivity and real compensation series: long-run real wage growth tracks productivity more closely than short-run buyback waves.",
+        "When buybacks are restricted, firms may increase dividends, M&A, or low-NPV empire building rather than across-the-board raises.",
+        "Capital reallocation to higher-valued uses (including new startups that hire) is a feature of open capital markets, not a bug."
+      ],
+      "fallacies": [
+        "zero-sum fallacy",
+        "seen vs unseen",
+        "equivocation on 'theft'"
+      ],
+      "sources": [
+        {
+          "id": "sec-buybacks",
+          "title": "U.S. SEC - Share repurchase disclosure rules",
+          "url": "https://www.sec.gov/newsroom/press-releases/2023-85",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-28",
+          "citation": "U.S. Securities and Exchange Commission materials on share repurchase disclosure."
+        },
+        {
+          "id": "bls-productivity",
+          "title": "BLS - Labor productivity and costs",
+          "url": "https://www.bls.gov/productivity/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-28",
+          "citation": "U.S. Bureau of Labor Statistics, Labor Productivity and Costs."
+        },
+        {
+          "id": "bea-nipa",
+          "title": "BEA - National Income and Product Accounts",
+          "url": "https://www.bea.gov/data/income-saving",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-28",
+          "citation": "U.S. Bureau of Economic Analysis, income and product accounts."
+        }
+      ],
+      "whyItMatters": "Buyback bans are a popular slogan that misdiagnoses capital allocation and distracts from policies that actually raise worker productivity.",
+      "relatedClaimIds": [
+        "profit-is-theft",
+        "ceo-compensation-market",
+        "finance-parasitic"
+      ],
+      "tags": [
+        "buybacks",
+        "shareholders",
+        "wages",
+        "capital-markets",
+        "sec"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-28T18:00:00Z",
+      "embeddingText": "stock buybacks theft workers dividends capital allocation SEC productivity BLS wages",
+      "searchText": "Stock buybacks are theft from workers ban share repurchases wages investment",
+      "kbVersion": "3.11.0"
+    },
+    {
+      "id": "price-gouging-bans-help-consumers",
+      "topicId": "government-intervention",
+      "topicPath": "/government-intervention",
+      "title": "Price-Gouging Bans Protect Consumers After Disasters",
+      "socialistClaimText": "After hurricanes and emergencies, sellers must not raise prices - 'gouging' is exploitation. Strict caps and prosecutions keep essentials affordable for working people.",
+      "executiveSummary": "Emergency price spikes are ugly but allocate scarce goods, attract truckers and inventories, and discourage hoarding. Caps create empty shelves, queues, and black markets - the same shortage pattern as peacetime price controls. Targeted aid (cash, vouchers) helps the poor without destroying the price signal that restores supply.",
+      "evidenceBullets": [
+        "Basic supply-and-demand: when demand jumps and supply is disrupted, the market-clearing price rises; preventing that rise rations by waiting, favoritism, or force.",
+        "Historical disaster case studies and economics literature show faster restocking where prices can adjust versus prolonged shortages under caps.",
+        "BLS CPI and regional price data spike temporarily after supply shocks, then normalize as logistics recover - not as permanent 'greed' levels.",
+        "Means-tested emergency transfers preserve incentives for distant suppliers to divert inventory toward the crisis zone."
+      ],
+      "fallacies": [
+        "seen vs unseen",
+        "moralistic fallacy",
+        "single-cause fallacy"
+      ],
+      "sources": [
+        {
+          "id": "fema-preparedness",
+          "title": "FEMA - Disaster preparedness and recovery resources",
+          "url": "https://www.fema.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-28",
+          "citation": "Federal Emergency Management Agency public disaster materials."
+        },
+        {
+          "id": "bls-cpi-regional",
+          "title": "BLS - Consumer Price Index",
+          "url": "https://www.bls.gov/cpi/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-28",
+          "citation": "U.S. Bureau of Labor Statistics, CPI (price dynamics under shocks)."
+        },
+        {
+          "id": "ftc-competition-emergencies",
+          "title": "FTC - Competition and consumer protection guidance",
+          "url": "https://www.ftc.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-28",
+          "citation": "U.S. Federal Trade Commission consumer protection and competition materials."
+        }
+      ],
+      "whyItMatters": "If voters demand gouging bans after every crisis, they get empty shelves precisely when the poor need goods most.",
+      "relatedClaimIds": [
+        "greedflation-price-controls",
+        "rent-control-helps",
+        "calculation-impossible"
+      ],
+      "tags": [
+        "price-gouging",
+        "disasters",
+        "price-controls",
+        "shortages",
+        "fema"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-28T18:00:00Z",
+      "embeddingText": "price gouging ban disaster hurricane shortages price controls FEMA CPI supply allocation",
+      "searchText": "Price gouging bans protect consumers after disasters emergency price caps",
+      "kbVersion": "3.11.0"
+    },
+    {
+      "id": "nationalize-critical-infrastructure",
+      "topicId": "government-intervention",
+      "topicPath": "/government-intervention",
+      "title": "Nationalize Energy, Rail, and Critical Infrastructure",
+      "socialistClaimText": "Private ownership of energy grids, rail, and 'critical infrastructure' puts profit over people. Public ownership guarantees reliability, equity, and climate goals.",
+      "executiveSummary": "Public ownership can solve some network externalities, but it also concentrates political risk, soft budget constraints, and underinvestment. Mixed systems with regulated private capital, open access rules, and transparent pricing have stronger maintenance and innovation records than fully nationalized sectors that treated infrastructure as a patronage machine.",
+      "evidenceBullets": [
+        "EIA and DOE data show U.S. private and mixed energy investment cycles responding to prices and regulation - nationalization does not eliminate scarcity of capital or fuel.",
+        "Historical nationalized rail and heavy industry in socialist and mid-century systems often ran chronic losses, deferred maintenance, and political pricing.",
+        "Reliability metrics (outages, on-time performance) depend on incentives and capital budgeting more than the word 'public' on the letterhead.",
+        "Climate goals need cost-effective abatement signals; state monopolies can hide costs off-budget rather than reveal them."
+      ],
+      "fallacies": [
+        "nirvana fallacy",
+        "false dichotomy",
+        "equivocation on 'public'"
+      ],
+      "sources": [
+        {
+          "id": "eia-energy",
+          "title": "U.S. EIA - Energy information and statistics",
+          "url": "https://www.eia.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-28",
+          "citation": "U.S. Energy Information Administration statistics and analysis."
+        },
+        {
+          "id": "doe-grid",
+          "title": "U.S. Department of Energy - Grid and infrastructure",
+          "url": "https://www.energy.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-28",
+          "citation": "U.S. Department of Energy public grid and infrastructure materials."
+        },
+        {
+          "id": "bts-transport",
+          "title": "BTS - Bureau of Transportation Statistics",
+          "url": "https://www.bts.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-28",
+          "citation": "U.S. Bureau of Transportation Statistics (rail and freight context)."
+        }
+      ],
+      "whyItMatters": "Nationalization slogans skip the calculation and incentive problems that made many state utilities and railways chronic underperformers.",
+      "relatedClaimIds": [
+        "industrial-policy-picks-winners",
+        "calculation-impossible",
+        "public-choice-regulatory-capture"
+      ],
+      "tags": [
+        "nationalization",
+        "energy",
+        "rail",
+        "infrastructure",
+        "eia"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-28T18:00:00Z",
+      "embeddingText": "nationalize energy rail infrastructure public ownership reliability EIA DOE soft budget",
+      "searchText": "Nationalize energy rail critical infrastructure public ownership utilities",
+      "kbVersion": "3.11.0"
+    },
+    {
+      "id": "free-universal-childcare-right",
+      "topicId": "government-intervention",
+      "topicPath": "/government-intervention",
+      "title": "Universal Free Childcare Is a Basic Right",
+      "socialistClaimText": "Childcare is a public good and feminist necessity. Universal free government childcare should replace market provision that prices out working families.",
+      "executiveSummary": "High childcare costs are a real burden, driven by labor intensity, regulation, and local supply constraints. Universal free provision shifts costs onto taxes and queues; it does not abolish scarcity of caregivers. Targeted subsidies, zoning reform for home-based care, and labor-market flexibility expand access without creating a single state monopoly over early childhood.",
+      "evidenceBullets": [
+        "BLS Consumer Expenditure and employment data show childcare as a major budget item for young families - the problem is real.",
+        "CBO and state budget analyses: universal free programs have large fiscal costs that compete with other priorities and require tax or deficit finance.",
+        "Supply constraints (staffing ratios, licensing, facility rules) limit scale; removing only the price signal without expanding supply creates rationing.",
+        "Nordic models pair subsidies with high taxes and labor-force institutions - not free of trade-offs or private/cooperative provision."
+      ],
+      "fallacies": [
+        "free lunch",
+        "rights inflation",
+        "nirvana fallacy"
+      ],
+      "sources": [
+        {
+          "id": "bls-cex-childcare",
+          "title": "BLS - Consumer Expenditure Surveys",
+          "url": "https://www.bls.gov/cex/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-28",
+          "citation": "U.S. Bureau of Labor Statistics, Consumer Expenditure Survey."
+        },
+        {
+          "id": "cbo-budget",
+          "title": "CBO - Budget and economic outlook",
+          "url": "https://www.cbo.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-28",
+          "citation": "Congressional Budget Office publications on fiscal costs of major programs."
+        },
+        {
+          "id": "census-childcare",
+          "title": "U.S. Census Bureau - Childcare / family arrangements data",
+          "url": "https://www.census.gov/topics/families.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-28",
+          "citation": "U.S. Census Bureau family and household statistics."
+        }
+      ],
+      "whyItMatters": "Framing childcare as a costless 'right' hides tax incidence, quality trade-offs, and the caregiver labor market.",
+      "relatedClaimIds": [
+        "education-free",
+        "healthcare-right",
+        "ubi-solves-all"
+      ],
+      "tags": [
+        "childcare",
+        "universal-programs",
+        "fiscal-cost",
+        "labor-force",
+        "family"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-28T18:00:00Z",
+      "embeddingText": "universal free childcare right public good BLS CBO fiscal cost supply staffing ratios",
+      "searchText": "Universal free childcare is a basic right government daycare for all",
+      "kbVersion": "3.11.0"
+    },
+    {
+      "id": "housing-must-be-decommodified",
+      "topicId": "ubi-rent-control",
+      "topicPath": "/government-intervention/ubi-rent-control",
+      "title": "Housing Must Be Decommodified",
+      "socialistClaimText": "Housing is a human right, not a commodity. Markets and landlords should be replaced by social housing, decommodification, and strict limits on private rental profit.",
+      "executiveSummary": "Treating housing only as a right without a supply plan produces queues and political allocation. High prices in superstar cities track zoning, permitting delays, and demand - not a moral failure of 'commodification' alone. Expanding legal supply, reducing exclusionary zoning, and targeted vouchers beat blanket decommodification that freezes construction and mobility.",
+      "evidenceBullets": [
+        "Census and HUD housing data: shortage of units where demand is highest correlates with tight land-use regulation.",
+        "Rent control and decommodification experiments reduce turnover and new supply incentives (see also 2020s rent-control claim evidence).",
+        "Social housing succeeds when paired with ongoing construction finance; it fails when treated as a permanent price freeze without building.",
+        "Homeownership and private rental markets expanded middle-class housing stock historically; abolishing market signals reintroduces waiting lists."
+      ],
+      "fallacies": [
+        "false dichotomy",
+        "reification of 'commodity'",
+        "ignoring supply"
+      ],
+      "sources": [
+        {
+          "id": "hud-housing",
+          "title": "HUD - Housing data and PD&R research",
+          "url": "https://www.huduser.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-28",
+          "citation": "U.S. Department of Housing and Urban Development, HUD User research."
+        },
+        {
+          "id": "census-housing",
+          "title": "U.S. Census Bureau - Housing",
+          "url": "https://www.census.gov/topics/housing.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-28",
+          "citation": "U.S. Census Bureau housing statistics."
+        },
+        {
+          "id": "fhfa-hpi",
+          "title": "FHFA - House Price Index",
+          "url": "https://www.fhfa.gov/data/hpi",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-28",
+          "citation": "Federal Housing Finance Agency, House Price Index."
+        }
+      ],
+      "whyItMatters": "Decommodification rhetoric without supply reform is a recipe for permanent waiting lists and black markets in rooms.",
+      "relatedClaimIds": [
+        "rent-control-helps",
+        "rent-control-2020s-evidence",
+        "zoning-housing-policy",
+        "housing-late-capitalism"
+      ],
+      "tags": [
+        "housing",
+        "decommodification",
+        "social-housing",
+        "zoning",
+        "supply"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-28T18:00:00Z",
+      "embeddingText": "housing decommodified human right social housing rent control zoning HUD Census supply",
+      "searchText": "Housing must be decommodified human right not commodity social housing",
+      "kbVersion": "3.11.0"
+    },
+    {
+      "id": "corporate-personhood-kills-democracy",
+      "topicId": "founding-principles",
+      "topicPath": "/founding-principles",
+      "title": "Corporate Personhood Destroys Democracy",
+      "socialistClaimText": "Treating corporations as persons lets capital drown out citizens. Abolish corporate personhood and corporate speech rights so democracy can serve people, not profit.",
+      "executiveSummary": "Corporate legal personality is a liability and contracting tool that lets people pool capital, sue, and be sued without unlimited personal risk for every investor. Removing it would not magically equalize speech; large unions, NGOs, and media firms would still organize. The Founding-era answer to concentrated power is competing centers of power, free speech, and limited government - not selective speech bans by entity type.",
+      "evidenceBullets": [
+        "Corporate charters and limited liability historically expanded investment and middle-class equity ownership (Census SCF / Fed wealth data context).",
+        "Supreme Court corporate speech cases sit inside a broader First Amendment tradition protecting associations, not only natural persons.",
+        "Campaign finance and lobbying problems are better addressed with transparent disclosure and limits that apply neutrally than by dissolving business entities.",
+        "State-owned enterprises and party-controlled firms in socialist systems spent heavily on propaganda without 'corporate personhood' as Americans know it."
+      ],
+      "fallacies": [
+        "equivocation on 'person'",
+        "scapegoating",
+        "nirvana fallacy"
+      ],
+      "sources": [
+        {
+          "id": "fed-scf",
+          "title": "Federal Reserve - Survey of Consumer Finances",
+          "url": "https://www.federalreserve.gov/econres/scfindex.htm",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-28",
+          "citation": "Board of Governors of the Federal Reserve System, Survey of Consumer Finances."
+        },
+        {
+          "id": "us-constitution-amend1",
+          "title": "U.S. Constitution - First Amendment (National Archives)",
+          "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+          "doi": null,
+          "type": "primary",
+          "accessedAt": "2026-07-28",
+          "citation": "U.S. Bill of Rights, First Amendment. National Archives."
+        },
+        {
+          "id": "sec-corp-disclosure",
+          "title": "SEC - Corporate disclosure and investor protection",
+          "url": "https://www.sec.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-28",
+          "citation": "U.S. Securities and Exchange Commission disclosure framework for corporations."
+        }
+      ],
+      "whyItMatters": "Attacking legal personhood confuses an organizational tool with political outcomes and risks selective censorship of disfavored associations.",
+      "relatedClaimIds": [
+        "constitution-limits",
+        "free-speech-fascism",
+        "federalist-51-separation"
+      ],
+      "tags": [
+        "corporate-personhood",
+        "first-amendment",
+        "speech",
+        "associations",
+        "founding"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-28T18:00:00Z",
+      "embeddingText": "corporate personhood democracy free speech First Amendment limited liability SCF associations",
+      "searchText": "Corporate personhood destroys democracy abolish corporate speech rights",
+      "kbVersion": "3.11.0"
+    },
+    {
+      "id": "mandatory-worker-ownership",
+      "topicId": "profit-exploitation",
+      "topicPath": "/profit-exploitation",
+      "title": "Mandate Worker Ownership of All Firms",
+      "socialistClaimText": "True economic democracy requires mandatory worker ownership or board control of every firm. Capitalist equity is illegitimate hierarchy over labor.",
+      "executiveSummary": "Worker cooperatives can be excellent voluntary firms and deserve a level legal field. Mandating them for all enterprise destroys residual claimancy diversity, raises capital costs, and blocks outside investment that scales production. Successful co-ops still face market prices, bankruptcy, and the calculation problem; coercion does not remove trade-offs.",
+      "evidenceBullets": [
+        "BLS business employment dynamics: most job creation comes from firms that need outside capital to grow - pure internal labor equity constrains scale.",
+        "Historical mandatory socialization experiments redistributed control to parties and managers more often than to shop-floor workers.",
+        "ESOPs and voluntary co-ops already exist in market economies; mandating one residual-claimant form bans competing governance experiments.",
+        "Public choice: mandatory worker boards become political arenas for factional control rather than automatic harmony."
+      ],
+      "fallacies": [
+        "false dichotomy",
+        "nirvana fallacy",
+        "composition fallacy"
+      ],
+      "sources": [
+        {
+          "id": "bls-bdm",
+          "title": "BLS - Business Employment Dynamics",
+          "url": "https://www.bls.gov/bdm/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-28",
+          "citation": "U.S. Bureau of Labor Statistics, Business Employment Dynamics."
+        },
+        {
+          "id": "sba-business",
+          "title": "U.S. Small Business Administration - small business data",
+          "url": "https://www.sba.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-28",
+          "citation": "U.S. Small Business Administration public materials on firm formation and capital."
+        },
+        {
+          "id": "bea-corporate-profits",
+          "title": "BEA - Corporate profits",
+          "url": "https://www.bea.gov/data/income-saving/corporate-profits",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-07-28",
+          "citation": "U.S. Bureau of Economic Analysis, corporate profits statistics."
+        }
+      ],
+      "whyItMatters": "Voluntary co-ops are freedom; mandatory co-ops are a ban on competing capital structures that fund growth and mobility.",
+      "relatedClaimIds": [
+        "worker-coops-superior",
+        "economic-democracy",
+        "profit-is-theft"
+      ],
+      "tags": [
+        "worker-ownership",
+        "cooperatives",
+        "esop",
+        "economic-democracy",
+        "mandate"
+      ],
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-07-28T18:00:00Z",
+      "embeddingText": "mandatory worker ownership cooperatives ESOP economic democracy residual claimant capital scale",
+      "searchText": "Mandate worker ownership of all firms economic democracy cooperatives required",
+      "kbVersion": "3.11.0"
+    }
+  ]
+}

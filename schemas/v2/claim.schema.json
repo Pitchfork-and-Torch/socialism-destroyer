@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://socialism-destroyer.dev/schemas/v2/claim.schema.json",
+  "title": "ClaimBundle",
+  "type": "object",
+  "required": ["schemaVersion", "kbVersion", "updatedAt", "claims"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "minimum": 2 },
+    "kbVersion": { "type": "string" },
+    "bundleId": { "type": "string" },
+    "priority": { "type": "integer" },
+    "updatedAt": { "type": "string", "format": "date-time" },
+    "contentHash": { "type": "string" },
+    "claims": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Claim" }
+    }
+  },
+  "$defs": {
+    "Source": {
+      "type": "object",
+      "required": ["title", "url", "type"],
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "doi": { "type": ["string", "null"] },
+        "type": {
+          "enum": ["government", "academic", "primary", "think_tank", "other"]
+        },
+        "accessedAt": { "type": "string", "format": "date" },
+        "citation": { "type": "string" }
+      }
+    },
+    "Claim": {
+      "type": "object",
+      "required": [
+        "id",
+        "topicId",
+        "title",
+        "socialistClaimText",
+        "executiveSummary",
+        "evidenceBullets",
+        "fallacies",
+        "sources",
+        "whyItMatters",
+        "tags",
+        "updatedAt"
+      ],
+      "properties": {
+        "id": { "type": "string" },
+        "topicId": { "type": "string" },
+        "topicPath": { "type": "string" },
+        "title": { "type": "string" },
+        "socialistClaimText": { "type": "string" },
+        "claimQuote": { "type": ["string", "null"] },
+        "executiveSummary": { "type": "string" },
+        "evidenceBullets": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        },
+        "fallacies": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "sources": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Source" },
+          "minItems": 1
+        },
+        "whyItMatters": { "type": "string" },
+        "relatedClaimIds": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "schemaVersion": { "type": "integer" },
+        "kbVersion": { "type": "string" },
+        "revision": { "type": "integer" },
+        "contentHash": { "type": "string" },
+        "updatedAt": { "type": "string" },
+        "publishedAt": { "type": "string" },
+        "embeddingText": { "type": "string" },
+        "searchText": { "type": "string" },
+        "chartData": { "type": ["object", "null"] }
+      }
+    }
+  }
+}

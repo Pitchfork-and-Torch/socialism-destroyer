@@ -1,0 +1,550 @@
+{
+  "schemaVersion": 2,
+  "kbVersion": "3.14.0",
+  "bundleId": "high-intent-wave4-v314",
+  "priority": 10,
+  "updatedAt": "2026-08-08T20:30:00Z",
+  "contentHash": "sha256:6191cc4604f941cd28f86cd5c7bd0244049f2de089debe33750dcb8d34d82624",
+  "claims": [
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-08T20:30:00Z",
+      "kbVersion": "3.14.0",
+      "id": "four-day-workweek-mandate",
+      "topicId": "government-intervention",
+      "topicPath": "/government-intervention",
+      "title": "Mandate a Four-Day Workweek for Justice",
+      "socialistClaimText": "Capitalism steals time from workers. Mandate a four-day, 32-hour workweek at full pay so productivity gains finally go to labor, not owners.",
+      "executiveSummary": "Shorter schedules can raise well-being for some roles, and voluntary experiments are worth studying. A blanket full-pay mandate is a national wage shock that prices out flexible employers, shifts cost into prices or automation, and ignores sector differences (healthcare, logistics, retail, defense). Hours and productivity data show real trade-offs, not a free lunch from 'stolen time.'",
+      "evidenceBullets": [
+        "BLS measures average weekly hours and employment by industry - service and goods sectors do not share identical schedules or capital intensity.",
+        "American Time Use Survey and CPS hour series document how work, care, and leisure already trade off without a single national hour cap.",
+        "Unit labor costs and productivity statistics show compensation growth tracks multi-factor productivity over long windows, not a pure owner heist of every software gain.",
+        "Mandatory full-pay hour cuts act like a large payroll tax on labor-heavy firms; price and hiring responses are the unseen half of the slogan."
+      ],
+      "fallacies": [
+        "seen vs unseen",
+        "composition fallacy",
+        "nirvana fallacy"
+      ],
+      "sources": [
+        {
+          "id": "bls-hours",
+          "title": "BLS - Average weekly hours",
+          "url": "https://www.bls.gov/ces/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-08",
+          "citation": "U.S. Bureau of Labor Statistics Current Employment Statistics (hours and earnings)."
+        },
+        {
+          "id": "bls-atus",
+          "title": "BLS American Time Use Survey",
+          "url": "https://www.bls.gov/tus/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-08",
+          "citation": "U.S. Bureau of Labor Statistics American Time Use Survey."
+        },
+        {
+          "id": "bls-productivity",
+          "title": "BLS Labor Productivity and Costs",
+          "url": "https://www.bls.gov/lpc/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-08",
+          "citation": "U.S. Bureau of Labor Statistics productivity and unit labor costs."
+        }
+      ],
+      "whyItMatters": "Four-day mandates are a live campaign slogan. Steelman burnout, then debate incidence, sector constraints, and measured hours - not moral monopoly over the calendar.",
+      "relatedClaimIds": [
+        "gig-economy-is-exploitation",
+        "automation-unemployment",
+        "green-new-deal-jobs-guarantee"
+      ],
+      "tags": [
+        "four-day-workweek",
+        "hours",
+        "labor",
+        "productivity",
+        "mandate"
+      ],
+      "embeddingText": "four day workweek 32 hour mandate full pay BLS hours productivity ATUS labor",
+      "searchText": "mandate a four-day workweek for justice 32-hour week full pay capitalism steals time"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-08T20:30:00Z",
+      "kbVersion": "3.14.0",
+      "id": "ban-private-equity-housing",
+      "topicId": "government-intervention",
+      "topicPath": "/government-intervention/housing",
+      "title": "Ban Private Equity From Residential Housing",
+      "socialistClaimText": "Wall Street landlords are pricing families out of homes. Ban private equity and large institutional investors from buying single-family and multifamily housing.",
+      "executiveSummary": "Concentrated institutional ownership in some metro tracts is a real research topic, and bad property management should be punished under ordinary law. A blanket ban misidentifies the binding constraints on affordability - zoning, permitting delay, local vetoes, and underbuilding - and can shrink renovation capital while leaving mom-and-pop scarcity intact. Housing supply data beat scapegoat ownership labels.",
+      "evidenceBullets": [
+        "Census housing and ACS series track tenure, rents, vacancies, and unit production far more tightly than PE ownership headlines alone.",
+        "FHFA house price indexes show long-run price pressure where supply is constrained, not only where a named fund holds stock.",
+        "HUD and metro planning literature repeatedly flag land-use restrictions and slow permitting as primary cost drivers.",
+        "Banning a financing channel does not create new roofs; it can raise the cost of capital for rehab and new multifamily."
+      ],
+      "fallacies": [
+        "scapegoating",
+        "post hoc",
+        "composition fallacy"
+      ],
+      "sources": [
+        {
+          "id": "census-housing",
+          "title": "U.S. Census Bureau - Housing",
+          "url": "https://www.census.gov/topics/housing.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-08",
+          "citation": "U.S. Census Bureau housing topics and ACS housing tables."
+        },
+        {
+          "id": "fhfa-hpi",
+          "title": "FHFA House Price Index",
+          "url": "https://www.fhfa.gov/data/hpi",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-08",
+          "citation": "Federal Housing Finance Agency House Price Index."
+        },
+        {
+          "id": "hud-user",
+          "title": "HUD USER housing research",
+          "url": "https://www.huduser.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-08",
+          "citation": "U.S. Department of Housing and Urban Development HUD USER research portal."
+        }
+      ],
+      "whyItMatters": "PE landlord bans poll well while cities underbuild. Steelman tenant stress, then keep the debate on supply, rules, and capital - not one ownership form.",
+      "relatedClaimIds": [
+        "rent-freeze-solves-city-housing",
+        "housing-must-be-decommodified",
+        "public-housing-only-solution",
+        "zoning-housing-policy"
+      ],
+      "tags": [
+        "private-equity",
+        "housing",
+        "landlords",
+        "institutional-investors",
+        "zoning"
+      ],
+      "embeddingText": "ban private equity housing Wall Street landlords institutional single-family Census FHFA HUD",
+      "searchText": "ban private equity from residential housing Wall Street landlords pricing families out"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-08T20:30:00Z",
+      "kbVersion": "3.14.0",
+      "id": "cap-credit-card-interest",
+      "topicId": "government-intervention",
+      "topicPath": "/government-intervention",
+      "title": "Cap Credit Card Interest Rates at 10 Percent",
+      "socialistClaimText": "Credit card APRs are usury that traps workers. Cap interest at 10 percent nationwide so banks stop extracting poverty rents.",
+      "executiveSummary": "High revolving rates are painful and some pricing is opaque. Hard usury caps ration credit: riskier borrowers lose cards, overdraft, and installment substitutes; lenders reprice via fees or exit. Consumer credit series from the Fed and CFPB show price, utilization, and delinquency dynamics - not a single evil number that can be frozen without allocation effects.",
+      "evidenceBullets": [
+        "Federal Reserve G.19 consumer credit tracks revolving balances, growth, and interest-rate levels over time.",
+        "CFPB consumer credit research documents fee structures, delinquency, and market segmentation by risk.",
+        "Historical usury ceilings often shrink formal credit and push borrowers to less regulated alternatives.",
+        "Risk-based pricing is how unsecured revolving credit funds people with thin files - a flat 10% cap is not free insurance."
+      ],
+      "fallacies": [
+        "nirvana fallacy",
+        "seen vs unseen",
+        "equivocation on usury"
+      ],
+      "sources": [
+        {
+          "id": "fed-g19",
+          "title": "Federal Reserve G.19 Consumer Credit",
+          "url": "https://www.federalreserve.gov/releases/g19/current/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-08",
+          "citation": "Board of Governors of the Federal Reserve System G.19 Consumer Credit."
+        },
+        {
+          "id": "cfpb-credit",
+          "title": "CFPB Consumer Credit Trends",
+          "url": "https://www.consumerfinance.gov/data-research/consumer-credit-trends/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-08",
+          "citation": "Consumer Financial Protection Bureau consumer credit trends research."
+        },
+        {
+          "id": "fdic-consumer",
+          "title": "FDIC consumer banking resources",
+          "url": "https://www.fdic.gov/resources/consumers/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-08",
+          "citation": "Federal Deposit Insurance Corporation consumer resources and banking context."
+        }
+      ],
+      "whyItMatters": "Interest-rate caps poll as fairness while rationing credit to the people the slogan claims to help. Debate risk pricing and alternatives, not slogans alone.",
+      "relatedClaimIds": [
+        "greedflation-price-controls",
+        "price-gouging-bans-help-consumers",
+        "finance-parasitic"
+      ],
+      "tags": [
+        "credit-cards",
+        "interest-rate-cap",
+        "usury",
+        "consumer-credit",
+        "fed"
+      ],
+      "embeddingText": "cap credit card interest 10 percent APR usury Fed G19 CFPB revolving credit",
+      "searchText": "cap credit card interest rates at 10 percent usury banks extract poverty rents"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-08T20:30:00Z",
+      "kbVersion": "3.14.0",
+      "id": "free-public-transit-right",
+      "topicId": "government-intervention",
+      "topicPath": "/government-intervention",
+      "title": "Free Public Transit Is a Human Right",
+      "socialistClaimText": "Fares exclude the poor from cities. Make all public transit free forever - mobility is a human right, not a commodity.",
+      "executiveSummary": "Targeted fare relief and high-frequency service matter for access. Zero-fare systems still face buses, operators, maintenance, and crime-control costs - someone pays via taxes, and ridership quality can fall when service is the scarce good. Transportation statistics measure mode share, funding, and performance; free rides do not conjure capacity.",
+      "evidenceBullets": [
+        "Bureau of Transportation Statistics and FTA NTD series track ridership, fares, subsidies, and operating costs by agency.",
+        "Transit is already heavily subsidized in most U.S. metros; farebox recovery is often a minority of operating funds.",
+        "Zero-fare pilots can raise ridership while also raising enforcement, cleanliness, and crowding challenges that hit vulnerable riders first.",
+        "Land-use density and job location, not fare alone, dominate commute outcomes in metro data."
+      ],
+      "fallacies": [
+        "nirvana fallacy",
+        "equivocation on rights",
+        "seen vs unseen"
+      ],
+      "sources": [
+        {
+          "id": "bts",
+          "title": "Bureau of Transportation Statistics",
+          "url": "https://www.bts.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-08",
+          "citation": "U.S. Department of Transportation Bureau of Transportation Statistics."
+        },
+        {
+          "id": "fta-ntd",
+          "title": "FTA National Transit Database",
+          "url": "https://www.transit.dot.gov/ntd",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-08",
+          "citation": "Federal Transit Administration National Transit Database."
+        },
+        {
+          "id": "census-acs-commute",
+          "title": "Census ACS commuting data",
+          "url": "https://www.census.gov/topics/employment/commuting.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-08",
+          "citation": "U.S. Census Bureau commuting and ACS journey-to-work data."
+        }
+      ],
+      "whyItMatters": "Free transit campaigns confuse price with capacity. Steelman access for low-income riders, then debate service quality, funding incidence, and land use.",
+      "relatedClaimIds": [
+        "green-new-deal-jobs-guarantee",
+        "industrial-policy-beats-markets",
+        "housing-must-be-decommodified"
+      ],
+      "tags": [
+        "transit",
+        "free-fares",
+        "public-transport",
+        "mobility",
+        "subsidy"
+      ],
+      "embeddingText": "free public transit human right zero fare FTA NTD BTS commuting subsidy",
+      "searchText": "free public transit is a human right make all transit free forever mobility"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-08T20:30:00Z",
+      "kbVersion": "3.14.0",
+      "id": "executive-pay-ratio-cap",
+      "topicId": "profit-exploitation",
+      "topicPath": "/profit-exploitation",
+      "title": "Cap CEO Pay at 50x Median Worker Pay",
+      "socialistClaimText": "Extreme CEO-to-worker pay ratios prove exploitation. Cap total CEO compensation at 50 times the median worker and redistribute the rest.",
+      "executiveSummary": "Pay-ratio disclosure and tournament theory make CEO packages politically salient. Hard caps change legal form more than economics: firms shift to private ownership, equity substitutes, consulting shells, or dual-class control while competing for scarce executive talent globally. SEC pay-ratio rules and BLS wage distributions inform the debate; a ratio cap is not a free transfer to median staff.",
+      "evidenceBullets": [
+        "SEC pay-ratio disclosure rules already force public companies to report CEO-to-median ratios - transparency without mandating a ceiling.",
+        "BLS occupational wage data show wide skill and responsibility gradients inside firms; median is not the same as 'the workforce that creates all value.'",
+        "Executive labor markets are international; hard caps invite form shopping and talent exit without raising shop-floor productivity.",
+        "Compensation is only one governance tool; boards, product markets, and capital markets discipline poorly run firms more than slogans."
+      ],
+      "fallacies": [
+        "composition fallacy",
+        "equivocation on exploitation",
+        "nirvana fallacy"
+      ],
+      "sources": [
+        {
+          "id": "sec-pay-ratio",
+          "title": "SEC CEO pay ratio disclosure",
+          "url": "https://www.sec.gov/resources-small-businesses/small-business-compliance-guides/pay-ratio-disclosure",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-08",
+          "citation": "U.S. Securities and Exchange Commission pay ratio disclosure guidance."
+        },
+        {
+          "id": "bls-oe",
+          "title": "BLS Occupational Employment and Wage Statistics",
+          "url": "https://www.bls.gov/oes/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-08",
+          "citation": "U.S. Bureau of Labor Statistics Occupational Employment and Wage Statistics."
+        },
+        {
+          "id": "bea-corporate",
+          "title": "BEA corporate profits and income",
+          "url": "https://www.bea.gov/data/income-saving",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-08",
+          "citation": "U.S. Bureau of Economic Analysis income and saving accounts."
+        }
+      ],
+      "whyItMatters": "Ratio caps sound like justice and often become avoidance games. Steelman inequality optics, then debate incentives, disclosure, and who actually gets any 'rest.'",
+      "relatedClaimIds": [
+        "ceo-compensation-market",
+        "profit-is-theft",
+        "billionaires-shouldnt-exist",
+        "stock-buybacks-are-theft"
+      ],
+      "tags": [
+        "ceo-pay",
+        "pay-ratio",
+        "executive-compensation",
+        "sec",
+        "exploitation"
+      ],
+      "embeddingText": "cap CEO pay 50x median worker pay ratio SEC disclosure BLS wages exploitation",
+      "searchText": "cap CEO pay at 50 times median worker compensation executive pay ratio exploitation"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-08T20:30:00Z",
+      "kbVersion": "3.14.0",
+      "id": "state-owned-grocery-stores",
+      "topicId": "government-intervention",
+      "topicPath": "/government-intervention",
+      "title": "State-Owned Grocery Stores Will End Food Deserts",
+      "socialistClaimText": "Private grocers abandon poor neighborhoods for profit. Open public, state-owned grocery stores with controlled prices so healthy food is a right.",
+      "executiveSummary": "Food access gaps and thin retail margins in high-shrink areas are real. Public stores still face theft, logistics, spoilage, and labor costs; price controls without productivity create empty shelves. USDA and BLS food price series show how retail competition and supply chains set shelf prices - not goodwill alone.",
+      "evidenceBullets": [
+        "USDA ERS food-price and food-access research tracks retail environments, costs, and household food security metrics.",
+        "BLS CPI food-at-home series measure price changes by category; controlled prices do not cancel input cost shocks.",
+        "Thin supermarket margins mean inventory loss and security are first-order; ownership form does not erase them.",
+        "Historical public shops and wartime controls repeatedly show rationing by queue when prices are suppressed below clearing levels."
+      ],
+      "fallacies": [
+        "nirvana fallacy",
+        "false dichotomy",
+        "seen vs unseen"
+      ],
+      "sources": [
+        {
+          "id": "usda-ers-food",
+          "title": "USDA ERS Food Price Outlook",
+          "url": "https://www.ers.usda.gov/data-products/food-price-outlook",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-08",
+          "citation": "U.S. Department of Agriculture Economic Research Service Food Price Outlook."
+        },
+        {
+          "id": "bls-cpi-food",
+          "title": "BLS CPI - Food",
+          "url": "https://www.bls.gov/cpi/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-08",
+          "citation": "U.S. Bureau of Labor Statistics CPI food factsheet."
+        },
+        {
+          "id": "usda-food-security",
+          "title": "USDA Household Food Security",
+          "url": "https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-08",
+          "citation": "USDA ERS household food security in the United States."
+        }
+      ],
+      "whyItMatters": "Municipal grocery proposals recycle empty-shelf incentives under a compassion brand. Steelman access, then debate logistics, crime, and price signals.",
+      "relatedClaimIds": [
+        "grocery-price-controls-now",
+        "greedflation-price-controls",
+        "price-gouging-bans-help-consumers"
+      ],
+      "tags": [
+        "public-grocery",
+        "food-deserts",
+        "price-controls",
+        "usda",
+        "retail"
+      ],
+      "embeddingText": "state owned grocery stores food deserts public supermarket controlled prices USDA BLS CPI",
+      "searchText": "state-owned grocery stores will end food deserts public groceries controlled prices"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-08T20:30:00Z",
+      "kbVersion": "3.14.0",
+      "id": "personal-carbon-allowances",
+      "topicId": "government-intervention",
+      "topicPath": "/government-intervention",
+      "title": "Personal Carbon Allowances Are Climate Justice",
+      "socialistClaimText": "Rich lifestyles destroy the climate. Issue personal carbon allowances with hard caps and trade so the wealthy cannot buy unlimited emissions while the poor suffer.",
+      "executiveSummary": "Pricing carbon and measuring emissions can be coherent climate tools. Personal ration books plus political allocation invite surveillance, black markets, and elite exemptions while industrial process emissions still dominate. EIA energy and EPA inventory data show sectoral sources; household ration theater is not a substitute for technology, grids, and economy-wide incentives.",
+      "evidenceBullets": [
+        "EPA Greenhouse Gas Inventory attributes large shares of U.S. emissions to power, industry, and transport systems - not only individual shopping trips.",
+        "EIA energy data show fuel mix, generation, and end-use intensities that respond to technology and relative prices.",
+        "Ration systems historically generate secondary markets and enforcement costs; 'fair shares' become political favors.",
+        "A transparent carbon price or performance standard can alter incentives without assigning a personal moral budget to every citizen."
+      ],
+      "fallacies": [
+        "motte and bailey",
+        "composition fallacy",
+        "nirvana fallacy"
+      ],
+      "sources": [
+        {
+          "id": "epa-ghg",
+          "title": "EPA Inventory of U.S. Greenhouse Gas Emissions",
+          "url": "https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-08",
+          "citation": "U.S. Environmental Protection Agency GHG inventory."
+        },
+        {
+          "id": "eia-energy",
+          "title": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-08",
+          "citation": "U.S. Energy Information Administration energy statistics."
+        },
+        {
+          "id": "nasa-giss",
+          "title": "NASA GISS surface temperature analysis (context)",
+          "url": "https://data.giss.nasa.gov/gistemp/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-08",
+          "citation": "NASA Goddard Institute for Space Studies GISTEMP analysis."
+        }
+      ],
+      "whyItMatters": "Personal carbon passports sell moral equality and risk bureaucratic rationing. Steelman climate risk, then prefer measurable system incentives over household surveillance.",
+      "relatedClaimIds": [
+        "degrowth-is-moral",
+        "climate-reparations-owed",
+        "climate-capitalism-failed",
+        "carbon-tax-vs-command-control"
+      ],
+      "tags": [
+        "carbon-allowances",
+        "climate",
+        "rationing",
+        "emissions",
+        "epa"
+      ],
+      "embeddingText": "personal carbon allowances climate justice hard caps trade EPA EIA emissions ration",
+      "searchText": "personal carbon allowances are climate justice hard caps wealthy unlimited emissions"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-08T20:30:00Z",
+      "kbVersion": "3.14.0",
+      "id": "nationwide-rent-moratorium",
+      "topicId": "government-intervention",
+      "topicPath": "/government-intervention/housing",
+      "title": "Nationwide Rent Moratorium Is Emergency Justice",
+      "socialistClaimText": "Housing is a human right. Impose a nationwide moratorium on rent increases and nonpayment evictions until wages catch up to housing costs.",
+      "executiveSummary": "Targeted hardship aid and due-process eviction rules are legitimate policy tools. A national freeze on increases plus nonpayment forbearance shifts losses onto landlords, lenders, and future tenants, shrinks maintenance and new supply, and turns temporary emergency into permanent rationing. Census, HUD, and FHFA series show vacancy, rent, and price dynamics that respond to supply - not open-ended freezes.",
+      "evidenceBullets": [
+        "Census housing vacancy and ACS rent series document market conditions that vary sharply by metro; a single national freeze ignores local supply.",
+        "COVID-era eviction moratoria showed payment arrears and property-level stress when cash flow is severed without full public backfill.",
+        "FHFA and new residential construction data link long-run affordability to unit production and financing costs.",
+        "Price freezes without supply reform lengthen queues and black-market side payments; sitting tenants gain, movers and new households lose."
+      ],
+      "fallacies": [
+        "seen vs unseen",
+        "composition fallacy",
+        "equivocation on rights"
+      ],
+      "sources": [
+        {
+          "id": "census-vacancy",
+          "title": "Census Housing Vacancies and Homeownership",
+          "url": "https://www.census.gov/housing/hvs/index.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-08",
+          "citation": "U.S. Census Bureau Housing Vacancies and Homeownership (CPS/HVS)."
+        },
+        {
+          "id": "census-newres",
+          "title": "Census New Residential Construction",
+          "url": "https://www.census.gov/construction/nrc/index.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-08",
+          "citation": "U.S. Census Bureau New Residential Construction."
+        },
+        {
+          "id": "fhfa-hpi-2",
+          "title": "FHFA House Price Index",
+          "url": "https://www.fhfa.gov/data/hpi",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-08",
+          "citation": "Federal Housing Finance Agency House Price Index."
+        }
+      ],
+      "whyItMatters": "National rent freezes recycle wartime rationing as compassion. Steelman eviction fear, then score incidence on supply, arrears, and future renters.",
+      "relatedClaimIds": [
+        "rent-freeze-solves-city-housing",
+        "rent-control-helps",
+        "rent-control-2020s-evidence",
+        "housing-must-be-decommodified"
+      ],
+      "tags": [
+        "rent-moratorium",
+        "eviction",
+        "housing",
+        "national-freeze",
+        "emergency"
+      ],
+      "embeddingText": "nationwide rent moratorium eviction freeze nonpayment wages housing Census FHFA construction",
+      "searchText": "nationwide rent moratorium is emergency justice freeze rent increases nonpayment evictions"
+    }
+  ]
+}

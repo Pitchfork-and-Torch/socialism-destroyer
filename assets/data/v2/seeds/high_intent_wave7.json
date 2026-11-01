@@ -1,0 +1,538 @@
+{
+  "schemaVersion": 2,
+  "kbVersion": "3.17.0",
+  "bundleId": "high-intent-wave7-v317",
+  "priority": 10,
+  "updatedAt": "2026-08-28T23:50:00Z",
+  "contentHash": "sha256:4f1c450ab6d4134c140bbdf5a648774523a7b48c14bd4ae770709bd127b9392a",
+  "claims": [
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-28T23:50:00Z",
+      "kbVersion": "3.17.0",
+      "id": "ban-lng-exports-until-cheap",
+      "topicId": "energy-utilities",
+      "topicPath": "/government-intervention/energy",
+      "title": "Ban LNG Exports Until Heat Is Cheap",
+      "socialistClaimText": "LNG terminals ship American gas to Europe and Asia while households ration heat. Ban liquefied natural gas exports until domestic prices fall to a living level.",
+      "executiveSummary": "Export demand is real, and some winters are expensive at the burner tip. EIA natural-gas volumes, prices, and trade already separate production, storage, pipeline flows, and LNG cargoes. A hard export ban reallocates existing molecules for a season and then cuts the incentive to drill, liquefy, and pipe. DOE already authorizes imports and exports under the Natural Gas Act. Residential bills also embed distribution, taxes, and weather. Trapping cargoes is not the same as building wells or citygate capacity.",
+      "evidenceBullets": [
+        "EIA natural-gas pages track dry production, storage, citygate and residential prices, and LNG export volumes independently of a campaign slogan.",
+        "The United States is a net exporter; that surplus is a production and price-signal fact, not proof that cargoes were stolen from households.",
+        "DOE FECM still reviews import and export authorizations. A nationwide ban is a different instrument from a permit record.",
+        "A ban that kills liquefaction investment leaves the next cold snap with fewer wells, not a permanent cheap-heat fund."
+      ],
+      "fallacies": [
+        "seen vs unseen",
+        "composition fallacy",
+        "scapegoating"
+      ],
+      "sources": [
+        {
+          "id": "eia-natural-gas",
+          "title": "EIA Natural Gas",
+          "url": "https://www.eia.gov/naturalgas/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-28",
+          "citation": "U.S. Energy Information Administration natural gas production, prices, storage, and trade."
+        },
+        {
+          "id": "eia-lng-explained",
+          "title": "EIA Natural Gas Imports and Exports",
+          "url": "https://www.eia.gov/energyexplained/natural-gas/imports-and-exports.php",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-28",
+          "citation": "EIA Energy Explained: U.S. natural gas imports and exports, including LNG."
+        },
+        {
+          "id": "doe-fecm-regulation",
+          "title": "DOE Natural Gas Import and Export Regulation",
+          "url": "https://www.energy.gov/fecm/regulation",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-28",
+          "citation": "U.S. Department of Energy FECM Natural Gas Act import and export authorizations."
+        }
+      ],
+      "whyItMatters": "LNG export bans poll as energy justice. Steelman winter bills, then look at EIA production and DOE permits - not a cargo embargo.",
+      "relatedClaimIds": [
+        "cap-electricity-prices-now",
+        "windfall-profits-tax-oil",
+        "public-power-is-justice"
+      ],
+      "tags": [
+        "lng",
+        "natural-gas",
+        "exports",
+        "energy"
+      ],
+      "embeddingText": "ban LNG exports liquefied natural gas heat bills EIA DOE FECM export ban",
+      "searchText": "ban LNG exports until Americans can afford heat liquefied natural gas terminals ship gas abroad"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-28T23:50:00Z",
+      "kbVersion": "3.17.0",
+      "id": "no-new-oil-gas-leases",
+      "topicId": "energy-utilities",
+      "topicPath": "/government-intervention/energy",
+      "title": "Freeze All New Oil and Gas Leases",
+      "socialistClaimText": "Public land belongs to the people, not drillers. Stop every new oil and gas lease on federal land and waters so carbon stays in the ground and communities keep their air.",
+      "executiveSummary": "Leasing is a real policy lever, and some parcels are environmentally sensitive. BLM, BOEM, and EIA already measure federal leases, offshore programs, and where barrels actually come from. A freeze on new leases is a future-supply cut. It does not shut producing wells tomorrow, and most U.S. output is not new-federal-lease barrels this year. Import substitution, royalty loss, and delayed replacement wells are the unseen half. Climate policy that ignores demand still leaves someone to produce the molecule.",
+      "evidenceBullets": [
+        "BLM oil and gas pages document onshore federal leasing, permits, and existing production on public land.",
+        "BOEM covers offshore leasing on the Outer Continental Shelf. A slogan freeze is not a resource inventory.",
+        "EIA petroleum series show U.S. crude and product supply, including imports that rise when domestic replacement lags.",
+        "Royalty and bonus revenue to the Treasury is a fiscal flow a lease moratorium forgoes without repealing gasoline demand."
+      ],
+      "fallacies": [
+        "nirvana fallacy",
+        "seen vs unseen",
+        "false dichotomy"
+      ],
+      "sources": [
+        {
+          "id": "blm-oil-gas",
+          "title": "BLM Oil and Gas",
+          "url": "https://www.blm.gov/programs/energy-and-minerals/oil-and-gas",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-28",
+          "citation": "Bureau of Land Management onshore federal oil and gas program."
+        },
+        {
+          "id": "boem",
+          "title": "Bureau of Ocean Energy Management",
+          "url": "https://www.boem.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-28",
+          "citation": "BOEM offshore energy leasing and resource pages."
+        },
+        {
+          "id": "eia-petroleum",
+          "title": "EIA Petroleum",
+          "url": "https://www.eia.gov/petroleum/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-28",
+          "citation": "U.S. Energy Information Administration petroleum and other liquids."
+        }
+      ],
+      "whyItMatters": "Lease freezes are a 2026 climate-and-land fight. Steelman public ownership, then debate EIA supply and existing wells - not a magic carbon vault.",
+      "relatedClaimIds": [
+        "windfall-profits-tax-oil",
+        "green-new-deal-jobs-guarantee",
+        "ban-lng-exports-until-cheap"
+      ],
+      "tags": [
+        "oil-leases",
+        "public-land",
+        "blm",
+        "energy"
+      ],
+      "embeddingText": "freeze new oil gas leases public land BLM BOEM EIA federal moratorium",
+      "searchText": "stop all new oil and gas leases on public land federal freeze keep carbon in the ground"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-28T23:50:00Z",
+      "kbVersion": "3.17.0",
+      "id": "water-is-a-human-right-ban-private",
+      "topicId": "energy-utilities",
+      "topicPath": "/government-intervention/energy",
+      "title": "Ban Private Water Utilities",
+      "socialistClaimText": "Water is a human right, not a commodity. Private water companies profit from thirst. Municipalize every system and ban investor-owned water.",
+      "executiveSummary": "Safe tap water is a genuine public good, and some investor-owned utilities have failed customers. EPA drinking-water rules, USGS water data, and the Census of Governments already describe quality standards, withdrawals, and mixed public/private systems. Ownership form does not create rainfall, treatment plants, or pipe replacement. Political rate freezes defer capex in public systems too. A nationwide ban on private operators is a balance-sheet transfer, not a new aquifer.",
+      "evidenceBullets": [
+        "EPA ground-water and drinking-water pages set Safe Drinking Water Act standards that bind public and private systems.",
+        "USGS water-resources data measure withdrawals and availability. A deed transfer does not increase the hydrologic cycle.",
+        "Census of Governments tracks local utility enterprises, debt, and employment that a takeover inherits.",
+        "Rate suppression that looks cheap this year shows up later as breaks, boil-water notices, or fiscal bailouts."
+      ],
+      "fallacies": [
+        "nirvana fallacy",
+        "false dichotomy",
+        "category error"
+      ],
+      "sources": [
+        {
+          "id": "epa-drinking-water",
+          "title": "EPA Ground Water and Drinking Water",
+          "url": "https://www.epa.gov/ground-water-and-drinking-water",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-28",
+          "citation": "U.S. Environmental Protection Agency drinking water and ground water program."
+        },
+        {
+          "id": "usgs-water",
+          "title": "USGS Water Resources",
+          "url": "https://www.usgs.gov/mission-areas/water-resources",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-28",
+          "citation": "U.S. Geological Survey Water Resources Mission Area."
+        },
+        {
+          "id": "census-cog",
+          "title": "Census of Governments",
+          "url": "https://www.census.gov/programs-surveys/cog.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-28",
+          "citation": "U.S. Census Bureau Census of Governments, including local utility enterprises."
+        }
+      ],
+      "whyItMatters": "Water-as-right slogans skip hydrology and capex. Steelman thirst, then debate EPA standards and USGS supply.",
+      "relatedClaimIds": [
+        "public-power-is-justice",
+        "nationalize-critical-infrastructure",
+        "free-public-transit-right"
+      ],
+      "tags": [
+        "water",
+        "utilities",
+        "municipalize",
+        "human-right"
+      ],
+      "embeddingText": "ban private water utilities human right municipalize EPA USGS Census of Governments",
+      "searchText": "water is a human right ban private water companies municipalize every system"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-28T23:50:00Z",
+      "kbVersion": "3.17.0",
+      "id": "ban-factory-farms-food-justice",
+      "topicId": "supply-trade",
+      "topicPath": "/government-intervention/supply",
+      "title": "Ban Factory Farms for Food Justice",
+      "socialistClaimText": "CAFOs torture animals, poison water, and crush family farms. Ban factory farms and rebuild local, just food.",
+      "executiveSummary": "Concentration and manure management are real issues, and some operations have polluted. USDA NASS and ERS already measure inventories, productivity, and farm structure. EPA already regulates animal feeding operations. A nationwide CAFO ban is a yield and price shock for meat, dairy, and eggs. Replacing confined production with pasture at the same protein volume takes land. The seen cruelty video is not a full supply plan.",
+      "evidenceBullets": [
+        "USDA NASS inventories livestock, poultry, and sales. A ban does not print alternative protein at grocery scale.",
+        "USDA ERS farm-economy pages document structure, costs, and productivity that make retail meat prices possible.",
+        "EPA NPDES animal-feeding-operation rules already exist. Enforcement and siting are not the same as abolition.",
+        "Spreading the same output across many small farms raises land, labor, and retail prices whether or not the slogan is moral."
+      ],
+      "fallacies": [
+        "nirvana fallacy",
+        "seen vs unseen",
+        "composition fallacy"
+      ],
+      "sources": [
+        {
+          "id": "usda-nass",
+          "title": "USDA National Agricultural Statistics Service",
+          "url": "https://www.nass.usda.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-28",
+          "citation": "USDA NASS livestock, poultry, and agricultural statistics."
+        },
+        {
+          "id": "usda-ers",
+          "title": "USDA Economic Research Service",
+          "url": "https://www.ers.usda.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-28",
+          "citation": "USDA ERS farm economy, animal products, and food-price research."
+        },
+        {
+          "id": "epa-afo",
+          "title": "EPA NPDES CAFO Permitting",
+          "url": "https://www.epa.gov/npdes/animal-feeding-operations-npdes-cafo-permitting",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-28",
+          "citation": "EPA NPDES concentrated animal feeding operations (CAFO) permitting."
+        }
+      ],
+      "whyItMatters": "CAFO bans poll as food justice. Steelman welfare and runoff, then look at NASS inventories and the land a replacement herd needs.",
+      "relatedClaimIds": [
+        "grocery-price-controls-now",
+        "state-owned-grocery-stores",
+        "degrowth-is-moral"
+      ],
+      "tags": [
+        "cafos",
+        "agriculture",
+        "food",
+        "factory-farms"
+      ],
+      "embeddingText": "ban factory farms CAFOs food justice USDA NASS ERS EPA animal feeding operations",
+      "searchText": "ban factory farms CAFOs torture animals poison water crush family farms food justice"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-28T23:50:00Z",
+      "kbVersion": "3.17.0",
+      "id": "nationalize-freight-rail",
+      "topicId": "supply-trade",
+      "topicPath": "/government-intervention/supply",
+      "title": "Nationalize Freight Railroads",
+      "socialistClaimText": "Class I railroads are monopolies that bottleneck goods and exploit crews. Nationalize freight rail and run it as a public highway for supply-chain justice.",
+      "executiveSummary": "Service failures and crew issues are real, and some corridors look like duopolies. STB already regulates rates and service. BTS and FRA already measure freight activity and safety. Nationalization is a balance-sheet transfer. It does not print locomotives, sidings, or dispatchers. Precision-scheduled-railroading fights are operating-model fights. Public ownership elsewhere has not repealed deferred maintenance or political routing of cars.",
+      "evidenceBullets": [
+        "The Surface Transportation Board is the economic regulator of freight rail. Rate and service cases already exist without a deed transfer.",
+        "BTS freight pages measure ton-miles and modal share. A slogan does not add capacity on a single-track subdivision.",
+        "FRA safety and infrastructure pages cover the physical railroad a nationalized firm would still have to maintain.",
+        "Taking equity does not solve crew bases, PTC, or interchange. It changes who appoints the board."
+      ],
+      "fallacies": [
+        "nirvana fallacy",
+        "scapegoating",
+        "false dichotomy"
+      ],
+      "sources": [
+        {
+          "id": "stb",
+          "title": "Surface Transportation Board",
+          "url": "https://www.stb.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-28",
+          "citation": "U.S. Surface Transportation Board, economic regulator of freight railroads."
+        },
+        {
+          "id": "bts",
+          "title": "Bureau of Transportation Statistics",
+          "url": "https://www.bts.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-28",
+          "citation": "U.S. DOT Bureau of Transportation Statistics freight and rail data."
+        },
+        {
+          "id": "fra",
+          "title": "Federal Railroad Administration",
+          "url": "https://railroads.dot.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-28",
+          "citation": "Federal Railroad Administration safety and railroad infrastructure."
+        }
+      ],
+      "whyItMatters": "Rail nationalization returns whenever shelves look thin. Steelman bottlenecks, then debate STB, BTS, and capex - not a public-highway metaphor.",
+      "relatedClaimIds": [
+        "nationalize-critical-infrastructure",
+        "industrial-policy-beats-markets",
+        "public-power-is-justice"
+      ],
+      "tags": [
+        "rail",
+        "freight",
+        "nationalize",
+        "supply-chain"
+      ],
+      "embeddingText": "nationalize freight railroads Class I STB BTS FRA supply chain public highway",
+      "searchText": "nationalize freight railroads Class I monopolies bottleneck goods public highway supply-chain justice"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-28T23:50:00Z",
+      "kbVersion": "3.17.0",
+      "id": "ban-foreign-farmland",
+      "topicId": "supply-trade",
+      "topicPath": "/government-intervention/supply",
+      "title": "Ban Foreign Ownership of Farmland",
+      "socialistClaimText": "Foreign governments are buying the American food supply. Ban all foreign ownership of U.S. farmland to protect farmers and national security.",
+      "executiveSummary": "Adversary-held parcels near sensitive sites are a real screening issue, and AFIDA exists because disclosure matters. USDA FSA AFIDA reports and the Census of Agriculture already measure foreign-held acres against a much larger domestic farmland base. Most reported foreign holders are not rival states. A blanket ban is a capital control on land. It does not plant extra corn, and it can cut investment that keeps acres in production. Security screening is not the same as autarky.",
+      "evidenceBullets": [
+        "USDA FSA AFIDA pages and annual reports disclose foreign agricultural land holdings to Congress.",
+        "USDA's foreign-owned agricultural lands map is built from those filings. The acres are measurable, not a rumor.",
+        "NASS Census of Agriculture counts U.S. farmland. Foreign-held shares are a slice, not the food supply.",
+        "A total ban treats Canadian, Dutch, and adversary capital as identical and still does not set next year's yields."
+      ],
+      "fallacies": [
+        "composition fallacy",
+        "scapegoating",
+        "hasty generalization"
+      ],
+      "sources": [
+        {
+          "id": "usda-afida",
+          "title": "USDA FSA Agricultural Foreign Investment Disclosure Act",
+          "url": "https://www.fsa.usda.gov/resources/economic-policy-analysis/afida",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-28",
+          "citation": "USDA Farm Service Agency AFIDA program and reports to Congress."
+        },
+        {
+          "id": "usda-foreign-ag-map",
+          "title": "USDA U.S. Foreign Owned Agricultural Lands Map",
+          "url": "https://www.usda.gov/us-foreign-owned-ag-lands",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-28",
+          "citation": "USDA interactive map of foreign-owned agricultural lands from AFIDA."
+        },
+        {
+          "id": "nass-agcensus",
+          "title": "USDA Census of Agriculture",
+          "url": "https://www.nass.usda.gov/AgCensus/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-28",
+          "citation": "USDA NASS Census of Agriculture farmland and farm-structure counts."
+        }
+      ],
+      "whyItMatters": "Farmland-ban bills poll as food security. Steelman adversary parcels, then read AFIDA acres against the Ag Census - not a total capital ban.",
+      "relatedClaimIds": [
+        "ban-factory-farms-food-justice",
+        "industrial-policy-beats-markets",
+        "china-state-capitalism-works"
+      ],
+      "tags": [
+        "farmland",
+        "foreign-ownership",
+        "afida",
+        "agriculture"
+      ],
+      "embeddingText": "ban foreign ownership US farmland AFIDA USDA Census of Agriculture food supply",
+      "searchText": "ban foreign ownership of US farmland foreign governments buying American food supply"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-28T23:50:00Z",
+      "kbVersion": "3.17.0",
+      "id": "ban-food-exports-until-cheap",
+      "topicId": "supply-trade",
+      "topicPath": "/government-intervention/supply",
+      "title": "Ban Food Exports Until Groceries Fall",
+      "socialistClaimText": "America exports grain and meat while families cannot afford groceries. Ban agricultural exports until domestic food prices fall.",
+      "executiveSummary": "Grocery inflation is real in some baskets, and export demand does compete at the margin. USDA FAS and ERS already measure trade, and BLS CPI already measures food at home. The United States is a surplus producer in major grains. Export demand funds acres. A ban that traps grain for a season teaches farmers to plant less next year. Historical export embargoes cut farm income without delivering a permanent cheap-grocery fund. Prices also embed labor, energy, and retail, not just the Gulf cargo.",
+      "evidenceBullets": [
+        "USDA FAS trade data measure what leaves U.S. ports. A slogan does not replace those tables.",
+        "USDA ERS international-markets pages document how export demand supports farm income and plantings.",
+        "BLS CPI food items measure grocery inflation independently of a cargo villain.",
+        "An embargo that looks like cheap steak this quarter is fewer planted acres and thinner stocks later."
+      ],
+      "fallacies": [
+        "seen vs unseen",
+        "composition fallacy",
+        "scapegoating"
+      ],
+      "sources": [
+        {
+          "id": "usda-fas",
+          "title": "USDA Foreign Agricultural Service",
+          "url": "https://www.fas.usda.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-28",
+          "citation": "USDA Foreign Agricultural Service trade and export data."
+        },
+        {
+          "id": "usda-ers-trade",
+          "title": "USDA ERS International Markets and U.S. Trade",
+          "url": "https://www.ers.usda.gov/topics/international-markets-us-trade",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-28",
+          "citation": "USDA Economic Research Service international markets and U.S. agricultural trade."
+        },
+        {
+          "id": "bls-cpi-food",
+          "title": "BLS Consumer Price Index",
+          "url": "https://www.bls.gov/cpi/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-28",
+          "citation": "U.S. Bureau of Labor Statistics CPI including food-at-home items."
+        }
+      ],
+      "whyItMatters": "Food-export bans return whenever grocery tickets sting. Steelman hunger, then look at FAS surplus and BLS food CPI - not a port lock.",
+      "relatedClaimIds": [
+        "grocery-price-controls-now",
+        "ban-lng-exports-until-cheap",
+        "greedflation-price-controls"
+      ],
+      "tags": [
+        "food-exports",
+        "groceries",
+        "agriculture",
+        "trade"
+      ],
+      "embeddingText": "ban food agricultural exports until grocery prices fall USDA FAS ERS BLS CPI",
+      "searchText": "ban food exports until grocery prices fall America exports grain while families cannot afford groceries"
+    },
+    {
+      "schemaVersion": 2,
+      "revision": 1,
+      "updatedAt": "2026-08-28T23:50:00Z",
+      "kbVersion": "3.17.0",
+      "id": "municipal-broadband-only",
+      "topicId": "supply-trade",
+      "topicPath": "/government-intervention/supply",
+      "title": "Make Broadband a Public Utility",
+      "socialistClaimText": "ISPs are monopolies that gouge households. Make broadband a public utility, municipalize the last mile, and end private internet providers.",
+      "executiveSummary": "Some markets have little last-mile competition, and rural deployment is expensive. FCC and NTIA already map service, fund buildout, and write rules. Census ACS already measures household internet. Density, terrain, and make-ready on poles explain more of the rural gap than a villain logo. Municipal networks have both successes and fiscal failures. A nationwide ban on private ISPs does not splice fiber. It transfers the balance sheet and the upgrade schedule to politics.",
+      "evidenceBullets": [
+        "FCC broadband pages and maps measure availability and performance. A public-utility label does not change the map by itself.",
+        "NTIA broadband programs already fund deployment. Grants and municipal plants are not the same as outlawing private last-mile firms.",
+        "Census ACS computer and internet tables measure household subscription independently of a campaign to seize ISPs.",
+        "Rural cost-per-passing is a physics and density problem. Taking equity does not shorten the driveway."
+      ],
+      "fallacies": [
+        "nirvana fallacy",
+        "false dichotomy",
+        "scapegoating"
+      ],
+      "sources": [
+        {
+          "id": "fcc-broadband",
+          "title": "FCC Broadband Data Collection",
+          "url": "https://www.fcc.gov/BroadbandData",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-28",
+          "citation": "Federal Communications Commission Broadband Data Collection and maps."
+        },
+        {
+          "id": "ntia",
+          "title": "National Telecommunications and Information Administration",
+          "url": "https://www.ntia.gov/",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-28",
+          "citation": "NTIA broadband programs and internet-policy pages."
+        },
+        {
+          "id": "census-acs-internet",
+          "title": "Census Computer and Internet Use",
+          "url": "https://www.census.gov/topics/population/computer-internet.html",
+          "doi": null,
+          "type": "government",
+          "accessedAt": "2026-08-28",
+          "citation": "U.S. Census Bureau computer and internet-use statistics, including ACS."
+        }
+      ],
+      "whyItMatters": "Municipal-broadband-only slogans skip density and capex. Steelman monopoly last-mile, then debate FCC maps and NTIA grants.",
+      "relatedClaimIds": [
+        "public-power-is-justice",
+        "break-up-big-tech-for-democracy",
+        "nationalize-critical-infrastructure"
+      ],
+      "tags": [
+        "broadband",
+        "municipal-isp",
+        "public-utility",
+        "fcc"
+      ],
+      "embeddingText": "municipal broadband public utility ban private ISPs FCC NTIA Census internet",
+      "searchText": "make broadband a public utility municipalize the last mile end private internet providers ISPs monopolies"
+    }
+  ]
+}

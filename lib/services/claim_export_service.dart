@@ -1,0 +1,179 @@
+import 'dart:typed_data';
+
+import 'package:flutter/material.dart';
+import 'package:screenshot/screenshot.dart';
+
+import '../features/tree/widgets/battle_brief_share_card.dart';
+import '../models/claim.dart';
+import '../utils/binary_share.dart';
+
+/// Formats claims for share sheets, Battle Briefs, and PNG cards.
+abstract final class ClaimExportService {
+  /// Full dossier markdown (share sheet / archive).
+  static String toMarkdown(Claim claim) {
+    final buf = StringBuffer()
+      ..writeln('# ${claim.title}')
+      ..writeln()
+      ..writeln('## Executive Summary')
+      ..writeln(claim.executiveSummary)
+      ..writeln()
+      ..writeln('## The Socialist Claim')
+      ..writeln('> ${claim.socialistClaimText}')
+      ..writeln()
+      ..writeln('## Key Evidence')
+      ..writeln();
+    for (final b in claim.evidenceBullets) {
+      buf.writeln('- $b');
+    }
+    if (claim.fallacies.isNotEmpty) {
+      buf
+        ..writeln()
+        ..writeln('## Logical Fallacies')
+        ..writeln(claim.fallacies.join(', '));
+    }
+    buf
+      ..writeln()
+      ..writeln('## Why This Matters for America')
+      ..writeln(claim.whyItMatters)
+      ..writeln()
+      ..writeln('## Sources');
+    for (final s in claim.sources) {
+      buf.writeln('- ${s.citation ?? s.title}: ${s.url}');
+    }
+    buf
+      ..writeln()
+      ..writeln('- Socialism Destroyer - ${shareUrl(claim.id)}');
+    return buf.toString();
+  }
+
+  /// Compact Battle Brief for X/Discord/debate prep (steelman first, then rebuttal).
+  ///
+  /// Keeps under ~1.5k chars when possible so it pastes cleanly into social posts
+  /// while still carrying sources and a deep link.
+  static String toBattleBrief(Claim claim) {
+    final evidence = claim.evidenceBullets.take(3).toList();
+    final sources = claim.sources.take(3).toList();
+    final fallacies = claim.fallacies.take(3).join('; ');
+    final buf = StringBuffer()
+      ..writeln('BATTLE BRIEF - Socialism Destroyer')
+      ..writeln(claim.title)
+      ..writeln()
+      ..writeln('STEELMAN')
+      ..writeln(claim.socialistClaimText)
+      ..writeln()
+      ..writeln('REBUTTAL')
+      ..writeln(claim.executiveSummary)
+      ..writeln()
+      ..writeln('EVIDENCE');
+    for (final b in evidence) {
+      buf.writeln('- $b');
+    }
+    if (fallacies.isNotEmpty) {
+      buf
+        ..writeln()
+        ..writeln('FALLACIES: $fallacies');
+    }
+    buf
+      ..writeln()
+      ..writeln('SOURCES');
+    for (final s in sources) {
+      buf.writeln('- ${s.title}: ${s.url}');
+    }
+    buf
+      ..writeln()
+      ..writeln(shareUrl(claim.id));
+    return buf.toString().trimRight();
+  }
+
+  /// Numbered steelman-first stack for every claim the crusher matched.
+  ///
+  /// One claim still reads as a hearing of one. Two or three claims stay in
+  /// rank order so a paste that hits more than one slogan copies as one brief.
+  static String toHearingBrief(List<Claim> claims) {
+    final seen = <String>{};
+    final unique = <Claim>[];
+    for (final claim in claims) {
+      if (seen.add(claim.id)) unique.add(claim);
+    }
+    final countLine = unique.length == 1
+        ? '1 matched claim'
+        : '${unique.length} matched claims';
+    final buf = StringBuffer()
+      ..writeln('HEARING BRIEF - Socialism Destroyer')
+      ..writeln(countLine);
+    for (var i = 0; i < unique.length; i++) {
+      final claim = unique[i];
+      buf
+        ..writeln()
+        ..writeln('${i + 1}. ${claim.title}')
+        ..writeln('STEELMAN')
+        ..writeln(claim.socialistClaimText)
+        ..writeln()
+        ..writeln('REBUTTAL')
+        ..writeln(claim.executiveSummary)
+        ..writeln()
+        ..writeln('SOURCES');
+      for (final source in claim.sources.take(2)) {
+        buf.writeln('- ${source.title}: ${source.url}');
+      }
+      buf.writeln(shareUrl(claim.id));
+    }
+    return buf.toString().trimRight();
+  }
+
+  /// Short steelman-first post for a claim page. ASCII, clipped to paste.
+  static String toReadyPost(Claim claim) {
+    final steel = _clipWords(claim.socialistClaimText.trim(), 240);
+    return '${claim.title}\n\nSteelman: $steel\n\n${shareUrl(claim.id)}';
+  }
+
+  static String _clipWords(String text, int max) {
+    if (text.length <= max) return text;
+    final cut = text.lastIndexOf(' ', max);
+    final end = cut > 40 ? cut : max;
+    return '${text.substring(0, end).trimRight()}...';
+  }
+
+  static String shareUrl(String claimId) =>
+      'https://destroyer.jonbailey.xyz/claim/$claimId';
+
+  static String shareCardFilename(String claimId) =>
+      'battle-brief-$claimId.png';
+
+  /// Tweet-ready 1200x630 Battle Brief card (480x252 at 2.5x).
+  static Future<Uint8List?> captureBattleCard({
+    required BuildContext context,
+    required Claim claim,
+  }) async {
+    final controller = ScreenshotController();
+    try {
+      return await controller.captureFromWidget(
+        MediaQuery(
+          data: MediaQuery.of(context).copyWith(disableAnimations: true),
+          child: Directionality(
+            textDirection: TextDirection.ltr,
+            child: Material(
+              color: const Color(0x00000000),
+              child: BattleBriefShareCard(claim: claim),
+            ),
+          ),
+        ),
+        context: context,
+        delay: const Duration(milliseconds: 120),
+        pixelRatio: BattleBriefShareCard.capturePixelRatio,
+      );
+    } catch (_) {
+      return null;
+    }
+  }
+
+  /// Share (native) or download (web) the Battle Brief PNG.
+  static Future<String> shareBattleCard(Uint8List bytes, Claim claim) {
+    return BinaryShare.shareOrDownloadPng(
+      bytes: bytes,
+      filename: shareCardFilename(claim.id),
+      shareText:
+          '${claim.title} - Battle Brief - ${shareUrl(claim.id)}',
+    );
+  }
+}

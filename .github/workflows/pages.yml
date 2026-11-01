@@ -1,0 +1,46 @@
+# CI deploy for Cloudflare Pages. Mirrors tools/publish-web.ps1 as closely as CI allows.
+name: Cloudflare Pages
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Generate sitemap
+        run: |
+          if [ -f tools/generate-sitemap.mjs ]; then
+            node tools/generate-sitemap.mjs
+          fi
+
+      - name: Prepare web publish env
+        run: |
+          if [ -f .env.web.publish ]; then
+            cp .env.web.publish .env
+          fi
+
+      - name: Build web
+        run: flutter build web --release --no-wasm-dry-run --no-web-resources-cdn
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy build/web --project-name=socialism-destroyer
